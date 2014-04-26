@@ -1,0 +1,2 @@
+<br />
+<b>Catchable fatal error</b>:  Argument 1 passed to addAttribute() must be an instance of DOMElement, null given, called in C:\Users\Ujjwal\Programming\WCode\Website\Root\Index.php on line 68 and defined in <b>C:\Users\Ujjwal\Programming\WCode\Website\Root\Index.php</b> on line <b>55</b><br />

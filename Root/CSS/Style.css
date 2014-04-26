@@ -1,0 +1,45 @@
+*{ font-family:Arial, Verdana, sans-serif; }
+html { height:100%; } 
+body { height:100%; width:980px; margin:0 auto; background:#FAFAFA; }
+
+h1 { font-weight:normal; font-size:14px; margin:0; }
+
+#main-wrapper { position:absolute; width:932px; padding:0 24px; min-height:744px; height:100%; background:#FFF; }
+
+#header-wrapper { position:absolute; height:80px; top:0; left:24px; right:24px; border-bottom:1px solid #DDD; }
+#header-logo { position:absolute; padding:8px 0 0 6px; }
+#header-logo a { text-decoration:none; border:none; }
+#header-logo a, img { text-decoration:none; border:none; }
+#header-slogan { position:absolute; bottom:30px; left:404px; font-size:16px; color:#555; font-family:consolas; text-shadow:0 1px 1px rgba(0,0,0,0.1) }
+
+#header-example { position:absolute; right:5px; top:37px }
+#logo { display:block; margin:0 auto; }
+#header-ex-num { font-size:21px; padding-top:2px; }
+#header-ex-eq { color:#AAA; }
+#live { color:#F00; line-height:4px; }
+#fund-site { color:rgb(48, 165, 243); }
+
+#loading { position:absolute; left:156px; top:3px; display:none; font-size:10px; color:#AAA; }
+
+#updated { float:right; position:absolute; top:0px; right:24px; font-size:10px; color:#CCC; }
+#date { color:#999; }
+
+#content-wrapper { position:absolute; top:81px; bottom:21px; left:24px; right:0; }
+
+#content-separator { position:absolute; margin-left:145px; top:8px; bottom:8px; border-left:1px dotted #DDD; }
+
+#canvas-wrapper { position:absolute; padding:0px 0px 0px 0px; top:0px; bottom:0px; left:148px; right:0px; overflow:visible; }
+#canvas-main { position:absolute; padding:0px 24px 0px 18px; top:14px; bottom:26px; left:0px; right:0px; overflow:auto; }
+#canvas-footer { position:absolute; bottom:0px; left:20px; right:24px; background:#FFF; padding-top:1px; }
+
+#footer-wrapper { position:absolute; bottom:0; width:932px; height:20px; text-align:center; border-top:1px solid #DDD; font-size:12px; }
+#footer-wrapper-inside { margin:2px 0; font-size:11px; color:#444; }
+
+#paypal-btn { display:inline; position:absolute; bottom:-20px; right:2px; z-index:1; }
+
+.shadow-scroll-top { height:5px; -webkit-mask-box-image:-webkit-linear-gradient(left,transparent 0%,rgba(0,0,0,.8) 50%,transparent 100%); background-color:transparent; background-image:-webkit-linear-gradient(top,rgba(0,0,0,.2),transparent); }
+.shadow-scroll-bottom { position:absolute; bottom:0; left:0; right:0; height:5px; -webkit-mask-box-image:-webkit-linear-gradient(left,transparent 0%,rgba(0,0,0,.8) 50%,transparent 100%); background-color:transparent; background-image:-webkit-linear-gradient(bottom,rgba(0,0,0,.2),transparent); }
+
+.XURL { cursor:pointer; }
+
+.twitter-timeline-rendered{ width:652px; padding:0px 10px 0px 0px; }

@@ -1,0 +1,27 @@
+.\	.htAccess	\	.htaccess
+.\	Robots.txt	\	robots.txt
+.\	WordList.txt	\	wordlist.txt
+..\Design\Logo\	Logo Web.png	\	logo.png
+..\Design\Logo Full\	Logo Full Web.png	\	logo_full.png
+..\Design\Logo\	Logo.svg	\	logo.svg
+..\Design\Logo Full\	Logo Full.svg	\	logo_full.svg
+..\Design\Logo\Parts\	Logo W Web.png	\resource\	logo_w.png
+..\Design\Logo\Parts\	Logo N Web.png	\resource\	logo_n.png
+..\Design\Logo\Parts\	Logo BackSlash Web.png	\resource\	logo_backslash.png
+..\Design\Logo\Parts\	Logo FwdSlash Web.png	\resource\	logo_fwdslash.png
+..\Design\Resource\	LG Example.png	\	lg_example.png
+..\Design\Logo\Icon\	FavIcon.ico	\	favicon.ico
+..\Design\Logo\Icon\	Apple Touch Icon.png	\	apple-touch-icon.png
+..\Design\Resource\Social\	Icon Social.png	\	icon-social.png
+..\..\Web\Resource\	PayPal Button.png	\resource\	paypal-button.png
+..\Design\Resource\	Bar Code.png	\resource\	bar_code.png
+..\Design\Resource\	QR Code.png	\resource\	qr_code.png
+..\Design\Resource\	W Code.png	\resource\	w_code.png
+..\Design\Resource\	LG W Code.png	\resource\	lg_w_code.png
+..\Design\Diagram\	Adoption-Active.png	\resource\	adoption-active.png
+..\Design\Diagram\	Adoption-Passive.png	\resource\	adoption-passive.png
+..\Design\Resource\	Broken Slash.png	\resource\	broken_slash.png
+..\Design\Demo\	ScreenGuide-Web.png	\resource\	screen_guide.png
+..\Design\Resource\Comics\	Comics-Web.png	\resource\	comics.png
+..\Design\Resource\General Use-Case\	Computer-to-Computer-Combined_Web.png	\resource\	general-use_case.png
+.\	SiteMap.xml	\	sitemap.xml

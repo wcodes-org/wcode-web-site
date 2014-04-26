@@ -1,0 +1,114 @@
+RewriteEngine On
+
+DirectoryIndex		Page.php
+
+ErrorDocument		404							"Error: 404. Page Not Found! :("
+
+RewriteBase			/
+
+RewriteRule			^favicon.ico$					Resource/FavIcon.ico
+RewriteRule			^apple-touch-icon.png$			Resource/Apple-Touch-Icon.png
+RewriteRule			^icon-social.png$				Resource/Icon_Social.png
+
+RewriteRule			^logo.png$						Resource/Logo.png
+RewriteRule			^logo.svg$						Resource/Logo.svg
+RewriteRule			^logo_full.png$					Resource/Logo_Full.png
+RewriteRule			^logo_full.svg$					Resource/Logo_Full.svg
+
+RewriteRule			^lg_example.png$				Resource/LG_Example.png
+
+RewriteRule			^resource/logo_w.png$			Resource/Logo_W.png
+RewriteRule			^resource/logo_N.png$			Resource/Logo_W.png
+RewriteRule			^resource/logo_BackSlash.png$	Resource/Logo_W.png
+RewriteRule			^resource/logo_FwdSlash.png$	Resource/Logo_W.png
+
+RewriteRule			^paypal-button.png$				Resource/PayPal-Button.png
+RewriteRule			^resource/bar_code.png$			Resource/Bar_Code.png
+RewriteRule			^resource/qr_code.png$			Resource/QR_Code.png
+RewriteRule			^resource/w_code.png$			Resource/W_Code.png
+
+RewriteRule			^resource/adoption-active.png$	Resource/Adoption-Active.png
+RewriteRule			^resource/adoption-passive.png$	Resource/Adoption-Passive.png
+RewriteRule			^resource/lg_w_code.png$		Resource/LG_W_Code.png
+RewriteRule			^resource/broken_slash.png$		Resource/Broken_Slash.png
+
+RewriteRule			^resource/screen_guide.png$		Resource/Screen_Guide.png
+RewriteRule			^resource/comics.png$			Resource/Comics.png
+RewriteRule			^resource/general-use_case.png$	Resource/General-Use_Case.png
+
+RewriteRule			^wordlist.txt				File/WordList.txt
+
+RewriteRule			^WCodex64.msi				File/WCode_Installer_x64.msi
+RewriteRule			^wcodex64.msi				File/WCode_Installer_x64.msi
+RewriteRule			^WCodex86.msi				File/WCode_Installer_x86.msi
+RewriteRule			^wcodex86.msi				File/WCode_Installer_x86.msi
+
+RewriteRule			^style.css$ 				Style.php
+RewriteRule			^script.js$					Script.php
+
+RewriteRule			^wcode$						Page.php
+RewriteRule			^about$					Page.php
+RewriteRule			^adoption$					Page.php
+RewriteRule			^applications$				Page.php
+RewriteRule			^bug_report$				Page.php
+RewriteRule			^changelog$					Page.php
+RewriteRule			^comparision$				Page.php
+RewriteRule			^data_set$					Page.php
+RewriteRule			^downloads$					Page.php
+RewriteRule			^faq$						Page.php
+RewriteRule			^features$					Page.php
+RewriteRule			^feedback$					Page.php
+RewriteRule			^guidelines$				Page.php
+RewriteRule			^implementations$			Page.php
+RewriteRule			^license$					Page.php
+RewriteRule			^logo$						Page.php
+RewriteRule			^pitch$						Page.php
+RewriteRule			^presentation$				Page.php
+RewriteRule			^roadmap$					Page.php
+RewriteRule			^source_code$				Page.php
+RewriteRule			^technology$				Page.php
+RewriteRule			^timeline$					Page.php
+RewriteRule			^use_cases$					Page.php
+RewriteRule			^user_guide$				Page.php
+RewriteRule			^video$						Page.php
+RewriteRule			^wordlist$					Page.php
+RewriteRule			^about_me$					Page.php
+RewriteRule			^about_project$				Page.php
+RewriteRule			^about_site$				Page.php
+RewriteRule			^clientele$					Page.php
+RewriteRule			^in_pictures$				Page.php
+RewriteRule			^media$						Page.php
+
+RewriteRule			^wcode.html$				Component.php
+RewriteRule			^about.html$				Component.php
+RewriteRule			^adoption.html$				Component.php
+RewriteRule			^applications.html$			Component.php
+RewriteRule			^bug_report.html$			Component.php
+RewriteRule			^changelog.html$			Component.php
+RewriteRule			^comparision.html$			Component.php
+RewriteRule			^data_set.html$				Component.php
+RewriteRule			^downloads.html$			Component.php
+RewriteRule			^faq.html$					Component.php
+RewriteRule			^features.html$				Component.php
+RewriteRule			^feedback.html$				Component.php
+RewriteRule			^guidelines.html$			Component.php
+RewriteRule			^implementations.html$		Component.php
+RewriteRule			^license.html$				Component.php
+RewriteRule			^logo.html$					Component.php
+RewriteRule			^pitch.html$				Component.php
+RewriteRule			^presentation.html$			Component.php
+RewriteRule			^recommendations.html$		Component.php
+RewriteRule			^roadmap.html$				Component.php
+RewriteRule			^source_code.html$			Component.php
+RewriteRule			^technology.html$			Component.php
+RewriteRule			^timeline.html$				Component.php
+RewriteRule			^use_cases.html$			Component.php
+RewriteRule			^user_guide.html$			Component.php
+RewriteRule			^video.html$				Component.php
+RewriteRule			^wordlist.html$				Component.php
+RewriteRule			^about_me.html$				Component.php
+RewriteRule			^about_project.html$		Component.php
+RewriteRule			^about_site.html$			Component.php
+RewriteRule			^clientele.html$			Component.php
+RewriteRule			^in_pictures.html$			Component.php
+RewriteRule			^media.html$				Component.php

@@ -1,0 +1,29 @@
+@Rem Admin Rights Test
+@Echo Off
+
+Net Session >Nul 2>&1
+
+If %ErrorLevel% NEq 0			(
+    Echo Run as Administrator
+    Pause
+    Exit				        )
+
+Set TRoot=WCode\Website
+Set Target1=Root
+Set Target2=Publish
+Set Target=0
+
+CD /D %ProgramFiles(x86)%\Apache\HTTPD
+
+Dir htdocs? | Find /i "%Target1%" > Nul
+If %ErrorLevel% EQU 0   (
+    Set Target=%Target2%)
+If %ErrorLevel% EQU 1   (
+    Set Target=%Target1%)
+
+RD htdocs
+MkLink /d htdocs "%Programming%\%TRoot%\%Target%"
+Pause
+If %ErrorLevel% EQU 0   (
+    Exit                )
+Pause

@@ -1,0 +1,11 @@
+#sidebar-nav {position: absolute; width: 148px; top: 0px; bottom: 0px; margin: 8px 0 0; padding: 0; z-index: 1; overflow: hidden;}
+.sidebar-sub {padding: 2px 0px;}
+#sidebar-nav li {padding-left: 0px; list-style: none; list-style-image: none; display: block; white-space: nowrap;}
+.sidebar-nav-li div:hover {background: #CCC; margin-right: 2px;}
+.sidebar-nav-li div:hover a{color: #FFF;}
+.menu-container {padding-bottom: 4px;}
+.sidebar-nav-l-0 a{padding-left: 14px; font-size: 14px; line-height: 150%; color: rgb(40, 148, 243); text-decoration: none;}
+.sidebar-nav-l-1 a{padding-left: 28px; padding-right: 10px; line-height: 136%; font-size: 14px; color: rgb(40, 148, 233); text-decoration: none;}
+.sidebar-nav-high {background-color: #68E; border-top: 4px solid #FFF; border-bottom: 4px solid #FFF;}
+.sidebar-nav-high a{color: #FFF; text-decoration: none; font-weight: bold;}
+.sidebar-nav-imp a{font-weight: bold;}

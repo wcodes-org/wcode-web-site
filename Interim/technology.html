@@ -1,0 +1,175 @@
+002013 May 08031The technical idea behind WCode<div class="content">
+	<ul class="content-list">
+		<li>
+			<div class="content-li-title">Human Factor</div>
+			<ol>
+				<li>
+					It is much easier to deal with legitimate words rather than a collection of random characters:<br />
+					<table class="human_factor-table">
+						<tbody>
+							<tr>
+								<td>hdkjhg54lhjhd</td>
+								<td>Apple Mango Africa</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li>
+					A set of unrelated nouns is simpler than a sequence with words from different parts of speech:<br />
+					<table class="human_factor-table">
+						<tbody>
+							<tr>
+								<td>Apple Mango Bridge</td>
+								<td>apple away an doctor the day keeps a</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+			</ol>
+		</li>
+		<li>
+			<div class="content-li-title">Reduction</div>
+			The greater the number of individual symbols used - the smaller the resultant code.
+			<table id="reduction-table">
+				<caption><em>Comparision:</em></caption>
+				<tbody>
+					<tr>
+						<th>Base:</th>
+						<td>Binary</td>
+						<td>Decimal</td>
+						<td>Hexadecimal</td>
+					</tr>
+					<tr>
+						<th>N-Symbols:</th>
+						<td>2</td>
+						<td>10</td>
+						<td>16</td>
+					</tr>
+					<tr>
+						<th>Symbols:</th>
+						<td>0 1</td>
+						<td>0 1 2 3	4 5 6 7 8 9</td>
+						<td>0 1 2 3 4 5 6	7 8 9 A B C D E F</td>
+					<tr>
+					<tr>
+						<th>Ex. 1:</th>
+						<td>111</td>
+						<td>7</td>
+						<td>7</td>
+					</tr>
+						<th>Ex. 2:</th>
+						<td>1111</td>
+						<td>15</td>
+						<td>F</td>
+					</tr>
+				</tbody>
+			</table>
+		<li>
+			<div class="content-li-title">Mapping</div>
+			<ul>
+				<li>A sequence of bits is mapped to words ( e.g. <span class="content-high">1011 : Apple</span>, <span class="content-high">1111 : Mango</span> )</li>
+				<li>These words are from a list of 1K (2<sup>10</sup> = 1024) carefully chosen nouns.</li>
+			</ul>
+	<table id="illustration-table">
+		<caption><em>Illustration:</em></caption>
+		<tbody>
+			<tr class="R1">
+				<td class="C1 type">
+					Data:
+				</td>
+				<td class="data">
+					<span class="red">A</span>n Apple a day keeps the Doctor away
+				</td>
+				<td rowspan="3" class="C3">
+					<div class="div1">
+						<table class="map">
+							<caption>ASCII Table</caption>
+							<tbody>
+								<tr>
+									<td>
+										<span class="red">A</span>
+									</td>
+									<td>
+										0x<span class="blue">41</span>
+									</td>
+								<tr>
+									<td>
+										B
+									</td>
+									<td>
+										0x42
+									</td>
+								</tr>
+								<tr>
+									<td>
+										...
+									</td>
+									<td>
+										...
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="div2">
+						<table class="map">
+							<caption>WCode Table</caption>
+							<tbody>
+								<tr>
+									<td>
+										0x<span class="blue">41</span><span class="grey">6E20</span>
+									</td>
+									<td>
+										<span class="green">America</span>
+									</td>
+								<tr>
+									<td>
+										0x416E21
+									</td>
+									<td>
+										Angola
+									</td>
+								</tr>
+								<tr>
+									<td>
+										...
+									</td>
+									<td>
+										...
+									</td>
+								</tr>
+								<tr>
+									<td>
+										0x417070
+									</td>
+									<td>
+										Nepal
+									</td>
+								</tr>
+							</tbody>
+						</table>			
+					</div>
+				</td>
+			</tr>
+			<tr class="R2">
+				<td class="type">
+					ASCII:
+				</td>
+				<td class="data">
+					<span class="blue">41</span> <span class="grey">6E 20</span> 41 70 70 6C 65 20 61 20 64 61 79 20 6B 65 65<br />
+					70 73 20 74 68 65 20 44 6F 63 74 6F 72 20 61 77 61 79
+				</td>
+			</tr>
+			<tr class="R3">
+				<td class="type">
+					WCode:
+				</td>
+				<td class="data">
+					\ <span class="green">America</span> Nepal Africa Mango Apple Coffee ... /
+				</td>
+			</tr>
+		</tbody>
+	</table>
+		</li>
+	</ul>
+</div>
