@@ -5,7 +5,7 @@
 	require "API.php";
 	require "ComponentDetails.php";
 
-	if($_GET['Mode'] === "Publish")
+	if( isset($_GET['Mode']) && ($_GET['Mode'] === "Publish") )
 		$bPublish = TRUE;
 	else
 		$bPublish = FALSE;
@@ -24,5 +24,9 @@
 	echo $desc;
 
 	require($file);
-	
 ?>
+	<div id="updated">Updated:
+		<span id="date">
+			<?php echo $desc; ?>
+		</span>
+	</div>

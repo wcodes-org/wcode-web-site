@@ -46,6 +46,8 @@ MkLink Root\Resource\Screen_Guide.png "..\..\..\Design\Demo\ScreenGuide-Web.png"
 MkLink Root\Resource\Comics.png "..\..\..\Design\Resource\Comics\Comics-Web.png"
 MkLink Root\Resource\General-Use_Case.png "..\..\..\Design\Resource\General Use-Case\Computer-to-Computer-Combined_Web.png"
 
+MkLink Root\Resource\Icon-Menu.png "..\..\..\Design\Resource\Icon Menu.png"
+
 MkLink Root\File\WordList.txt "..\..\WordList.txt"
 MkLink Root\File\WCode_Installer_x64.msi "..\..\..\Publish\X\WCode Installer x64.msi"
 MkLink Root\File\WCode_Installer_x86.msi "..\..\..\Publish\X\WCode Installer x86.msi"

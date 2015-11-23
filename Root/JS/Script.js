@@ -126,20 +126,20 @@ function LoadCanvasH(e)
 
 function LoadCanvas(e)
 {
-	if(!!curTab)
-		curTab.classList.remove('sidebar-nav-high');
-	curTab = e;
-	e.classList.add('sidebar-nav-high');
+	// if(!!curTab)
+		// curTab.classList.remove('sidebar-nav-high');
+	// curTab = e;
+	// e.classList.add('sidebar-nav-high');
 	
-	var sideBar = document.getElementById('sidebar-nav');
-	sideBar.style.display = 'none';
-	sideBar.style.display = 'block';
+	// var sideBar = document.getElementById('sidebar-nav');
+	// sideBar.style.display = 'none';
+	// sideBar.style.display = 'block';
 
-	var date = document.getElementById('updated');
+	//var date = document.getElementById('updated');
 	var canvas_main = document.getElementById('canvas-main');
 
 	canvas_main.innerHTML = "";
-	date.style.display='none';
+	//date.style.display='none';
 	BeginLoading();
 	
 	var xmlhttp = new XMLHttpRequest();
@@ -155,8 +155,6 @@ function LoadCanvas(e)
 	{
 		if (xmlhttp.readyState == 4)
 		{
-			var updated = document.getElementById('updated');
-			var date = document.getElementById('date');
 			var canvas_main = document.getElementById('canvas-main');
 			switch (xmlhttp.status)
 			{
@@ -168,8 +166,7 @@ function LoadCanvas(e)
 
 				var bXURL = resp.slice(0,1);
 				var bASCR = resp.slice(1,2);
-				date.innerHTML = resp.slice(2, 13);
-				updated.style.display = 'block';
+
 				var title = "WCode";
 				if(e.id != "wcode")
 					title += " - " + e.innerText;
@@ -179,7 +176,9 @@ function LoadCanvas(e)
 				document.title = title;
 					
 				canvas_main.innerHTML = resp.slice(16+lTitle);
-				
+				document.getElementById('updated').style.display = 'block';
+				document.getElementById('date').innerHTML = resp.slice(2, 13);
+								
 				if(bXURL == "1")
 					SetXHRef(document);
 				if(bASCR == "1")
@@ -187,16 +186,16 @@ function LoadCanvas(e)
 			}																							break;
 			case 404:
 			{
-				date.innerHTML = "";
-				updated.style.display = 'none';
+				document.getElementById('updated').style.display = 'none';
+				document.getElementById('date').innerHTML = "";
 				canvas_main.innerHTML = "Error: 404 - Resource not found!";
 			}																							break;
 			case 408:
 			case 501:
 			case 502:
 			{
-				date.innerHTML = "";
-				updated.style.display = 'none';
+				document.getElementById('date').innerHTML = "";
+				document.getElementById('updated').style.display = 'none';
 				canvas_main.innerHTML = "Error!";
 			}
 			}

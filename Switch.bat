@@ -13,7 +13,7 @@ Set Target1=Root
 Set Target2=Publish
 Set Target=0
 
-CD /D %ProgramFiles(x86)%\Apache\HTTPD
+CD /D %ProgramFiles%\Apache\HTTPD
 
 Dir htdocs? | Find /i "%Target1%" > Nul
 If %ErrorLevel% EQU 0   (
@@ -22,7 +22,8 @@ If %ErrorLevel% EQU 1   (
     Set Target=%Target1%)
 
 RD htdocs
-MkLink /d htdocs "%Programming%\%TRoot%\%Target%"
+MkLink /d htdocs "%Project%\%TRoot%\%Target%"
+Echo %Target%
 Pause
 If %ErrorLevel% EQU 0   (
     Exit                )

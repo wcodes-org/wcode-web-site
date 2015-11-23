@@ -2,7 +2,7 @@
 	require "API.php";
 	require "ComponentDetails.php";
 
-	if($_GET['Mode'] === "Publish")
+	if( isset($_GET['Mode']) && ($_GET['Mode'] === "Publish") )
 		$bPublish = TRUE;
 	else
 		$bPublish = FALSE;
@@ -19,10 +19,10 @@
 	$dom = new DOMDocument();
 
 	ob_start();
-	require 'Template.html';
+	require 'Template.php';
 	$dom->loadHTML(ob_get_contents());
 	ob_end_clean();
 
-	AddAttribute(($dom->getElementById($id)), "class", "sidebar-nav-high");
+	//AddAttribute(($dom->getElementById($id)), "class", "sidebar-nav-high");
 	echo $dom->saveHTML();
 ?>
