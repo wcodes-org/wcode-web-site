@@ -27,3 +27,5 @@
 /Root/Resource/QR_Code.png
 /Root/Resource/Screen_Guide.png
 /Root/Resource/W_Code.png
+/Root/Interim/*
+/Tools/*.jar
