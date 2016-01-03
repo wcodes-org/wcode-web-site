@@ -5,6 +5,8 @@ Net Session >Nul 2>&1
 
 If %ErrorLevel% NEq 0			(
     Echo Run as Administrator
+    cd %ProgramFiles%\Apache\HTTPD
+    Dir *htdocs
     Pause
     Exit				        )
 

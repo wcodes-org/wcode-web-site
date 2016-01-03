@@ -1,45 +1,37 @@
-function Loading()
-{
+function Loading() {
 	var e = document.getElementById("loading");
-	if(Loading.count === undefined)
-	{
+	if(Loading.count === undefined) {
 		Loading.count = 0;
 		e.innerText = "Loading";
 		e.setAttribute("style", "display: block");
 	}
-	else
-	{
+	else {
 		if(Loading.count == 3)
 			KillLoading();
-		else
-		{
+		else {
 			e.innerText += ".";
 			Loading.count++;
 		}
 	}
 }
 
-function BeginLoading()
-{
+function BeginLoading() {
 	clearTimeout(intrvl); // ensure single timer
 	intrvl = setInterval(Loading, 1000);
 }
 
-function KillLoading()
-{
+function KillLoading() {
 	var e = document.getElementById("loading");
 	Loading.count = undefined;
 	e.setAttribute("style", "display: none");
 	clearTimeout(intrvl);
 }
 
-function about_me()
-{
+function about_me() {
 	gapi.plus.go("me_g-plus");
 	twttr.widgets.load();
 }
 
-function presentation()
-{
+function presentation() {
 	BeginLoading();
 }

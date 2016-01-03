@@ -68,29 +68,19 @@
 	[ v 1.0 ]
 	<a class="content-link" href="/wordlist.txt" target="_blank">WordList.txt</a>
 	</div>
-	<table id="wordlist-table">
-		<tbody>
+	<div id="wordlist-table">
 	<?php
 		$arWord = file("File\WordList.txt", FILE_IGNORE_NEW_LINES);
 		$i = 0;
-		for($r = 0; $r < 128; $r++)
-		{
+		for($r = 0; $r < 1024; $r++) {
 	?>
-			<tr>
+			<span>
 	<?php
-			for($c = 0; $c < 8; $c++)
-			{
+				echo $arWord[$i++];
 	?>
-				<td>
-	<?php		echo $arWord[$i++]; ?>
-				</td>
-	<?php
-			}
-	?>
-			</tr>
+			</span>
 	<?php
 		}
 	?>
-		</tbody>
-	</table>
+	</div>
 </div>

@@ -11,10 +11,18 @@
 	LoadComponents();
 	
 	$id = GetOrigCall();
+	$menu_active_class = "";
+	
 	if(strlen($id) == 0)
 		$id = "wcode";
+	$menu_active_class;
+	if($id == "menu") {
+		$menu_active_class = "pml-open";
+		$id = "wcode";
+	}
 	$title = GetComponentTitle($id);
 	$desc = GetComponentDesc($id);
+	$date = GetFileDate(GetComponentPath($title));
 	
 	$dom = new DOMDocument();
 

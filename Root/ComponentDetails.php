@@ -31,12 +31,21 @@ function GetComponentDesc($id)
 	exit ("Wrong ID");
 }
 
-function GetComponentMode($id)
+function GetComponentModeXURL($id)
 {
 	global $component;
 	for($i = 0; $i < count($component); $i++)
 		if($component[$i][0] == $id)
-			return $component[$i][2].$component[$i][3];
+			return $component[$i][2];
+	exit ("Wrong ID");
+}
+
+function GetComponentModeASYNC($id)
+{
+	global $component;
+	for($i = 0; $i < count($component); $i++)
+		if($component[$i][0] == $id)
+			return $component[$i][3];
 	exit ("Wrong ID");
 }
 

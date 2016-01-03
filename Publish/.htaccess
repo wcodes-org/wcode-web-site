@@ -11,8 +11,3 @@ RewriteBase /
 
 RewriteCond %{HTTP_HOST} !^wcodes\.org [NC]
 RewriteRule ^/?(.*)$ http://wcodes.org/$1 [L,R=301]
-
-RewriteRule			^WCodex64.msi				http://d2oadd98wnjs7n.cloudfront.net/medias/780938/files/20130428120727-WCode_Installer_x64.msi?1367176050 [L]
-RewriteRule			^wcodex64.msi				http://d2oadd98wnjs7n.cloudfront.net/medias/780938/files/20130428120727-WCode_Installer_x64.msi?1367176050 [L]
-RewriteRule			^WCodex86.msi				http://d2oadd98wnjs7n.cloudfront.net/medias/780936/files/20130428120346-WCode_Installer_x86.msi?1367175828 [L]
-RewriteRule			^wcodex86.msi				http://d2oadd98wnjs7n.cloudfront.net/medias/780936/files/20130428120346-WCode_Installer_x86.msi?1367175828 [L]

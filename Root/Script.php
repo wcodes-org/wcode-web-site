@@ -9,7 +9,6 @@
 	require $JSRoot."Classie.js";
 ?>
 
-if (!(window.history && window.history.pushState))
-{
+if (!(window.history && window.history.pushState)) {
 	<?php require "JS\\History.js"; ?>
 }

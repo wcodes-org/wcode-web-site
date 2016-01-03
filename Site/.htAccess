@@ -1,0 +1,13 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+
+ErrorDocument 403 "Error: 403. You do not have access permission"
+ErrorDocument 404 "Error: 404. Page Not Found! Sorry :("
+
+DefaultType text/html
+DirectoryIndex wcode
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} !^wcodes\.org [NC]
+RewriteRule ^/?(.*)$ http://wcodes.org/$1 [L,R=301]

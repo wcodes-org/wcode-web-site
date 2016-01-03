@@ -1,27 +1,42 @@
-.\	.htAccess	\	.htaccess
-.\	Robots.txt	\	robots.txt
 .\	WordList.txt	\	wordlist.txt
-..\Design\Logo\	Logo Web.png	\	logo.png
-..\Design\Logo Full\	Logo Full Web.png	\	logo_full.png
-..\Design\Logo\	Logo.svg	\	logo.svg
-..\Design\Logo Full\	Logo Full.svg	\	logo_full.svg
-..\Design\Logo\Parts\	Logo W Web.png	\resource\	logo_w.png
-..\Design\Logo\Parts\	Logo N Web.png	\resource\	logo_n.png
-..\Design\Logo\Parts\	Logo BackSlash Web.png	\resource\	logo_backslash.png
-..\Design\Logo\Parts\	Logo FwdSlash Web.png	\resource\	logo_fwdslash.png
-..\Design\Resource\	LG Example.png	\	lg_example.png
-..\Design\Logo\Icon\	FavIcon.ico	\	favicon.ico
-..\Design\Logo\Icon\	Apple Touch Icon.png	\	apple-touch-icon.png
-..\Design\Resource\Social\	Icon Social.png	\	icon-social.png
-..\..\Web\Resource\	PayPal Button.png	\resource\	paypal-button.png
-..\Design\Resource\	Bar Code.png	\resource\	bar_code.png
-..\Design\Resource\	QR Code.png	\resource\	qr_code.png
-..\Design\Resource\	W Code.png	\resource\	w_code.png
-..\Design\Resource\	LG W Code.png	\resource\	lg_w_code.png
-..\Design\Diagram\	Adoption-Active.png	\resource\	adoption-active.png
-..\Design\Diagram\	Adoption-Passive.png	\resource\	adoption-passive.png
-..\Design\Resource\	Broken Slash.png	\resource\	broken_slash.png
-..\Design\Demo\	ScreenGuide-Web.png	\resource\	screen_guide.png
-..\Design\Resource\Comics\	Comics-Web.png	\resource\	comics.png
-..\Design\Resource\General Use-Case\	Computer-to-Computer-Combined_Web.png	\resource\	general-use_case.png
-.\	SiteMap.xml	\	sitemap.xml
+.\Site\	.htAccess	\	.htaccess
+.\Site\	Robots.txt	\	robots.txt
+.\Site\	SiteMap.xml	\	sitemap.xml
+.\Site\	BingSiteAuth.xml	\	bingsiteauth.xml
+Root\Resource\	Apple-Touch-Icon.png	\	apple-touch-icon.png
+Root\Resource\	Icon_Social.png	\	icon-social.png
+Root\Resource\	FavIcon.ico	\	favicon.ico
+Root\Resource\	Logo_Full.png	\	logo_full.png
+Root\Resource\	Logo.svg	\	logo.svg
+Root\Resource\	Logo_Full.svg	\	logo_full.svg
+Root\Resource\	Logo_W.png	\resource\	logo_w.png
+Root\Resource\	Logo_N.png	\resource\	logo_n.png
+Root\Resource\	Logo_BackSlash.png	\resource\	logo_backslash.png
+Root\Resource\	Logo_FwdSlash.png	\resource\	logo_fwdslash.png
+Root\Resource\	LG_Example.png	\	lg_example.png
+Root\Resource\	Bar_Code.png	\resource\	bar_code.png
+Root\Resource\	QR_Code.png	\resource\	qr_code.png
+Root\Resource\	W_Code.png	\resource\	w_code.png
+Root\Resource\	LG_W_Code.png	\resource\	lg_w_code.png
+Root\Resource\	Adoption-Active.png	\resource\	adoption-active.png
+Root\Resource\	Adoption-Passive.png	\resource\	adoption-passive.png
+Root\Resource\	Broken_Slash.png	\resource\	broken_slash.png
+Root\Resource\	Screen_Guide.png	\resource\	screen_guide.png
+Root\Resource\	Comics.png	\resource\	comics.png
+Root\Resource\	General-Use_Case.png	\resource\	general-use_case.png
+Root\Resource\	Comics_1.png	\resource\	Comics_1.png
+Root\Resource\	Comics_2.png	\resource\	Comics_2.png
+Root\Resource\	Comics_3.png	\resource\	Comics_3.png
+Root\Resource\	Comics_4.png	\resource\	Comics_4.png
+Root\Resource\	Facebook.png	\resource\	facebook.png
+Root\Resource\	Facebook_grey.png	\resource\	facebook_grey.png
+Root\Resource\	Google+.png	\resource\	google+.png
+Root\Resource\	Google+_grey.png	\resource\	google+_grey.png
+Root\Resource\	Google_Play.png		\resource\	google_play.png
+Root\Resource\	Google_Play_grey.png	\resource\	google_play_grey.png
+Root\Resource\	Menu_icon.png	\resource\	menu_icon.png
+Root\Resource\	Menu_icon_grey.png	\resource\	menu_icon_grey.png
+Root\Resource\	Twitter.png	\resource\	twitter.png
+Root\Resource\	Twitter_grey.png	\resource\	twitter_grey.png
+Root\Resource\	Windows.png	\resource\	windows.png
+Root\Resource\	Windows_grey.png	\resource\	windows_grey.png
