@@ -9,6 +9,7 @@ $eMode = "Mode=Publish"
 
 $flPath = ".\Files.tsv" 	#File List
 $ilPath = ".\IDs.tsv"   	#ID List
+$tlPath = ".\Template.tsv"	#Template List
 
 $jScript = "script.js"
 $cStyle = "style.css"
@@ -29,7 +30,9 @@ foreach ($e in $fListC) {
 $iListC = GC $ilPath
 foreach ($e in $iListC) {
 	$iList += ($e.Split("`t"))[0]
-}	
+}
+
+$tList = GC $tlPath
 
 . ".\Tools\API.ps1"
 
@@ -57,6 +60,16 @@ foreach ($element in $fList) {
         }
         Replace "" $element[0] $element[1] $oRoot $element[2] $element[3]
     }
+}
+
+foreach ($element in $tList) {
+	if (Check $iRoot $element $oRoot $oBaseWebFile) {
+		$a = $TRUE
+		break
+	}
+	else {
+		$a = $FALSE
+	}
 }
 
 foreach ($element in $iList) {
