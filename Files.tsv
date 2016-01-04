@@ -22,8 +22,8 @@ Root\Resource\	Adoption-Active.png	\resource\	adoption-active.png
 Root\Resource\	Adoption-Passive.png	\resource\	adoption-passive.png
 Root\Resource\	Broken_Slash.png	\resource\	broken_slash.png
 Root\Resource\	Screen_Guide.png	\resource\	screen_guide.png
-Root\Resource\	Comics.png	\resource\	comics.png
 Root\Resource\	General-Use_Case.png	\resource\	general-use_case.png
+Root\Resource\	Comics.png	\resource\	comics.png
 Root\Resource\	Comics_1.png	\resource\	comics_1.png
 Root\Resource\	Comics_2.png	\resource\	comics_2.png
 Root\Resource\	Comics_3.png	\resource\	comics_3.png
@@ -32,7 +32,7 @@ Root\Resource\	Facebook.png	\resource\	facebook.png
 Root\Resource\	Facebook_grey.png	\resource\	facebook_grey.png
 Root\Resource\	Google+.png	\resource\	google+.png
 Root\Resource\	Google+_grey.png	\resource\	google+_grey.png
-Root\Resource\	Google_Play.png		\resource\	google_play.png
+Root\Resource\	Google_Play.png	\resource\	google_play.png
 Root\Resource\	Google_Play_grey.png	\resource\	google_play_grey.png
 Root\Resource\	Menu_icon.png	\resource\	menu_icon.png
 Root\Resource\	Menu_icon_grey.png	\resource\	menu_icon_grey.png
@@ -40,3 +40,5 @@ Root\Resource\	Twitter.png	\resource\	twitter.png
 Root\Resource\	Twitter_grey.png	\resource\	twitter_grey.png
 Root\Resource\	Windows.png	\resource\	windows.png
 Root\Resource\	Windows_grey.png	\resource\	windows_grey.png
+Root\File\	WCode_Installer_x86.msi	\	wcodex86
+Root\File\	WCode_Installer_x64.msi	\	wcodex64
