@@ -1,4 +1,5 @@
 <?php
+
 	header('Content-type: application/json; charset=utf-8');
 
 	require "API.php";
@@ -14,10 +15,38 @@
 
 	$id = substr(GetOrigCall(), 0, -5); //No id w/o .html
 	$file = GetComponentPath(GetComponentTitle($id));
-	if( $bPublish )
-		$fileContent = exec("java -jar ..\Tools\HTML-Compressor.jar -t html --compress-js --js-compressor closure --closure-opt-level simple --compress-css ".$file." 2>&1"); 
-	else
+	
+	if(endsWith($file, ".php")) {
 		$fileContent = file_get_contents($file);
+	}
+	else {
+		ob_start();
+		include($file);
+		$fileContent = ob_get_clean();
+	}
+		
+	if( $bPublish ) {
+		$cmd = "java -jar ..\Tools\HTML-Compressor.jar -t html --compress-js --js-compressor closure --closure-opt-level simple --compress-css"; 
+
+		$descriptorspec = array(
+		   0 => array("pipe", "r"),
+		   1 => array("pipe", "w"),
+		   2 => array("pipe", "w"),
+		);
+
+		$process = proc_open($cmd, $descriptorspec, $pipes);
+
+		if (is_resource($process)) {
+
+			fwrite($pipes[0], $fileContent);
+			fclose($pipes[0]);
+
+			$fileContent = stream_get_contents($pipes[1]);
+			fclose($pipes[1]);
+
+			proc_close($process);
+		}
+	}
 	
 	echo "{";
 	echo "\"title\":";
@@ -48,4 +77,5 @@
 	echo "\"content\":";
 	echo json_encode($fileContent);
 	echo "}";
+	
 ?>

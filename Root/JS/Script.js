@@ -96,9 +96,18 @@ function Init() {
         } );
     });
 	
+	if (!supportsSvg()) {
+		var image_div = document.getElementsByClassName('image');
+		var i;
+		var l = image_div.length;
+		for (i = 0; i < l; i++) {
+			image_div[i].classList.add("no-svg");
+		}
+		// or even .className += " no-svg"; for deeper support
+	}
 	return false;
 }
-	
+
 var activateMenuFn = function() {
 	document.getElementById('path').style.visibility = "hidden";
 	document.getElementById('updated').style.visibility = "hidden";

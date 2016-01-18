@@ -40,5 +40,5 @@ Root\Resource\	Twitter.png	\resource\	twitter.png
 Root\Resource\	Twitter_grey.png	\resource\	twitter_grey.png
 Root\Resource\	Windows.png	\resource\	windows.png
 Root\Resource\	Windows_grey.png	\resource\	windows_grey.png
-Root\File\	WCode_Installer_x86.msi	\	wcodex86
-Root\File\	WCode_Installer_x64.msi	\	wcodex64
+Root\File\	WCode_Installer_x86.msi	\	wcodex86.msi
+Root\File\	WCode_Installer_x64.msi	\	wcodex64.msi

@@ -78,13 +78,42 @@ h3 { margin: 0px; padding-bottom: 8px;color: #69B7CF !important;}
 #download-list { text-align: center; margin:auto;/* clear:both; *//* padding: 0 8px; */overflow: hidden;      display: inline-block;float: right;}
 #download-android {/* width:50%; */ margin:0;float: right; text-align:right;}
 #download-android a {padding: 4px 12px; display:inline-block;}
-#download-android a img { height:32px;width: 32px;}
+#download-android > a > span { height:33px; width: 33px; display: block;}
 #download-windows {/* width:50%; */ margin:0; float:right;text-align:left;}
 #download-windows a {padding: 5px 0 5px 12px; display:inline-block;}
+#download-windows > a > span {
+    width: 33px;
+    height: 33px;
+    display: block;
+}
+
 #social-links { padding-bottom: 14px; }
 
-#menu-button {/* position: relative; *//* left:10px; *//* top:14px; *//* margin-left: 12px; */margin: 8px 0 0 12px;display: inline-block;      float: left;background-image: url('/resource/menu_icon_grey.png');background-size: contain;width: 32px;height: 32px;background-repeat: no-repeat;}
+#menu-button {/* position: relative; *//* left:10px; *//* top:14px; *//* margin-left: 12px; */margin: 8px 0 0 12px;display: inline-block;      float: left;/* background-image: url('/resource/menu_icon_grey.png'); */background-size: contain;width: 36px;height: 36px;background-repeat: no-repeat;}
 
+#menu-button:hover path {
+    fill: #56B4D1;
+}
+
+#menu-button:hover {
+    cursor: pointer;
+}
+
+#menu-button.no-svg {
+    background-image: url('/resource/menu_icon_grey.png');
+}
+
+#menu-button.no-svg:hover {
+    background-image: url('/resource/menu_icon.png');
+}
+
+#menu-button.no-svg.active {
+    background-image: url('/resource/menu_icon.png');
+}
+
+#menu-button.active.no-svg:hover {
+    background-image: url('/resource/menu_icon.png');
+}
 
 #content-wrapper {
     min-height: 100%;
@@ -111,23 +140,6 @@ summary::-webkit-details-marker {
     color: #ddd;
 }
 
-#download-windows > a > img {
-    width: 30px;
-    height: 30px;
-}
-
-#menu-button:hover {
-    background-image: url('/resource/menu_icon.png');
-}
-
-#menu-button.active {
-    background-image: url('/resource/menu_icon.png');
-}
-
-#menu-button.active:hover {
-    background-image: url('/resource/menu_icon.png');
-}
-
 .social > a > img {
     width: 40px;
     height: 40px;
@@ -144,32 +156,33 @@ summary::-webkit-details-marker {
 }
 
 .social > a > span {background-size: contain;      width: 38px;      height: 38px;      display: block;background-repeat: no-repeat;transition: all ease-out 0.3s;}
+.social > a > span * {transition: all ease-out 0.3s}
 
-a#twitter > span {
+#twitter > span.no-svg {
     background-image: url('/resource/twitter_grey.png');
 }
 
-a#twitter > span:hover {
+#twitter > span.no-svg:hover {
     background-image: url('/resource/twitter.png');
 }
 
-a#facebook > span {
-    background-image: url('/resource/facebook_grey.png');
+#facebook > span.no-svg {
+    background-image: url('/resource/facebook_grey.png'), url('/resource/facebook.svg');
 }
 
-a#facebook > span:hover {
+#facebook > span.no-svg:hover {
     background-image: url('/resource/facebook.png');
 }
 
-#google > span {
+#google > span.no-svg {
     background-image: url('/resource/google+_grey.png');
 }
 
-#google > span:hover {
+#google > span.no-svg:hover {
     background-image: url('/resource/google+.png');
 }
 
-.download > a > span {
+.download > a > span.no-svg {
     background-size: contain;
     width: 33px;
     height: 33px;
@@ -177,19 +190,19 @@ a#facebook > span:hover {
     background-repeat: no-repeat;
 }
 
-#download-android > a > span {
+#download-android > a > span.no-svg {
     background-image: url('/resource/google_play_grey.png');
 }
 
-#download-android > a > span:hover {
+#download-android > a > span.no-svg:hover {
     background-image: url('/resource/google_play.png');
 }
 
-#download-windows > a > span {
+#download-windows > a > span.no-svg {
     background-image: url('/resource/windows_grey.png');
 }
 
-#download-windows > a > span:hover {
+#download-windows > a > span.no-svg:hover {
     background-image: url('/resource/windows.png');
 }
 
@@ -222,5 +235,51 @@ img#lg_wcode {
 }
 
 #header-bar > div {
-    width: 32.9%;
+    width: 32%;
+}
+
+span.header-logo {
+    width: 153px;
+    display: inline-block;
+}
+
+span#bar-code {
+    display: inline-block;
+    width: 147px;
+}
+
+span#qr-code {
+    display: inline-block;
+    width: 147px;
+}
+
+#download-windows:hover path {
+    fill: #56B4D1;
+}
+
+#download-android:hover path {
+    fill: #56B4D1;
+}
+
+#twitter:hover path {
+    fill: #56B4D1;
+}
+
+#facebook:hover path {
+    fill: #56B4D1;
+}
+
+#google:hover span > svg > path {
+    fill: #56B4D1;
+}
+/* 
+svg {
+    display: none;
+} */
+
+span#header-logo-image {
+    background-image: url('/logo_full.png');
+    height: 50px;
+    width: 153px;
+    background-size: contain;
 }

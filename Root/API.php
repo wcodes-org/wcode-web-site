@@ -20,7 +20,15 @@
 	}
 	
 	function GetComponentPath($title) {
-		return ("Component\\".str_replace(' ','_', $title).".html");
+		$s = "Component\\".str_replace(' ','_', $title);
+		if(file_exists($s.".php"))
+			return ($s.".php");
+		else
+			return ($s.".html");
 	}
 
+	function endsWith($haystack, $needle) {
+		return preg_match('/' . preg_quote($haystack, '/') . '$/', $needle);
+	}
+	
 ?>

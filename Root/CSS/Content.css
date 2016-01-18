@@ -204,3 +204,21 @@ ul.content-list-2 {
 .progress {
     color: #444 !important;
 }
+
+span#bar-code.no-svg {
+    background-image: url('/resource/bar_code.png');
+}
+
+span#bar-code {
+    width: 160px;
+    height: 100px;
+}
+
+span#qr-code.no-svg {
+    background-image: url('/resource/qr_code.png');
+}
+
+span#qr-code {
+    width: 147px;
+    height: 147px;
+}

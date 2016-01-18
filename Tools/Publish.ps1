@@ -74,9 +74,16 @@ foreach ($element in $tList) {
 
 foreach ($element in $iList) {
     $b = $FALSE
-    if (Check $iRoot "Component\$element.html" $oRoot "$element.json") {
+	if((Test-Path $iRoot"Component\$element.php") -eq $TRUE ) {
+		$component = "Component\$element.php"
+	}
+	else {
+		$component = "Component\$element.html"
+	}
+    if (Check $iRoot $component $oRoot "$element.json") {
         $elementC = "$element.json"
-        DownloadH $eHost $eMode $elementC $oRoot $elementC
+        DownloadH $eHost $eMode $elementC $mRoot $elementC
+		CompressH $mRoot $elementC $oRoot $elementC
         $b = $TRUE;
     }
     if (($a -eq $TRUE) -or ($b -eq $TRUE)) {
@@ -85,5 +92,9 @@ foreach ($element in $iList) {
         CompressH $mRoot $element $oRoot $element
     }
 }
+
+Write-Host "menu"
+DownloadH $eHost $eMode "menu" $mRoot $element
+CompressH $mRoot $element $oRoot "menu"
 
 XExit
