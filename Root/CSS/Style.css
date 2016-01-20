@@ -89,7 +89,7 @@ h3 { margin: 0px; padding-bottom: 8px;color: #69B7CF !important;}
 
 #social-links { padding-bottom: 14px; }
 
-#menu-button {/* position: relative; *//* left:10px; *//* top:14px; *//* margin-left: 12px; */margin: 8px 0 0 12px;display: inline-block;      float: left;/* background-image: url('/resource/menu_icon_grey.png'); */background-size: contain;width: 36px;height: 36px;background-repeat: no-repeat;}
+#menu-button {/* position: relative; *//* left:10px; *//* top:14px; *//* margin-left: 12px; */margin: 6px 0 0 12px;display: inline-block;      float: left;/* background-image: url('/resource/menu_icon_grey.png'); */background-size: contain;width: 36px;height: 36px;background-repeat: no-repeat;}
 
 #menu-button:hover path {
     fill: #56B4D1;

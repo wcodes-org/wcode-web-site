@@ -73,7 +73,7 @@ function Init() {
 			activateMenuFn();
 		}
 		else {
-			if(curTab == 'menu')
+			if(curTab == 'wcode' || curTab == 'menu')
 				curTab = "";
 			window.history.pushState({"id":curTab}, "", "/"+curTab);
 			activateMainFn();

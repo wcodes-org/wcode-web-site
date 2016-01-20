@@ -11,8 +11,9 @@
 		<meta property="og:type" content="product" />
 		<meta property="og:url" content="http://wcodes.org" />
 		<meta property="og:image" content="http://wcodes.org/icon-social.png" />
-		<meta property="og:description" content="Similar to Bar Codes & QR Codes, encode digital data with literal words e.g. a telephone number like 9876543210 becomes \ Cat Apple Mango Tomato /" />
+		<meta property="og:description" content="Convert your mobile number, email-id and address into a bunch of common words like 'cat apple mango tomato'. Encode with words" />
 		<meta property="og:site_name" content="WCodes" />
+		<meta property="fb:app_id" content="387976024626014" />
 		<meta property="fb:admins" content="100000014591845" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
