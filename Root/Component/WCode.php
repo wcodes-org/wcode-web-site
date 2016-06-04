@@ -19,12 +19,17 @@
 	</div>
 	<div id='where'>
 	<h3><span class='bullet'>&#8226;</span>Where</h3>
-	<div class='indent-60'>
-		WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
-		<div>
-			E.g. in exchanging identifiers like email address, mobile number or GPS co-coordinate by speech or writing </li>
+		<div class='indent-60'>
+			WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
+			<div>
+				Like when exchanging email addresses, mobile numberes or GPS co-coordinates by speech or writing </li>
+			</div>
 		</div>
-	</div>
+		<p>
+			<div class="center">
+				<img src="/resource/general-use_case.png" alt="WCode general use-case" />
+			</div>
+		</p>
 	</div>
 	<div id='why'>
 	<h3><span class='bullet'>&#8226;</span>Why</h3>
@@ -73,6 +78,42 @@
 			</li>
 		</ul>
 	</div>
+	</div>
+	<div id='how'>
+	<h3><span class='bullet'>&#8226;</span>How</h3>
+	<div class='indent-60'>
+		<ol>
+			<li>Get the WCode app</li>
+			<li>Select the <span class='blue'>encode</span> mode</li>
+			<li>Enter your mobile number and generate the corresponding unique WCode</li>
+		</ol>
+	</div>
+			<div class="center">
+				<div class='comics-column'>
+					<img src="/resource/comics_1.png" alt="WCode number example - comics" />
+					<img src="/resource/comics_2.png" alt="WCode number example - comics" />
+				</div>
+			</div>
+	<div class='indent-60'>
+		<ol start='4'>
+			<li>Have the reciever get his WCode app</li>
+			<li>Select the <span class='blue'>decode</span> mode on his device</li>
+			<li>Enter your WCode</li>
+		</ol>
+	</div>
+			<div class="center">
+				<div class='comics-column'>
+					<img src="/resource/comics_3.png" alt="WCode number example - comics" />
+					<img src="/resource/comics_4.png" alt="WCode number example - comics" />
+				</div>
+			</div>
+	<div class='indent-60'>
+		<ol start='7'>
+			<li>Decode and voilà &mdash; your phone should now ring</li>
+		</ol>
+		<div id='wcode-remember'>
+			* Your WCode remains same; You can always get it from the app but its best to keep it memorized</div>
+		</div>
 	</div>
 </div>
 <!--

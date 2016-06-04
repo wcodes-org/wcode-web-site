@@ -8,6 +8,7 @@ Root\Resource\	Icon_Social.png	\	icon-social.png
 Root\Resource\	FavIcon.ico	\	favicon.ico
 Root\Resource\	Logo_Full.png	\	logo_full.png
 Root\Resource\	Logo.svg	\	logo.svg
+Root\Resource\	Logo.png	\	logo.png
 Root\Resource\	Logo_Full.svg	\	logo_full.svg
 Root\Resource\	Logo_W.png	\resource\	logo_w.png
 Root\Resource\	Logo_N.png	\resource\	logo_n.png
@@ -34,6 +35,7 @@ Root\Resource\	Google+.png	\resource\	google+.png
 Root\Resource\	Google+_grey.png	\resource\	google+_grey.png
 Root\Resource\	Google_Play.png	\resource\	google_play.png
 Root\Resource\	Google_Play_grey.png	\resource\	google_play_grey.png
+Root\Resource\	google-play-badge.png	\resource\	google-play-badge.png
 Root\Resource\	Menu_icon.png	\resource\	menu_icon.png
 Root\Resource\	Menu_icon_grey.png	\resource\	menu_icon_grey.png
 Root\Resource\	Twitter.png	\resource\	twitter.png

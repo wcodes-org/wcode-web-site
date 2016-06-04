@@ -60,8 +60,10 @@ function Init() {
 	else
 		curTab = "wcode";//document.getElementById('wcode');
 	
-	if(URLID == "menu")
+	if(URLID == "menu") {
 		menuActive = true;
+		canvas_main.style.maxHeight = document.querySelector('#nav-menu').scrollHeight+"px";
+	}
 	else
 		document.querySelector('#nav-menu').style.maxHeight = canvas_main.scrollHeight+"px";
 	
@@ -84,9 +86,9 @@ function Init() {
 		}
     } );
 	
-	document.getElementById('download-android').addEventListener( 'click', function() {
+	[].forEach.call(document.getElementsByClassName('coming-soon'), function(el) { el.addEventListener( 'click', function() {
 		alert("Hold your breath! Coming soon..");
-	});
+	});});
 	
 	[].slice.call(menu_items).forEach(function(el,i){
         el.addEventListener( "click", function(){

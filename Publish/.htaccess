@@ -11,3 +11,15 @@ RewriteBase /
 
 RewriteCond %{HTTP_HOST} !^wcodes\.org [NC]
 RewriteRule ^/?(.*)$ http://wcodes.org/$1 [L,R=301]
+
+<IfModule mod_expires.c>
+    ExpiresActive on
+	ExpiresDefault "access plus 2 hours"
+	<IfModule mod_headers.c>
+       Header unset ETag
+       Header unset Pragma
+       Header unset Last-Modified
+       Header append Cache-Control "public, no-transform, must-revalidate"
+       Header set Last-modified "Tue, 1 Oct 2014 10:10:10 GMT"
+    </IfModule>
+</IfModule>

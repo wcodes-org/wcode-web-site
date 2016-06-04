@@ -27,6 +27,12 @@ function KillLoading() {
 	clearTimeout(intrvl);
 }
 
+function fbReload() {
+	try{
+		FB.XFBML.parse(); 
+    }catch(ex){}
+}
+
 function about_me() {
 	gapi.plus.go("me_g-plus");
 	twttr.widgets.load();
@@ -34,4 +40,12 @@ function about_me() {
 
 function presentation() {
 	BeginLoading();
+}
+
+function wordlist() {
+	fbReload();
+}
+
+function feedback() {
+	fbReload();
 }
