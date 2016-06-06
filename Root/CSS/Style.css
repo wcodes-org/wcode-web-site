@@ -11,7 +11,7 @@ img {
 
 #location { position:absolute; }
 
-#header-wrapper {height: 128px; top:0; left:24px; right:24px; margin-left: auto; margin-right: auto; /* max-width: 744px; */}
+#header-wrapper {height: 146px; top:0; left:24px; right:24px; margin-left: auto; margin-right: auto; /* max-width: 744px; */}
 #header-wrapper-divider { border-bottom:1px solid #DDD; margin-left: auto; margin-right: auto }
 #wrapper-divider { border-bottom:1px solid #DDD; margin-left: auto; margin-right: auto; margin-top: 20px; }
 #header-logo { width: 50%; float: right;margin-top: 26px;}
@@ -135,7 +135,7 @@ h3 { margin: 0px; padding-bottom: 8px;color: #69B7CF !important;}
     background-image: url('/resource/menu_icon.png');
 }
 
-#menu-button.active {
+#menu-button.active path {
     fill: #56B4D1;
 }
 
@@ -247,6 +247,7 @@ div#path {
     /* border-width: 1px; */
     font-weight: bold;
     font-size: larger;
+	transition: all ease-out 0s;
 }
 
 img#lg_wcode {
@@ -375,4 +376,8 @@ span.download-android {
 
 div#wcode-remember {
     margin: -8px 0 0 4px;
+}
+
+.message {
+	padding: 0 0 11px 20px;
 }

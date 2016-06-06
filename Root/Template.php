@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/">
 	<head>
-		<meta http-equiv="X-UA-Compatible" content="IE=8" />
-		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="title" content="WCode" />
 		<meta itemprop="name" content="WCode" />
@@ -52,13 +51,13 @@
 ?>
 		<title>
 <?php
-			if($title === "WCode")
-				echo "WCode"." : ".$desc;
+			if($id === "root")
+				echo $project_title." : ".$desc;
 			else {
 				if($desc)
-					echo "WCode - ".$title." : ".$desc;
+					echo $project_title." - ".$title." : ".$desc;
 				else
-					echo "WCode - ".$title;
+					echo $project_title." - ".$title;
 			}
 ?>
 		</title>
@@ -81,11 +80,11 @@
 						<div id="content-wrapper-inside">
 							<div class="shadow-scroll-top"></div>
 							<div id="canvas-wrapper" class="<?php echo $menu_active_class ?>">
-									<div id="path"><?php if($title !== "WCode") echo $title; else echo "&nbsp;"?></div>
+									<div id="path"><?php if($id !== "root") echo $title; else echo "&nbsp;"?></div>
 								<div id="canvas-wrapper-inner-container">
 									<?php require "Menu.html"; ?>
 									<div id="canvas-main">
-										<?php require (GetComponentPath($title)) ?>
+										<?php require (GetComponentPath($id)) ?>
 									</div>
 								</div>
 							</div>

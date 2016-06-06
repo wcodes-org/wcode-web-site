@@ -4,7 +4,7 @@ ErrorDocument 403 "Error: 403. You do not have access permission"
 ErrorDocument 404 "Error: 404. Page Not Found! Sorry :("
 
 DefaultType text/html
-DirectoryIndex wcode
+DirectoryIndex root
 
 RewriteEngine On
 RewriteBase /

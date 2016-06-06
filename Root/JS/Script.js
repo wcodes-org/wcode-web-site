@@ -49,51 +49,59 @@ function Init() {
 	
 	var canvas_main = document.querySelector( '#canvas-main' ),
 		menu_button = document.querySelector( ".toggle-push-left" ),
-		menu_items = document.querySelectorAll(".sidebar-nav-norm");
+		menu_items = document.querySelectorAll(".XURL");
 
 	if(!!hashID) {
-		curTab = "wcode";//document.getElementById('wcode');
+		curTab = "root";//document.getElementById('root');
 		LoadCanvas(document.getElementById(hashID));
 	}
 	else if(!!URLID)
 		curTab = URLID;//document.getElementById(URLID);
 	else
-		curTab = "wcode";//document.getElementById('wcode');
+		curTab = "root";//document.getElementById('root');
 	
 	if(URLID == "menu") {
 		menuActive = true;
+		classie.add( menu_button, "active" );
 		canvas_main.style.maxHeight = document.querySelector('#nav-menu').scrollHeight+"px";
 	}
 	else
 		document.querySelector('#nav-menu').style.maxHeight = canvas_main.scrollHeight+"px";
 	
 	if (!hashID && !URLID)
-		window.history.replaceState({"id":"wcode"}, "", "/");
+		window.history.replaceState({"id":"root"}, "", "/");
 
 	menu_button.addEventListener( "click", function(){
 		if (!menuActive) {
 			activateMenuFn();
 		}
 		else {
-			if(curTab == 'wcode' || curTab == 'menu')
+			if(curTab == 'root' || curTab == 'menu')
 				curTab = "";
 			window.history.pushState({"id":curTab}, "", "/"+curTab);
 			activateMainFn();
 			canvas_main.style.maxHeight = "99999px";
 			document.querySelector('#nav-menu').style.maxHeight = canvas_main.scrollHeight+"px";
+			document.getElementById('path').style.visibility = "visible";
 			document.getElementById('updated').style.visibility = "visible";
 
 		}
     } );
 	
 	[].forEach.call(document.getElementsByClassName('coming-soon'), function(el) { el.addEventListener( 'click', function() {
+		if(!(typeof (ga) === "undefined")) {
+			ga('send', 'event', {
+			  'eventCategory': 'download',
+			  'eventAction': 'click'
+			});
+		}
 		alert("Hold your breath! Coming soon..");
 	});});
 	
 	[].slice.call(menu_items).forEach(function(el,i){
         el.addEventListener( "click", function(){
             //activeNav = "";
-			curTab = this.id;
+			curTab = this.getAttribute('data-target');
 			activateMainFn();
         } );
     });
@@ -126,6 +134,10 @@ var activateMenuFn = function() {
 	canvas_main.style.maxHeight = height+"px";
 	nav_menu.style.maxHeight = "99999px";
 	menuActive = true;
+	if(!(typeof (ga) === "undefined")) {
+		ga('set', 'page', '/'+'menu');
+		ga('send', 'pageview');
+	}
 }
 
 var activateMainFn = function() {
@@ -186,18 +198,24 @@ function LoadCanvasL(m) {
 }
 
 function LoadCanvasH(e) {
-	if(e.id == "wcode")
+	var target = e.getAttribute('data-target');
+	if(target == "root")
 		URLid = "";
 	else
-		URLid = e.id;
+		URLid = target;
 	LoadCanvas(e);
-	window.history.pushState({"id":e.id}, "", "/"+URLid);
-	if(!(typeof (_gaq) === "undefined"))
-	//if(_gaq)
-		_gaq.push(['_trackPageview'], "/"+URLid);
+	window.history.pushState({"id":target}, "", "/"+URLid);
+	if(!(typeof (ga) === "undefined")) {
+		ga('set', 'page', '/'+URLid);
+		ga('send', 'pageview');
+	}
 }
 
 function LoadCanvas(e) {
+	var target = e.getAttribute('data-target');
+	if(target == "root")
+		document.getElementById('path').style.visibility = "hidden";
+
 	// if(!!curTab)
 		// curTab.classList.remove('sidebar-nav-high');
 	// curTab = e;
@@ -233,14 +251,16 @@ function LoadCanvas(e) {
 				var bXURL = resp.xurl;
 				var bASCR = resp.async;
 
-				var titleBar = "WCode";
-				if(e.id != "wcode")
+				var titleBar = "WCodes";
+				if(target != "root")
 					titleBar += " - " + e.innerText;
+
 				//var lTitle = resp.desc.length;
 				//if(lTitle != 0)
-					titleBar += " : " + resp.desc;
+				titleBar += " : " + resp.desc;
 				document.title = titleBar;
-				document.getElementById('path').innerHTML = resp.title;
+				if(target != "root")
+					document.getElementById('path').innerHTML = resp.title;
 				canvas_main.innerHTML = resp.content;
 				document.getElementById('updated').style.display = 'block';
 				document.getElementById('date').innerHTML = resp.date;
@@ -254,7 +274,7 @@ function LoadCanvas(e) {
 				if(bXURL == "1")
 					SetXHRef(document);
 				if(bASCR == "1")
-					eval(e.id+"()");
+					eval(target+"()");
 			}																							break;
 			case 404: {
 				document.getElementById('updated').style.display = 'none';
@@ -271,7 +291,7 @@ function LoadCanvas(e) {
 			}
 		}
 	}
-	xmlhttp.open("GET", e.id+".json", true);
+	xmlhttp.open("GET", target+".json", true);
 	xmlhttp.setRequestHeader("Content-Type", "text/plain;charset=UTF-8");//application/xhtml+xml
 	xmlhttp.send();
 }

@@ -21,6 +21,7 @@ logo	Logo	0	0	Logo of WCode
 media	Media	0	0	WCode in media
 pitch	Pitch	1	0	Pitch describing
 presentation	Presentation	0	1	Slideshow - WCode introduction
+root	WCode	1	0	an encoding schema where in data is mapped to words
 roadmap	Roadmap	0	0	Future roadmap of features and implementations
 source_code	Source Code	0	0	Source-code of WCode
 technology	Technology	0	0	The technical idea behind WCode
@@ -28,5 +29,4 @@ timeline	Timeline	0	0	Markable events in project WCode's lifetime
 use_cases	Use Cases	1	0	Real world use-cases of WCode
 user_guide	User Guide	0	0	Instruction manual to using the WCode application
 video	Video	0	0	Introduction video describing WCode
-wcode	WCode	1	0	an encoding schema where in data is mapped to words
 wordlist	WordList	0	1	List of 1024 words used in WCode

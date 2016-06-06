@@ -2,6 +2,8 @@
 	require "API.php";
 	require "ComponentDetails.php";
 
+	$project_title = "WCode";
+	
 	if( isset($_GET['Mode']) && ($_GET['Mode'] === "Publish") )
 		$bPublish = TRUE;
 	else
@@ -14,15 +16,15 @@
 	$menu_active_class = "";
 	
 	if(strlen($id) == 0)
-		$id = "wcode";
+		$id = "root";
 	$menu_active_class;
 	if($id == "menu") {
 		$menu_active_class = "pml-open";
-		$id = "wcode";
+		$id = "root";
 	}
 	$title = GetComponentTitle($id);
 	$desc = GetComponentDesc($id);
-	$date = GetFileDate(GetComponentPath($title));
+	$date = GetFileDate(GetComponentPath($id));
 	
 	$dom = new DOMDocument();
 
