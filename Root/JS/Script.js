@@ -28,6 +28,17 @@ else if(document.attachEvent) {
 else*/
 	window.onload = Init;
 
+var trackOutboundLink = function(title, url) {
+   	if(!(typeof (ga) === 'undefined')) {
+			if(!(typeof (title) === 'undefined'))
+				title = url;
+			ga('send', 'event', 'outbound', 'click', title, {
+	     'transport': 'beacon',
+	     'hitCallback': function(){document.location = url;}
+	   });
+	 }
+}
+
 window.onpopstate = function(e) { //window.addEventListener('popstate', function(e)
 	if(!!e.state)
 		if(e.state.id == "menu")

@@ -56,12 +56,12 @@
 #codes-example { /* margin:0 0 0 -20px; */ padding: 0; }
 #codes-table-label { text-align:center; margin: 20px 0;}
 #codes-table { text-align:center; border-spacing: 50px 48px; margin: 0px auto; border-width: 2px;}
-#codes-table-top { margin: 20px;}
+#codes-table-top { margin: 20px; font-size: 17px;}
 .codes-table-mid-cell { display:inline-block; margin:16px 32px; vertical-align:middle; }
 
 .tbl-col { display:inline-block; margin-top: 10px;}
 
-#codes-table-bottom { margin: 20px; }
+#codes-table-bottom { margin: 20px; font-size: 17px;}
 #bar_code { padding:0 10px 0 10px; }
 #qr_code { ; }
 .code_label { text-align:center; color:#444; font-size: initial;}

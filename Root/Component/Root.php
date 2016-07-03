@@ -1,24 +1,24 @@
 <div class='content'>
 	<div id='what'>
-	<h3><span class='bullet'>&#8226;</span>What</h3>
+	<h3><span class='bullet'>&#8226;</span>what</h3>
 	<div class='indent-60'>
 		<span>An encoding schema, where in literal words represent digital data.</span>
 	</div>
 	<div id='codes-example'>
 		<div id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
 		<div id='codes-table'>
-			<div id='codes-table-top' class='blue'>One two three four five six</div>
+			<div id='codes-table-top' class='blue'>one two three four five six</div>
 			<div id='codes-table-mid'>
 				<div><div class='Code'><span id='bar-code' class='image' title='Bar Code : Rectangle with black bars'><?php echo file_get_contents('resource\bar_code.svg'); ?></span></div></div>
 				<div><div class='blue'>1 2 3 4 5 6</div></div>
 				<div><div><span id='qr-code' class='image' title='QR Code : Square with black blocks'><?php echo file_get_contents('resource\qr_code.svg'); ?></span></div></div>
 			</div>
-			<div id='codes-table-bottom' class='blue code_value'>\ Cat Apple Mango Tomato /</div>
+			<div id='codes-table-bottom' class='blue code_value'>\ cat apple mango tomato /</div>
 		</div>
 	</div>
 	</div>
 	<div id='where'>
-	<h3><span class='bullet'>&#8226;</span>Where</h3>
+	<h3><span class='bullet'>&#8226;</span>where</h3>
 		<div class='indent-60'>
 			WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
 			<div>
@@ -32,7 +32,7 @@
 		</p>
 	</div>
 	<div id='why'>
-	<h3><span class='bullet'>&#8226;</span>Why</h3>
+	<h3><span class='bullet'>&#8226;</span>why</h3>
 	<div class='indent-60'>
 		Comparatively, WCodes are:
 		<ul class='list-dash'>
@@ -80,7 +80,7 @@
 	</div>
 	</div>
 	<div id='how'>
-	<h3><span class='bullet'>&#8226;</span>How</h3>
+	<h3><span class='bullet'>&#8226;</span>how</h3>
 	<div class='indent-60'>
 		<ol>
 			<li>Get the WCode app</li>
