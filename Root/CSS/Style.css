@@ -235,19 +235,47 @@ summary::-webkit-details-marker {
     background-image: url('/resource/windows.png');
 }
 
-div#path {
+#path {
+    /*text-align: center;*/
+    /* background: #D9D9D9; */
+    /* margin: auto; */
+    /* width: 200px; */
+    /* border-radius: 5px 0; */
+    padding-left: 6px;
+    color: #69b7cf;
+    /* border: #ddd; */
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /*font-weight: bold;*/
+    /*font-size: larger;*/
+  	transition: all ease-out 0s;
+}
+
+#path a {
+  color: #69b7cf;
+}
+
+#title {
     text-align: center;
     /* background: #D9D9D9; */
     /* margin: auto; */
     /* width: 200px; */
     /* border-radius: 5px 0; */
-    color: #69b7cf;
+    color: #D9D9D9;
     /* border: #ddd; */
     /* border-style: solid; */
     /* border-width: 1px; */
     font-weight: bold;
-    font-size: larger;
-	transition: all ease-out 0s;
+    font-size: x-large;
+  	transition: all ease-out 0s;
+}
+
+#title a {
+  color: #69b7cf;
+}
+
+.path-separator {
+    color: #CFCFCF !important;
 }
 
 img#lg_wcode {

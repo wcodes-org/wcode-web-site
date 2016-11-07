@@ -10,9 +10,9 @@
 		$bPublish = FALSE;
 
 	$component;
-	LoadComponents();
+	loadComponents();
 	
-	$id = GetOrigCall();
+	$id = getOrigCall();
 	$menu_active_class = "";
 	
 	if(strlen($id) == 0)
@@ -22,9 +22,9 @@
 		$menu_active_class = "pml-open";
 		$id = "root";
 	}
-	$title = GetComponentTitle($id);
-	$desc = GetComponentDesc($id);
-	$date = GetFileDate(GetComponentPath($id));
+	$title = getComponentTitle($id);
+	$desc = getComponentDesc($id);
+	$date = getFileDate(getComponentPath($id));
 	
 	$dom = new DOMDocument();
 

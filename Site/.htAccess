@@ -12,6 +12,8 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} !^wcodes\.org [NC]
 RewriteRule ^/?(.*)$ http://wcodes.org/$1 [L,R=301]
 
+RewriteRule ^abeta$	https://play.google.com/apps/testing/org.wcodes.android.beta
+
 <IfModule mod_expires.c>
     ExpiresActive on
 	ExpiresDefault "access plus 2 hours"

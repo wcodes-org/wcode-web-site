@@ -84,11 +84,11 @@
 						<div id="content-wrapper-inside">
 							<div class="shadow-scroll-top"></div>
 							<div id="canvas-wrapper" class="<?php echo $menu_active_class ?>">
-									<div id="path"><?php if($id !== "root") echo $title; else echo "&nbsp;"?></div>
+									<div id="title"><?php if($id !== "root") echo $title; else echo "&nbsp;"?></div>
 								<div id="canvas-wrapper-inner-container">
 									<?php require "Menu.html"; ?>
 									<div id="canvas-main">
-										<?php require (GetComponentPath($id)) ?>
+										<?php require (getComponentPath($id)) ?>
 									</div>
 								</div>
 							</div>
@@ -97,7 +97,7 @@
 				</div>
 			</div>
 			</div>
-			<?php require "Footer.html"; ?>
+			<?php require "Footer.php"; ?>
 		</div>
 	</body>
 </html>

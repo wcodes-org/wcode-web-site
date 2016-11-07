@@ -4,6 +4,7 @@
 	$JSRoot = "JS\\";
 	require $JSRoot."Script.js";
 	require $JSRoot."AJAXLoad.js";
+	require $JSRoot."PageAJAX.js";
 	require $JSRoot."API.js";
 	require $JSRoot."ClassList.js";
 	require $JSRoot."Classie.js";
