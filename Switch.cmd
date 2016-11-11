@@ -1,8 +1,10 @@
 @echo Off
-
 setLocal EnableDelayedExpansion
 
-set tRoot=Wcode\Website
+for %%i in ("%~dp0..") do set "WEB_PROJECT=%%~fi"
+for %%i in (%WEB_PROJECT%) do set "WEB_PROJECT=%%~ni
+
+set tRoot=%WEB_PROJECT%\Website
 set target1=Root
 set target2=Publish
 set target=""
@@ -27,6 +29,5 @@ mklink /j htdocs "%Project%\%tRoot%\%target%" > nul
 if errorLevel 0	(
 	echo %target%
 	endLocal
-    ping -n 3 localhost > nul
-	exit		)
-pause > nul
+    ping -n 3 localhost > nul	) else (
+	pause > nul	)

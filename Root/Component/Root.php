@@ -9,9 +9,9 @@
 		<div id='codes-table'>
 			<div id='codes-table-top' class='blue'>one two three four five six</div>
 			<div id='codes-table-mid'>
-				<div><div class='Code'><span id='bar-code' class='image' title='Bar Code : Rectangle with black bars'><?php echo file_get_contents('resource\bar_code.svg'); ?></span></div></div>
+				<div><div class='Code'><span id='bar-code' class='image' title='Bar Code : Rectangle with black bars'><?php echo file_get_contents('..\Resource\Bar_code.svg'); ?></span></div></div>
 				<div><div class='blue'>1 2 3 4 5 6</div></div>
-				<div><div><span id='qr-code' class='image' title='QR Code : Square with black blocks'><?php echo file_get_contents('resource\qr_code.svg'); ?></span></div></div>
+				<div><div><span id='qr-code' class='image' title='QR Code : Square with black blocks'><?php echo file_get_contents('..\Resource\QR_code.svg'); ?></span></div></div>
 			</div>
 			<div id='codes-table-bottom' class='blue code_value'>\ cat apple mango tomato /</div>
 		</div>

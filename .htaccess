@@ -1,0 +1,16 @@
+DirectoryIndex root
+
+RewriteBase /
+RewriteEngine On
+DirectorySlash Off
+
+RewriteRule ^(.+)/$ $1 [R=301]
+
+rewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+)$ $1/root
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*?)\.json$ $1/root.json [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*?)\.jpg$ $1/root.jpg [L]

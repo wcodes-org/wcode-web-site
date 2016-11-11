@@ -1,34 +1,19 @@
-DirectoryIndex		Page.php
+DirectoryIndex Framework/Page.php
 
-ErrorDocument		404							"Error: 404. Page Not Found! :("
+ErrorDocument 404 "Error: 404. Page Not Found! :("
 
-RewriteBase			/
+RewriteBase /
 RewriteEngine On
 DirectorySlash Off
 
 RewriteRule ^(.+)/$ $1 [R=301]
 
-RewriteRule	^favicon.ico$				Resource/FavIcon.ico			[L]
-RewriteRule	^apple-touch-icon.png$		Resource/Apple-Touch-Icon.png	[L]
-RewriteRule	^icon-social.png$			Resource/Icon_Social.png		[L]
+RewriteRule ^style.css$ Framework/Style.php [L]
+RewriteRule ^script.js$ Framework/Script.php [L]
 
-RewriteRule	^logo.png$					Resource/Logo.png				[L]
-RewriteRule	^logo.svg$					Resource/Logo.svg				[L]
-RewriteRule	^logo_full.png$				Resource/Logo_Full.png			[L]
-RewriteRule	^logo_full.svg$				Resource/Logo_Full.svg			[L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.ico$ Resource/$1.ico [L]
 
-RewriteRule	^lg_example.png$			Resource/LG_Example.png			[L]
-
-RewriteRule	^wordlist.txt				File/WordList.txt				[L]
-
-RewriteRule	^WCodex64.msi				File/WCode_Installer_x64.msi	[L]
-RewriteRule	^wcodex64.msi				File/WCode_Installer_x64.msi	[L]
-RewriteRule	^WCodex86.msi				File/WCode_Installer_x86.msi	[L]
-RewriteRule	^wcodex86.msi				File/WCode_Installer_x86.msi	[L]
-
-RewriteRule	^style.css$ 				Style.php						[L]
-RewriteRule	^script.js$					Script.php						[L]
-					
 RewriteCond %{DOCUMENT_ROOT}/Resource/$1 -d
 RewriteRule ^(.*?)\.jpg$ Resource/$1/root.jpg [R=302,L]
 
@@ -36,7 +21,19 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)\.jpg$ Resource/$1.jpg [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*?)\.json$ Component.php	[L]
+RewriteRule ^(.+)\.png$ Resource/$1.png [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)$ Page.php [L]
+RewriteRule ^(.+)\.svg$ Resource/$1.svg [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.txt$ File/$1.txt [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.msi$ File/$1.msi [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*?)\.json$ Framework/Component.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ Framework/Page.php [L]
