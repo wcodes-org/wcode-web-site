@@ -50,7 +50,7 @@ img {
 #content-separator { position:absolute; margin-left:145px; top:8px; bottom:8px; border-left:1px dotted #DDD; }
 
 #canvas-wrapper {padding:0px 0px 0px 0px; overflow:hidden;transition: all 2s;/* margin: 8px; */}
-#canvas-main {/* padding: 0px 0px 18px 0px; */ overflow:hidden; width: 50%; display: inline-block;transform: translate(-100%,0);transition: all 1s;max-height: 9999px;}
+#canvas-main {/* padding: 0px 0px 18px 0px; */ overflow:hidden; width: 50%; display: inline-block;transform: translate(-100%,0);transition: all 1s; }
 #canvas-footer { background:#FFF; padding-top:1px; }
 
 #wrapper {
