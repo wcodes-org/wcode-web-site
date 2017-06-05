@@ -1,0 +1,11 @@
+.pending {
+	color: #ccc!important
+}
+
+.ready {
+	color: #69b7cf!important
+}
+
+.legend {
+	padding-left: 24px
+}

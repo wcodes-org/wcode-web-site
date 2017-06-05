@@ -1,6 +1,6 @@
-DirectoryIndex Framework/Page.php
+DirectoryIndex Framework/HTML/Page.php
 
-ErrorDocument 404 "Error: 404. Page Not Found! :("
+RewriteRule ^404$ /Framework/HTML/404.php [L]
 
 RewriteBase /
 RewriteEngine On
@@ -8,14 +8,28 @@ DirectorySlash Off
 
 RewriteRule ^(.+)/$ $1 [R=301]
 
-RewriteRule ^style.css$ Framework/Style.php [L]
-RewriteRule ^script.js$ Framework/Script.php [L]
+RewriteRule ^aboutme$ about_me [R=307,L]
+
+RewriteRule ^facebook$ https://facebook.com/wcodesorg [R=307,L]
+RewriteRule ^twitter$ https://twitter.com/wcodesorg [R=307,L]
+RewriteRule ^gplus$ https://plus.google.com/+wcodesorg [R=307,L]
+
+RewriteRule ^style.css$ Framework/CSS/Style.php [L]
+RewriteRule ^script.js$ Framework/JS/Script.php [L]
+
+RewriteRule ^manifest\.json$ /Framework/Files/Manifest.json.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.js$ Framework/JS/Link/$1.js [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)\.ico$ Resource/$1.ico [L]
 
 RewriteCond %{DOCUMENT_ROOT}/Resource/$1 -d
 RewriteRule ^(.*?)\.jpg$ Resource/$1/index.jpg [R=302,L]
+
+RewriteCond %{DOCUMENT_ROOT}/Resource/$1 -d
+RewriteRule ^(.*?)\.svg$ Resource/$1/index.svg [R=302,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)\.jpg$ Resource/$1.jpg [L]
@@ -33,7 +47,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)\.msi$ File/$1.msi [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*?)\.json$ Framework/Component.php [L]
+RewriteRule ^(.*?)\.json$ Framework/HTML/Component.php [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)$ Framework/Page.php [L]
+RewriteRule ^(.+)$ Framework/HTML/Page.php [L]

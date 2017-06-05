@@ -1,0 +1,9 @@
+#wordlist-table {
+	padding-left: 20px;
+	border-spacing: 10px 10px
+}
+
+#wordlist-table span {
+	width: 140px;
+	display: inline-block
+}

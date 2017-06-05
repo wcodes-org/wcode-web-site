@@ -1,0 +1,96 @@
+.downlaod-hash {
+	font-size: 12px;
+	display: block;
+	color: #ccc!important
+}
+
+.download-hash-value {
+	font-family: consolas;
+	color: #c9c9c9!important
+}
+span#download_button {
+	margin: 8px;
+	display: inline-block;
+	text-align: right
+}
+
+#download_button>a>span {
+	height: 28px;
+	width: 28px;
+	display: block
+}
+
+#download_button:hover path:first-child {
+	fill: #56b4d1
+}
+
+#download_button:hover svg>path:last-child {
+	stroke: #56b4d1
+}
+
+span#download_button_bottom svg {
+	padding-bottom: 8px
+}
+
+#download_button_bottom>a>span {
+	height: 36px;
+	width: 36px;
+	display: inline-block;
+	padding: 4px 12px
+}
+
+#download_button_bottom:hover svg>path:first-child {
+	fill: #56b4d1
+}
+
+#download_button_bottom:hover svg>path:last-child {
+	stroke: #56b4d1
+}
+
+#download-list {
+	text-align: center;
+	margin: auto;
+	padding: 6px 16px 0 0;
+	overflow: hidden;
+	display: inline-block;
+	float: right
+}
+
+#download-windows {
+	margin: 0;
+	text-align: left
+}
+
+#download-windows a {
+	padding: 5px 0 5px 12px;
+	display: inline-block
+}
+
+#download-windows>a>span {
+	width: 33px;
+	height: 33px;
+	display: block
+}
+
+#download-android-bottom {
+	width: 136px
+}
+
+.download {
+	display: inline-block;
+	margin: 10px 10px 4px;
+}
+
+.coming-soon span {
+	display: block;
+	color: #888!important;
+	padding-bottom: 4px
+}
+
+span.download-android {
+	width: 136px
+}
+
+.download-content-list-2 {
+	padding-left: 28px!important
+}

@@ -1,0 +1,22 @@
+.use-case-table {
+	margin: 4px 0 6px 16px;
+	border-spacing: 4px 2px;
+	width: 600px
+}
+
+.use-case-table>caption {
+	text-align: left
+}
+
+.use-case-table tbody td {
+	text-align: center;
+	width: 50%;
+}
+
+.use-case-table tfoot td {
+	text-align: left
+}
+
+.link-ref {
+	font-style: italic
+}

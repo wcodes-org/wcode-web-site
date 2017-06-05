@@ -1,0 +1,13 @@
+.code_label {
+	text-align: center;
+	color: #444;
+	font-size: initial
+}
+
+.code_value {
+	text-align: center;
+}
+
+.code {
+	font-size: 15px
+}

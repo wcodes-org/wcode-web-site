@@ -1,0 +1,39 @@
+.note-title {
+	float: left;
+	width: 5%
+}
+
+.note-content {
+	float: left;
+	width: 95%
+}
+
+#manual-table {
+	border-spacing: 8px 8px
+}
+
+#manual-table .C1 {
+	font-weight: bold
+}
+
+.manual-table-s {
+	border-spacing: 8px 6px
+}
+
+.manual-table-s.A {
+	margin-left: -9px
+}
+
+.manual-table-s.A .C1 {
+	width: 94px
+}
+
+.manual-table-s caption {
+	text-align: left;
+	font-style: italic
+}
+
+.manual-table-s .C1 {
+	width: 84px;
+	font-weight: bold
+}

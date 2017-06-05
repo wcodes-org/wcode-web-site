@@ -1,0 +1,6 @@
+[submodule "Root/Project"]
+	path = Root/Project
+	url = file:///d/Personal/Project/Cutie/Repo/Project
+[submodule "Root/Framework"]
+	path = Root/Framework
+	url = file:///d/Personal/Project/Cutie/Repo/Project
