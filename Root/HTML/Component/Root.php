@@ -1,6 +1,6 @@
 <div class="message alt_div_shade">
 	<div id='what'>
-	<h3><span class='bullet'>&#8226;</span>what</h3>
+	<h2><span class='bullet'>&#8226;</span>what</h2>
 	<div class='indent-60'>
 		<span>An encoding schema, where in literal words represent digital data.</span>
 	</div>
@@ -18,7 +18,7 @@
 	</div>
 	</div>
 	<div id='where'>
-	<h3><span class='bullet'>&#8226;</span>where</h3>
+	<h2><span class='bullet'>&#8226;</span>where</h2>
 		<div class='indent-60'>
 			WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
 			<div>
@@ -32,7 +32,7 @@
 		</p>
 	</div>
 	<div id='why'>
-	<h3><span class='bullet'>&#8226;</span>why</h3>
+	<h2><span class='bullet'>&#8226;</span>why</h2>
 	<div class='indent-60'>
 		Comparatively, WCodes are:
 		<ul class='list-dash'>
@@ -80,7 +80,7 @@
 	</div>
 	</div>
 	<div id='how'>
-	<h3><span class='bullet'>&#8226;</span>how</h3>
+	<h2><span class='bullet'>&#8226;</span>how</h2>
 	<div class='indent-60'>
 		<ol>
 			<li>Get the WCode app</li>
@@ -112,7 +112,7 @@
 			<li>Decode and voilà &mdash; your phone should now ring</li>
 		</ol>
 		<div id='wcode-remember'>
-			* Your WCode remains same; You can always get it from the app but its best to keep it memorized</div>
+			* Your unique WCode remains same. You can always get it from the app but its best to memorize</div>
 		</div>
 	</div>
 </div>
