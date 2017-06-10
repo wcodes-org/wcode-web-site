@@ -20,7 +20,7 @@
 				<a class='content-link'><span class='image'><img src='/resource/google-play-badge.png' alt="WCode number example - comics" /></span></a>
 			</span>
 			<span id='download-apple-bottom' class='download coming-soon'>
-				<span>coming soon</span>
+				<span>to be announced</span>
 				<a class='content-link'><span class='image'><?php echo file_get_contents('..\../Resource\Apple.svg'); ?></span></a>
 			</span>
 		</div>
@@ -37,7 +37,7 @@
 			</span>
 		</div>
 		<div class='footer-content' id='footer-rights'>
-			<a class="content-link-grey XURL" href='/license' data-target='license' data-title='License'>Some rights reserved (CC-BY)</a>
+			<a class="content-link-grey XURL" href='/license' data-target='license' data-title='License'>Some rights reserved</a>
 		</div>
 		<div class='footer-content'>
 			by <a class="content-link XURL" href='/about_me' data-target='about_me' data-title='About me'>Ujjwal Singh</a><a class='content-link' target='_blank' href='/about_me' rel='author'></a>
