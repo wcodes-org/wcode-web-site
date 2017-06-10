@@ -94,3 +94,7 @@ span.download-android {
 .download-content-list-2 {
 	padding-left: 28px!important
 }
+
+#download_version {
+	font-size: smaller;
+}

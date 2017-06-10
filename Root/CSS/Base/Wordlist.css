@@ -1,3 +1,7 @@
+#wordlist_version {
+	font-size: smaller;
+}
+
 #wordlist-table {
 	padding-left: 20px;
 	border-spacing: 10px 10px
@@ -5,5 +9,33 @@
 
 #wordlist-table span {
 	width: 140px;
-	display: inline-block
+	display: inline-block;
+	color: #69b7cf;
+}
+
+#wordlist-table {
+	min-height: 280px;
+}
+
+#wordlist_search {
+	padding: 20px;
+}
+
+#search-button_icon_wordlist {
+	padding-right: 4px;
+}
+
+#word_search_box {
+	background-color: transparent;
+	color: #69b7cf;
+	outline: none;
+	outline-style: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-size: larger;
+}
+
+#search_input_clear {
+	cursor: pointer;
 }

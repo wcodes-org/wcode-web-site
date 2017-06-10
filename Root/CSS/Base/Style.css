@@ -4,7 +4,8 @@ strong {
 
 .bullet {
 	padding: 0 5px;
-	color: #c8c8c8!important
+	color: #c8c8c8!important;
+	font-size: 0.7em;
 }
 
 .list-dash {
@@ -24,8 +25,12 @@ strong {
 	padding: 8px 0 0 32px!important;
 }
 
+.indent-40 {
+	padding-left: 40px;
+}
+
 .top-bottom-gap {
-    padding: 12px 0
+	padding: 12px 0
 }
 
 .tba {
