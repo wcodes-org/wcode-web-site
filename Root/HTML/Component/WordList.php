@@ -44,7 +44,7 @@
 			</div>
 		</li>
 		<li>
-			No objectionable words
+			No immoral and objectionable words
 			<div class='content-li-example'>
 				e.g. 'Bomb' 'Dog' 'Pig'
 			</div>
@@ -56,35 +56,43 @@
 			</div>
 		</li>
 		<li>
-			Unique, Distinct and No Homophones
+			Unique, distinct and no homophones
 			<div class='content-li-example'>
 				e.g. 'Apple' against 'Rose' and 'Rows'
 			</div>
 		</li>
 	</ol>
 	<div class='top-bottom-gap'>
-	<strong>1024 word</strong> &ndash; 
-	<a class='content-link' href='/wordlist.txt' target='_blank'>WordList.txt</a>
-	[ v 1.0 ]
+		<div>
+			<strong><a class='content-link' href='/wordlist.txt' target='_blank'>WordList.txt</a></strong>
+			<span id='wordlist_version'>( v 1.0 )</span>
+		</div>
+		<div class='center' id='wordlist_search'>
+			<span id='search-button_icon_wordlist'><span class='image'><?php echo file_get_contents('..\..\Resource\Search_wordList.svg'); ?></span></span>
+			<input id='word_search_box' type='text' placeholder="search ( 'space' clears )">
+			<span class='hide' id='search_input_clear'><span class='image'><?php echo file_get_contents('..\..\Resource\Cross.svg'); ?></span></span>
+		</div>
 	</div>
 	<div id='wordlist-table'>
 	<?php
 		$arWord = file('../../File/WordList.txt', FILE_IGNORE_NEW_LINES);
-		$i = 0;
-		for($r = 0; $r < 1024; $r++) {
+		for($i = 0; $i < 1024; $i++) {
 	?>
 			<span>
 	<?php
-				echo $arWord[$i++];
+			if(sizeOf($arWord) > $i)
+				echo $arWord[$i];
+			else
+				echo '_';
 	?>
 			</span>
 	<?php
 		}
 	?>
 	</div>
-	<div class='top-bottom-gap'>
-	<div><strong>Word suggestions:</strong></div> (Please limit your suggestions to improve this wordlist only)
+	<div class='top-bottom-gap'></div>
+	<div>You are welcome to submit suggestions to improve this wordlist, below, under public domain.</div>
 	<div class='indent-40'>
-		<div class='fb-comments' data-href='http://wcodes.org/wordlist' data-numposts='50'></div>
+		<div class='fb-comments' data-href='https://wcodes.org/wordlist' data-numposts='50' order_by='reverse_time'></div>
 	</div>
 </div>
