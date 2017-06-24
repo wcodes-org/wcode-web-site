@@ -43,6 +43,7 @@ battery
 bay
 beach
 bead
+beak
 beam
 bean
 beast
@@ -772,7 +773,6 @@ ship
 shirt
 shoe
 shop
-shot
 shoulder
 shout
 shovel
