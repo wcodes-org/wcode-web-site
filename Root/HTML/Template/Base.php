@@ -24,6 +24,8 @@
 	if($bPublish) {
 		require "../JS/Fragment/GA_HeadScript.php";
 	}
+	require '../JS/Fragment/GTranslate.php';
+	require '../JS/Fragment/GCSE.php';
 	require '../JS/Fragment/Project_title.php';
 	require '../CSS/Fragment/CSS.php';
 ?>
