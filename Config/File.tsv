@@ -13,6 +13,12 @@ Root\Resource\	Logo_W.png	\resource\	logo_w.png
 Root\Resource\	Logo_N.png	\resource\	logo_n.png
 Root\Resource\	Logo_BackSlash.png	\resource\	logo_backslash.png
 Root\Resource\	Logo_FwdSlash.png	\resource\	logo_fwdslash.png
+Root\Resource\	launcher-icon-0-75x.png	\	launcher-icon-0-75x.png
+Root\Resource\	launcher-icon-1x.png	\	launcher-icon-1x.png
+Root\Resource\	launcher-icon-1-5x.png	\	launcher-icon-1-5x.png
+Root\Resource\	launcher-icon-2x.png	\	launcher-icon-2x.png
+Root\Resource\	launcher-icon-3x.png	\	launcher-icon-3x.png
+Root\Resource\	launcher-icon-4x.png	\	launcher-icon-4x.png
 Root\Resource\	LG_Example.png	\	lg_example.png
 Root\Resource\	Bar_Code.png	\resource\	bar_code.png
 Root\Resource\	QR_Code.png	\resource\	qr_code.png
