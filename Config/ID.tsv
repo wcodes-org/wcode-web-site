@@ -22,7 +22,7 @@ logo	Logo	0	0	Logo of WCode
 media	Media	0	0	WCode in media
 pitch	Pitch	1	0	Pitch describing
 presentation	Presentation	0	1	Slideshow - WCode introduction
-root	WCode	1	0	an encoding schema where in data is mapped to words
+root	WCode	1	0	An encoding schema where in data is mapped to words
 roadmap	Roadmap	0	0	Future roadmap of features and implementations
 source_code	Source Code	0	0	Source-code of WCode
 technology	Technology	0	0	The technical idea behind WCode
