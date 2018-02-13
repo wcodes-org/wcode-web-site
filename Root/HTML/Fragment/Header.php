@@ -13,7 +13,7 @@
 	</div>
 	<div id='header-bar'>
 	<div><span class='toggle-push-left image' id='menu-button'><?php echo file_get_contents('..\..\Resource\Menu_icon.svg'); ?></span></div>
-	<div id='loading'></div>
+	<div id='notification' class='hide'>Error!</div>
 	<div id='header-right-list'>
 		<span id='header_buttons_right'>
 			<span id='search-button'><span class='image'><?php echo file_get_contents('..\..\Resource\Search.svg'); ?></span></span>
