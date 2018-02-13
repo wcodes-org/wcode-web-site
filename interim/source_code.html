@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/">
 <head>
-	<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="title" content="WCodes" />
-	<meta name="author" content="Ujjwal Singh" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+	<meta name="title" content="WCodes" >
+	<meta name="author" content="Ujjwal Singh" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<meta itemprop="name" content="WCodes" />
 <meta itemprop="description" content="Source-code of WCode" />
 <meta itemprop="image" content="https://wcodes.org/icon-social.png" />
@@ -23,8 +23,8 @@
 <meta name="twitter:description" content="Source-code of WCode">
 <meta name="twitter:image" content="https://wcodes.org/icon-social.png">
 <meta name="twitter:creator" content="wcodesorg.jpg">
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-	<link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" >
+	<link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" >
 	<link rel='manifest' href='/manifest.json' >
 	<link href="https://wcodes.org/source_code" rel='canonical' >
 	<title>
@@ -688,18 +688,28 @@ span.header-logo {
 }
 .shadow-scroll-top {
 	height: 4px;
-	-webkit-mask-box-image: -webkit-linear-gradient(left,transparent 0%,rgba(0,0,0,.8) 50%,transparent 100%);
-	background-color: transparent;
-	background-image: -webkit-linear-gradient(top,rgba(0,0,0,.2),transparent)
 }
 
 .shadow-scroll-bottom {
 	height: 4px;
-	-webkit-mask-box-image: -webkit-linear-gradient(left,transparent 0%,rgba(0,0,0,.8) 50%,transparent 100%);
-	background-color: transparent;
-	background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,.2),transparent);
 	margin-left: 20%;
 	margin-right: 20%
+}
+
+@media (-webkit-min-device-pixel-ratio:0) {
+
+	.shadow-scroll-top {
+		-webkit-mask-box-image: -webkit-linear-gradient(left,transparent 0%,rgba(0,0,0,.8) 50%,transparent 100%);
+		background-color: transparent;
+		background-image: -webkit-linear-gradient(top,rgba(0,0,0,.2),transparent)
+	}
+
+	.shadow-scroll-bottom {
+		-webkit-mask-box-image: -webkit-linear-gradient(left,transparent 0%,rgba(0,0,0,.8) 50%,transparent 100%);
+		background-color: transparent;
+		background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,.2),transparent);
+	}
+	
 }
 #main-wrapper {
 	margin: 0 auto;
@@ -1710,7 +1720,7 @@ var trackOutboundLink = function(title, url) {
 	</div>
 </div>
 	</div>
-				<script src="https://cdn.ravenjs.com/3.16.1/raven.min.js" crossorigin="anonymous"></script>
+				<script src="https://cdn.ravenjs.com/3.22.2/raven.min.js" crossorigin="anonymous"></script>
 			<script>Raven.config('https://09aac7815d724fd7b1016b19255ffb72@sentry.io/187154').install();
 </script>
 		<script>
