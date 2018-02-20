@@ -83,8 +83,7 @@
 	<h2><span class='bullet'>&#8226;</span>how</h2>
 	<div class='indent-60'>
 		<ol>
-			<li>Get the WCode app</li>
-			<li>Select the <span class='blue'>encode</span> mode</li>
+			<li>In the WCode app select the <span class='blue'>encode</span> mode</li>
 			<li>Enter your mobile number and generate the corresponding unique WCode</li>
 		</ol>
 	</div>
@@ -95,10 +94,9 @@
 				</div>
 			</div>
 	<div class='indent-60'>
-		<ol start='4'>
-			<li>Have the reciever get his WCode app</li>
-			<li>Select the <span class='blue'>decode</span> mode on his device</li>
-			<li>Enter your WCode</li>
+		<ol start='3'>
+			<li>Select the <span class='blue'>decode</span> mode on the reciever's app</li>
+			<li>Enter the WCode that was generated earlier</li>
 		</ol>
 	</div>
 			<div class="center">
@@ -108,7 +106,7 @@
 				</div>
 			</div>
 	<div class='indent-60'>
-		<ol start='7'>
+		<ol start='5'>
 			<li>Decode and voilà &mdash; your phone should now ring</li>
 		</ol>
 		<div id='wcode-remember'>
