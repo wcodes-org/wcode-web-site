@@ -1,4 +1,7 @@
 <div class="message alt_div_shade">
+	<div id='basis'>
+		<span id='basis_image' class='image' title='WCode basis'><?php echo file_get_contents('../../Resource/Basis.svg'); ?></span>
+	</div>
 	<div id='what'>
 	<h2><span class='bullet'>&#8226;</span>what</h2>
 	<div class='indent-60'>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 120 41" width="480px" xml:space="preserve">
+	<g id="g3071" transform="matrix(0.19140679,0,0,0.18378327,-55.667615,773.23049)">
+		<g id="g3230" transform="matrix(10.380551,0,0,-10.380551,-2721.149,3683.0663)"></g>
+		<g id="g3240" transform="translate(-319.88919,374.56503)">
+			<path id="path2167" fill="#69b7cf" stroke="#69b7cf" d="M703.3-4541c19,0.3,40.6-6.2,41.6-38.1
+				c-8.8-0.9-34.2,3.8-36,27.7c-1.3,17.5-7.9,8.8-10.7-4.1c-4.1,1.3-1.1,0.2-6.6,2.3c13.6,22,7.1,33.4,9.7,33.2
+				C704.3-4520.2,703.4-4530.3,703.3-4541L703.3-4541L703.3-4541z"/>
+			<path id="path2165" fill="#69b7cf" stroke="#69b7cf" stroke-linejoin="round" d="M631.1-4504.7c-32.2,29.2-21,108.7,36.9,131.2c12.2,4.3,19.5-7.1,42.6,4.1c8.1,3.9,17.1-1.2,26.3-7.3c9.1-6,12.3-9.2,16.5-12.6
+				c16.7-15.3,35.6-41.7,32.6-85.3c-3.5-32.5-36-68.5-84.1-41.5C688.7-4522.9,663.4-4534.4,631.1-4504.7L631.1-4504.7z"/>
+		</g>
+		<g id="g3216" transform="translate(2.5905576,187.52735)"></g>
+		<g id="g3223" transform="matrix(10.309933,0,0,-10.309933,-12.291104,2801.7566)"></g>
+		<text transform="matrix(5.2245 0 0 5.4412 551.2632 -4024.2944)" fill="#D9D9D9" font-family="'Abel'" font-size="35.0019px">=</text>
+		<text transform="matrix(5.2245 0 0 5.4412 744.6774 -4024.2944)" fill="#69b7cf" font-family="'Abel'" font-size="36px">1</text>
+	</g>
+</svg>
