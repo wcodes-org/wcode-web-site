@@ -86,8 +86,8 @@
 	<h2><span class='bullet'>&#8226;</span>how</h2>
 	<div class='indent-60'>
 		<ol>
-			<li>In the WCode app select the <span class='blue'>encode</span> mode</li>
-			<li>Enter your mobile number and generate the corresponding unique WCode</li>
+			<li>In the WCode app select the <span class='blue'>data</span> mode</li>
+			<li>Enter your mobile number and generate the corresponding <em>unique</em> WCode</li>
 		</ol>
 	</div>
 			<div class="center">
@@ -98,8 +98,8 @@
 			</div>
 	<div class='indent-60'>
 		<ol start='3'>
-			<li>Select the <span class='blue'>decode</span> mode on the reciever's app</li>
-			<li>Enter the WCode that was generated earlier</li>
+			<li>On the reciever's app, select the <span class='blue'>code</span> mode</li>
+			<li>Enter the WCode that was generated earlier and decode</li>
 		</ol>
 	</div>
 			<div class="center">
