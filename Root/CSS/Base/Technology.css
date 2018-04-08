@@ -29,6 +29,10 @@
 	font-family: consolas
 }
 
+#technology-reduction {
+	margin-left: 28px;
+}
+
 #reduction-table {
 	border-spacing: 4px 6px
 }
@@ -36,6 +40,10 @@
 #reduction-table>caption {
 	text-align: left;
 	padding-top: 8px
+}
+
+#reduction-table>tbody>tr:first-child>td {
+	font-weight: bold;
 }
 
 #reduction-table th {
@@ -47,6 +55,10 @@
 	text-align: center;
 	font-family: consolas;
 	padding: 0 24px
+}
+
+#technology-mapping {
+	margin-left: 28px;
 }
 
 #illustration-table {
@@ -86,7 +98,7 @@
 	margin: auto;
 	border: 1px solid;
 	border-spacing: 4px 6px;
-	width: 140px;
+	width: 180px;
 	table-layout: fixed;
 	text-align: center
 }
