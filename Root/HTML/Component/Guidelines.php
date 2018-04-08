@@ -55,61 +55,49 @@
 							<tr>
 								<td>1.</td>
 								<td>Ready</td>
-								<td>Ready</td>
+								<td>ready</td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>2.</td>
 								<td>Acknowledge</td>
-								<td>Copy</td>
+								<td>copy</td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>3.</td>
 								<td>Begin</td>
-								<td>Start</td>
+								<td>start</td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>4.</td>
 								<td>End</td>
-								<td>Stop</td>
+								<td>end</td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>5.</td>
 								<td>Interrupt</td>
-								<td>Pause<td/>
+								<td>pause<td/>
 								<td></td>
 							</tr>
 							<tr>
 								<td>6.</td>
 								<td>Continue</td>
-								<td>Break</td>
+								<td>resume</td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>7.</td>
 								<td>Repeat</td>
-								<td>Repeat</td>
-								<td>In reverse &ndash; auto clear after confirm sync</td>
+								<td>repeat</td>
+								<td></td>
 							</tr>
 							<tr>
 								<td>8.</td>
-								<td>End Repeat</td>
-								<td>Clear</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>9.</td>
-								<td>Finish</td>
-								<td>Done</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>10.</td>
 								<td>Terminate</td>
-								<td>Kill</td>
+								<td>cancel</td>
 								<td></td>
 							</tr>
 						</tbody>
