@@ -90,19 +90,25 @@
 			<li>Enter your mobile number and generate the corresponding <em>unique</em> WCode</li>
 		</ol>
 	</div>
+	<div class="center">
+		<div class='example'>
+			<span class="example_title">Data:</span><span class="example_data">9812345670</span><span class="example_connector">&gt;</span><span class="example_wcode">cat apple mango</span>
+		</div>
+	</div>
 	<div class='indent-60'>
 		<ol start='3'>
 			<li>On the reciever's app, select the <span class='blue'>code</span> mode</li>
 			<li>Enter the WCode that was generated earlier and decode</li>
 		</ol>
 	</div>
-	<div class='indent-60'>
-		<ol start='5'>
-			<li>Decode and voilà &mdash; your phone should now ring</li>
-		</ol>
-		<div id='wcode-remember'>
-			* Your unique WCode remains same. You can always get it from the app but its best to memorize</div>
+	<div class="center">
+		<div class='example'>
+			<span class="example_title">Code:</span><span class="example_wcode">cat apple mango</span><span class="example_connector">&gt;</span><span class="example_data">9812345670</span>
 		</div>
+	</div>
+	<div id='how_message' class="blue">
+		<span>&ndash; Voilà, your number is back!</span>
+	</div>
 	</div>
 </div>
 <!--

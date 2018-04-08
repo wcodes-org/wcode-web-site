@@ -11,7 +11,7 @@ span#bar-code, span#qr-code {
 #codes-table {
 	text-align: center;
 	border-spacing: 50px 48px;
-	margin: 0 auto;
+	margin: 36px auto 0;
 	border-width: 2px
 }
 
@@ -51,4 +51,34 @@ span#bar-code, span#qr-code {
 
 summary::-webkit-details-marker {
 	color: #ddd
+}
+
+.example {
+	margin: 40px auto;
+}
+
+.example span {
+	padding: 6px;
+	font-size: large;
+}
+
+.example_title {
+	color: #AAA;
+}
+
+.example_data {
+	color: #69b7cf;
+	letter-spacing: 0.116em;
+}
+
+.example_connector {
+	color: #AAA;
+}
+
+.example_wcode {
+	color: #69b7cf;
+}
+
+#how_message {
+	padding-left: 84px;
 }
