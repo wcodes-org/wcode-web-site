@@ -8,7 +8,7 @@
 			</div>
 		</li>
 		<li>
-			Preferabely: tangible, non-absract nouns
+			Preferabely: tangible, non-absract i.e. concrete &ndash; nouns.
 			<div class='content-li-example'>
 				e.g. 'Car' against 'Care'
 			</div>
