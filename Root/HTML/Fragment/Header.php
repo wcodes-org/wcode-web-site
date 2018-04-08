@@ -2,7 +2,7 @@
 	<div id='header-title'>
 	<div class='XURL' data-target='root' id='header-slogan'>
 		<a id='header-slogan-href' href='/'>
-			<span id='header-slogan-text'>enCode with Words</span>
+			<span id='header-slogan-text'>convey with words</span>
 		</a>
 	</div>
 	<div class='XURL' data-target='root' id='header-logo'>
