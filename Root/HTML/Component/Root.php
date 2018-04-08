@@ -10,7 +10,7 @@
 	<div id='codes-example'>
 		<div class="indent-60" id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
 		<div id='codes-table'>
-			<div id='codes-table-top' class='blue'>one two three four five six</div>
+			<div id='codes-table-top' class='blue'>One two three four five six</div>
 			<div id='codes-table-mid'>
 				<div><div class='code'><span id='bar-code' class='image' title='Bar Code : Rectangle with black bars'><?php echo file_get_contents('../../Resource/Bar_code.svg'); ?></span></div></div>
 				<div><div class='blue'>1 2 3 4 5 6</div></div>
