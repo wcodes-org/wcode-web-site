@@ -90,24 +90,12 @@
 			<li>Enter your mobile number and generate the corresponding <em>unique</em> WCode</li>
 		</ol>
 	</div>
-			<div class="center">
-				<div class='comics-column'>
-					<img src="/resource/comics_1.png" alt="WCode number example - comics" />
-					<img src="/resource/comics_2.png" alt="WCode number example - comics" />
-				</div>
-			</div>
 	<div class='indent-60'>
 		<ol start='3'>
 			<li>On the reciever's app, select the <span class='blue'>code</span> mode</li>
 			<li>Enter the WCode that was generated earlier and decode</li>
 		</ol>
 	</div>
-			<div class="center">
-				<div class='comics-column'>
-					<img src="/resource/comics_3.png" alt="WCode number example - comics" />
-					<img src="/resource/comics_4.png" alt="WCode number example - comics" />
-				</div>
-			</div>
 	<div class='indent-60'>
 		<ol start='5'>
 			<li>Decode and voilà &mdash; your phone should now ring</li>
