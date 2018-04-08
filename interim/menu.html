@@ -249,11 +249,15 @@ div#path {
 	margin: 28px 0
 }
 .pml-open #path,.hide_path_title_updated #path,.pml-open #title,.hide_path_title_updated #title,.pml-open #updated,.hide_path_title_updated #updated,.hide {
-	opacity: 0
+	opacity: 0;
 }
 
 .hide {
 	transition: all 0.3s;
+}
+
+.pml-open #canvas-main.hide {
+	transition: 0s !important;
 }
 
 .hide_scale {
@@ -301,14 +305,41 @@ h1#title {
 	padding-bottom: 16px
 }
 
+#me-table div {
+	overflow: hidden;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
 #me-table .R1 {
+	float: left;
 	text-align: right;
 	width: 100px;
-	color: #69b7cf
+	color: #69b7cf;
 }
 
 #me-table .R2 {
-	text-align: left
+	float: left;
+	padding-left: 10px;
+	text-align: left;
+	max-width: 80%;
+}
+@media (max-width: 540px) {
+
+	#me-table div {
+	}
+	
+	#me-table .R1 {
+		text-align: left !important;
+	}
+	
+	#me-table .R2 {
+		padding-left: 45px !important;
+		clear: both;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+	
 }
 #content-timeline {
 	padding-top: 8px
@@ -326,7 +357,8 @@ body {
 	margin: 0 auto;
 	overflow-x: hidden;
 	height: 100%;
-	font-family: Abel,Arial,Verdana,sans-serif
+	font-family: Abel,Arial,Verdana,sans-serif;
+	color: #5a5a5a;
 }
 
 .center {
@@ -362,13 +394,13 @@ body {
 	color: #69b7cf!important
 }
 
-.content-link-grey {
+.content-link-gray {
 	text-decoration: none;
 	color: #bbbbbb!important;
 	transition: all ease-out 0.3s;
 }
 
-.content-link-grey:hover {
+.content-link-gray:hover {
 	text-decoration: none;
 	color: #69b7cf!important
 }
@@ -769,7 +801,7 @@ span.header-logo {
 	right: 0;
 	margin-left: -18px;
 	width: 100%;
-	height: 4px;
+	height: 8px;
 	padding-left: 20px;
 	padding-right: 20px;
 
@@ -997,7 +1029,7 @@ span#bar-code, span#qr-code {
 #codes-table {
 	text-align: center;
 	border-spacing: 50px 48px;
-	margin: 0 auto;
+	margin: 36px auto 0;
 	border-width: 2px
 }
 
@@ -1037,6 +1069,41 @@ span#bar-code, span#qr-code {
 
 summary::-webkit-details-marker {
 	color: #ddd
+}
+
+.example {
+	margin: 40px auto;
+}
+
+.example span {
+	padding: 6px;
+	font-size: large;
+}
+
+.example_title {
+	color: #AAA;
+}
+
+.example_data {
+	color: #69b7cf;
+	letter-spacing: 0.116em;
+}
+
+.example_connector {
+	color: #AAA;
+}
+
+.example_wcode {
+	color: #69b7cf;
+}
+
+#how_message {
+	padding-left: 84px;
+}
+@media (max-width: 540px) {
+	#basis_image svg {
+		width: 260px
+	}
 }
 strong {
 	color: #69b7cf!important;
@@ -1135,7 +1202,7 @@ strong {
 	}
 }
 
-ul {
+ul li firstChild{
 	color: #69b7cf;
 }
 
@@ -1150,7 +1217,7 @@ ul li span {
 	color: #0a0
 }
 
-.grey {
+.gray {
 	color: #aaa
 }
 
@@ -1173,6 +1240,10 @@ ul li span {
 	font-family: consolas
 }
 
+#technology-reduction {
+	margin-left: 28px;
+}
+
 #reduction-table {
 	border-spacing: 4px 6px
 }
@@ -1180,6 +1251,10 @@ ul li span {
 #reduction-table>caption {
 	text-align: left;
 	padding-top: 8px
+}
+
+#reduction-table>tbody>tr:first-child>td {
+	font-weight: bold;
 }
 
 #reduction-table th {
@@ -1191,6 +1266,10 @@ ul li span {
 	text-align: center;
 	font-family: consolas;
 	padding: 0 24px
+}
+
+#technology-mapping {
+	margin-left: 28px;
 }
 
 #illustration-table {
@@ -1230,7 +1309,7 @@ ul li span {
 	margin: auto;
 	border: 1px solid;
 	border-spacing: 4px 6px;
-	width: 140px;
+	width: 180px;
 	table-layout: fixed;
 	text-align: center
 }
@@ -1391,7 +1470,7 @@ var trackOutboundLink = function(title, url) {
 	<div id='header-title'>
 	<div class='XURL' data-target='root' id='header-slogan'>
 		<a id='header-slogan-href' href='/'>
-			<span id='header-slogan-text'>enCode with Words</span>
+			<span id='header-slogan-text'>convey with words</span>
 		</a>
 	</div>
 	<div class='XURL' data-target='root' id='header-logo'>
@@ -1526,9 +1605,9 @@ var trackOutboundLink = function(title, url) {
 <div class='sidebar-nav-group'>
 <a class='XURL item_block' href='/' data-target='root' data-title=''><div>\</div></a><a class='XURL item_block' href='/video' data-target='video' data-title='Video'><div>Video</div></a><a class='XURL item_block' href='/downloads' data-target='downloads' data-title='Downloads'><div>Downloads</div></a><a class='XURL item_block' href='/faq' data-target='faq' data-title='FAQ'><div>FAQ</div></a><a class='XURL item_block' href='/in_pictures' data-target='in_pictures' data-title='In pictures'><div>In pictures</div></a><a class='XURL item_block' href='/pitch' data-target='pitch' data-title='Pitch'><div>Pitch</div></a><a class='XURL item_block' href='/use_cases' data-target='use_cases' data-title='Use cases'><div>Use cases</div></a><a class='XURL item_block' href='/applications' data-target='applications' data-title='Applications'><div>Applications</div></a><a class='XURL item_block' href='/about' data-target='about' data-title='About'><div>About</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 <div class='sidebar-nav-group'>
-<a class='XURL item_block' href='/adoption' data-target='adoption' data-title='Adoption'><div>Adoption</div></a><a class='XURL item_block' href='/bug_report' data-target='bug_report' data-title='Bug report'><div>Bug report</div></a><a class='XURL item_block' href='/changelog' data-target='changelog' data-title='Changelog'><div>Changelog</div></a><a class='XURL item_block' href='/comparision' data-target='comparision' data-title='Comparision'><div>Comparision</div></a><a class='XURL item_block' href='/data_set' data-target='data_set' data-title='Data set'><div>Data set</div></a><a class='XURL item_block' href='/features' data-target='features' data-title='Features'><div>Features</div></a><a class='XURL item_block' href='/feedback' data-target='feedback' data-title='Feedback'><div>Feedback</div></a><a class='XURL item_block' href='/guidelines' data-target='guidelines' data-title='Guidelines'><div>Guidelines</div></a><a class='XURL item_block' href='/implementations' data-target='implementations' data-title='Implementations'><div>Implementations</div></a><a class='XURL item_block' href='/license' data-target='license' data-title='License'><div>License</div></a><a class='XURL item_block' href='/logo' data-target='logo' data-title='Logo'><div>Logo</div></a><a class='XURL item_block' href='/presentation' data-target='presentation' data-title='Presentation'><div>Presentation</div></a><a class='XURL item_block' href='/roadmap' data-target='roadmap' data-title='Roadmap'><div>Roadmap</div></a><a class='XURL item_block' href='/source_code' data-target='source_code' data-title='Source code'><div>Source code</div></a><a class='XURL item_block' href='/technology' data-target='technology' data-title='Technology'><div>Technology</div></a><a class='XURL item_block' href='/timeline' data-target='timeline' data-title='Timeline'><div>Timeline</div></a><a class='XURL item_block' href='/user_guide' data-target='user_guide' data-title='User guide'><div>User guide</div></a><a class='XURL item_block' href='/wordlist' data-target='wordlist' data-title='Wordlist'><div>Wordlist</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<a class='XURL item_block' href='/adoption' data-target='adoption' data-title='Adoption'><div>Adoption</div></a><a class='XURL item_block' href='/bug_report' data-target='bug_report' data-title='Bug report'><div>Bug report</div></a><a class='XURL item_block' href='/changelog' data-target='changelog' data-title='Changelog'><div>Changelog</div></a><a class='XURL item_block' href='/comparision' data-target='comparision' data-title='Comparision'><div>Comparision</div></a><a class='XURL item_block' href='/data_set' data-target='data_set' data-title='Data set'><div>Data set</div></a><a class='XURL item_block' href='/features' data-target='features' data-title='Features'><div>Features</div></a><a class='XURL item_block' href='/feedback' data-target='feedback' data-title='Feedback'><div>Feedback</div></a><a class='XURL item_block' href='/guidelines' data-target='guidelines' data-title='Guidelines'><div>Guidelines</div></a><a class='XURL item_block' href='/implementations' data-target='implementations' data-title='Implementations'><div>Implementations</div></a><a class='XURL item_block' href='/license' data-target='license' data-title='License'><div>License</div></a><a class='XURL item_block' href='/logo' data-target='logo' data-title='Logo'><div>Logo</div></a><a class='XURL item_block' href='/presentation' data-target='presentation' data-title='Presentation'><div>Presentation</div></a><a class='XURL item_block' href='/roadmap' data-target='roadmap' data-title='Roadmap'><div>Roadmap</div></a><a class='XURL item_block' href='/source_code' data-target='source_code' data-title='Source code'><div>Source code</div></a><a class='XURL item_block' href='/technology' data-target='technology' data-title='Technology'><div>Technology</div></a><a class='XURL item_block' href='/timeline' data-target='timeline' data-title='Timeline'><div>Timeline</div></a><a class='XURL item_block' href='/user_guide' data-target='user_guide' data-title='User guide'><div>User guide</div></a><a class='XURL item_block' href='/wordlist' data-target='wordlist' data-title='WordList'><div>WordList</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 <div class='sidebar-nav-group'>
-<a class='XURL item_block' href='/about_project' data-target='about_project' data-title='About project'><div>About project</div></a><a class='XURL item_block' href='/about_site' data-target='about_site' data-title='About site'><div>About site</div></a><a class='XURL item_block' href='/about_me' data-target='about_me' data-title='About Me'><div>About Me</div></a><a class='XURL item_block' href='/clientele' data-target='clientele' data-title='Clientele'><div>Clientele</div></a><a class='XURL item_block' href='/media' data-target='media' data-title='Media'><div>Media</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<a class='XURL item_block' href='/about_project' data-target='about_project' data-title='About project'><div>About project</div></a><a class='XURL item_block' href='/about_site' data-target='about_site' data-title='About site'><div>About site</div></a><a class='XURL item_block' href='/about_me' data-target='about_me' data-title='About me'><div>About me</div></a><a class='XURL item_block' href='/clientele' data-target='clientele' data-title='Clientele'><div>Clientele</div></a><a class='XURL item_block' href='/media' data-target='media' data-title='Media'><div>Media</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 		</div>
 	</div>
 </div>
@@ -1539,18 +1618,15 @@ var trackOutboundLink = function(title, url) {
 		<span id='basis_image' class='image' title='WCode basis'><?xml version="1.0" encoding="utf-8"?>
 <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 120 41" width="480px" xml:space="preserve">
-	<g id="g3071" transform="matrix(0.19140679,0,0,0.18378327,-55.667615,773.23049)">
-		<g id="g3230" transform="matrix(10.380551,0,0,-10.380551,-2721.149,3683.0663)"></g>
-		<g id="g3240" transform="translate(-319.88919,374.56503)">
-			<path id="path2167" fill="#69b7cf" stroke="#69b7cf" d="M703.3-4541c19,0.3,40.6-6.2,41.6-38.1
+	<g transform="matrix(0.19140679,0,0,0.18378327,-55.667615,773.23049)">
+		<g transform="translate(-319.88919,374.56503)">
+			<path fill="#69b7cf" stroke="#69b7cf" d="M703.3-4541c19,0.3,40.6-6.2,41.6-38.1
 				c-8.8-0.9-34.2,3.8-36,27.7c-1.3,17.5-7.9,8.8-10.7-4.1c-4.1,1.3-1.1,0.2-6.6,2.3c13.6,22,7.1,33.4,9.7,33.2
 				C704.3-4520.2,703.4-4530.3,703.3-4541L703.3-4541L703.3-4541z"/>
-			<path id="path2165" fill="#69b7cf" stroke="#69b7cf" stroke-linejoin="round" d="M631.1-4504.7c-32.2,29.2-21,108.7,36.9,131.2c12.2,4.3,19.5-7.1,42.6,4.1c8.1,3.9,17.1-1.2,26.3-7.3c9.1-6,12.3-9.2,16.5-12.6
+			<path fill="#ffffff" stroke-width="3px" stroke="#69b7cf" stroke-linejoin="round" d="M631.1-4504.7c-32.2,29.2-21,108.7,36.9,131.2c12.2,4.3,19.5-7.1,42.6,4.1c8.1,3.9,17.1-1.2,26.3-7.3c9.1-6,12.3-9.2,16.5-12.6
 				c16.7-15.3,35.6-41.7,32.6-85.3c-3.5-32.5-36-68.5-84.1-41.5C688.7-4522.9,663.4-4534.4,631.1-4504.7L631.1-4504.7z"/>
 		</g>
-		<g id="g3216" transform="translate(2.5905576,187.52735)"></g>
-		<g id="g3223" transform="matrix(10.309933,0,0,-10.309933,-12.291104,2801.7566)"></g>
-		<text transform="matrix(5.2245 0 0 5.4412 551.2632 -4024.2944)" fill="#D9D9D9" font-family="'Abel'" font-size="35.0019px">=</text>
+		<text transform="matrix(5.2245 0 0 5.4412 551.2632 -4024.2944)" fill="#DFDFDF" font-family="'Abel'" font-size="35.0019px">=</text>
 		<text transform="matrix(5.2245 0 0 5.4412 744.6774 -4024.2944)" fill="#69b7cf" font-family="'Abel'" font-size="36px">1</text>
 	</g>
 </svg>
@@ -1559,12 +1635,12 @@ var trackOutboundLink = function(title, url) {
 	<div id='what'>
 	<h2><span class='bullet'>&#8226;</span>what</h2>
 	<div class='indent-60'>
-		<span>An encoding schema, where in literal words represent digital data.</span>
+		<span>Communicate digital information using simple words.</span>
 	</div>
 	<div id='codes-example'>
 		<div class="indent-60" id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
 		<div id='codes-table'>
-			<div id='codes-table-top' class='blue'>one two three four five six</div>
+			<div id='codes-table-top' class='blue'>One two three four five six</div>
 			<div id='codes-table-mid'>
 				<div><div class='code'><span id='bar-code' class='image' title='Bar Code : Rectangle with black bars'><?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -1700,35 +1776,29 @@ var trackOutboundLink = function(title, url) {
 	<h2><span class='bullet'>&#8226;</span>how</h2>
 	<div class='indent-60'>
 		<ol>
-			<li>In the WCode app select the <span class='blue'>encode</span> mode</li>
-			<li>Enter your mobile number and generate the corresponding unique WCode</li>
+			<li>In the WCode app select the <span class='blue'>data</span> mode</li>
+			<li>Enter your mobile number and generate the corresponding <em>unique</em> WCode</li>
 		</ol>
 	</div>
-			<div class="center">
-				<div class='comics-column'>
-					<img src="/resource/comics_1.png" alt="WCode number example - comics" />
-					<img src="/resource/comics_2.png" alt="WCode number example - comics" />
-				</div>
-			</div>
+	<div class="center">
+		<div class='example'>
+			<span class="example_title">Data:</span><span class="example_data">9812345670</span><span class="example_connector">&gt;</span><span class="example_wcode">cat apple mango</span>
+		</div>
+	</div>
 	<div class='indent-60'>
 		<ol start='3'>
-			<li>Select the <span class='blue'>decode</span> mode on the reciever's app</li>
-			<li>Enter the WCode that was generated earlier</li>
+			<li>On the reciever's app, select the <span class='blue'>code</span> mode</li>
+			<li>Enter the WCode that was generated earlier and decode</li>
 		</ol>
 	</div>
-			<div class="center">
-				<div class='comics-column'>
-					<img src="/resource/comics_3.png" alt="WCode number example - comics" />
-					<img src="/resource/comics_4.png" alt="WCode number example - comics" />
-				</div>
-			</div>
-	<div class='indent-60'>
-		<ol start='5'>
-			<li>Decode and voilà &mdash; your phone should now ring</li>
-		</ol>
-		<div id='wcode-remember'>
-			* Your unique WCode remains same. You can always get it from the app but its best to memorize</div>
+	<div class="center">
+		<div class='example'>
+			<span class="example_title">Code:</span><span class="example_wcode">cat apple mango</span><span class="example_connector">&gt;</span><span class="example_data">9812345670</span>
 		</div>
+	</div>
+	<div id='how_message' class="blue">
+		<span>&ndash; Voilà, your number is back!</span>
+	</div>
 	</div>
 </div>
 <!--
@@ -1752,7 +1822,7 @@ var trackOutboundLink = function(title, url) {
 		<div id='updated'>
 			Updated:
 			<span id='date'>
-				2018 Feb 20			</span>
+				2018 Apr 07			</span>
 		</div>
 	</div>
 	<div class='shadow-scroll-bottom'></div>
@@ -1954,7 +2024,7 @@ var trackOutboundLink = function(title, url) {
 			</span>
 		</div>
 		<div class='footer-content' id='footer-rights'>
-			<a class="content-link-grey XURL" href='/license' data-target='license' data-title='License'>Some rights reserved</a>
+			<a class="content-link-gray XURL" href='/license' data-target='license' data-title='License'>Some rights reserved</a>
 		</div>
 		<div class='footer-content'>
 			by <a class="content-link XURL" href='/about_me' data-target='about_me' data-title='About me'>Ujjwal Singh</a><a class='content-link' target='_blank' href='/about_me' rel='author'></a>

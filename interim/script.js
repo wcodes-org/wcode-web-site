@@ -1,29 +1,47 @@
+var notification_intrvl;
+var init_loading_intrvl;
+var fade_loading_intrvl;
+
 function beginLoading() {
 	document.getElementById("wait_loader").classList.remove('hide');
 }
 
-function endLoading() {
+function stopLoading() {
 	document.getElementById("wait_loader").classList.add('hide');
 }
 
+function initLoading() {
+	clearTimeout(init_loading_intrvl);
+	init_loading_intrvl = setTimeout(function() {
+		beginLoading();
+	}, 3000);	
+}
+
+function endLoading() {
+	clearTimeout(init_loading_intrvl);
+	clearTimeout(fade_loading_intrvl);
+	stopLoading();
+}
+
 function fadeLoading() {
-	setTimeout(function() {
-		endLoading();
+	clearTimeout(fade_loading_intrvl);
+	fade_loading_intrvl = setTimeout(function() {
+		stopLoading();
 	}, 3000);
 }
 
 function errorLoading() {
 	document.getElementById("notification").classList.remove('hide');
-	clearTimeout(intrvl); // ensure single timer
-	intrvl = setInterval(function() {
+	clearTimeout(notification_intrvl); // ensure single timer
+	notification_intrvl = setInterval(function() {
 		document.getElementById("notification").classList.add('hide');
-	},3000);
+	}, 3000);
 }
 
 function fbReload() {
 	try{
 		FB.XFBML.parse();
-	}catch(ex){}
+	}catch(ex) {};
 }
 function getElementsByClassName(node, classname){
 	if (node.getElementsByClassName) { // use native implementation if available
@@ -81,11 +99,15 @@ function loadCanvas(target, title) {
 	classie.add(main_wrapper, 'hide_path_title_updated');
 	classie.add(canvas_main, 'hide');
 
-	//canvas_main.innerHTML = '';
 	var startTime = new Date().getTime();
 	syncScrollReload.startTime = null;
 	scrollTop();
-	beginLoading();
+	initLoading();
+	if(target == 'root')
+		classie.add(document.getElementById('title'), 'hide_scale');
+	else
+		classie.remove(document.getElementById('title'), 'hide_scale');
+	classie.add(document.getElementById('title'), 'hide');
 
 	var xmlhttp = new XMLHttpRequest();
 	if(window.XMLHttpRequest) {
@@ -105,16 +127,10 @@ function loadCanvas(target, title) {
 
 					var resp = JSON.parse(xmlhttp.responseText);
 					document.title = resp.desc + ' - ' + PROJECT_TITLE;
-					if(target == 'root') {
-						classie.add(document.getElementById('title'), 'hide_scale');
-						document.getElementById('path').innerHTML = '';
-						document.getElementById('title').innerHTML = '';
-					}
-					else {
-						document.getElementById('path').innerHTML = resp.path;
-						document.getElementById('title').innerHTML = title;
-						classie.remove(document.getElementById('title'), 'hide_scale');
-					}
+					if(target == 'root')
+						updatePathTitle('', '');
+					else
+						updatePathTitle(resp.path, title);
 					syncScrollReload(startTime, resp, target);
 				} break;
 				case 404: {
@@ -145,7 +161,7 @@ function scrollTop() {
 	scrollActive = true;
 	var y = window.scrollY;
 	var dy = 100;
-	var scrollInterval = setInterval(function(){
+	var scrollInterval = setInterval(function() {
 		window.scrollTo(0, y);
 		if(y <= 0) {
 			clearInterval(scrollInterval);
@@ -163,6 +179,7 @@ function syncScrollReload(startTime, resp, target) {
 		syncScrollReload.startTime = startTime;
 		syncScrollReload.resp = resp;
 		syncScrollReload.target = target;
+		activateMainFn();
 	}
 	if(typeof syncScrollReload.startTime != 'undefined' && syncScrollReload.startTime != null && !scrollActive)
 		executeReload(syncScrollReload.startTime, syncScrollReload.resp, syncScrollReload.target);
@@ -192,17 +209,19 @@ function executeReload(startTime, resp, target) {
 }
 
 function getTimeOutDuration(elapsed) {
-	if(transitionFromMenu) {
-		transitionFromMenu = false;
+	timeout = 380 - elapsed;
+	if(timeout < 0)
 		return 0;
-	}
-	else {
-		timeout = 350 - elapsed;
-		if(timeout < 0)
-			return 0;
-		else
-			return timeout;
-	}
+	else
+		return timeout;
+}
+
+function updatePathTitle(path, title) {
+	setTimeout(function() {
+		document.getElementById('path').innerHTML = path;
+		document.getElementById('title').innerHTML = title;
+		classie.remove(document.getElementById('title'), 'hide');
+	}, 300);
 }
 /*
  * classList.js: Cross-browser full element.classList implementation.
@@ -432,7 +451,6 @@ if ( typeof define === 'function' && define.amd ) {
 			activateMenuFn();
 		else {
 			loadCanvas(e.state.id, e.state.title);
-			activateMainFn();
 		}
 }
 window.onload = function() {
@@ -561,7 +579,6 @@ var initPageFunction = function(path) {
 }
 // external PROJECT_TITLE
 var curTab;
-var intrvl = 0;
 var gTarget;
 var URLid;
 
@@ -587,13 +604,11 @@ var activateMenuFn = function() {
 	}
 }
 
-var transitionFromMenu;
 var activateMainFn = function() {
-	if(menuActive)
-		transitionFromMenu = true;
 	var main_wrapper = document.querySelector( '#main-wrapper' ),
 		menu_button = document.querySelector( '#menu-button' );
 	classie.remove( main_wrapper, 'pml-open' );
+	classie.remove( main_wrapper, 'hide_path_title_updated' );
 	classie.remove( menu_button, 'active' );
 	menuActive = false;
 }

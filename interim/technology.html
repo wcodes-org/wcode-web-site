@@ -249,11 +249,15 @@ div#path {
 	margin: 28px 0
 }
 .pml-open #path,.hide_path_title_updated #path,.pml-open #title,.hide_path_title_updated #title,.pml-open #updated,.hide_path_title_updated #updated,.hide {
-	opacity: 0
+	opacity: 0;
 }
 
 .hide {
 	transition: all 0.3s;
+}
+
+.pml-open #canvas-main.hide {
+	transition: 0s !important;
 }
 
 .hide_scale {
@@ -301,14 +305,41 @@ h1#title {
 	padding-bottom: 16px
 }
 
+#me-table div {
+	overflow: hidden;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
 #me-table .R1 {
+	float: left;
 	text-align: right;
 	width: 100px;
-	color: #69b7cf
+	color: #69b7cf;
 }
 
 #me-table .R2 {
-	text-align: left
+	float: left;
+	padding-left: 10px;
+	text-align: left;
+	max-width: 80%;
+}
+@media (max-width: 540px) {
+
+	#me-table div {
+	}
+	
+	#me-table .R1 {
+		text-align: left !important;
+	}
+	
+	#me-table .R2 {
+		padding-left: 45px !important;
+		clear: both;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+	
 }
 #content-timeline {
 	padding-top: 8px
@@ -326,7 +357,8 @@ body {
 	margin: 0 auto;
 	overflow-x: hidden;
 	height: 100%;
-	font-family: Abel,Arial,Verdana,sans-serif
+	font-family: Abel,Arial,Verdana,sans-serif;
+	color: #5a5a5a;
 }
 
 .center {
@@ -362,13 +394,13 @@ body {
 	color: #69b7cf!important
 }
 
-.content-link-grey {
+.content-link-gray {
 	text-decoration: none;
 	color: #bbbbbb!important;
 	transition: all ease-out 0.3s;
 }
 
-.content-link-grey:hover {
+.content-link-gray:hover {
 	text-decoration: none;
 	color: #69b7cf!important
 }
@@ -769,7 +801,7 @@ span.header-logo {
 	right: 0;
 	margin-left: -18px;
 	width: 100%;
-	height: 4px;
+	height: 8px;
 	padding-left: 20px;
 	padding-right: 20px;
 
@@ -997,7 +1029,7 @@ span#bar-code, span#qr-code {
 #codes-table {
 	text-align: center;
 	border-spacing: 50px 48px;
-	margin: 0 auto;
+	margin: 36px auto 0;
 	border-width: 2px
 }
 
@@ -1037,6 +1069,41 @@ span#bar-code, span#qr-code {
 
 summary::-webkit-details-marker {
 	color: #ddd
+}
+
+.example {
+	margin: 40px auto;
+}
+
+.example span {
+	padding: 6px;
+	font-size: large;
+}
+
+.example_title {
+	color: #AAA;
+}
+
+.example_data {
+	color: #69b7cf;
+	letter-spacing: 0.116em;
+}
+
+.example_connector {
+	color: #AAA;
+}
+
+.example_wcode {
+	color: #69b7cf;
+}
+
+#how_message {
+	padding-left: 84px;
+}
+@media (max-width: 540px) {
+	#basis_image svg {
+		width: 260px
+	}
 }
 strong {
 	color: #69b7cf!important;
@@ -1135,7 +1202,7 @@ strong {
 	}
 }
 
-ul {
+ul li firstChild{
 	color: #69b7cf;
 }
 
@@ -1150,7 +1217,7 @@ ul li span {
 	color: #0a0
 }
 
-.grey {
+.gray {
 	color: #aaa
 }
 
@@ -1173,6 +1240,10 @@ ul li span {
 	font-family: consolas
 }
 
+#technology-reduction {
+	margin-left: 28px;
+}
+
 #reduction-table {
 	border-spacing: 4px 6px
 }
@@ -1180,6 +1251,10 @@ ul li span {
 #reduction-table>caption {
 	text-align: left;
 	padding-top: 8px
+}
+
+#reduction-table>tbody>tr:first-child>td {
+	font-weight: bold;
 }
 
 #reduction-table th {
@@ -1191,6 +1266,10 @@ ul li span {
 	text-align: center;
 	font-family: consolas;
 	padding: 0 24px
+}
+
+#technology-mapping {
+	margin-left: 28px;
 }
 
 #illustration-table {
@@ -1230,7 +1309,7 @@ ul li span {
 	margin: auto;
 	border: 1px solid;
 	border-spacing: 4px 6px;
-	width: 140px;
+	width: 180px;
 	table-layout: fixed;
 	text-align: center
 }
@@ -1391,7 +1470,7 @@ var trackOutboundLink = function(title, url) {
 	<div id='header-title'>
 	<div class='XURL' data-target='root' id='header-slogan'>
 		<a id='header-slogan-href' href='/'>
-			<span id='header-slogan-text'>enCode with Words</span>
+			<span id='header-slogan-text'>convey with words</span>
 		</a>
 	</div>
 	<div class='XURL' data-target='root' id='header-logo'>
@@ -1528,188 +1607,218 @@ var trackOutboundLink = function(title, url) {
 <div class='sidebar-nav-group'>
 <a class='XURL item_block' href='/' data-target='root' data-title=''><div>\</div></a><a class='XURL item_block' href='/video' data-target='video' data-title='Video'><div>Video</div></a><a class='XURL item_block' href='/downloads' data-target='downloads' data-title='Downloads'><div>Downloads</div></a><a class='XURL item_block' href='/faq' data-target='faq' data-title='FAQ'><div>FAQ</div></a><a class='XURL item_block' href='/in_pictures' data-target='in_pictures' data-title='In pictures'><div>In pictures</div></a><a class='XURL item_block' href='/pitch' data-target='pitch' data-title='Pitch'><div>Pitch</div></a><a class='XURL item_block' href='/use_cases' data-target='use_cases' data-title='Use cases'><div>Use cases</div></a><a class='XURL item_block' href='/applications' data-target='applications' data-title='Applications'><div>Applications</div></a><a class='XURL item_block' href='/about' data-target='about' data-title='About'><div>About</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 <div class='sidebar-nav-group'>
-<a class='XURL item_block' href='/adoption' data-target='adoption' data-title='Adoption'><div>Adoption</div></a><a class='XURL item_block' href='/bug_report' data-target='bug_report' data-title='Bug report'><div>Bug report</div></a><a class='XURL item_block' href='/changelog' data-target='changelog' data-title='Changelog'><div>Changelog</div></a><a class='XURL item_block' href='/comparision' data-target='comparision' data-title='Comparision'><div>Comparision</div></a><a class='XURL item_block' href='/data_set' data-target='data_set' data-title='Data set'><div>Data set</div></a><a class='XURL item_block' href='/features' data-target='features' data-title='Features'><div>Features</div></a><a class='XURL item_block' href='/feedback' data-target='feedback' data-title='Feedback'><div>Feedback</div></a><a class='XURL item_block' href='/guidelines' data-target='guidelines' data-title='Guidelines'><div>Guidelines</div></a><a class='XURL item_block' href='/implementations' data-target='implementations' data-title='Implementations'><div>Implementations</div></a><a class='XURL item_block' href='/license' data-target='license' data-title='License'><div>License</div></a><a class='XURL item_block' href='/logo' data-target='logo' data-title='Logo'><div>Logo</div></a><a class='XURL item_block' href='/presentation' data-target='presentation' data-title='Presentation'><div>Presentation</div></a><a class='XURL item_block' href='/roadmap' data-target='roadmap' data-title='Roadmap'><div>Roadmap</div></a><a class='XURL item_block' href='/source_code' data-target='source_code' data-title='Source code'><div>Source code</div></a><a class='XURL item_block' href='/technology' data-target='technology' data-title='Technology'><div>Technology</div></a><a class='XURL item_block' href='/timeline' data-target='timeline' data-title='Timeline'><div>Timeline</div></a><a class='XURL item_block' href='/user_guide' data-target='user_guide' data-title='User guide'><div>User guide</div></a><a class='XURL item_block' href='/wordlist' data-target='wordlist' data-title='Wordlist'><div>Wordlist</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<a class='XURL item_block' href='/adoption' data-target='adoption' data-title='Adoption'><div>Adoption</div></a><a class='XURL item_block' href='/bug_report' data-target='bug_report' data-title='Bug report'><div>Bug report</div></a><a class='XURL item_block' href='/changelog' data-target='changelog' data-title='Changelog'><div>Changelog</div></a><a class='XURL item_block' href='/comparision' data-target='comparision' data-title='Comparision'><div>Comparision</div></a><a class='XURL item_block' href='/data_set' data-target='data_set' data-title='Data set'><div>Data set</div></a><a class='XURL item_block' href='/features' data-target='features' data-title='Features'><div>Features</div></a><a class='XURL item_block' href='/feedback' data-target='feedback' data-title='Feedback'><div>Feedback</div></a><a class='XURL item_block' href='/guidelines' data-target='guidelines' data-title='Guidelines'><div>Guidelines</div></a><a class='XURL item_block' href='/implementations' data-target='implementations' data-title='Implementations'><div>Implementations</div></a><a class='XURL item_block' href='/license' data-target='license' data-title='License'><div>License</div></a><a class='XURL item_block' href='/logo' data-target='logo' data-title='Logo'><div>Logo</div></a><a class='XURL item_block' href='/presentation' data-target='presentation' data-title='Presentation'><div>Presentation</div></a><a class='XURL item_block' href='/roadmap' data-target='roadmap' data-title='Roadmap'><div>Roadmap</div></a><a class='XURL item_block' href='/source_code' data-target='source_code' data-title='Source code'><div>Source code</div></a><a class='XURL item_block' href='/technology' data-target='technology' data-title='Technology'><div>Technology</div></a><a class='XURL item_block' href='/timeline' data-target='timeline' data-title='Timeline'><div>Timeline</div></a><a class='XURL item_block' href='/user_guide' data-target='user_guide' data-title='User guide'><div>User guide</div></a><a class='XURL item_block' href='/wordlist' data-target='wordlist' data-title='WordList'><div>WordList</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 <div class='sidebar-nav-group'>
-<a class='XURL item_block' href='/about_project' data-target='about_project' data-title='About project'><div>About project</div></a><a class='XURL item_block' href='/about_site' data-target='about_site' data-title='About site'><div>About site</div></a><a class='XURL item_block' href='/about_me' data-target='about_me' data-title='About Me'><div>About Me</div></a><a class='XURL item_block' href='/clientele' data-target='clientele' data-title='Clientele'><div>Clientele</div></a><a class='XURL item_block' href='/media' data-target='media' data-title='Media'><div>Media</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<a class='XURL item_block' href='/about_project' data-target='about_project' data-title='About project'><div>About project</div></a><a class='XURL item_block' href='/about_site' data-target='about_site' data-title='About site'><div>About site</div></a><a class='XURL item_block' href='/about_me' data-target='about_me' data-title='About me'><div>About me</div></a><a class='XURL item_block' href='/clientele' data-target='clientele' data-title='Clientele'><div>Clientele</div></a><a class='XURL item_block' href='/media' data-target='media' data-title='Media'><div>Media</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 		</div>
 	</div>
 </div>
 								<div id='canvas-main'>
 									<div id='content'>
 										<div class="message">
-	<ul class="content-list">
+	<span>Based on an encoding schema, where in literal words represent digital data.</span>
+	<h2><span class='bullet'>&#8226;</span>Human factor</h2>
+	<ol>
 		<li>
-			<div class="content-li-title">Human Factor</div>
-			<ol>
-				<li>
-					It is much easier to deal with legitimate words rather than a collection of random characters:<br>
-					<table class="human_factor-table">
-						<tbody>
-							<tr>
-								<td>hdkjhg54lhjhd</td>
-								<td>Apple Mango Africa</td>
-							</tr>
-						</tbody>
-					</table>
-				</li>
-				<li>
-					A set of unrelated nouns is simpler than a sequence with words from different parts of speech:<br>
-					<table class="human_factor-table">
-						<tbody>
-							<tr>
-								<td>Apple Mango Bridge</td>
-								<td>apple away an doctor the day keeps a</td>
-							</tr>
-						</tbody>
-					</table>
-				</li>
-			</ol>
-		</li>
-		<li>
-			<div class="content-li-title">Reduction</div>
-			The greater the number of individual symbols used - the smaller the resultant code.
-			<table id="reduction-table">
-				<caption><em>Comparision:</em></caption>
+			It is much easier to deal with legitimate words rather than a collection of random characters<br>
+			<table class="human_factor-table">
 				<tbody>
 					<tr>
-						<th>Base:</th>
-						<td>Binary</td>
-						<td>Decimal</td>
-						<td>Hexadecimal</td>
-					</tr>
-					<tr>
-						<th>N-Symbols:</th>
-						<td>2</td>
-						<td>10</td>
-						<td>16</td>
-					</tr>
-					<tr>
-						<th>Symbols:</th>
-						<td>0 1</td>
-						<td>0 1 2 3	4 5 6 7 8 9</td>
-						<td>0 1 2 3 4 5 6	7 8 9 A B C D E F</td>
-					<tr>
-					<tr>
-						<th>Ex. 1:</th>
-						<td>111</td>
-						<td>7</td>
-						<td>7</td>
-					</tr>
-						<th>Ex. 2:</th>
-						<td>1111</td>
-						<td>15</td>
-						<td>F</td>
+						<td>hdkjhg54lhjhd</td>
+						<td>Apple Mango Africa</td>
 					</tr>
 				</tbody>
 			</table>
-		<li>
-			<div class="content-li-title">Mapping</div>
-			<ul>
-				<li>A sequence of bits is mapped to words ( e.g. <span class="content-high">1011 : Apple</span>, <span class="content-high">1111 : Mango</span> )</li>
-				<li>These words are from a list of 1K (2<sup>10</sup> = 1024) carefully chosen nouns.</li>
-			</ul>
-	<table id="illustration-table">
-		<caption><em>Illustration:</em></caption>
-		<tbody>
-			<tr class="R1">
-				<td class="C1 type">
-					Data:
-				</td>
-				<td class="data">
-					<span class="red">A</span>n Apple a day keeps the Doctor away
-				</td>
-				<td rowspan="3" class="C3">
-					<div class="div1">
-						<table class="map">
-							<caption>ASCII Table</caption>
-							<tbody>
-								<tr>
-									<td>
-										<span class="red">A</span>
-									</td>
-									<td>
-										0x<span class="blue">41</span>
-									</td>
-								<tr>
-									<td>
-										B
-									</td>
-									<td>
-										0x42
-									</td>
-								</tr>
-								<tr>
-									<td>
-										...
-									</td>
-									<td>
-										...
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="div2">
-						<table class="map">
-							<caption>WCode Table</caption>
-							<tbody>
-								<tr>
-									<td>
-										0x<span class="blue">41</span><span class="grey">6E20</span>
-									</td>
-									<td>
-										<span class="green">America</span>
-									</td>
-								<tr>
-									<td>
-										0x416E21
-									</td>
-									<td>
-										Angola
-									</td>
-								</tr>
-								<tr>
-									<td>
-										...
-									</td>
-									<td>
-										...
-									</td>
-								</tr>
-								<tr>
-									<td>
-										0x417070
-									</td>
-									<td>
-										Nepal
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</td>
-			</tr>
-			<tr class="R2">
-				<td class="type">
-					ASCII:
-				</td>
-				<td class="data">
-					<span class="blue">41</span> <span class="grey">6E 20</span> 41 70 70 6C 65 20 61 20 64 61 79 20 6B 65 65<br>
-					70 73 20 74 68 65 20 44 6F 63 74 6F 72 20 61 77 61 79
-				</td>
-			</tr>
-			<tr class="R3">
-				<td class="type">
-					WCode:
-				</td>
-				<td class="data">
-					\ <span class="green">America</span> Nepal Africa Mango Apple Coffee ... /
-				</td>
-			</tr>
-		</tbody>
-	</table>
 		</li>
-	</ul>
+		<li>
+			A set of unrelated nouns is simpler than a sequence with words from different parts of speech<br>
+			<table class="human_factor-table">
+				<tbody>
+					<tr>
+						<td>Apple Mango Bridge</td>
+						<td>apple away an doctor the day keeps a</td>
+					</tr>
+				</tbody>
+			</table>
+		</li>
+	</ol>
+
+	<h2><span class='bullet'>&#8226;</span>Reduction</h2>
+	<div id='technology-reduction'>
+		The greater the number of individual symbols used - the smaller the resultant code.
+		<table id="reduction-table" >
+			<caption><em>Comparision</em></caption>
+			<tbody>
+				
+				<tr>
+					<th>Base</th>
+					<td>Decimal</td>
+					<td>Binary</td>
+					<td>Hexadecimal</td>
+				</tr>
+				<tr>
+					<th>Digits</th>
+					<td>10</td>
+					<td>2</td>
+					<td>16</td>
+				</tr>
+				<tr>
+					<th>Symbols</th>
+					<td>0 1 2 3	4 5 6 7 8 9</td>
+					<td>0 1</td>
+					<td>0 1 2 3 4 5 6	7 8 9 A B C D E F</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<th>Ex. 1</th>
+					<td>7</td>
+					<td>111</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<th>Digits</th>
+					<td>1</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<th>Ex. 2</th>
+					<td>15</td>
+					<td>1111</td>
+					<td>F</td>
+				</tr>
+				<tr>
+					<th>Digits</th>
+					<td>2</td>
+					<td>4</td>
+					<td>1</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+	
+	<h2><span class='bullet'>&#8226;</span>Mapping</h2>
+	<div id='technology-mapping'>
+		<ul>
+			<li>A sequence of bits is mapped to individual words ( e.g. <span class="content-high">1011011011 : Apple</span> )</li>
+			<li>Those words are from a list of 1K (1024) carefully chosen nouns</li>
+			<li>Since 2<sup>10</sup> = 1024, the length of these sequences is 10 bits</li>
+		</ul>
+		<table id="illustration-table">
+			<caption><em>Illustration</em></caption>
+			<tbody>
+				<tr class="R1">
+					<td class="C1 type">
+						Data
+					</td>
+					<td class="data">
+						<span class="blue">A</span><span class="">n</span> <span class="gray">Apple a day</span>
+					</td>
+					<td rowspan="2" class="C3">
+						<div class="div1">
+							<table class="map">
+								<caption>ASCII Table</caption>
+								<tbody>
+									<tr>
+										<td>
+											0x<span class="blue">41</span>
+										</td>
+										<td>
+											<span class="blue">A</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											...
+										</td>
+										<td>
+											...
+										</td>
+									</tr>
+									<tr>
+										<td>
+											0x<span class="">6E</span>
+										</td>
+										<td>
+											<span class="">n</span>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</td>
+				</tr>
+				<tr class="R2">
+					<td class="type">
+						Hex
+					</td>
+					<td class="data">
+						<span class="blue">41</span> <span class="">6E</span> <span class="gray">20 41 70 70 6C 65 20 61 20 64 61 79</span>
+					</td>
+				</tr>
+				<tr class="R3">
+					<td class="type">
+						Binary
+					</td>
+					<td class="data">
+						<span class="blue">0100 0001 01</span><span class="">11 0000 0111</span> <span class="gray">0000 0110 1100 ...</span>
+					</td>
+					<td rowspan="2" class="C3">
+						<div class="div2">
+							<table class="map">
+								<caption>WCode Table</caption>
+								<tbody>
+									<tr>
+										<td>
+											<span class="blue">0100000101</span>
+										</td>
+										<td>
+											<span class="blue">Cat</span>
+										</td>
+									<tr>
+									<tr>
+										<td>
+											...
+										</td>
+										<td>
+											...
+										</td>
+									</tr>
+									</tr>
+										<td>
+											<span class="">1100000111</span>
+										</td>
+										<td>
+											<span class="">Coffee</span>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</td>
+				</tr>
+				<tr class="R4">
+					<td class="type">
+						WCode
+					</td>
+					<td class="data">
+						<span class="blue">Cat</span> <span class="">Coffee</span> <span class="gray">Mango Apple ...</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
 </div>
 									</div>
 								</div>
@@ -1725,7 +1834,7 @@ var trackOutboundLink = function(title, url) {
 		<div id='updated'>
 			Updated:
 			<span id='date'>
-				2017 Jun 05			</span>
+				2018 Apr 08			</span>
 		</div>
 	</div>
 	<div class='shadow-scroll-bottom'></div>
@@ -1927,7 +2036,7 @@ var trackOutboundLink = function(title, url) {
 			</span>
 		</div>
 		<div class='footer-content' id='footer-rights'>
-			<a class="content-link-grey XURL" href='/license' data-target='license' data-title='License'>Some rights reserved</a>
+			<a class="content-link-gray XURL" href='/license' data-target='license' data-title='License'>Some rights reserved</a>
 		</div>
 		<div class='footer-content'>
 			by <a class="content-link XURL" href='/about_me' data-target='about_me' data-title='About me'>Ujjwal Singh</a><a class='content-link' target='_blank' href='/about_me' rel='author'></a>

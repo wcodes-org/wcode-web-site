@@ -10,7 +10,7 @@
 <meta itemprop="description" content="Pictures relating to WCode" />
 <meta itemprop="image" content="https://wcodes.org/icon-social.png" />
 	<meta property="og:url" content="https://wcodes.org/in_pictures" />
-<meta property="og:title" content="In Pictures" />
+<meta property="og:title" content="In pictures" />
 <meta property="og:type" content="article" />
 <meta property="og:image" content="https://wcodes.org/icon-social.png" />
 <meta property="og:description" content="Pictures relating to WCode" />
@@ -19,7 +19,7 @@
 <meta property="fb:admins" content="100000014591845" />
 	<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@wcodesorg">
-<meta name="twitter:title" content="In Pictures">
+<meta name="twitter:title" content="In pictures">
 <meta name="twitter:description" content="Pictures relating to WCode">
 <meta name="twitter:image" content="https://wcodes.org/icon-social.png">
 <meta name="twitter:creator" content="wcodesorg.jpg">
@@ -249,11 +249,15 @@ div#path {
 	margin: 28px 0
 }
 .pml-open #path,.hide_path_title_updated #path,.pml-open #title,.hide_path_title_updated #title,.pml-open #updated,.hide_path_title_updated #updated,.hide {
-	opacity: 0
+	opacity: 0;
 }
 
 .hide {
 	transition: all 0.3s;
+}
+
+.pml-open #canvas-main.hide {
+	transition: 0s !important;
 }
 
 .hide_scale {
@@ -301,14 +305,41 @@ h1#title {
 	padding-bottom: 16px
 }
 
+#me-table div {
+	overflow: hidden;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
 #me-table .R1 {
+	float: left;
 	text-align: right;
 	width: 100px;
-	color: #69b7cf
+	color: #69b7cf;
 }
 
 #me-table .R2 {
-	text-align: left
+	float: left;
+	padding-left: 10px;
+	text-align: left;
+	max-width: 80%;
+}
+@media (max-width: 540px) {
+
+	#me-table div {
+	}
+	
+	#me-table .R1 {
+		text-align: left !important;
+	}
+	
+	#me-table .R2 {
+		padding-left: 45px !important;
+		clear: both;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+	
 }
 #content-timeline {
 	padding-top: 8px
@@ -326,7 +357,8 @@ body {
 	margin: 0 auto;
 	overflow-x: hidden;
 	height: 100%;
-	font-family: Abel,Arial,Verdana,sans-serif
+	font-family: Abel,Arial,Verdana,sans-serif;
+	color: #5a5a5a;
 }
 
 .center {
@@ -362,13 +394,13 @@ body {
 	color: #69b7cf!important
 }
 
-.content-link-grey {
+.content-link-gray {
 	text-decoration: none;
 	color: #bbbbbb!important;
 	transition: all ease-out 0.3s;
 }
 
-.content-link-grey:hover {
+.content-link-gray:hover {
 	text-decoration: none;
 	color: #69b7cf!important
 }
@@ -769,7 +801,7 @@ span.header-logo {
 	right: 0;
 	margin-left: -18px;
 	width: 100%;
-	height: 4px;
+	height: 8px;
 	padding-left: 20px;
 	padding-right: 20px;
 
@@ -997,7 +1029,7 @@ span#bar-code, span#qr-code {
 #codes-table {
 	text-align: center;
 	border-spacing: 50px 48px;
-	margin: 0 auto;
+	margin: 36px auto 0;
 	border-width: 2px
 }
 
@@ -1037,6 +1069,41 @@ span#bar-code, span#qr-code {
 
 summary::-webkit-details-marker {
 	color: #ddd
+}
+
+.example {
+	margin: 40px auto;
+}
+
+.example span {
+	padding: 6px;
+	font-size: large;
+}
+
+.example_title {
+	color: #AAA;
+}
+
+.example_data {
+	color: #69b7cf;
+	letter-spacing: 0.116em;
+}
+
+.example_connector {
+	color: #AAA;
+}
+
+.example_wcode {
+	color: #69b7cf;
+}
+
+#how_message {
+	padding-left: 84px;
+}
+@media (max-width: 540px) {
+	#basis_image svg {
+		width: 260px
+	}
 }
 strong {
 	color: #69b7cf!important;
@@ -1135,7 +1202,7 @@ strong {
 	}
 }
 
-ul {
+ul li firstChild{
 	color: #69b7cf;
 }
 
@@ -1150,7 +1217,7 @@ ul li span {
 	color: #0a0
 }
 
-.grey {
+.gray {
 	color: #aaa
 }
 
@@ -1173,6 +1240,10 @@ ul li span {
 	font-family: consolas
 }
 
+#technology-reduction {
+	margin-left: 28px;
+}
+
 #reduction-table {
 	border-spacing: 4px 6px
 }
@@ -1180,6 +1251,10 @@ ul li span {
 #reduction-table>caption {
 	text-align: left;
 	padding-top: 8px
+}
+
+#reduction-table>tbody>tr:first-child>td {
+	font-weight: bold;
 }
 
 #reduction-table th {
@@ -1191,6 +1266,10 @@ ul li span {
 	text-align: center;
 	font-family: consolas;
 	padding: 0 24px
+}
+
+#technology-mapping {
+	margin-left: 28px;
 }
 
 #illustration-table {
@@ -1230,7 +1309,7 @@ ul li span {
 	margin: auto;
 	border: 1px solid;
 	border-spacing: 4px 6px;
-	width: 140px;
+	width: 180px;
 	table-layout: fixed;
 	text-align: center
 }
@@ -1391,7 +1470,7 @@ var trackOutboundLink = function(title, url) {
 	<div id='header-title'>
 	<div class='XURL' data-target='root' id='header-slogan'>
 		<a id='header-slogan-href' href='/'>
-			<span id='header-slogan-text'>enCode with Words</span>
+			<span id='header-slogan-text'>convey with words</span>
 		</a>
 	</div>
 	<div class='XURL' data-target='root' id='header-logo'>
@@ -1520,7 +1599,7 @@ var trackOutboundLink = function(title, url) {
 							<div id='path-container'><div id=path>	<a class='XURL content-link' href='/' data-target='root' data-title=''>&#8962; </a>
 	<span class='path-separator'>\</span>
 </div></div>
-							<div id='title-container'><h1 id='title'>In Pictures</h1></div>
+							<div id='title-container'><h1 id='title'>In pictures</h1></div>
 							<div id='canvas-wrapper-inner-container'>
 								<div id='nav-menu'>
 	<div class='nav-menu_container'>
@@ -1528,9 +1607,9 @@ var trackOutboundLink = function(title, url) {
 <div class='sidebar-nav-group'>
 <a class='XURL item_block' href='/' data-target='root' data-title=''><div>\</div></a><a class='XURL item_block' href='/video' data-target='video' data-title='Video'><div>Video</div></a><a class='XURL item_block' href='/downloads' data-target='downloads' data-title='Downloads'><div>Downloads</div></a><a class='XURL item_block' href='/faq' data-target='faq' data-title='FAQ'><div>FAQ</div></a><a class='XURL item_block' href='/in_pictures' data-target='in_pictures' data-title='In pictures'><div>In pictures</div></a><a class='XURL item_block' href='/pitch' data-target='pitch' data-title='Pitch'><div>Pitch</div></a><a class='XURL item_block' href='/use_cases' data-target='use_cases' data-title='Use cases'><div>Use cases</div></a><a class='XURL item_block' href='/applications' data-target='applications' data-title='Applications'><div>Applications</div></a><a class='XURL item_block' href='/about' data-target='about' data-title='About'><div>About</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 <div class='sidebar-nav-group'>
-<a class='XURL item_block' href='/adoption' data-target='adoption' data-title='Adoption'><div>Adoption</div></a><a class='XURL item_block' href='/bug_report' data-target='bug_report' data-title='Bug report'><div>Bug report</div></a><a class='XURL item_block' href='/changelog' data-target='changelog' data-title='Changelog'><div>Changelog</div></a><a class='XURL item_block' href='/comparision' data-target='comparision' data-title='Comparision'><div>Comparision</div></a><a class='XURL item_block' href='/data_set' data-target='data_set' data-title='Data set'><div>Data set</div></a><a class='XURL item_block' href='/features' data-target='features' data-title='Features'><div>Features</div></a><a class='XURL item_block' href='/feedback' data-target='feedback' data-title='Feedback'><div>Feedback</div></a><a class='XURL item_block' href='/guidelines' data-target='guidelines' data-title='Guidelines'><div>Guidelines</div></a><a class='XURL item_block' href='/implementations' data-target='implementations' data-title='Implementations'><div>Implementations</div></a><a class='XURL item_block' href='/license' data-target='license' data-title='License'><div>License</div></a><a class='XURL item_block' href='/logo' data-target='logo' data-title='Logo'><div>Logo</div></a><a class='XURL item_block' href='/presentation' data-target='presentation' data-title='Presentation'><div>Presentation</div></a><a class='XURL item_block' href='/roadmap' data-target='roadmap' data-title='Roadmap'><div>Roadmap</div></a><a class='XURL item_block' href='/source_code' data-target='source_code' data-title='Source code'><div>Source code</div></a><a class='XURL item_block' href='/technology' data-target='technology' data-title='Technology'><div>Technology</div></a><a class='XURL item_block' href='/timeline' data-target='timeline' data-title='Timeline'><div>Timeline</div></a><a class='XURL item_block' href='/user_guide' data-target='user_guide' data-title='User guide'><div>User guide</div></a><a class='XURL item_block' href='/wordlist' data-target='wordlist' data-title='Wordlist'><div>Wordlist</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<a class='XURL item_block' href='/adoption' data-target='adoption' data-title='Adoption'><div>Adoption</div></a><a class='XURL item_block' href='/bug_report' data-target='bug_report' data-title='Bug report'><div>Bug report</div></a><a class='XURL item_block' href='/changelog' data-target='changelog' data-title='Changelog'><div>Changelog</div></a><a class='XURL item_block' href='/comparision' data-target='comparision' data-title='Comparision'><div>Comparision</div></a><a class='XURL item_block' href='/data_set' data-target='data_set' data-title='Data set'><div>Data set</div></a><a class='XURL item_block' href='/features' data-target='features' data-title='Features'><div>Features</div></a><a class='XURL item_block' href='/feedback' data-target='feedback' data-title='Feedback'><div>Feedback</div></a><a class='XURL item_block' href='/guidelines' data-target='guidelines' data-title='Guidelines'><div>Guidelines</div></a><a class='XURL item_block' href='/implementations' data-target='implementations' data-title='Implementations'><div>Implementations</div></a><a class='XURL item_block' href='/license' data-target='license' data-title='License'><div>License</div></a><a class='XURL item_block' href='/logo' data-target='logo' data-title='Logo'><div>Logo</div></a><a class='XURL item_block' href='/presentation' data-target='presentation' data-title='Presentation'><div>Presentation</div></a><a class='XURL item_block' href='/roadmap' data-target='roadmap' data-title='Roadmap'><div>Roadmap</div></a><a class='XURL item_block' href='/source_code' data-target='source_code' data-title='Source code'><div>Source code</div></a><a class='XURL item_block' href='/technology' data-target='technology' data-title='Technology'><div>Technology</div></a><a class='XURL item_block' href='/timeline' data-target='timeline' data-title='Timeline'><div>Timeline</div></a><a class='XURL item_block' href='/user_guide' data-target='user_guide' data-title='User guide'><div>User guide</div></a><a class='XURL item_block' href='/wordlist' data-target='wordlist' data-title='WordList'><div>WordList</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 <div class='sidebar-nav-group'>
-<a class='XURL item_block' href='/about_project' data-target='about_project' data-title='About project'><div>About project</div></a><a class='XURL item_block' href='/about_site' data-target='about_site' data-title='About site'><div>About site</div></a><a class='XURL item_block' href='/about_me' data-target='about_me' data-title='About Me'><div>About Me</div></a><a class='XURL item_block' href='/clientele' data-target='clientele' data-title='Clientele'><div>Clientele</div></a><a class='XURL item_block' href='/media' data-target='media' data-title='Media'><div>Media</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<a class='XURL item_block' href='/about_project' data-target='about_project' data-title='About project'><div>About project</div></a><a class='XURL item_block' href='/about_site' data-target='about_site' data-title='About site'><div>About site</div></a><a class='XURL item_block' href='/about_me' data-target='about_me' data-title='About me'><div>About me</div></a><a class='XURL item_block' href='/clientele' data-target='clientele' data-title='Clientele'><div>Clientele</div></a><a class='XURL item_block' href='/media' data-target='media' data-title='Media'><div>Media</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 		</div>
 	</div>
 </div>
@@ -1773,7 +1852,7 @@ var trackOutboundLink = function(title, url) {
 			</span>
 		</div>
 		<div class='footer-content' id='footer-rights'>
-			<a class="content-link-grey XURL" href='/license' data-target='license' data-title='License'>Some rights reserved</a>
+			<a class="content-link-gray XURL" href='/license' data-target='license' data-title='License'>Some rights reserved</a>
 		</div>
 		<div class='footer-content'>
 			by <a class="content-link XURL" href='/about_me' data-target='about_me' data-title='About me'>Ujjwal Singh</a><a class='content-link' target='_blank' href='/about_me' rel='author'></a>
