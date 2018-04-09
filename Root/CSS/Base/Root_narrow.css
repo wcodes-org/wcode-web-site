@@ -1,5 +1,11 @@
 @media (max-width: 540px) {
+
 	#basis_image svg {
 		width: 260px
 	}
+
+	#how_message {
+		padding-left: 44px;
+	}
+	
 }
