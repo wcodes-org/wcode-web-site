@@ -5,7 +5,7 @@
 	<div id='what'>
 	<h2><span class='bullet'>&#8226;</span>what</h2>
 	<div class='indent-60'>
-		<span>Communicate digital information using simple words.</span>
+		<span>Communicate digital information using only simple words.</span>
 	</div>
 	<div id='codes-example'>
 		<div class="indent-60" id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
