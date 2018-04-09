@@ -260,7 +260,7 @@ div#path {
 	transition: 0s !important;
 }
 
-.hide_scale#title-container {
+.hide_scale#title-container, .hide_scale#path-container {
   transform: scaleY(0);
 	transition: all 0.3s;
 	max-height: 0px !important;
@@ -1060,12 +1060,23 @@ span#bar-code, span#qr-code {
 	font-size: 17px
 }
 
+.message.alt_div_shade {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.alt_div_shade > div {
+	padding-left: 6px;	
+}
+
 .alt_div_shade > div:nth-child(odd) {
-	padding: 0px 0 28px;
+	padding-top: 0px;
+	padding-bottom: 28px;
 }
 
 .alt_div_shade > div:nth-child(even) {
-	padding: 20px 0 28px;
+	padding-top: 20px;
+	padding-bottom: 28px;
 	background-image: -webkit-linear-gradient(left,#f2f2f2,transparent)
 }
 
@@ -1604,7 +1615,7 @@ var trackOutboundLink = function(title, url) {
 						<div id='google_translate_element'></div>
 						<div id='search_box'><gcse:search></gcse:search></div>
 						<div id='canvas-wrapper'>
-							<div id='path-container'><div id=path>&nbsp;</div></div>
+							<div id='path-container' class="hide_scale"><div id=path>&nbsp;</div></div>
 							<div id='title-container' class="hide_scale"><h1 id='title'>&nbsp;</h1></div>
 							<div id='canvas-wrapper-inner-container'>
 								<div id='nav-menu'>
@@ -1625,8 +1636,8 @@ var trackOutboundLink = function(title, url) {
 	<div id='basis'>
 		<span id='basis_image' class='image' title='WCode basis'><?xml version="1.0" encoding="utf-8"?>
 <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" viewBox="0 0 120 41" width="480px" xml:space="preserve">
-	<g transform="matrix(0.19140679,0,0,0.18378327,-55.667615,773.23049)">
+	 x="0px" y="0px" viewBox="0 0 120 44" width="480px" xml:space="preserve">
+	<g transform="matrix(0.19140679,0,0,0.18378327,-55.667615,776.73049)">
 		<g transform="translate(-319.88919,374.56503)">
 			<path fill="#69b7cf" stroke="#69b7cf" d="M703.3-4541c19,0.3,40.6-6.2,41.6-38.1
 				c-8.8-0.9-34.2,3.8-36,27.7c-1.3,17.5-7.9,8.8-10.7-4.1c-4.1,1.3-1.1,0.2-6.6,2.3c13.6,22,7.1,33.4,9.7,33.2

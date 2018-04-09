@@ -260,7 +260,7 @@ div#path {
 	transition: 0s !important;
 }
 
-.hide_scale#title-container {
+.hide_scale#title-container, .hide_scale#path-container {
   transform: scaleY(0);
 	transition: all 0.3s;
 	max-height: 0px !important;
@@ -1060,12 +1060,23 @@ span#bar-code, span#qr-code {
 	font-size: 17px
 }
 
+.message.alt_div_shade {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.alt_div_shade > div {
+	padding-left: 6px;	
+}
+
 .alt_div_shade > div:nth-child(odd) {
-	padding: 0px 0 28px;
+	padding-top: 0px;
+	padding-bottom: 28px;
 }
 
 .alt_div_shade > div:nth-child(even) {
-	padding: 20px 0 28px;
+	padding-top: 20px;
+	padding-bottom: 28px;
 	background-image: -webkit-linear-gradient(left,#f2f2f2,transparent)
 }
 
@@ -1604,7 +1615,7 @@ var trackOutboundLink = function(title, url) {
 						<div id='google_translate_element'></div>
 						<div id='search_box'><gcse:search></gcse:search></div>
 						<div id='canvas-wrapper'>
-							<div id='path-container'><div id=path>	<a class='XURL content-link' href='/' data-target='root' data-title=''>&#8962; </a>
+							<div id='path-container' class=""><div id=path>	<a class='XURL content-link' href='/' data-target='root' data-title=''>&#8962; </a>
 	<span class='path-separator'>\</span>
 </div></div>
 							<div id='title-container' class=""><h1 id='title'>About project</h1></div>
