@@ -90,6 +90,10 @@ summary::-webkit-details-marker {
 	color: #69b7cf;
 }
 
+#how ol {
+	padding-left: 20px;
+}
+
 #how_message {
 	padding-left: 84px;
 }

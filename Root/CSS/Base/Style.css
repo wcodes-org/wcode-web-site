@@ -3,14 +3,14 @@ strong {
 }
 
 .bullet {
-	padding: 0 5px;
+	padding: 0 8px 0 5px;
 	color: #c8c8c8!important;
 	font-size: 0.7em;
 }
 
 .list-dash {
 	list-style-type: none;
-	padding-left: 28px
+	padding-left: 16px
 }
 
 .list-dash li {
