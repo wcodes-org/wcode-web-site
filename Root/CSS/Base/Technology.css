@@ -19,14 +19,18 @@
 }
 
 .human_factor-table {
+	width: 100%;
+	max-width: 600px;
 	border-spacing: 4px 6px;
-	width: 600px
 }
 
 .human_factor-table td {
 	text-align: center;
-	width: 200px;
 	font-family: consolas;
+}
+
+.human_factor-table td:first-child {
+	width: 38%;
 }
 
 #technology-reduction {
@@ -63,7 +67,6 @@
 
 #illustration-table {
 	border-spacing: 4px 6px;
-	width: 700px;
 	table-layout: fixed;
 	text-align: center;
 }
@@ -74,11 +77,9 @@
 }
 
 #illustration-table .C1 {
-	width: 76px
 }
 
 #illustration-table .C3 {
-	width: 152px
 }
 
 #illustration-table .R1,#illustration-table .R2,#illustration-table .R3 {
@@ -98,13 +99,13 @@
 	margin: auto;
 	border: 1px solid;
 	border-spacing: 4px 6px;
-	width: 180px;
 	table-layout: fixed;
 	text-align: center;
 }
 
 #illustration-table .map td {
 	font-family: consolas;
+	min-width: 48px;
 }
 
 #illustration-table .map caption {

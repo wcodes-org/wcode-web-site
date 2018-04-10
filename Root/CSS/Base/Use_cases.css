@@ -1,7 +1,8 @@
 .use-case-table {
 	margin: 4px 0 6px 16px;
 	border-spacing: 4px 2px;
-	width: 600px
+	max-width: 600px;
+	width: 100%;
 }
 
 .use-case-table>caption {
