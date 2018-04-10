@@ -1,21 +1,21 @@
 .red {
-	color: #f00
+	color: #f00;
 }
 
 .green {
-	color: #0a0
+	color: #0a0;
 }
 
 .gray {
-	color: #aaa
+	color: #aaa;
 }
 
 .blue {
-	color: #69b7cf!important
+	color: #69b7cf!important;
 }
 
 .gray {
-	color: #c9c9c9!important
+	color: #c9c9c9!important;
 }
 
 .human_factor-table {
@@ -26,7 +26,7 @@
 .human_factor-table td {
 	text-align: center;
 	width: 200px;
-	font-family: consolas
+	font-family: consolas;
 }
 
 #technology-reduction {
@@ -34,12 +34,12 @@
 }
 
 #reduction-table {
-	border-spacing: 4px 6px
+	border-spacing: 4px 6px;
 }
 
 #reduction-table>caption {
 	text-align: left;
-	padding-top: 8px
+	padding-top: 8px;
 }
 
 #reduction-table>tbody>tr:first-child>td {
@@ -48,13 +48,13 @@
 
 #reduction-table th {
 	text-align: right;
-	padding-right: 24px
+	padding-right: 24px;
 }
 
 #reduction-table td {
 	text-align: center;
 	font-family: consolas;
-	padding: 0 24px
+	padding: 0 24px;
 }
 
 #technology-mapping {
@@ -65,12 +65,12 @@
 	border-spacing: 4px 6px;
 	width: 700px;
 	table-layout: fixed;
-	text-align: center
+	text-align: center;
 }
 
 #illustration-table>caption {
 	text-align: left;
-	padding-top: 12px
+	padding-top: 12px;
 }
 
 #illustration-table .C1 {
@@ -82,16 +82,16 @@
 }
 
 #illustration-table .R1,#illustration-table .R2,#illustration-table .R3 {
-	height: 78px
+	height: 78px;
 }
 
 #illustration-table .type {
 	font-weight: bold;
-	text-align: right
+	text-align: right;
 }
 
 #illustration-table .data {
-	font-family: consolas
+	font-family: consolas;
 }
 
 #illustration-table .map {
@@ -100,17 +100,17 @@
 	border-spacing: 4px 6px;
 	width: 180px;
 	table-layout: fixed;
-	text-align: center
+	text-align: center;
 }
 
 #illustration-table .map td {
-	font-family: consolas
+	font-family: consolas;
 }
 
 #illustration-table .map caption {
-	font-weight: bold
+	font-weight: bold;
 }
 
 #illustration-table .div1 {
-	padding-top: 20px
+	padding-top: 20px;
 }
