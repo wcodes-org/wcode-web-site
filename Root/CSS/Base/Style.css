@@ -5,7 +5,8 @@ strong {
 .bullet {
 	padding: 0 8px 0 5px;
 	color: #c8c8c8!important;
-	font-size: 0.7em;
+	font-size: 0.3em;
+	visibility: hidden;
 }
 
 .list-dash {
