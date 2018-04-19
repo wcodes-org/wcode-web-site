@@ -496,8 +496,7 @@ window.onload = function() {
 
 	menu_button.addEventListener( 'click', function() {
 		if (!menuActive) {
-			window.history.pushState({'id':'menu'}, '', '/'+'menu');
-			activateMenuFn();
+			activateMenu();
 		}
 		else {
 			if(curTab == 'root' || curTab == 'menu')
@@ -610,6 +609,11 @@ var activateMenuFn = function() {
 	}
 }
 
+var activateMenu = function() {
+	window.history.pushState({'id':curTab}, '', '/'+curTab);
+	activateMenuFn();
+}
+
 var activateMainFn = function() {
 	var main_wrapper = document.querySelector( '#main-wrapper' ),
 		menu_button = document.querySelector( '#menu-button' );
@@ -618,6 +622,12 @@ var activateMainFn = function() {
 	classie.remove( menu_button, 'active' );
 	menuActive = false;
 }
+
+var activateMain = function() {
+	window.history.pushState({'id':curTab}, '', '/'+curTab);
+	activateMainFn();	
+}
+
 function getURLid() {
 	var loc = window.location.pathname;
 	if(loc == '/')
@@ -638,8 +648,10 @@ function setXURL(node) {
 	var arClassElement = getElementsByClassName(node, 'XURL');
 	var n = arClassElement.length;
 	for(i = 0; i < n; i++) {
-		var a = arClassElement[i].children[0];
-		arClassElement[i].onclick = loadCanvasI;
+		if(arClassElement[i].getAttribute('data-target') == 'menu')
+			arClassElement[i].onclick = activateMenu;
+		else
+			arClassElement[i].onclick = loadCanvasI;
 	}
 }
 function about_me() {

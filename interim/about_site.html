@@ -97,7 +97,7 @@ blockquote {
 }
 
 .message {
-	padding: 0 6px 10px;
+	padding: 0 6px 18px;
 	clear: both;
 	overflow: hidden
 }
@@ -150,40 +150,60 @@ blockquote {
 .indent-20 {
 	padding-left: 20px
 }
-.content-list>li {
-	background-color: transparent;
-	vertical-align: baseline;
-	padding-bottom: 14px
+.message > .list-bullet.content-list {
+	padding-left: 16px !important;
 }
 
-.content-list-2>li {
-	padding-bottom: 8px
+.message > .list-bullet.content-list p {
+	padding-left: 10px !important;
+}
+
+p.content-list-example {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.content-list ul, .content-list ol {
+	padding-left: 20px;
+}
+
+.content-list > li {
+	background-color: transparent;
+	vertical-align: baseline;
+	padding-bottom: 14px;
+}
+
+.content-list-2 > li {
+	padding-bottom: 8px;
 }
 
 .content-li-title {
 	font-size: larger;
 	font-weight: bold;
 	padding-bottom: 4px;
-	color: #69b7cf!important
-}
-
-ul.list-bullet {
-	list-style: none!important
+	color: #69b7cf !important;
 }
 
 ul.list-bullet li {
-	padding-left: 1em;
-	text-indent: -.7em
+	list-style-type: disc;
+	color: #c8c8c8 !important;
 }
 
-ul.list-bullet li:before {
-	content: "\002022";
-	color: #c8c8c8!important;
-	padding-right: 7px
+ol.list-bullet li {
+	color: #a8a8a8 !important;
 }
 
-ul.content-list-2 {
-	padding-left: 10px
+ul.list-bullet > li > div, ol.list-bullet > li > div {
+	color: #5a5a5a;
+}
+
+ul.list-bullet li, ol.list-bullet li {
+	padding-bottom: 0px;
+	margin-left: 6px;
+}
+
+ul.content-list-2, ol.content-list-2 {
+	padding-left: 10px;
 }
 #table_version>tbody>tr>td:first-child {
 	color: #808080;
@@ -198,26 +218,37 @@ ul.content-list-2 {
     padding: 16px 0 10px 10px;
     vertical-align: top
 }
-
 #nav-list {
 	padding: 26px 0 36px;
-	max-width: 512px
+	margin-bottom: 28px;
+	max-width: 564px;
 }
 
-#nav-list>a>div {
+#nav-list > a > div, .item_block_text > div {
 	display: inline-block
 }
 
-#nav-menu-up.center-arrow div {
-    margin: auto
+#nav-menu-up.center-arrow > .item_block_text > div {
+	text-align: center;
+	margin: auto;
+	display: block;
 }
 
 #nav-menu-prev {
-	float: left
+	float: left;
 }
 
 #nav-menu-next {
-	float: right
+	float: right;
+}
+
+#nav-menu-next > .item_block_text {
+	text-align: right;
+}
+
+#nav-menu-next > .item_block_text > div {
+	margin-left: 0px;
+	margin-right: 28px;
 }
 
 .path-separator {
@@ -409,6 +440,14 @@ body {
 	text-decoration: none;
 	color: #69b7cf!important
 }
+
+.grow {
+	transition: 0.5s;
+}
+
+.grow:hover {
+	transform: scale(1.1);	
+}
 @font-face {
 	font-family: 'Abel';
 	font-style: normal;
@@ -561,15 +600,15 @@ span.header-logo {
 }
 
 #menu-button:hover path {
-	fill: #56b4d1
+	fill: #56b4d1;
 }
 
 #menu-button:hover {
-	cursor: pointer
+	cursor: pointer;
 }
 
 #menu-button.active path {
-	fill: #56b4d1
+	fill: #56b4d1;
 }
 #translate-button, #search-button {
 	display: inline-block;
@@ -584,26 +623,103 @@ span.header-logo {
 #header_buttons_right path {
 	transition: all ease-out 0.3s;
 }
+.item_block_container {
+	width: 160px;
+	display: inline-block;
+	margin: 5px;
+	vertical-align: middle;
+	transition: 0.75s;
+}
+
+.item_block_image {
+	width: 160px;
+	height: 110px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.item_block_image_visible {
+	object-fit: cover;
+	opacity: 0.85 !important;
+	filter: alpha(opacity=85);
+	transition: opacity 2s !important;
+}
+
+.item_block_image_hidden {
+	object-fit: fill;
+	opacity: 50 !important;
+	filter: alpha(opacity=50);
+	transition: opacity 0.8s !important;
+}
+
+.item_block_container:hover .item_block_image {
+	cursor: pointer;
+	opacity: 1 !important;
+	filter: alpha(opacity=100);
+}
+
+.item_block_text {
+	width: 158px;
+	height: 32px;
+	margin-top: -5px;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-top-color: white;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+
+	color: #69b7cf !important;
+	background-color: white;
+	border-color: #eee;
+	
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: left;
+	line-height: 32px;
+	transition: all ease-out 0.3s;
+}
+
+.item_block_text .external {
+	float: right;
+	padding-top: 5px;
+	padding-right: 7px;
+	margin: 0;
+}
+
+.item_block_container:hover .item_block_text {
+	cursor: pointer;
+	color: white !important;
+	border-color: #69b7cf;
+	background-color: #69b7cf;
+}
+
 .item_block {
 	width: 158px;
 	height: 64px;
 	margin: 5px;
 	border-style: solid;
 	border-width: 1px;
+	border-radius: 5px;
 
-	border-color: #69b7cf;
-	background-color: #69b7cf;
-
+	background: white;
+	border-color: #ddd;
+	color: #69b7cf !important;
+	
 	display: inline-block;
 	cursor: pointer;
 	text-decoration: none;
-	color: white!important;
 	text-align: left;
 	line-height: 64px;
 	transition: all ease-out 0.3s;
 }
 
 .item_block div {
+	margin-left: 28px;
+}
+
+.item_block div, .item_block_text div {
 	margin-left: 28px;
 	font-size: 15px;
 	vertical-align: middle;
@@ -614,15 +730,18 @@ span.header-logo {
 
 .item_block:hover {
 	cursor: pointer;
-	background: white;
-	border-color: #ddd
+	border-color: #69b7cf;
+	background-color: #69b7cf;
+	color: white !important;
 }
 
 .item_block:hover div {
-	color: #69b7cf!important
+	color: white !important;
 }
 
 .item_block-disabled {
+	visibility: hidden;
+	vertical-align: middle;
 	width: 158px;
 	height: 64px;
 	margin: 5px;
@@ -631,17 +750,41 @@ span.header-logo {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #efefef;
-	background-color: #fff!important
+	background-color: #fff !important;
 }
 
 .item_block-placeholder {
-	width: 158px;
+	width: 170px;
 	display: inline-block;
-	height: 0!important;
-	margin: 0 5px!important;
+	height: 0 !important;
+	margin: 0 5px !important;
 	visibility: hidden;
 }
+
+.page-list > .item_block_container {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.page-list > .item_block_container:hover, .page-list > .item_block:hover {
+	transform: scale(1.05);
+}
+
+.sidebar-nav-group.page-list {
+	margin-left: 0px;
+}
+
+.sidebar-nav-group.page-list > .item_block_container, .sidebar-nav-group.page-list > .item_block {
+	margin: 8px 10px !important;
+}
+@media (max-width: 354px) {
+	#nav-list.page-list > .item_block_container {
+		float: none;
+	}
+}
+
 @media (max-width: 540px) {
+	
 	#main-wrapper {
 		padding:0!important
 	}
@@ -662,15 +805,27 @@ span.header-logo {
 		padding-left: 5px
 	}
 
-	#nav-menu-prev,#nav-menu-next {
-		float: none!important
+	#nav-list {
+		max-width: 354px;
 	}
-
+	
+	#nav-list.page-list > .item_block_container {
+		margin: 10px 6px;
+	}
+	
+	.item_block-disabled {
+		display: none;
+	}
+	
+	.sidebar-nav-group {
+		margin-bottom: 10px !important;
+	}
+	
 	#fb_components {
 		margin-left: 4px!important
 	}
 
-	#home-message>span {
+	#home-message > span {
 		padding-left: 5px
 	}
 
@@ -678,9 +833,10 @@ span.header-logo {
 		padding-left: 0!important
 	}
 
-	#home-menu>div.sidebar-nav-group {
+	#home-menu > div.sidebar-nav-group {
 		padding-left: 12px!important
 	}
+	
 }
 
 @media (max-width: 768px) {
@@ -1110,17 +1266,21 @@ summary::-webkit-details-marker {
 	color: #69b7cf;
 }
 
+#how ol {
+	padding-left: 20px;
+}
+
 #how_message {
 	padding-left: 84px;
 }
 @media (max-width: 540px) {
 
 	#basis_image svg {
-		width: 260px
+		width: 260px;
 	}
 
 	#how_message {
-		padding-left: 44px;
+		padding-left: 38px;
 	}
 	
 }
@@ -1129,14 +1289,15 @@ strong {
 }
 
 .bullet {
-	padding: 0 5px;
+	padding: 0 8px 0 5px;
 	color: #c8c8c8!important;
-	font-size: 0.7em;
+	font-size: 0.3em;
+	visibility: hidden;
 }
 
 .list-dash {
 	list-style-type: none;
-	padding-left: 28px
+	padding-left: 16px
 }
 
 .list-dash li {
@@ -1229,34 +1390,38 @@ ul li span {
 	color: #555;
 }
 .red {
-	color: #f00
+	color: #f00;
 }
 
 .green {
-	color: #0a0
+	color: #0a0;
 }
 
 .gray {
-	color: #aaa
+	color: #aaa;
 }
 
 .blue {
-	color: #69b7cf!important
+	color: #69b7cf!important;
 }
 
 .gray {
-	color: #c9c9c9!important
+	color: #c9c9c9!important;
 }
 
 .human_factor-table {
+	width: 100%;
+	max-width: 600px;
 	border-spacing: 4px 6px;
-	width: 600px
 }
 
 .human_factor-table td {
 	text-align: center;
-	width: 200px;
-	font-family: consolas
+	font-family: consolas;
+}
+
+.human_factor-table td:first-child {
+	width: 38%;
 }
 
 #technology-reduction {
@@ -1264,12 +1429,12 @@ ul li span {
 }
 
 #reduction-table {
-	border-spacing: 4px 6px
+	border-spacing: 4px 6px;
 }
 
 #reduction-table>caption {
 	text-align: left;
-	padding-top: 8px
+	padding-top: 8px;
 }
 
 #reduction-table>tbody>tr:first-child>td {
@@ -1278,13 +1443,13 @@ ul li span {
 
 #reduction-table th {
 	text-align: right;
-	padding-right: 24px
+	padding-right: 24px;
 }
 
 #reduction-table td {
 	text-align: center;
 	font-family: consolas;
-	padding: 0 24px
+	padding: 0 24px;
 }
 
 #technology-mapping {
@@ -1293,61 +1458,59 @@ ul li span {
 
 #illustration-table {
 	border-spacing: 4px 6px;
-	width: 700px;
 	table-layout: fixed;
-	text-align: center
+	text-align: center;
 }
 
 #illustration-table>caption {
 	text-align: left;
-	padding-top: 12px
+	padding-top: 12px;
 }
 
 #illustration-table .C1 {
-	width: 76px
 }
 
 #illustration-table .C3 {
-	width: 152px
 }
 
 #illustration-table .R1,#illustration-table .R2,#illustration-table .R3 {
-	height: 78px
+	height: 78px;
 }
 
 #illustration-table .type {
 	font-weight: bold;
-	text-align: right
+	text-align: right;
 }
 
 #illustration-table .data {
-	font-family: consolas
+	font-family: consolas;
 }
 
 #illustration-table .map {
 	margin: auto;
 	border: 1px solid;
 	border-spacing: 4px 6px;
-	width: 180px;
 	table-layout: fixed;
-	text-align: center
+	text-align: center;
 }
 
 #illustration-table .map td {
-	font-family: consolas
+	font-family: consolas;
+	min-width: 48px;
 }
 
 #illustration-table .map caption {
-	font-weight: bold
+	font-weight: bold;
 }
 
 #illustration-table .div1 {
-	padding-top: 20px
+	padding-top: 20px;
 }
 .use-case-table {
 	margin: 4px 0 6px 16px;
 	border-spacing: 4px 2px;
-	width: 600px
+	max-width: 600px;
+	width: 100%;
 }
 
 .use-case-table>caption {
@@ -1556,7 +1719,7 @@ var trackOutboundLink = function(title, url) {
 	</div>
 	</div>
 	<div id='header-bar'>
-	<div><span class='toggle-push-left image' id='menu-button'><?xml version="1.0" encoding="utf-8"?>
+	<div><span class='toggle-push-left image grow' id='menu-button'><?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
@@ -1584,17 +1747,17 @@ var trackOutboundLink = function(title, url) {
 	<div id='notification' class='hide'>Error!</div>
 	<div id='header-right-list'>
 		<span id='header_buttons_right'>
-			<span id='search-button'><span class='image'><svg xmlns="http://www.w3.org/2000/svg" fill="#D9D9D9" height="30" viewBox="0 0 24 24" width="30">
+			<span id='search-button' class='grow'><span class='image'><svg xmlns="http://www.w3.org/2000/svg" fill="#D9D9D9" height="30" viewBox="0 0 24 24" width="30">
 	<path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
 	<path d="M0 0h24v24H0z" fill="none"/>
 </svg>
 </span></span>
-			<span id='translate-button'><span class='image'><svg xmlns="http://www.w3.org/2000/svg" fill="#D9D9D9" viewBox="0 0 24 24" width="30" height="30">
+			<span id='translate-button' class='grow'><span class='image'><svg xmlns="http://www.w3.org/2000/svg" fill="#D9D9D9" viewBox="0 0 24 24" width="30" height="30">
 	<path fill="none" d="M0 0h24v24H0z"/>
 	<path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
 </svg>
 </span></span>
-			<span id='download_button'>
+			<span id='download_button' class='grow'>
 				<a href='/downloads'><span class='image'><?xml version="1.0" encoding="utf-8"?>
 <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="-245 368.9 104.3 104" xml:space="preserve">
@@ -1623,12 +1786,12 @@ var trackOutboundLink = function(title, url) {
 								<div id='nav-menu'>
 	<div class='nav-menu_container'>
 		<div class='sidebar-nav-li sidebar-sub'>
-<div class='sidebar-nav-group'>
-<a class='XURL item_block' href='/' data-target='root' data-title=''><div>\</div></a><a class='XURL item_block' href='/video' data-target='video' data-title='Video'><div>Video</div></a><a class='XURL item_block' href='/downloads' data-target='downloads' data-title='Downloads'><div>Downloads</div></a><a class='XURL item_block' href='/faq' data-target='faq' data-title='FAQ'><div>FAQ</div></a><a class='XURL item_block' href='/in_pictures' data-target='in_pictures' data-title='In pictures'><div>In pictures</div></a><a class='XURL item_block' href='/pitch' data-target='pitch' data-title='Pitch'><div>Pitch</div></a><a class='XURL item_block' href='/use_cases' data-target='use_cases' data-title='Use cases'><div>Use cases</div></a><a class='XURL item_block' href='/applications' data-target='applications' data-title='Applications'><div>Applications</div></a><a class='XURL item_block' href='/about' data-target='about' data-title='About'><div>About</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
-<div class='sidebar-nav-group'>
-<a class='XURL item_block' href='/adoption' data-target='adoption' data-title='Adoption'><div>Adoption</div></a><a class='XURL item_block' href='/bug_report' data-target='bug_report' data-title='Bug report'><div>Bug report</div></a><a class='XURL item_block' href='/changelog' data-target='changelog' data-title='Changelog'><div>Changelog</div></a><a class='XURL item_block' href='/comparision' data-target='comparision' data-title='Comparision'><div>Comparision</div></a><a class='XURL item_block' href='/data_set' data-target='data_set' data-title='Data set'><div>Data set</div></a><a class='XURL item_block' href='/features' data-target='features' data-title='Features'><div>Features</div></a><a class='XURL item_block' href='/feedback' data-target='feedback' data-title='Feedback'><div>Feedback</div></a><a class='XURL item_block' href='/guidelines' data-target='guidelines' data-title='Guidelines'><div>Guidelines</div></a><a class='XURL item_block' href='/implementations' data-target='implementations' data-title='Implementations'><div>Implementations</div></a><a class='XURL item_block' href='/license' data-target='license' data-title='License'><div>License</div></a><a class='XURL item_block' href='/logo' data-target='logo' data-title='Logo'><div>Logo</div></a><a class='XURL item_block' href='/presentation' data-target='presentation' data-title='Presentation'><div>Presentation</div></a><a class='XURL item_block' href='/roadmap' data-target='roadmap' data-title='Roadmap'><div>Roadmap</div></a><a class='XURL item_block' href='/source_code' data-target='source_code' data-title='Source code'><div>Source code</div></a><a class='XURL item_block' href='/technology' data-target='technology' data-title='Technology'><div>Technology</div></a><a class='XURL item_block' href='/timeline' data-target='timeline' data-title='Timeline'><div>Timeline</div></a><a class='XURL item_block' href='/user_guide' data-target='user_guide' data-title='User guide'><div>User guide</div></a><a class='XURL item_block' href='/wordlist' data-target='wordlist' data-title='WordList'><div>WordList</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
-<div class='sidebar-nav-group'>
-<a class='XURL item_block' href='/about_project' data-target='about_project' data-title='About project'><div>About project</div></a><a class='XURL item_block' href='/about_site' data-target='about_site' data-title='About site'><div>About site</div></a><a class='XURL item_block' href='/about_me' data-target='about_me' data-title='About me'><div>About me</div></a><a class='XURL item_block' href='/clientele' data-target='clientele' data-title='Clientele'><div>Clientele</div></a><a class='XURL item_block' href='/media' data-target='media' data-title='Media'><div>Media</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<div class='sidebar-nav-group page-list'>
+<a class='XURL item_block' href='/' data-target='root' data-title=''><div>home</div></a><a class='XURL item_block' href='/video' data-target='video' data-title='Video'><div>Video</div></a><a class='XURL item_block' href='/downloads' data-target='downloads' data-title='Downloads'><div>Downloads</div></a><a class='XURL item_block' href='/faq' data-target='faq' data-title='FAQ'><div>FAQ</div></a><a class='XURL item_block' href='/in_pictures' data-target='in_pictures' data-title='In pictures'><div>In pictures</div></a><a class='XURL item_block' href='/pitch' data-target='pitch' data-title='Pitch'><div>Pitch</div></a><a class='XURL item_block' href='/use_cases' data-target='use_cases' data-title='Use cases'><div>Use cases</div></a><a class='XURL item_block' href='/applications' data-target='applications' data-title='Applications'><div>Applications</div></a><a class='XURL item_block' href='/about' data-target='about' data-title='About'><div>About</div></a><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<div class='sidebar-nav-group page-list'>
+<a class='XURL item_block' href='/adoption' data-target='adoption' data-title='Adoption'><div>Adoption</div></a><a class='XURL item_block' href='/bug_report' data-target='bug_report' data-title='Bug report'><div>Bug report</div></a><a class='XURL item_block' href='/changelog' data-target='changelog' data-title='Changelog'><div>Changelog</div></a><a class='XURL item_block' href='/comparision' data-target='comparision' data-title='Comparision'><div>Comparision</div></a><a class='XURL item_block' href='/data_set' data-target='data_set' data-title='Data set'><div>Data set</div></a><a class='XURL item_block' href='/features' data-target='features' data-title='Features'><div>Features</div></a><a class='XURL item_block' href='/feedback' data-target='feedback' data-title='Feedback'><div>Feedback</div></a><a class='XURL item_block' href='/guidelines' data-target='guidelines' data-title='Guidelines'><div>Guidelines</div></a><a class='XURL item_block' href='/implementations' data-target='implementations' data-title='Implementations'><div>Implementations</div></a><a class='XURL item_block' href='/license' data-target='license' data-title='License'><div>License</div></a><a class='XURL item_block' href='/logo' data-target='logo' data-title='Logo'><div>Logo</div></a><a class='XURL item_block' href='/presentation' data-target='presentation' data-title='Presentation'><div>Presentation</div></a><a class='XURL item_block' href='/roadmap' data-target='roadmap' data-title='Roadmap'><div>Roadmap</div></a><a class='XURL item_block' href='/source_code' data-target='source_code' data-title='Source code'><div>Source code</div></a><a class='XURL item_block' href='/technology' data-target='technology' data-title='Technology'><div>Technology</div></a><a class='XURL item_block' href='/timeline' data-target='timeline' data-title='Timeline'><div>Timeline</div></a><a class='XURL item_block' href='/user_guide' data-target='user_guide' data-title='User guide'><div>User guide</div></a><a class='XURL item_block' href='/wordlist' data-target='wordlist' data-title='WordList'><div>WordList</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<div class='sidebar-nav-group page-list'>
+<a class='XURL item_block' href='/about_project' data-target='about_project' data-title='About project'><div>About project</div></a><a class='XURL item_block' href='/about_site' data-target='about_site' data-title='About site'><div>About site</div></a><a class='XURL item_block' href='/about_me' data-target='about_me' data-title='About me'><div>About me</div></a><a class='XURL item_block' href='/clientele' data-target='clientele' data-title='Clientele'><div>Clientele</div></a><a class='XURL item_block' href='/media' data-target='media' data-title='Media'><div>Media</div></a></div>
 		</div>
 	</div>
 </div>
@@ -1692,7 +1855,7 @@ var trackOutboundLink = function(title, url) {
 	<div id='footer-wrapper-inside'>
 
 		<div>
-			<span id='download_button_bottom'>
+			<span id='download_button_bottom' class='grow'>
 				<a href='/downloads'><span class='image'><?xml version="1.0" encoding="utf-8"?>
 <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="-245 368.9 104.3 104" xml:space="preserve">
@@ -1840,7 +2003,7 @@ var trackOutboundLink = function(title, url) {
 		</div>
 
 		<div id='social-links'>
-			<span class='social'>
+			<span class='social grow'>
 				<a href='https://twitter.com/wcodesorg' id='site-twitter' onclick="trackOutboundLink('wcodes-twitter', 'https://twitter.com/wcodesorg'); return false;"><span class='image'><?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -1854,7 +2017,7 @@ var trackOutboundLink = function(title, url) {
 </svg>
 </span></a>
 			</span>
-			<span class='social'>
+			<span class='social grow'>
 				<a href='https://facebook.com/wcodesorg' id='site-facebook' onclick="trackOutboundLink('wcodes-facebook', 'https://facebook.com/wcodesorg'); return false;"><span class='image'><?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -1866,7 +2029,7 @@ var trackOutboundLink = function(title, url) {
 </svg>
 </span></a>
 			</span>
-			<span class='social'>
+			<span class='social grow'>
 				<a href='https://plus.google.com/+wcodesorg' id='site-gplus' onclick="trackOutboundLink('wcodes-gplus', 'https://plus.google.com/+wcodes.org'); return false;"><span class='image'><?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
