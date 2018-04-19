@@ -9,3 +9,4 @@
 		<span class='date'>&nbsp;24 Sep 2012</span> - <span>First Public mention of Base-1024 WCodes</span><br>
 	</div>
 </div>
+<?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>

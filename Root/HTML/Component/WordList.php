@@ -96,3 +96,4 @@
 		<div class='fb-comments' data-href='https://wcodes.org/wordlist' data-numposts='50' order_by='reverse_time'></div>
 	</div>
 </div>
+<?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>

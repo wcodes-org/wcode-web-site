@@ -85,3 +85,4 @@
 		<img src="/resource/general-use_case.png" alt="WCodes are to be used in-between two disconnected computer systems" />
 	</div>
 </div>
+<?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>

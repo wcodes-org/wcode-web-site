@@ -19,6 +19,8 @@ Root\Resource\	launcher-icon-1-5x.png	\	launcher-icon-1-5x.png
 Root\Resource\	launcher-icon-2x.png	\	launcher-icon-2x.png
 Root\Resource\	launcher-icon-3x.png	\	launcher-icon-3x.png
 Root\Resource\	launcher-icon-4x.png	\	launcher-icon-4x.png
+Root\Resource\	Root.svg	\	root.svg
+Root\Resource\	Placeholder.svg	\resource\	placeholder.svg
 Root\Resource\	LG_Example.png	\	lg_example.png
 Root\Resource\	Bar_Code.png	\resource\	bar_code.png
 Root\Resource\	QR_Code.png	\resource\	qr_code.png
