@@ -110,6 +110,12 @@
 		<span>&ndash; Voilà, your number is back!</span>
 	</div>
 	</div>
+	<div id='more'>
+		<h2><span class='bullet'>&#8226;</span>more</h2>
+		<div class='indent-60'>
+			See: <?php link_xurl('menu', 'menu') ?> for detailed sections.
+		</div>
+	</div>
 </div>
 <!--
 	<p class='no-margin'>
