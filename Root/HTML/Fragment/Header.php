@@ -12,13 +12,13 @@
 	</div>
 	</div>
 	<div id='header-bar'>
-	<div><span class='toggle-push-left image' id='menu-button'><?php echo file_get_contents('..\..\Resource\Menu_icon.svg'); ?></span></div>
+	<div><span class='toggle-push-left image grow' id='menu-button'><?php echo file_get_contents('..\..\Resource\Menu_icon.svg'); ?></span></div>
 	<div id='notification' class='hide'>Error!</div>
 	<div id='header-right-list'>
 		<span id='header_buttons_right'>
-			<span id='search-button'><span class='image'><?php echo file_get_contents('..\..\Resource\Search.svg'); ?></span></span>
-			<span id='translate-button'><span class='image'><?php echo file_get_contents('..\..\Resource\Translate.svg'); ?></span></span>
-			<span id='download_button'>
+			<span id='search-button' class='grow'><span class='image'><?php echo file_get_contents('..\..\Resource\Search.svg'); ?></span></span>
+			<span id='translate-button' class='grow'><span class='image'><?php echo file_get_contents('..\..\Resource\Translate.svg'); ?></span></span>
+			<span id='download_button' class='grow'>
 				<a href='/downloads'><span class='image'><?php echo file_get_contents('..\..\Resource\Download.svg'); ?></span></a>
 			</span>
 		</span>

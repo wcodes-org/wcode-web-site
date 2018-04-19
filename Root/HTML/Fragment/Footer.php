@@ -12,7 +12,7 @@
 	<div id='footer-wrapper-inside'>
 
 		<div>
-			<span id='download_button_bottom'>
+			<span id='download_button_bottom' class='grow'>
 				<a href='/downloads'><span class='image'><?php echo file_get_contents('..\../Resource\Download.svg'); ?></span></a>
 			</span>
 			<span id='download-android-bottom' class='download coming-soon'>
@@ -26,13 +26,13 @@
 		</div>
 
 		<div id='social-links'>
-			<span class='social'>
+			<span class='social grow'>
 				<a href='https://twitter.com/wcodesorg' id='site-twitter' onclick="trackOutboundLink('wcodes-twitter', 'https://twitter.com/wcodesorg'); return false;"><span class='image'><?php echo file_get_contents('..\..\Resource\Twitter.svg'); ?></span></a>
 			</span>
-			<span class='social'>
+			<span class='social grow'>
 				<a href='https://facebook.com/wcodesorg' id='site-facebook' onclick="trackOutboundLink('wcodes-facebook', 'https://facebook.com/wcodesorg'); return false;"><span class='image'><?php echo file_get_contents('..\..\Resource\Facebook.svg'); ?></span></a>
 			</span>
-			<span class='social'>
+			<span class='social grow'>
 				<a href='https://plus.google.com/+wcodesorg' id='site-gplus' onclick="trackOutboundLink('wcodes-gplus', 'https://plus.google.com/+wcodes.org'); return false;"><span class='image'><?php echo file_get_contents('..\..\Resource\Google+.svg'); ?></span></a>
 			</span>
 		</div>
