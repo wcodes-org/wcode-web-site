@@ -2,7 +2,7 @@
 	<ul class="content-list">
 		<li>
 			<div class="content-li-title">Applications</div>
-			<ul class="content-list-2">
+			<ul class="content-list-2 content-list-no-style">
 				<li><span class="ready">&bull;</span> Windows</li>
 				<li><span class="progress">&bull;</span> Android</li>
 				<li><span class="pending">&bull; Mac</span></li>
@@ -12,7 +12,7 @@
 		</li>
 		<li>
 			<div class="content-li-title">Library</div>
-			<ul class="content-list-2">
+			<ul class="content-list-2 content-list-no-style">
 				<li><span class="ready">&bull;</span> C++</li>
 				<li><span class="progress">&bull; Java</span></li>
 				<li><span class="pending">&bull; JavaScript</span></li>

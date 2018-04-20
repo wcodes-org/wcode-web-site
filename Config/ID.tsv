@@ -1,33 +1,33 @@
-Id	Title	XURL	JS	Description
-about	About	0	0	More information about WCode
-about_me	About me	0	1	Web links of the creator of WCode - Ujjwal Singh
-about_project	About project	0	0	How the project came to be
-about_site	About site	0	0	Details of technology used to build the website
-adoption	Adoption	0	0	How can WCode be incorporated in existing Human-Computer interface systems
-applications	Applications	0	0	Application areas where WCode can be used
-bug_report	Bug report	0	0	Known bugs and Resolution history
-changelog	ChangeLog	0	0	Log of changes across versions
-clientele	Clientele	0	0	List of clients who use WCode
-comparision	Comparision	0	0	Comparision of WCode with barcode QR Code and spelling alphabets
-data_set	Data set	1	0	List of individual data elements that can be combined to form a custom structure for optimized WCode conversion
-downloads	Downloads	0	0	Download WCode binaries
-faq	FAQ	0	0	Frequently Asked Question about WCode
-feedback	Feedback	0	1	Links to provide feedback regarding WCode
-features	Features	0	0	Additional features of WCodes
-guidelines	Guidelines	0	0	Guidelines to words and related format to be used in WCode
-implementations	Implementations	0	0	Platforms for which implementations of WCode is available or proposed
-in_pictures	In pictures	0	0	Pictures relating to WCode
-license	License	1	0	Licenses to various intellectual properties related to the WCode project
-logo	Logo	0	0	Logo of WCode
-media	Media	0	0	WCode in media
-pitch	Pitch	1	0	Pitch describing
-presentation	Presentation	0	1	Slideshow - WCode introduction
-root	WCode	1	0	An encoding schema where in data is mapped to words
-roadmap	Roadmap	0	0	Future roadmap of features and implementations
-source_code	Source code	0	0	Source-code of WCode
-technology	Technology	0	0	The technical idea behind WCode
-timeline	Timeline	0	0	Markable events in project WCode's lifetime
-use_cases	Use cases	1	0	Real world use-cases of WCode
-user_guide	User guide	0	0	Instruction manual to using the WCode application
-video	Video	0	0	Introduction video describing WCode
-wordlist	WordList	0	1	List of 1024 words used in WCode
+Id	Title	JS	Description
+about	About	0	More information about WCode
+about_me	About me	1	Web links of the creator of WCode - Ujjwal Singh
+about_project	About project	0	How the project came to be
+about_site	About site	0	Details of technology used to build the website
+adoption	Adoption	0	How can WCode be incorporated in existing Human-Computer interface systems
+applications	Applications	0	Application areas where WCode can be used
+bug_report	Bug report	0	Known bugs and Resolution history
+changelog	ChangeLog	0	Log of changes across versions
+clientele	Clientele	0	List of clients who use WCode
+comparision	Comparision	0	Comparision of WCode with barcode QR Code and spelling alphabets
+data_set	Data set	0	List of individual data elements that can be combined to form a custom structure for optimized WCode conversion
+downloads	Downloads	0	Download WCode binaries
+faq	FAQ	0	Frequently Asked Question about WCode
+feedback	Feedback	1	Links to provide feedback regarding WCode
+features	Features	0	Additional features of WCodes
+guidelines	Guidelines	0	Guidelines to words and related format to be used in WCode
+implementations	Implementations	0	Platforms for which implementations of WCode is available or proposed
+in_pictures	In pictures	0	Pictures relating to WCode
+license	License	0	Licenses to various intellectual properties related to the WCode project
+logo	Logo	0	Logo of WCode
+media	Media	0	WCode in media
+pitch	Pitch	0	Pitch describing
+presentation	Presentation	1	Slideshow - WCode introduction
+root	WCode	0	An encoding schema where in data is mapped to words
+roadmap	Roadmap	0	Future roadmap of features and implementations
+source_code	Source code	0	Source-code of WCode
+technology	Technology	0	The technical idea behind WCode
+timeline	Timeline	0	Markable events in project WCode's lifetime
+use_cases	Use cases	0	Real world use-cases of WCode
+user_guide	User guide	0	Instruction manual to using the WCode application
+video	Video	0	Introduction video describing WCode
+wordlist	WordList	1	List of 1024 words used in WCode
