@@ -5,9 +5,9 @@ Directory	File	Path	File
 Root\Resource\	Apple-Touch-Icon.png	\	apple-touch-icon.png
 Root\Resource\	Icon-Social.png	\	icon-social.png
 Root\Resource\	FavIcon.ico	\	favicon.ico
+Root\Resource\	Logo_small.png	\	logo_small.png
+Root\Resource\	Logo_small.svg	\	logo_small.svg
 Root\Resource\	Logo_Full.png	\	logo_full.png
-Root\Resource\	Logo.svg	\	logo.svg
-Root\Resource\	Logo.png	\	logo.png
 Root\Resource\	Logo_Full.svg	\	logo_full.svg
 Root\Resource\	Logo_W.png	\resource\	logo_w.png
 Root\Resource\	Logo_N.png	\resource\	logo_n.png

@@ -1,11 +1,11 @@
 <table id="logo-table">
 	<tbody>
 		<tr>
-			<td><img src="/logo.png" /></td>
+			<td><img src="/logo_small.png" /></td>
 			<td>
 				Logo<br>
 				<br>
-				<a class="content-link indent-10" href="/logo.svg">
+				<a class="content-link indent-10" href="/logo_small.svg">
 					SVG
 				</a>
 			</td>
