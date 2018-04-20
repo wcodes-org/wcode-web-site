@@ -205,6 +205,10 @@ ul.list-bullet li, ol.list-bullet li {
 ul.content-list-2, ol.content-list-2 {
 	padding-left: 10px;
 }
+
+.content-list-no-style {
+	list-style: none !important;
+}
 #table_version>tbody>tr>td:first-child {
 	color: #808080;
 	padding-right: 12px
@@ -662,6 +666,7 @@ span.header-logo {
 	width: 158px;
 	height: 32px;
 	margin-top: -5px;
+	overflow: hidden;
 	
 	border-style: solid;
 	border-width: 1px;
@@ -1810,6 +1815,18 @@ var trackOutboundLink = function(title, url) {
 	I found, much later, the website: <a class='content-link' href='http://shoutkey.com'>ShoutKey.com</a> by <em>Chad Etzel</em><br>
 	It too uses word codes but it's dictionary is liberal and the application is limited only to shortened temporary URLs.
 </div>
+<div class='center' id='content-body-separator'></div>
+<div id='nav-list' class='center page-list'>
+	<a id='nav-menu-prev'
+			class='XURL item_block_container' href='/about_me' data-target='about_me' data-title='About me' >
+		<img class='item_block_image item_block_image_visible' src='/resource/placeholder.svg'><div class="item_block_text"><div class='arrow'>&#x25C1;</div><div>About me</div></div>
+		</a><a id='nav-menu-next'
+			class='XURL item_block_container' href='/about_site' data-target='about_site' data-title='About site' >
+		<img class='item_block_image item_block_image_visible' src='/resource/placeholder.svg'><div class="item_block_text"><div>About site</div><div class='arrow'>&#x25B7;</div></div>
+	</a><a id='nav-menu-up' class='XURL item_block_container center-arrow' href='' data-target='root' data-title='WCode'>
+		<img class='item_block_image item_block_image_hidden' src='/root.svg '><div class="item_block_text"><div></div><div class='arrow'>&#x25B3;</div></div>
+	</a>
+</div>
 									</div>
 								</div>
 							</div>
@@ -1824,7 +1841,7 @@ var trackOutboundLink = function(title, url) {
 		<div id='updated'>
 			Updated:
 			<span id='date'>
-				2017 Jun 05			</span>
+				2018 Apr 20			</span>
 		</div>
 	</div>
 	<div class='shadow-scroll-bottom'></div>

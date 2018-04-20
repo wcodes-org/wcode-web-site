@@ -205,6 +205,10 @@ ul.list-bullet li, ol.list-bullet li {
 ul.content-list-2, ol.content-list-2 {
 	padding-left: 10px;
 }
+
+.content-list-no-style {
+	list-style: none !important;
+}
 #table_version>tbody>tr>td:first-child {
 	color: #808080;
 	padding-right: 12px
@@ -662,6 +666,7 @@ span.header-logo {
 	width: 158px;
 	height: 32px;
 	margin-top: -5px;
+	overflow: hidden;
 	
 	border-style: solid;
 	border-width: 1px;
@@ -1843,7 +1848,7 @@ var trackOutboundLink = function(title, url) {
 		</a><a id='nav-menu-next'
 			class='XURL item_block_container' href='/feedback' data-target='feedback' data-title='Feedback' >
 		<img class='item_block_image item_block_image_visible' src='/resource/placeholder.svg'><div class="item_block_text"><div>Feedback</div><div class='arrow'>&#x25B7;</div></div>
-		</a><a id='nav-menu-up' class='XURL item_block_container center-arrow' href='/root' data-target='root' data-title='WCode'>
+	</a><a id='nav-menu-up' class='XURL item_block_container center-arrow' href='' data-target='root' data-title='WCode'>
 		<img class='item_block_image item_block_image_hidden' src='/root.svg '><div class="item_block_text"><div></div><div class='arrow'>&#x25B3;</div></div>
 	</a>
 </div>
