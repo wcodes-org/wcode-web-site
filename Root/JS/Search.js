@@ -1,5 +1,5 @@
 function execSearch(event) {
-	var input = word_search_box.value;
+	var input = word_search_box.value.toLowerCase();
 	if(input.length == 0)
 		classie.add(search_input_clear, 'hide');
 	else if(input[input.length-1] == ' ') {
@@ -9,7 +9,9 @@ function execSearch(event) {
 	}
 	else
 		classie.remove(search_input_clear, 'hide');
-	changeWordList(wordListArray, input);
+	setWordList(input, true);
+	document.getElementById('wordlist-table-separator').classList.remove('hide');
+	setWordList(input, false);
 };
 
 function matchWord(list, input) {
@@ -22,13 +24,3 @@ function matchWord(list, input) {
 	});
 }
 
-function changeWordList(list, val) {
-	var autoCompleteResult = matchWord(list, val);
-	var result = document.getElementById('wordlist-table');
-	result.innerText = '';
-	for(var i = 0; i < autoCompleteResult.length; i++) {
-		var option = document.createElement('span');
-		option.innerText = autoCompleteResult[i];
-		result.appendChild(option);
-	}
-}

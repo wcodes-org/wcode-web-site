@@ -1,10 +1,13 @@
-#wordlist_version {
+#wordlist-version {
 	font-size: smaller;
 }
 
+#wordlist-links {
+	text-align: right;
+}
+
 #wordlist-table {
-	padding-left: 20px;
-	border-spacing: 10px 10px
+	border-spacing: 10px 10px;
 }
 
 #wordlist-table span {
@@ -18,7 +21,7 @@
 }
 
 #wordlist_search {
-	padding: 20px;
+	margin: 20px;
 }
 
 #search-button_icon_wordlist {
@@ -34,8 +37,53 @@
 	border-left: none;
 	border-right: none;
 	font-size: larger;
+	text-transform: lowercase;
 }
 
 #search_input_clear {
 	cursor: pointer;
+}
+
+.primary {
+	margin-top: 10px;
+	margin-left: 34px;
+}
+
+.primary > div:first-child {
+	font-size: larger;
+}
+
+.secondary {
+	margin-left: 40px;
+}
+
+.secondary > div:first-child {
+	font-size: large;
+}
+
+.primary .secondary > div > span {
+	margin-left: 40px;
+}
+
+#words-remaining {
+	margin-left: 58px;
+}
+
+#wordlist-table-separator {
+	margin: 32px auto 22px;	
+	border-top: 1px dashed #f96969;
+	max-width: 240px;
+}
+
+#wordlist-table-black {
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+
+#wordlist-table-white > div:last-child * {
+	color: #aaa !important;
+}
+
+#wordlist-table-black span {
+	color: #f96969 !important;
 }

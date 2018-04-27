@@ -1,0 +1,16 @@
+@media (max-width: 540px) {
+	
+	.primary {
+		margin-left: 0;
+		margin-top: 6px;
+	}
+	
+	.secondary {
+		margin-left: 10px;
+	}
+	
+	.primary .secondary > div > span {
+		margin-left: 10px;
+	}
+
+}

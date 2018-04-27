@@ -1,5 +1,5 @@
-<div class='message'>
-	<em><strong>Word</strong></em> selection criteria:
+<div id='message'>
+	<h3>Word selection criteria:</h3>
 	<ol class='indent-40'>
 		<li>
 			Nouns
@@ -62,38 +62,80 @@
 			</div>
 		</li>
 	</ol>
+	<br>
+	<h3>Wordlist</h3>
+	<div class='center' id='wordlist_search'>
+		<span id='search-button_icon_wordlist'><span class='image'><?php echo file_get_contents('..\..\Resource\Search_wordList.svg'); ?></span></span>
+		<input id='word_search_box' type='text' placeholder="search ( 'space' clears )">
+		<span class='hide' id='search_input_clear'><span class='image'><?php echo file_get_contents('..\..\Resource\Cross.svg'); ?></span></span>
+	</div>
+	<div id='wordlist-table' class='indent-20'>
+		<div id='wordlist-table-white'>
+		<?php
+			$lines = file('../../File/Wordlist.tsv', FILE_IGNORE_NEW_LINES|FILE_SKIP_EMPTY_LINES);
+			$arWord = array_map(function($v) {
+				return (explode("\t", $v));
+			}, $lines);
+			$bPrimaryCat = false;
+			$bSecondaryCat = false;
+			$bWordCat = false;
+			for($i = 1; $i < sizeOf($arWord); $i++) {
+				echo $arWord[$i][0];
+				if($arWord[$i][1] != NULL) {
+					if($bPrimaryCat) { ?>
+						</div></div>
+					<?php }
+					else
+						$bPrimaryCat = true;
+					if($bSecondaryCat) { ?>
+						</div>
+						<?php $bSecondaryCat = false;
+					} ?>
+						<div class='primary'><div class='primary-word'><?php echo $arWord[$i][1] ?></div>
+				<?php }
+				if($arWord[$i][2] != NULL) {
+					if($bSecondaryCat) { ?>
+					</div></div>
+					<?php
+					} else
+						$bSecondaryCat = true;
+					?>
+					<div class='secondary'><div class='secondary-word'><?php echo $arWord[$i][2] ?></div><div>
+				<?php }
+				if($arWord[$i][3] != NULL) { ?>
+						<span>
+							<?php echo $arWord[$i][3]; ?>
+						</span>
+				<?php }
+				if($arWord[$i][4] != NULL) { ?>
+						<span>
+							<?php echo $arWord[$i][4]; ?>
+						</span>
+				<?php }
+				if($arWord[$i][5] != NULL) { ?>
+						<span>
+							<?php echo $arWord[$i][5]; ?>
+						</span>		
+				<?php }
+			}
+		?>
+			</div></div></div>
+		</div>
+		<div id='wordlist-table-separator' class='hide'></div>
+		<div id='wordlist-table-black'></div>
+	</div>
+	<div id='words-remaining'>* <?php echo 1024-sizeOf($arWord) ?> remaining</div>
 	<div class='top-bottom-gap'>
-		<div>
-			<strong><a class='content-link' href='/wordlist.txt' target='_blank'>WordList.txt</a></strong>
-			<span id='wordlist_version'>( v 1.0 )</span>
-		</div>
-		<div class='center' id='wordlist_search'>
-			<span id='search-button_icon_wordlist'><span class='image'><?php echo file_get_contents('..\..\Resource\Search_wordList.svg'); ?></span></span>
-			<input id='word_search_box' type='text' placeholder="search ( 'space' clears )">
-			<span class='hide' id='search_input_clear'><span class='image'><?php echo file_get_contents('..\..\Resource\Cross.svg'); ?></span></span>
+		<div id='wordlist-links'>
+			<span id='wordlist-version'> v 1.0</span>
+			<strong>
+				<a class='content-link' href='/wordlist.tsv' target='_blank'>[ .tsv ]</a>
+			</strong>
 		</div>
 	</div>
-	<div id='wordlist-table'>
-	<?php
-		$arWord = file('../../File/WordList.txt', FILE_IGNORE_NEW_LINES);
-		for($i = 0; $i < 1024; $i++) {
-	?>
-			<span>
-	<?php
-			if(sizeOf($arWord) > $i)
-				echo $arWord[$i];
-			else
-				echo '_';
-	?>
-			</span>
-	<?php
-		}
-	?>
-	</div>
-	<div class='top-bottom-gap'></div>
-	<div>You are welcome to submit suggestions to improve this wordlist, below, under public domain.</div>
-	<div class='indent-40'>
-		<div class='fb-comments' data-href='https://wcodes.org/wordlist' data-numposts='50' order_by='reverse_time'></div>
-	</div>
+	<div class='indent-20'>You are welcome to suggest improvements to this wordlist below, under the public domain.</div>
+</div>
+<div class='indent-20'>
+	<div class='fb-comments' data-href='https://wcodes.org/wordlist' data-numposts='50' data-order_by='reverse_time'></div>
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
