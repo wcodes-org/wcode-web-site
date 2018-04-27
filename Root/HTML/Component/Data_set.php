@@ -1,5 +1,5 @@
-<div class="message">
 	<table id="data_set-table">
+<div id='message'>
 		<thead>
 			<tr>
 				<th class="R1">Type</th>

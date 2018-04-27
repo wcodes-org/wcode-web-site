@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	<ol class="content-list">
 		<li>
 			<div class="content-li-title">What is WCode?</div>

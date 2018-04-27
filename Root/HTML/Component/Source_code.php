@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	To be announced..<br>
 	<br>
 	<div class="tba">

@@ -1,4 +1,4 @@
-<div class='message'>
+<div id='message'>
 	Once while having to enter sequences of hexadecimal nibbles - I realised how - tedious and error-prone the process was.<br>
 	<br>
 	Thinking of how hex-symbols represent binary bits - <br>

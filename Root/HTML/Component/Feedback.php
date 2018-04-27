@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	<div><strong>Write to:</strong></div>
 	<br>
 	<table id="feedback-contact-table">

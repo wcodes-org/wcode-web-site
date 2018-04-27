@@ -1,4 +1,4 @@
-<div class='message'>
+<div id='message'>
 	<div class='description'>
 		<p class='no-margin'>
 		WCodes are <strong>readable by humans</strong>. To decode data though, a computer is still required.<br>

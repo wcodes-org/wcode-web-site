@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	<ul class="content-list">
 		<li>
 			Due to the limited dictionary, predictive input makes manual entry into a computer: quick and easy.<br>

@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	<div id="content-timeline">
 		<span class='date'>&nbsp;25 Sep 2015</span> - <span>Contacted UK IPO office siting prior art for patent application no: GB1307148.5 : <a class='content-link' href='https://www.ipo.gov.uk/p-pj?lastResult=560&perPage=10&startYear=2013&startMonth=May&startDay=29th+-+6471&endYear=2013&endMonth=May&endDay=29th+-+6471&filter=&sort=Publication+Date&status=undefined' onclick='trackOutboundLink("wcodes-ipo-w3w-init", "https://www.ipo.gov.uk/p-pj?lastResult=560&perPage=10&startYear=2013&startMonth=May&startDay=29th+-+6471&endYear=2013&endMonth=May&endDay=29th+-+6471&filter=&sort=Publication+Date&status=undefined"); return false;'>IPO.GOV.UK GB1307148.5</a></span><br>
 		<span class='date'>&nbsp;20 Sep 2015</span> - <span>Posted patent 'prior art' question on 'AskPatent' : <a class='content-link' href='http://patents.stackexchange.com/q/13629/3127' onclick='trackOutboundLink("wcodes-psx-w3w-init", "http://patents.stackexchange.com/q/13629/3127"); return false;'>patents.stackexchange.com/q/13629/3127</a></span><br>

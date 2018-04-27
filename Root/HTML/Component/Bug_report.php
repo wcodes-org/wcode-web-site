@@ -1,4 +1,4 @@
-<div class='message'>
+<div id='message'>
 	<h1><strong>Known Bugs &amp; Resolution history:</strong></h1>
 	<p>
 		v1.0

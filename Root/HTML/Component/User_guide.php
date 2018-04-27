@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	<div class='center'>
 		<img src="/resource/screen_guide.png" alt="captioned screen shot of the WCode windows GUI application" />
 	</div>

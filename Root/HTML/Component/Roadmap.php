@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	<ul class="content-list">
 		<li>
 			v -.-

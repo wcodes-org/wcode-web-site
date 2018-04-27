@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	<p>
 		I have always wondered - why do we all still have to go through the same troubles when exchanging numbers especially over phone by speech. Isn't there a better way?
 	</p>

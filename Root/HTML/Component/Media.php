@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	WCode in Media:
 	<span class="gray content-low">&ndash;empty&ndash;</span>
 </div>

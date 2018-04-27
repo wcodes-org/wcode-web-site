@@ -22,6 +22,7 @@
 		</tr>
 	</tbody>
 </table>
+<div id='message'>
 
 <table id="logo-part-table">
 	<tbody>

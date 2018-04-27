@@ -1,4 +1,4 @@
-<div class="message">
+<div id='message'>
 	<span>Based on an encoding schema, where in literal words represent digital data.</span>
 	<h2><span class='bullet'>&#8226;</span>Human factor</h2>
 	<div class='indent-20'>

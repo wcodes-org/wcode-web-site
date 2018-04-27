@@ -1,5 +1,5 @@
-<div class="message">
 	<ul class="content-list">
+<div id='message'>
 		<li>
 			<span id='download-windows' class='download'>
 				<a href='/wcodex86.msi' downlaod='WCodex86.msi' class='content-link'><span class='image'><?php echo file_get_contents('../../resource/windows.svg'); ?></span></a>
