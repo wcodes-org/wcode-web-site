@@ -25,7 +25,7 @@
 		<div class='indent-60'>
 			WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
 			<div>
-				Like when exchanging email addresses, mobile numberes or GPS co-coordinates by speech or writing </li>
+				Like when exchanging email addresses, mobile numberes or GPS co-coordinates by speech or writing
 			</div>
 		</div>
 		<p>
