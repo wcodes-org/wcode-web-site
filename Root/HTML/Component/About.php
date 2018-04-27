@@ -1,8 +1,7 @@
 <div id='message'>
 	<div class='description'>
-		<p class='no-margin'>
-		WCodes are <strong>readable by humans</strong>. To decode data though, a computer is still required.<br>
-		<br>
+		<div class='no-margin'>
+		<p>WCodes are <strong>readable by humans</strong>. To decode data though, a computer is still required.</p>
 		This makes it possible for WCodes to be:
 		<ul class='list-dash'>
 			<li>
@@ -72,7 +71,7 @@
 				<span class='indent-32'>at least: small portions of a long code &mdash; which aids manual entry.</span>
 			</li>
 		</ul>
-		</p>
+		</div>
 		<p>
 		For WCodes to be efficient: it is recommended that a set of 2<sup>n</sup> popular, unique and phonetically distinct nouns be used for the words of a WCode.<br>
 		See: <a class="content-link XURL" href='/wordlist' data-target='wordlist' data-title='Wordlist'>WordList</a> &amp; <a class="content-link XURL" href='/guidelines' data-target='guidelines' data-title='Guidelines'>Guidelines</a>
