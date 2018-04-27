@@ -40,7 +40,7 @@ span#bar-code, span#qr-code {
 	font-size: 17px
 }
 
-.message.alt_div_shade {
+#message.alt_div_shade {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 }
