@@ -1,5 +1,5 @@
-	<table id="data_set-table">
 <div id='message'>
+	<table id='data_set-table'>
 		<thead>
 			<tr>
 				<th class="R1">Type</th>
@@ -128,7 +128,7 @@
 	<strong>Custom Data Sets</strong>:
 	[ <span class="content-low">Draft.</span>
 	target v 1.0 See: <a class="content-link XURL" href="/roadmap" data-target="roadmap" data-title='Roadmap'>Roadmap</a> ]<br>
-	<table id="data_set_custom-table">
+	<table id='data_set_custom-table'>
 		<caption>
 			Example: University Serial Number: 1DB05EE057
 		</caption>
@@ -186,7 +186,7 @@
 		</tbody>
 		<tfoot>
 			<tr>
-				<td colspan="6">Total n = 50*200*100*5*999 = 4995000000 | 33 Bits</td>
+				<td colspan='6'>Total n = 50*200*100*5*999 = 4995000000 | 33 Bits</td>
 			</tr>
 		</tfoot>
 	</table>
