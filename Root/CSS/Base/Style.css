@@ -1,17 +1,17 @@
 strong {
-	color: #69b7cf!important;
+	color: #69b7cf !important;
 }
 
 .bullet {
 	padding: 0 8px 0 5px;
-	color: #c8c8c8!important;
+	color: #c8c8c8 !important;
 	font-size: 0.3em;
 	visibility: hidden;
 }
 
 .list-dash {
 	list-style-type: none;
-	padding-left: 16px
+	padding-left: 16px;
 }
 
 .list-dash li {
@@ -96,7 +96,7 @@ strong {
 	}
 }
 
-ul li firstChild{
+ul li firstChild {
 	color: #69b7cf;
 }
 
