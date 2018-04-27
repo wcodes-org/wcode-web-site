@@ -1,5 +1,5 @@
-	<ul class="content-list">
 <div id='message'>
+	<ul class='content-list'>
 		<li>
 			<span id='download-windows' class='download'>
 				<a href='/wcodex86.msi' downlaod='WCodex86.msi' class='content-link'><span class='image'><?php echo file_get_contents('../../resource/windows.svg'); ?></span></a>
@@ -8,14 +8,14 @@
 			<div>
 				<span> - version</span> <span id='download_version'>1.2</span>
 			</div>
-			<ul class="download-content-list-2">
+			<ul class='download-content-list-2'>
 				<li>
 					<span>x86 <span class='gray'>- ( download this if you are not sure )</span></span>
 						<ul>
 							<li>
-								<a class="content-link" href="/wcodex86.msi" downlaod="WCodex86.msi">Installer</a>
-								<span class="downlaod-hash">
-									<span>SHA-256: <span class="download-hash-value">4984EC7F2ADFA426D685D642D93AF8ADBFF3CFA5BE3795E26BDF6618B98B30A8</span></span>
+								<a class='content-link' href='/wcodex86.msi' download='WCodex86.msi'>Installer</a>
+								<span class='download-hash'>
+									<span>SHA-256: <span class='download-hash-value'>4984EC7F2ADFA426D685D642D93AF8ADBFF3CFA5BE3795E26BDF6618B98B30A8</span></span>
 								</span>
 							</li>
 							<!-- li>
@@ -27,9 +27,9 @@
 					<span>x64</span>
 						<ul>
 							<li>
-								<a class="content-link" href="/wcodex64.msi" download="WCodex64.msi">Installer</a>
-								<span class="downlaod-hash">
-									<span>SHA-256: <span class="download-hash-value">C4582365F5BE2992289BC43FDEBD28062FEB25860F988A37593C79A023BDBD32</span></span>
+								<a class='content-link' href='/wcodex64.msi' download='WCodex64.msi'>Installer</a>
+								<span class='download-hash'>
+									<span>SHA-256: <span class='download-hash-value'>C4582365F5BE2992289BC43FDEBD28062FEB25860F988A37593C79A023BDBD32</span></span>
 								</span>
 							</li>
 							<!-- li>
@@ -42,7 +42,7 @@
 		<li>
 			<span class='download download-android coming-soon'>
 				<span>coming soon</span>
-				<a><span class='image'><img src="/resource/google-play-badge.png" alt="WCode number example - comics" /></span></a>
+				<a><span class='image'><img src='/resource/google-play-badge.png' alt="WCode number example - comics" /></span></a>
 			</span>
 		</li>
 		<li>
