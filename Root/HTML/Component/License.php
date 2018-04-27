@@ -27,14 +27,12 @@
 				</ol>
 			</div>
 		</li>
-		<br>
 		<li>
 			<div>Source code</div>
 			<p>
 				<a class="content-link XURL" href="/source_code" data-target="source_code" data-title='Source code'>Source code</a> &ndash; license: to be announced.
 			</p>
 		</li>
-		<br>
 		<li>
 			<div>Sourced content</div>
 			<p>
@@ -45,7 +43,6 @@
 					I shall make my best effort to duly list the source and author's name and a link back to the source beside such content.
 			</p>
 		</li>
-		<br>
 	</ol>
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
