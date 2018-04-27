@@ -28,10 +28,8 @@
 				Like when exchanging email addresses, mobile numberes or GPS co-coordinates by speech or writing
 			</div>
 		</div>
-		<p>
-			<div class="center">
-				<img src="/resource/general-use_case.png" alt="WCode general use-case" />
-			</div>
+		<p class="center">
+			<img src="/resource/general-use_case.png" alt="WCode general use-case">
 		</p>
 	</div>
 	<div id='why'>
