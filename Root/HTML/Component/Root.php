@@ -48,12 +48,12 @@
 								<div class='cell'><em>WCode</em></div>
 							</div>
 							<div class='tbl-col'>
-								<div class='cell'><span> – </span><span class='t-size'>6</span><span class='t-type'> digits </div>
-								<div class='cell'><span> – </span><span class='t-size'>4</span><span class='t-type'> nouns </div>
+								<div class='cell'><span> – </span><span class='t-size'>6</span><span class='t-type'> digits </span></div>
+								<div class='cell'><span> – </span><span class='t-size'>4</span><span class='t-type'> nouns </span></div>
 							</div>
 							<div class='tbl-col indent-10'>
-								<div class='blue'><span class='blue t-data'>1</span><span class='blue t-data'>2</span><span class='blue t-data'>3</span><span class='blue t-data'>4</span><span class='blue t-data'>5</span><span class='blue t-data'>6</div>
-								<div class='blue'><span class='blue t-data'>Cat</span><span class='blue t-data'>Apple</span><span class='blue t-data'>Mango</span><span class='blue t-data'> Tomato </div>
+								<div class='blue'><span class='blue t-data'>1</span><span class='blue t-data'>2</span><span class='blue t-data'>3</span><span class='blue t-data'>4</span><span class='blue t-data'>5</span><span class='blue t-data'>6</span></div>
+								<div class='blue'><span class='blue t-data'>Cat</span><span class='blue t-data'>Apple</span><span class='blue t-data'>Mango</span><span class='blue t-data'> Tomato </span></div>
 							</div>
 						</div>
 					</div>
