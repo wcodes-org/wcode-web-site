@@ -126,9 +126,9 @@
 		<strong>Operators</strong>: List-Separator [ , ], Alternate [ | ], Carry-over [ : ], Replace [ &gt; ]
 	</p>
 	<p>
-	<strong>Custom Data Sets</strong>:
-	[ <span class="content-low">Draft.</span>
-	target v 1.0 See: <a class="content-link XURL" href="/roadmap" data-target="roadmap" data-title='Roadmap'>Roadmap</a> ]<br>
+		<strong>Custom Data Sets</strong>:
+		<span class='content-low'>( draft )</span>
+	</p>
 	<table id='data_set_custom-table'>
 		<caption>
 			Example: University Serial Number: 1DB05EE057
@@ -191,6 +191,5 @@
 			</tr>
 		</tfoot>
 	</table>
-	</p>
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
