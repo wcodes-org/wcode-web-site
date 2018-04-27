@@ -3,55 +3,55 @@
 	<table id='data_set-table'>
 		<thead>
 			<tr>
-				<th class="R1">Type</th>
-				<th class="R2">ID</th>
+				<th class='R1'>Type</th>
+				<th class='R2'>ID</th>
 				<th>Set</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>Symbol-Set</td>
-				<td>BASE-2</td>
+				<td>BASE_2</td>
 				<td>0, 1</td>
 			</tr>
 			<tr>
 				<td>Symbol-Set</td>
-				<td>BASE-8</td>
+				<td>BASE_8</td>
 				<td>0, 1, 2, 3, 4, 5, 6, 7</td>
 			</tr>
 			<tr>
 				<td>Symbol-Set</td>
-				<td>BASE-10</td>
+				<td>BASE_10</td>
 				<td>0, 1, 2, 3, 4, 5, 6, 7, 8, 9</td>
 			</tr>
 			<tr>
 				<td>Symbol-Set</td>
-				<td>BASE-16</td>
+				<td>BASE_16</td>
 				<td>0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A | a, B | b, C | c, D | d, E | e, F | f</td>
 			</tr>
 			<tr>
 				<td>Symbol-Set</td>
-				<td>BASE-32</td>
+				<td>BASE_32</td>
 				<td>A | a, B | b, C | c, D | d, E | e, F | f, G | g, H | h, I | i, J | j, K | k, L | l, M | m, N | n, O | o, P | p, Q | q, R | r, S | s, T | t, U | u, V | v, W | w, X | x, Y | y, Z | z, 2, 3, 4, 5, 6, 7</td>
 			</tr>
 			<tr>
 				<td>Symbol-Set</td>
-				<td>BASE-64</td>
+				<td>BASE_64</td>
 				<td>a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, /, +</td>
 			</tr>
 			<tr>
-				<td>&gt;Symbol-Set</td>
-				<td>BASE-2#TF</td>
+				<td>:Symbol-Set</td>
+				<td>BASE_2#TF</td>
 				<td>F | f, T | t</td>
 			</tr>
 			<tr>
-				<td>&gt;Symbol-Set</td>
-				<td>BASE-64#URL</td>
+				<td>:Symbol-Set</td>
+				<td>BASE_64#URL</td>
 				<td>: / &gt; _, + &gt; -</td>
 			</tr>
 			<tr>
-				<td>&gt;Symbol-Set</td>
-				<td>BASE-32#ENG-ABT</td>
+				<td>:Symbol-Set</td>
+				<td>BASE_32#ENG_ABT</td>
 				<td>
 					a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, ^, SPACE, ., -, _, @<br>
 					<table>
