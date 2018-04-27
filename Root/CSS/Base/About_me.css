@@ -1,0 +1,14 @@
+#linkedin-badge > img {
+	width: 160px;
+	height: 33px;
+	border: 0;
+}
+
+#stackoverflow-badge > img {
+	width: 208px;
+	height: 58px;
+}
+
+#facebook-badge > img {
+	border: 0;
+}
