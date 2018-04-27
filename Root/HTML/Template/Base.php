@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" itemscope="" itemtype="http://schema.org/WebPage">
 <head>
-	<meta http-equiv="X-UA-Compatible" content="chrome=1" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
 	<meta name="title" content="<?php echo $config['project_title'] ?>" >
 	<meta name="author" content="<?php echo $config['author'] ?>" >
@@ -36,7 +36,7 @@
 		require '../JS/Fragment/BodyBegin_FB.php';
 ?>
 		<script async src="//apis.google.com/js/platform.js" defer></script>
-		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<script async src="//platform.twitter.com/widgets.js"></script>
 <?php
 	}
 ?>
