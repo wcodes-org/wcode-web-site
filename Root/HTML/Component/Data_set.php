@@ -1,4 +1,5 @@
 <div id='message'>
+	<h3>Type table</h3>
 	<table id='data_set-table'>
 		<thead>
 			<tr>
