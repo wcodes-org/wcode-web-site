@@ -4,6 +4,7 @@ Directory	File	Path	File
 .\Site\	BingSiteAuth.xml	\	bingsiteauth.xml
 Root\Resource\	Apple-Touch-Icon.png	\	apple-touch-icon.png
 Root\Resource\	Icon-Social.png	\	icon-social.png
+Root\Resource\	Social.png	\	social.png
 Root\Resource\	FavIcon.ico	\	favicon.ico
 Root\Resource\	Logo_small.png	\	logo_small.png
 Root\Resource\	Logo_small.svg	\	logo_small.svg
