@@ -57,6 +57,7 @@
 					<td>0 1 2 3 4 5 6	7 8 9 A B C D E F</td>
 				</tr>
 				<tr>
+					<th></th>
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
@@ -74,6 +75,7 @@
 					<td>1</td>
 				</tr>
 				<tr>
+					<th></th>
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
@@ -173,8 +175,8 @@
 										<td>
 											<span class="blue">0100000101</span>
 										</td>
-									<tr>
 									</tr>
+									<tr>
 										<td>
 											<span class="gray">Coffee</span>
 										</td>
