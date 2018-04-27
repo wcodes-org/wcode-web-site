@@ -1,4 +1,5 @@
-#presentation-frame {
+#g-presentation {
 	width: 100%;
-	height: 500px
+	height: 500px;
+	border: 0;
 }
