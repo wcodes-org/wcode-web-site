@@ -14,7 +14,7 @@
 					<li>
 						<span>
 							High Contrast &mdash; Bi-colour<br>
-							preferably Black &amp; White.</li>
+							preferably Black &amp; White.
 						</span>
 					<li>
 						<span>
