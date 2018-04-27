@@ -1,0 +1,22 @@
+@media (max-width: 540px) {
+	
+	#footer-wrapper-inside {
+		padding-top: 16px;
+	}
+
+	#download-apple-bottom {
+		clear: both;
+		display: block;
+	}
+
+	#download-android-bottom {
+		clear: both;
+		display: block;
+		margin: 6px auto;
+	}
+	
+	.download {
+		margin: 0;
+	}
+	
+}
