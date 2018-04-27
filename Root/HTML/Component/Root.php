@@ -43,18 +43,18 @@
 					<div class='indent-32'>
 						As in the example above:
 						<div id='comparison-table'>
-							<span class='tbl-col'>
+							<div class='tbl-col'>
 								<div class='cell'><em>Original</em></div>
 								<div class='cell'><em>WCode</em></div>
-							</span>
-							<span class='tbl-col'>
+							</div>
+							<div class='tbl-col'>
 								<div class='cell'><span> – </span><span class='t-size'>6</span><span class='t-type'> digits </div>
 								<div class='cell'><span> – </span><span class='t-size'>4</span><span class='t-type'> nouns </div>
-							</span>
-							<span class='tbl-col indent-10'>
+							</div>
+							<div class='tbl-col indent-10'>
 								<div class='blue'><span class='blue t-data'>1</span><span class='blue t-data'>2</span><span class='blue t-data'>3</span><span class='blue t-data'>4</span><span class='blue t-data'>5</span><span class='blue t-data'>6</div>
 								<div class='blue'><span class='blue t-data'>Cat</span><span class='blue t-data'>Apple</span><span class='blue t-data'>Mango</span><span class='blue t-data'> Tomato </div>
-							</span>
+							</div>
 						</div>
 					</div>
 				</details>
