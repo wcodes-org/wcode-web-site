@@ -19,13 +19,13 @@
 				Licensees may copy, distribute, display and perform the work and make derivative works based on it<br>
 				only if they give the author or licensor the credits in the manner specified by these:<br>
 			</div>
-			<p>
+			<div class="top-bottom-gap">
 				<ol>
 					<li>Explicitly state that it has been derived from this work</li>
 					<li>Mention this author's full name</li>
 					<li>Provide a URL link back to this site</li>
 				</ol>
-			</p>
+			</div>
 		</li>
 		<br>
 		<li>
@@ -39,11 +39,10 @@
 			<div>Sourced content</div>
 			<p>
 				Disclaimer:
-				<div class="indent-20">
-					Any content collected from over the internet, unless in the public domain is property of the original owner.
-					<br>
+			</p>
+			<p class="indent-20">
+					Any content sourced from the internet, unless in the public domain is property of the original owner.<br>
 					I shall make my best effort to duly list the source and author's name and a link back to the source beside such content.
-				</div>
 			</p>
 		</li>
 		<br>
