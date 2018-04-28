@@ -1,28 +1,6 @@
-<svg version="1.1"
-	 xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100 58"
-	 enable-background="new 0 0 100 58">
-	<g id="text3368" transform="scale(1.0983833,0.910429)">
-		<path id="path3373" fill="#56B4D1" d="M78.6,6.5L64,57.9
-			h-7.7L45.5,17.1L35,57.9h-7.5L12.7,6.5h7.9l11.1,41.3L41.9,6.5h7.6L60,48.2L71,6.5H78.6z"/>
-	</g>
-	<g>
-		<defs>
-			<polygon id="SVGID_1_" points="8.2,-5.2 32.7,64.8 15.8,67.6 -3.9,-5.7 		"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  overflow="visible"/>
-		</clipPath>
-		<path id="path3768" clip-path="url(#SVGID_2_)" fill="#DEDEDE" d="
-			M20.1,58L0,0l5.5,0l20.1,58H20.1z"/>
-	</g>
-	<g>
-		<defs>
-			<path id="SVGID_3_" d="M81.6-6.5l33,0.2v69.2l-46.1-0.5c0-11.5,13.8-22.4,13.8-34l9.1-26.3L81.6-6.5z"/>
-		</defs>
-		<clipPath id="SVGID_4_">
-			<use xlink:href="#SVGID_3_"  overflow="visible"/>
-		</clipPath>
-		<path id="path2995" clip-path="url(#SVGID_4_)" fill="#DEDEDE" d="
-			M94.5,0h5.5L80.2,58h-5.5L94.5,0z"/>
+<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'
+	 viewBox="0 0 100 58">
+	<g transform="scale(1.0983833,0.910429)">
+		<path fill='#56B4D1' d="M78.6,6.5L64,57.9h-7.7L45.5,17.1L35,57.9h-7.5L12.7,6.5h7.9l11.1,41.3L41.9,6.5h7.6L60,48.2L71,6.5H78.6z" />
 	</g>
 </svg>

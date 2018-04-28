@@ -1,10 +1,9 @@
-<svg version="1.1"
-	 xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="8 8 60 60"
-	 enable-background="new 8 8 60 60">
+<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'
+	 viewBox="8 8 60 60">
 	<g transform="translate(148.9622,-225.33682)">
 		<g transform="translate(109.60155,-54.548234)">
 			<g>
-				<path fill="#D9D9D9" d="M-249,296
+				<path fill='#D9D9D9' d="M-249,296
 					l23.2-3.1v22.4l-23.2,0.1V296z M-225.8,317.7v22.4l-23.2-3.2v-19.4L-225.8,317.7z M-222.9,292.4l30.8-4.5v27l-30.8,0.3V292.4z
 					 M-192.2,318v26.9l-30.8-4.4v-22.6L-192.2,318z"/>
 			</g>
