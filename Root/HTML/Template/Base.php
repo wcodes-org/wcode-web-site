@@ -73,7 +73,7 @@
 	<?php
 		if($bPublish) {
 	?>
-			<script <?php require '../JS/Fragment/sentry_version.php' ?>></script>
+			<script <?php require '../JS/Fragment/Sentry_version.php' ?>></script>
 			<script><?php require '../JS/Fragment/Sentry_exec.php' ?></script>
 	<?php
 		}
