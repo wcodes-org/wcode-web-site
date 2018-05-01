@@ -6,7 +6,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			spider			
 			cricket			
 			mosquito			
-						
 			ape			
 			snail			
 			snake			
@@ -124,7 +123,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			liver			
 			blood			
 			flesh			
-			nose			
 			neck			
 			tooth			
 			tongue			
@@ -180,7 +178,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			tub			
 			tube			
 			pipe			
-						
 				wrench		
 			ladder			
 			lamp			
@@ -207,11 +204,9 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			bottle			
 			helmet			
 			calculator			
-			bag			
 			basin			
 			basket			
 			battery			
-			bed			
 			blade			
 			book			
 			plug			
@@ -319,7 +314,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			dice			
 			chess			
 			skate			
-						
 	Plant					
 		*				
 			grass			
@@ -366,7 +360,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			son			
 			daughter			
 			kid			
-			man			
 	Role					
 		*				
 			actor			
@@ -623,10 +616,8 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			spin			
 			race			
 			toss			
-						
 			sing			
 			poem			
-						
 		*				
 			math			
 			fax			
@@ -643,7 +634,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			horn			
 			kind			
 			lady			
-			like			
 			live			
 			mask			
 			mint			
@@ -651,13 +641,11 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			oval			
 			pure			
 			rock			
-						
 			view			
 			vote			
 			wise			
 			wave			
 			wire			
-						
 			award			
 			brave			
 			brown			
@@ -674,7 +662,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			solid			
 			topic			
 			curtain			
-						
 			game			
 			music			
 			cloth			
@@ -690,3 +677,417 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			energy			
 			insect			
 			net			
+			angle			
+			area			
+			baby			
+			back			
+			basis			
+			bath			
+			bay			
+			board			
+			body			
+			bonus			
+			boss			
+			breath			
+			bush			
+			butter			
+			buyer			
+			cage			
+			calendar			
+			camp			
+			cancer			
+			cannon			
+			canvas			
+			card			
+			care			
+			case			
+			cash			
+			cast			
+			cell			
+			cellar			
+			cement			
+			cent			
+			century			
+			chalk			
+			channel			
+			cheese			
+			city			
+			clam			
+			class			
+			climate			
+			clover			
+			club			
+			coach			
+			coil			
+			collar			
+			color			
+			company			
+			concrete			
+			cord			
+			cork			
+			cough			
+			country			
+			crack			
+			crate			
+			crayon			
+			cream			
+			creature			
+			credit			
+			crown			
+			current			
+			curve			
+			dark			
+			date			
+			death			
+			decade			
+			deck			
+			degree			
+			depth			
+			diesel			
+			dime			
+			dish			
+			disk			
+			distance			
+			door			
+			drain			
+			drama			
+			drawer			
+			drill			
+			drink			
+			drop			
+			drum			
+			dust			
+			earth			
+			east			
+			edge			
+			engine			
+			entry			
+			equation			
+			equator			
+			eraser			
+			event			
+			exam			
+			exit			
+			fact			
+			factory			
+			fan			
+			fang			
+			farm			
+			fat			
+			faucet			
+			feast			
+			fence			
+			fever			
+			field			
+			file			
+			fire			
+			flame			
+			foot			
+			force			
+			form			
+			formula			
+			fountain			
+			frame			
+			front			
+			fruit			
+			fuel			
+			garden			
+			gas			
+			giant			
+			glass			
+			glove			
+			glue			
+			grade			
+			grain			
+			graph			
+			grid			
+			grip			
+			group			
+			guest			
+			guide			
+			half			
+			hat			
+			heat			
+			home			
+			hook			
+			hope			
+			hour			
+			house			
+			idea			
+			impulse			
+			income			
+			ink			
+			interest			
+			item			
+			jar			
+			jewel			
+			join			
+			journey			
+			kettle			
+			kick			
+			lab			
+			lace			
+			lack			
+			law			
+			lawn			
+			left			
+			letter			
+			level			
+			library			
+			life			
+			lift			
+			light			
+			link			
+			liquid			
+			list			
+			load			
+			log			
+			logo			
+			look			
+			low			
+			lumber			
+			lunch			
+			machine			
+			magic			
+			mail			
+			mall			
+			map			
+			market			
+			mars			
+			mass			
+			mat			
+			matrix			
+			matter			
+			meal			
+			media			
+			memory			
+			menu			
+			metal			
+			mind			
+			mine			
+			minute			
+			mirror			
+			mode			
+			money			
+			monk			
+			month			
+			mood			
+			mop			
+			motion			
+			movie			
+			mud			
+			mug			
+			name			
+			nation			
+			news			
+			noise			
+			north			
+			note			
+			number			
+			nut			
+			office			
+			ornament			
+			owner			
+			pack			
+			page			
+			paint			
+			pair			
+			pan			
+			parcel			
+			parent			
+			park			
+			part			
+			patch			
+			person			
+			pest			
+			pet			
+			petrol			
+			phone			
+			picture			
+			pill			
+			pin			
+			place			
+			plan			
+			plane			
+			planet			
+			plastic			
+			play			
+			pleasure			
+			plot			
+			plough			
+			point			
+			pole			
+			port			
+			porter			
+			position			
+			post			
+			pot			
+			powder			
+			power			
+			price			
+			print			
+			prison			
+			profit			
+			pump			
+			punch			
+			quartz			
+			question			
+			quilt			
+			quince			
+			quiver			
+			rack			
+			rake			
+			range			
+			rate			
+			ratio			
+			ray			
+			receipt			
+			rent			
+			rifle			
+			right			
+			rim			
+			ring			
+			risk			
+			road			
+			rod			
+			role			
+			rope			
+			route			
+			rub			
+			rule			
+			rust			
+			sack			
+			saddle			
+			sail			
+			sample			
+			sauce			
+			scale			
+			scene			
+			scent			
+			school			
+			second			
+			self			
+			shade			
+			shake			
+			sheet			
+			shelf			
+			shell			
+			shop			
+			shot			
+			shout			
+			shower			
+			side			
+			sign			
+			silk			
+			sink			
+			site			
+			size			
+			skill			
+			sleep			
+			sleet			
+			slip			
+			slope			
+			smell			
+			smile			
+			smoke			
+			soap			
+			society			
+			soda			
+			song			
+			sort			
+			sound			
+			south			
+			space			
+			spade			
+			spark			
+			spear			
+			spot			
+			spy			
+			stage			
+			stamp			
+			stand			
+			state			
+			station			
+			steak			
+			steam			
+			step			
+			stew			
+			stitch			
+			story			
+			stove			
+			straw			
+			street			
+			string			
+			study			
+			sushi			
+			swing			
+			sword			
+			syringe			
+			system			
+			tale			
+			tank			
+			tape			
+			task			
+			tattoo			
+			tent			
+			term			
+			test			
+			text			
+			theory			
+			thief			
+			thing			
+			thought			
+			thread			
+			ticket			
+			tile			
+			tilt			
+			toast			
+			tool			
+			top			
+			touch			
+			town			
+			trade			
+			tree			
+			tremor			
+			trip			
+			trophy			
+			truth			
+			turnip			
+			twist			
+			type			
+			union			
+			unit			
+			universe			
+			user			
+			value			
+			vase			
+			veil			
+			venom			
+			verse			
+			vessel			
+			vest			
+			video			
+			village			
+			virus			
+			vitamin			
+			voice			
+			wallet			
+			war			
+			weapon			
+			weather			
+			web			
+			week			
+			weight			
+			west			
+			while			
+			whip			
+			whistle			
+			wonder			
+			wool			
+			word			
+			work			
+			world			
+			wound			
+			yard			
+			yarn			
+			youth			
