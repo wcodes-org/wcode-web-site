@@ -79,6 +79,7 @@
 			$bPrimaryCat = false;
 			$bSecondaryCat = false;
 			$bWordCat = false;
+			$totalCount = 0;
 			for($i = 1; $i < sizeOf($arWord); $i++) {
 				echo $arWord[$i][0];
 				if($arWord[$i][1] != NULL) {
@@ -102,17 +103,20 @@
 					?>
 					<div class='secondary'><div class='secondary-word'><?php echo $arWord[$i][2] ?></div><div>
 				<?php }
-				if($arWord[$i][3] != NULL) { ?>
+				if($arWord[$i][3] != NULL) {
+						$totalCount++; ?>
 						<span>
 							<?php echo $arWord[$i][3]; ?>
 						</span>
 				<?php }
-				if($arWord[$i][4] != NULL) { ?>
+				if($arWord[$i][4] != NULL) {
+						$totalCount++; ?>
 						<span>
 							<?php echo $arWord[$i][4]; ?>
 						</span>
 				<?php }
-				if($arWord[$i][5] != NULL) { ?>
+				if($arWord[$i][5] != NULL) { 
+						$totalCount++; ?>
 						<span>
 							<?php echo $arWord[$i][5]; ?>
 						</span>		
@@ -124,7 +128,9 @@
 		<div id='wordlist-table-separator' class='hide'></div>
 		<div id='wordlist-table-black'></div>
 	</div>
-	<div id='words-remaining'>* <?php echo 1024-sizeOf($arWord) ?> remaining</div>
+<?php if($totalCount != 1024) { ?>
+	<div id='words-remaining'>* <?php echo $totalCount ?> remaining</div>
+<?php } ?>
 	<div class='top-bottom-gap'>
 		<div id='wordlist-links'>
 			<span id='wordlist-version'> v 1.0</span>
