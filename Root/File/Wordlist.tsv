@@ -363,6 +363,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 	Role					
 		*				
 			actor			
+			author			
 			beast			
 			king			
 			queen			
@@ -450,6 +451,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			blanket			
 			boot			
 			diary			
+			clip			
 			coin			
 			purse			
 			comb			
@@ -617,8 +619,10 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			race			
 			toss			
 			sing			
+			swim			
 			poem			
 		*				
+			basic			
 			math			
 			fax			
 			fair			
@@ -773,7 +777,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			fan			
 			fang			
 			farm			
-			fat			
 			faucet			
 			feast			
 			fence			
@@ -973,7 +976,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			shelf			
 			shell			
 			shop			
-			shot			
 			shout			
 			shower			
 			side			
@@ -1068,8 +1070,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			vest			
 			video			
 			village			
-			virus			
-			vitamin			
+						
 			voice			
 			wallet			
 			war			
