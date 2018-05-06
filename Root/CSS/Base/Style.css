@@ -2,6 +2,14 @@ strong {
 	color: #69b7cf !important;
 }
 
+ul li firstChild {
+	color: #69b7cf;
+}
+
+ul li span {
+	color: #555;
+}
+
 .bullet {
 	padding: 0 8px 0 5px;
 	color: #c8c8c8 !important;
@@ -22,10 +30,6 @@ strong {
 	color: #ccc;
 }
 
-ul li firstChild {
-	color: #69b7cf;
-}
-
-ul li span {
-	color: #555;
+.wcode {
+	font-size: larger;
 }
