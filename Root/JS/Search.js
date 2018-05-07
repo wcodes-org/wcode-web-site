@@ -1,14 +1,25 @@
+var bSearch_selected = false;
+
 function execSearch(event) {
 	var input = word_search_box.value.toLowerCase();
 	if(input.length == 0)
 		classie.add(search_input_clear, 'hide');
 	else if(input[input.length-1] == ' ') {
-		word_search_box.value = input.substring(0, input.length-1);
-		word_search_box.select();
+		if(!bSearch_selected) {
+			word_search_box.value = input.substring(0, input.length-1);
+			word_search_box.select();
+			bSearch_selected = true;
+		}
+		else {
+			bSearch_selected = false;
+			clearWordListSearch();
+		}
 		return;
 	}
-	else
+	else {
 		classie.remove(search_input_clear, 'hide');
+		bSearch_selected = false;
+	}
 	setWordList(input, true);
 	document.getElementById('wordlist-table-separator').classList.remove('hide');
 	setWordList(input, false);
