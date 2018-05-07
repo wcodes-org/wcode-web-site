@@ -48,11 +48,11 @@ Root\Resource\	Twitter.png	\resource\	twitter.png
 Root\Resource\	Twitter_grey.png	\resource\	twitter_grey.png
 Root\Resource\	Windows.png	\resource\	windows.png
 Root\Resource\	Windows_grey.png	\resource\	windows_grey.png
-Root\Resource\Patent\	wcode-intro-youtube-video.jpg	\patent\	wcode-intro-youtube-video.jpg
-Root\Resource\Patent\	patent_application_uk_ipo-GB1307148.5.jpg	\patent\	patent_application_uk_ipo-GB1307148.5.jpg
-Root\Resource\Patent\	wcode-windows-app-x-lat-lng_highlighted.png	\patent\	wcode-windows-app-x-lat-lng_highlighted.png
-Root\Resource\Patent\	wcode-windows-app-x-lat-lng_encode_highlighted.png	\patent\	wcode-windows-app-x-lat-lng_encode_highlighted.png
-Root\Resource\Patent\	wcode-windows-app-x-lat-lng_decode_highlighted.png	\patent\	wcode-windows-app-x-lat-lng_decode_highlighted.png
+Root\Resource\Patents\	wcode-intro-youtube-video.jpg	\patents\	wcode-intro-youtube-video.jpg
+Root\Resource\Patents\	patent_application_uk_ipo-GB1307148.5.jpg	\patents\	patent_application_uk_ipo-GB1307148.5.jpg
+Root\Resource\Patents\	wcode-windows-app-x-lat-lng_highlighted.png	\patents\	wcode-windows-app-x-lat-lng_highlighted.png
+Root\Resource\Patents\	wcode-windows-app-x-lat-lng_encode_highlighted.png	\patents\	wcode-windows-app-x-lat-lng_encode_highlighted.png
+Root\Resource\Patents\	wcode-windows-app-x-lat-lng_decode_highlighted.png	\patents\	wcode-windows-app-x-lat-lng_decode_highlighted.png
 Root\File\	Wordlist.tsv	\	wordlist.tsv
 Root\File\	Wordlist-black.tsv	\	wordlist-black.tsv
 Root\File\	Wcodex86.msi	\	wcodex86.msi

@@ -20,7 +20,7 @@ in_pictures	In pictures	0	Pictures relating to WCode
 license	License	0	Licenses to various intellectual properties related to the WCode project
 logo	Logo	0	Logo of WCode
 media	Media	0	WCode in media
-patent	Patent	0	Patent cases associated with the WCode idea
+patents	Patents	0	Patent cases associated with the WCode technology
 pitch	Pitch	0	Pitch describing
 presentation	Presentation	1	Slideshow - WCode introduction
 root	WCode	0	An encoding schema where in data is mapped to words

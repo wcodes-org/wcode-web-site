@@ -9,6 +9,10 @@
 				"destination" : "/about_me",
 				"type" : 301
 			}, {
+				"source" : "/patent",
+				"destination" : "/patents",
+				"type" : 301
+			}, {
 				"source" : "/facebook",
 				"destination" : "https://facebook.com/wcodesorg",
 				"type" : 302
