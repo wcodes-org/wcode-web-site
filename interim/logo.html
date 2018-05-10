@@ -432,6 +432,10 @@ body {
 	color: #5a5a5a;
 }
 
+svg {
+	width: 100%;
+}
+
 .center {
 	margin-left: auto !important;
 	margin-right: auto !important;
@@ -1215,7 +1219,10 @@ span.download-android {
 }
 #basis_image svg {
 	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
 	display: block;
+	max-width: 460px;
 }
 
 span#bar-code, span#qr-code {
@@ -1316,10 +1323,6 @@ summary::-webkit-details-marker {
 	
 	#codes-table-mid > div {
 		padding: 6px;
-	}
-		
-	#basis_image svg {
-		width: 260px;
 	}
 
 	#how_message {
@@ -1951,8 +1954,8 @@ var trackOutboundLink = function(title, url) {
 <div class='center' id='content-body-separator'></div>
 <div id='nav-list' class='center page-list'>
 	<a id='nav-menu-prev'
-			class='XURL item_block_container' href='/license' data-target='license' data-title='License' >
-		<img class='item_block_image item_block_image_visible' src='/resource/placeholder.svg' alt='Navigation - previous page tile'><div class='item_block_text'><div class='arrow'>&#x25C1;</div><div>License</div></div>
+			class='item_block-disabled sidebar-nav-norm sidebar-nav-l-1' >
+		&nbsp;
 		</a><a id='nav-menu-next'
 			class='XURL item_block_container' href='/media' data-target='media' data-title='Media' >
 		<img class='item_block_image item_block_image_visible' src='/resource/placeholder.svg' alt='Navigation - next page tile'><div class='item_block_text'><div>Media</div><div class='arrow'>&#x25B7;</div></div>
