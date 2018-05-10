@@ -26,6 +26,11 @@
 				"type" : 302
 			}
 		],
+		"rewrites": [ {
+				"source": "/patents.json",
+				"destination": "/patents/index.json"
+			}
+		],
 		"headers": [ {
 				"source" : "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
 				"headers" : [ {
