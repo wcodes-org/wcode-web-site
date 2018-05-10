@@ -1,4 +1,4 @@
-<div id='message' class="alt_div_shade">
+<div id='message' class='alt_div_shade'>
 	<div id='basis'>
 		<span id='basis_image' class='image' title='WCode basis'><?php echo file_get_contents('../../Resource/Basis.svg'); ?></span>
 	</div>
