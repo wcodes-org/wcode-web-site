@@ -21,6 +21,7 @@ Root\Resource\	launcher-icon-3x.png	\	launcher-icon-3x.png
 Root\Resource\	launcher-icon-4x.png	\	launcher-icon-4x.png
 Root\Resource\	Root.svg	\	root.svg
 Root\Resource\	Placeholder.svg	\resource\	placeholder.svg
+Root\Resource\	External.svg	\resource\	external.svg
 Root\Resource\	LG_Example.png	\	lg_example.png
 Root\Resource\	Bar_Code.png	\resource\	bar_code.png
 Root\Resource\	QR_Code.png	\resource\	qr_code.png
@@ -53,6 +54,11 @@ Root\Resource\Patents\	patent_application_uk_ipo-GB1307148.5.jpg	\patents\	paten
 Root\Resource\Patents\	wcode-windows-app-x-lat-lng_highlighted.png	\patents\	wcode-windows-app-x-lat-lng_highlighted.png
 Root\Resource\Patents\	wcode-windows-app-x-lat-lng_encode_highlighted.png	\patents\	wcode-windows-app-x-lat-lng_encode_highlighted.png
 Root\Resource\Patents\	wcode-windows-app-x-lat-lng_decode_highlighted.png	\patents\	wcode-windows-app-x-lat-lng_decode_highlighted.png
+Root\Resource\App\Location\	Index.svg	\app\location\	index.svg
+Root\Resource\Location\	Index.svg	\location\	index.svg
+Root\Resource\Location\	Map_background.jpg	\location\	map_background.jpg
+Root\Resource\Location\	Map.svg	\location\	map.svg
+Root\Resource\Location\	Presentation.svg	\location\	presentation.svg
 Root\File\	Wordlist.tsv	\	wordlist.tsv
 Root\File\	Wordlist-black.tsv	\	wordlist-black.tsv
 Root\File\	Wcodex86.msi	\	wcodex86.msi

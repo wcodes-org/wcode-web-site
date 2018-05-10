@@ -13,6 +13,10 @@
 				"destination" : "/patents",
 				"type" : 301
 			}, {
+				"source" : "/app/location",
+				"destination" : "https://location.wcodes.org",
+				"type" : 302
+			}, {
 				"source" : "/facebook",
 				"destination" : "https://facebook.com/wcodesorg",
 				"type" : 302
@@ -29,6 +33,9 @@
 		"rewrites": [ {
 				"source": "/patents.json",
 				"destination": "/patents/index.json"
+			}, {
+				"source": "/location.json",
+				"destination": "/location/index.json"
 			}
 		],
 		"headers": [ {
