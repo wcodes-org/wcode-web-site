@@ -8,11 +8,11 @@
 	<meta name='viewport' content="width=device-width, initial-scale=1.0" >
 	<meta itemprop="name" content="WCodes" />
 <meta itemprop="description" content="WCode based geo-location system" />
-<meta itemprop="image" content="https://wcodes.org/location/index.svg" />
+<meta itemprop="image" content="https://wcodes.org/location/index.jpg" />
 	<meta property="og:url" content="https://wcodes.org/location" />
 <meta property="og:title" content="Location" />
 <meta property="og:type" content="article" />
-<meta property="og:image" content="https://wcodes.org/location/index.svg" />
+<meta property="og:image" content="https://wcodes.org/location/index.jpg" />
 <meta property="og:description" content="WCode based geo-location system" />
 <meta property="og:site_name" content="Wcodes.org" />
 	<meta property="fb:app_id" content="387976024626014" />
@@ -21,7 +21,7 @@
 <meta name="twitter:site" content="@wcodesorg">
 <meta name="twitter:title" content="Location">
 <meta name="twitter:description" content="WCode based geo-location system">
-<meta name="twitter:image" content="https://wcodes.org/location/index.svg">
+<meta name="twitter:image" content="https://wcodes.org/location/index.jpg">
 <meta name="twitter:creator" content="wcodesorg.jpg">
 	<link rel="shortcut icon" type='image/x-icon' href='/favicon.ico' >
 	<link rel='apple-touch-icon' type='image/png' href='/apple-touch-icon.png' >
@@ -432,8 +432,9 @@ body {
 	color: #5a5a5a;
 }
 
-svg {
+.full-width-object svg {
 	width: 100%;
+	height: auto;
 }
 
 .center {
@@ -1321,6 +1322,10 @@ summary::-webkit-details-marker {
 }
 @media (max-width: 540px) {
 	
+	.alt_div_shade > div {
+		padding-left: 0px;
+	}
+	
 	#codes-table-mid > div {
 		padding: 6px;
 	}
@@ -1893,7 +1898,7 @@ var trackOutboundLink = function(title, url) {
 									<div id='content'>
 										<div id='message'>
 	<div class='alt_div_shade'>
-		<div class='top-bottom-gap'>
+		<div class="top-bottom-gap full-width-object">
 			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="518"
 	 viewBox="0 0 920 518" >
 	<image x="0" y="0" width="920px" height="518px" xlink:href="/location/map_background.jpg"></image>
@@ -1925,7 +1930,7 @@ var trackOutboundLink = function(title, url) {
 		</g>
 		<g>
 			<g>
-				<path fill="#888" fill-opacity="0.55" stroke="#000" stroke-opacity="0" stroke-width="4243.1554524361945" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" pointer-events="visiblePainted" d="M 308920 191589 L 361480 191589 361480 199629 308920 199629 Z"></path>
+				<path fill="#DDD" fill-opacity="0.55" stroke="#000" stroke-opacity="0" stroke-width="4243.1554524361945" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" pointer-events="visiblePainted" d="M 308920 191589 L 361480 191589 361480 199629 308920 199629 Z"></path>
 			</g>
 			<g direction="ltr" style="opacity: 1;">
 				<g transform="matrix(381,0,0,380.99999999999994,312577,191418)">
@@ -2039,7 +2044,7 @@ var trackOutboundLink = function(title, url) {
 		<div id='updated'>
 			Updated:
 			<span id='date'>
-				2018 May 09			</span>
+				2018 May 11			</span>
 		</div>
 	</div>
 	<div class='shadow-scroll-bottom'></div>

@@ -432,8 +432,9 @@ body {
 	color: #5a5a5a;
 }
 
-svg {
+.full-width-object svg {
 	width: 100%;
+	height: auto;
 }
 
 .center {
@@ -1321,6 +1322,10 @@ summary::-webkit-details-marker {
 }
 @media (max-width: 540px) {
 	
+	.alt_div_shade > div {
+		padding-left: 0px;
+	}
+	
 	#codes-table-mid > div {
 		padding: 6px;
 	}
@@ -1945,7 +1950,7 @@ var trackOutboundLink = function(title, url) {
 		<img class='item_block_image item_block_image_visible' src='/resource/placeholder.svg' alt='Navigation - previous page tile'><div class='item_block_text'><div class='arrow'>&#x25C1;</div><div>In pictures</div></div>
 		</a><a id='nav-menu-next'
 			class='XURL item_block_container' href='/location' data-target='location' data-title='Location' >
-		<img class='item_block_image item_block_image_visible' src='/location/index.svg' alt='Navigation - next page tile'><div class='item_block_text'><div>Location</div><div class='arrow'>&#x25B7;</div></div>
+		<img class='item_block_image item_block_image_visible' src='/location/index.jpg' alt='Navigation - next page tile'><div class='item_block_text'><div>Location</div><div class='arrow'>&#x25B7;</div></div>
 	</a><a id='nav-menu-up' class='XURL item_block_container center-arrow' href='/' data-target='root' data-title='WCode'>
 		<img class='item_block_image item_block_image_hidden' src='/root.svg ' alt='Navigation - up level tile'><div class='item_block_text'><div></div><div class='arrow'>&#x25B3;</div></div>
 	</a>
