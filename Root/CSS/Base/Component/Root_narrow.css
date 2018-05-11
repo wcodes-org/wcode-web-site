@@ -1,5 +1,9 @@
 @media (max-width: 540px) {
 	
+	.alt_div_shade > div {
+		padding-left: 0px;
+	}
+	
 	#codes-table-mid > div {
 		padding: 6px;
 	}
