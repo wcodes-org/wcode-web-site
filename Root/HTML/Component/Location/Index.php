@@ -1,6 +1,6 @@
 <div id='message'>
 	<div class='alt_div_shade'>
-		<div class='top-bottom-gap'>
+		<div class="top-bottom-gap full-width-object">
 			<?php includeSVG($id, 'Map'); ?>
 		</div>
 		<div>
