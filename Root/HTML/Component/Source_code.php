@@ -5,12 +5,8 @@
 	<table>
 		<tbody>
 			<tr>
-				<td>Web:</td>
-				<td><a class="content-link" href="https://github.com/UjLion/WCode">github.com/San13/WCode</a></td>
-			</tr>
-			<tr>
-				<td>Git:</td>
-				<td><a class="content-link" href="git://github.com/UjLion/WCode.git">github.com/San13/WCode.git</a></td>
+				<td>Windows app:</td>
+				<td><a class="content-link" href="https://github.com/ujlion/wcode">github.com/ujlion/wcode</a></td>
 			</tr>
 		</tbody>
 	</table>
