@@ -3,7 +3,7 @@ var bSearch_selected = false;
 function execSearch(event) {
 	var input = word_search_box.value.toLowerCase();
 	if(input.length == 0)
-		classie.add(search_input_clear, 'hide');
+		document.getElementById('search_input_clear').classList.add('hide');
 	else if(input[input.length-1] == ' ') {
 		if(!bSearch_selected) {
 			word_search_box.value = input.substring(0, input.length-1);
@@ -17,7 +17,7 @@ function execSearch(event) {
 		return;
 	}
 	else {
-		classie.remove(search_input_clear, 'hide');
+		document.getElementById('search_input_clear').classList.remove('hide');
 		bSearch_selected = false;
 	}
 	setWordList(input, true);

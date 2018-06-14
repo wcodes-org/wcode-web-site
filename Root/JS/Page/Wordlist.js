@@ -15,7 +15,7 @@ function clearWordListSearch() {
 	setWordList(null, true);
 	document.getElementById('wordlist-table-black').innerText = '';
 	document.getElementById('wordlist-table-separator').classList.add('hide');
-	classie.add(search_input_clear, 'hide');
+	document.getElementById('search_input_clear').classList.add('hide');
 }
 
 function loadWordlistWhite() {
