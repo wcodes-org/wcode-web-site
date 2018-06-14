@@ -1,7 +1,11 @@
-var wordListWhite = [];
-var wordListBlack = [];
+var wordListWhite;
+var wordListBlack;
 
 function wordlist() {
+	if(typeof wordListWhite == 'undefined')
+		wordListWhite = [];
+	if(typeof wordListBlack == 'undefined')
+		wordListBlack = [];
 	if(wordListWhite.length == 0) {
 		wordListWhite = loadWordlistWhite();
 		initloadWordlistBlack();
