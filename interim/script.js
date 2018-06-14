@@ -459,10 +459,14 @@ function presentation() {
 	beginLoading();
 	fadeLoading();
 }
-var wordListWhite = [];
-var wordListBlack = [];
+var wordListWhite;
+var wordListBlack;
 
 function wordlist() {
+	if(typeof wordListWhite == 'undefined')
+		wordListWhite = [];
+	if(typeof wordListBlack == 'undefined')
+		wordListBlack = [];
 	if(wordListWhite.length == 0) {
 		wordListWhite = loadWordlistWhite();
 		initloadWordlistBlack();
@@ -476,7 +480,7 @@ function clearWordListSearch() {
 	setWordList(null, true);
 	document.getElementById('wordlist-table-black').innerText = '';
 	document.getElementById('wordlist-table-separator').classList.add('hide');
-	classie.add(search_input_clear, 'hide');
+	document.getElementById('search_input_clear').classList.add('hide');
 }
 
 function loadWordlistWhite() {
@@ -589,7 +593,7 @@ var bSearch_selected = false;
 function execSearch(event) {
 	var input = word_search_box.value.toLowerCase();
 	if(input.length == 0)
-		classie.add(search_input_clear, 'hide');
+		document.getElementById('search_input_clear').classList.add('hide');
 	else if(input[input.length-1] == ' ') {
 		if(!bSearch_selected) {
 			word_search_box.value = input.substring(0, input.length-1);
@@ -603,7 +607,7 @@ function execSearch(event) {
 		return;
 	}
 	else {
-		classie.remove(search_input_clear, 'hide');
+		document.getElementById('search_input_clear').classList.remove('hide');
 		bSearch_selected = false;
 	}
 	setWordList(input, true);
