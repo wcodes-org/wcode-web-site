@@ -92,7 +92,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	var PROJECT_TITLE = 'WCodes';
 </script>
 	<style>
-h1, h2, h3 {
+h1, h3 {
+	color: #69b7cf !important;
+}
+
+h2 {
+	font-size: 1.22em;
+	color: #AAAAAA !important;
+}
+
+h2 > .key {
+	font-size: 1.5em;
 	color: #69b7cf !important;
 }
 
@@ -1933,12 +1943,12 @@ ul li span {
 </span>
 	</div>
 	<div id='what'>
-	<h2><span class='bullet'>&#8226;</span>what</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>What</span> is WCode?</h2>
 	<div class='indent-60'>
-		<span>Communicate digital information using only simple words.</span>
+		<span>A system to communicate digital information using only simple words.</span>
 	</div>
 	<div id='codes-example'>
-		<div class="indent-60" id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
+		<div class='indent-60' id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
 		<div id='codes-table'>
 			<div id='codes-table-top' class='blue'>One two three four five six</div>
 			<div id='codes-table-mid'>
@@ -1999,9 +2009,12 @@ ul li span {
 			<div id='codes-table-bottom' class='blue code_value'>\ cat apple mango tomato /</div>
 		</div>
 	</div>
+	<div class='indent-60'>
+		Unlike barcodes, instead of geometrical figures like bars and blocks, WCode is made of literal words.
+	</div>
 	</div>
 	<div id='where'>
-	<h2><span class='bullet'>&#8226;</span>where</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>Where</span> can it be used?</h2>
 		<div class='indent-60'>
 			WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
 			<div>
@@ -2013,13 +2026,13 @@ ul li span {
 		</p>
 	</div>
 	<div id='why'>
-	<h2><span class='bullet'>&#8226;</span>why</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>Why</span> should it be used?</h2>
 	<div class='indent-60'>
 		Comparatively, WCodes are:
 		<ul class='list-dash'>
 			<li>
 				<details>
-					<summary><em><strong>shorter</strong></em> – means lesser number of words. Since <span class='blue'>1</span> when spoken, is again a word: <span class='blue'>&lsquo;one&rsquo;</span></summary>
+					<summary><em><strong>shorter</strong></em> – meaning lesser number of words. Since <span class='blue'>1</span> when spoken, is again a word: <span class='blue'>&lsquo;one&rsquo;</span></summary>
 					<div class='indent-32'>
 						As in the example above:
 						<div id='comparison-table'>
@@ -2061,7 +2074,7 @@ ul li span {
 	</div>
 	</div>
 	<div id='how'>
-	<h2><span class='bullet'>&#8226;</span>how</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>How</span> to use it?</h2>
 	<div class='indent-60'>
 		<ol>
 			<li>In the WCode app select the <span class='blue'>data</span> mode</li>
@@ -2088,20 +2101,24 @@ ul li span {
 		<span>&ndash; Voilà, your number is back!</span>
 	</div>
 	</div>
-	<div id='more'>
-		<h2><span class='bullet'>&#8226;</span>more</h2>
+	<div id='apps'>
+		<h2><span class='bullet'>&#8226;</span><span class='key'>Apps</span> :</h2>
 		<div class='indent-60'>
-			See: <a class="content-link XURL" href='/menu' data-target='menu' data-title='menu'>menu</a> for detailed sections.
+			Coming soon ..
+		</div>
+	</div>
+	<div id='more'>
+		<h2><span class='bullet'>&#8226;</span><span class='key'>More</span> :</h2>
+		<div class='sidebar-nav-li sidebar-sub'>
+<div class='sidebar-nav-group page-list'>
+<a class='XURL item_block' href='/video' data-target='video' data-title='Video'><div>Video</div></a><a class='XURL item_block' href='/downloads' data-target='downloads' data-title='Downloads'><div>Downloads</div></a><a class='XURL item_block' href='/faq' data-target='faq' data-title='FAQ'><div>FAQ</div></a><a class='XURL item_block' href='/in_pictures' data-target='in_pictures' data-title='In pictures'><div>In pictures</div></a><a class='XURL item_block' href='/pitch' data-target='pitch' data-title='Pitch'><div>Pitch</div></a><a class='XURL item_block' href='/use_cases' data-target='use_cases' data-title='Use cases'><div>Use cases</div></a><a class='XURL item_block' href='/applications' data-target='applications' data-title='Applications'><div>Applications</div></a><a class='XURL item_block' href='/about' data-target='about' data-title='About'><div>About</div></a><a class='XURL item_block' href='/patents' data-target='patents' data-title='Patents'><div>Patents</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<div class='sidebar-nav-group page-list'>
+<a class='XURL item_block' href='/adoption' data-target='adoption' data-title='Adoption'><div>Adoption</div></a><a class='XURL item_block' href='/bug_report' data-target='bug_report' data-title='Bug report'><div>Bug report</div></a><a class='XURL item_block' href='/changelog' data-target='changelog' data-title='Changelog'><div>Changelog</div></a><a class='XURL item_block' href='/comparision' data-target='comparision' data-title='Comparision'><div>Comparision</div></a><a class='XURL item_block' href='/data_set' data-target='data_set' data-title='Data set'><div>Data set</div></a><a class='XURL item_block' href='/features' data-target='features' data-title='Features'><div>Features</div></a><a class='XURL item_block' href='/feedback' data-target='feedback' data-title='Feedback'><div>Feedback</div></a><a class='XURL item_block' href='/guidelines' data-target='guidelines' data-title='Guidelines'><div>Guidelines</div></a><a class='XURL item_block' href='/implementations' data-target='implementations' data-title='Implementations'><div>Implementations</div></a><a class='XURL item_block' href='/license' data-target='license' data-title='License'><div>License</div></a><a class='XURL item_block' href='/logo' data-target='logo' data-title='Logo'><div>Logo</div></a><a class='XURL item_block' href='/presentation' data-target='presentation' data-title='Presentation'><div>Presentation</div></a><a class='XURL item_block' href='/roadmap' data-target='roadmap' data-title='Roadmap'><div>Roadmap</div></a><a class='XURL item_block' href='/source_code' data-target='source_code' data-title='Source code'><div>Source code</div></a><a class='XURL item_block' href='/technology' data-target='technology' data-title='Technology'><div>Technology</div></a><a class='XURL item_block' href='/timeline' data-target='timeline' data-title='Timeline'><div>Timeline</div></a><a class='XURL item_block' href='/user_guide' data-target='user_guide' data-title='User guide'><div>User guide</div></a><a class='XURL item_block' href='/wordlist' data-target='wordlist' data-title='WordList'><div>WordList</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
+<div class='sidebar-nav-group page-list'>
+<a class='XURL item_block' href='/about_project' data-target='about_project' data-title='About project'><div>About project</div></a><a class='XURL item_block' href='/about_site' data-target='about_site' data-title='About site'><div>About site</div></a><a class='XURL item_block' href='/about_me' data-target='about_me' data-title='About me'><div>About me</div></a><a class='XURL item_block' href='/clientele' data-target='clientele' data-title='Clientele'><div>Clientele</div></a><a class='XURL item_block' href='/media' data-target='media' data-title='Media'><div>Media</div></a><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div><div class='sidebar-nav-norm item_block-placeholder'></div></div>
 		</div>
 	</div>
 </div>
-<!--
-	<p class='no-margin'>
-		Like barcodes, a WCode represents digital data;
-		Only, instead of geometrical figures like bars and blocks, it's made of literal words.
-	</p>
-	<img src='/lg_example.png' alt='Example: \ Cat Apple Mango /' />
--->
 									</div>
 								</div>
 							</div>
@@ -2116,7 +2133,7 @@ ul li span {
 		<div id='updated'>
 			Updated:
 			<span id='date'>
-				2018 May 08			</span>
+				2018 Sep 27			</span>
 		</div>
 	</div>
 	<div class='shadow-scroll-bottom'></div>
