@@ -3,12 +3,12 @@
 		<span id='basis_image' class='image' title='WCode basis'><?php echo file_get_contents('../../Resource/Basis.svg'); ?></span>
 	</div>
 	<div id='what'>
-	<h2><span class='bullet'>&#8226;</span>what</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>What</span> is WCode?</h2>
 	<div class='indent-60'>
-		<span>Communicate digital information using only simple words.</span>
+		<span>A system to communicate digital information using only simple words.</span>
 	</div>
 	<div id='codes-example'>
-		<div class="indent-60" id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
+		<div class='indent-60' id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
 		<div id='codes-table'>
 			<div id='codes-table-top' class='blue'>One two three four five six</div>
 			<div id='codes-table-mid'>
@@ -19,9 +19,12 @@
 			<div id='codes-table-bottom' class='blue code_value'>\ cat apple mango tomato /</div>
 		</div>
 	</div>
+	<div class='indent-60'>
+		Unlike barcodes, instead of geometrical figures like bars and blocks, WCode is made of literal words.
+	</div>
 	</div>
 	<div id='where'>
-	<h2><span class='bullet'>&#8226;</span>where</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>Where</span> can it be used?</h2>
 		<div class='indent-60'>
 			WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
 			<div>
@@ -33,13 +36,13 @@
 		</p>
 	</div>
 	<div id='why'>
-	<h2><span class='bullet'>&#8226;</span>why</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>Why</span> should it be used?</h2>
 	<div class='indent-60'>
 		Comparatively, WCodes are:
 		<ul class='list-dash'>
 			<li>
 				<details>
-					<summary><em><strong>shorter</strong></em> – means lesser number of words. Since <span class='blue'>1</span> when spoken, is again a word: <span class='blue'>&lsquo;one&rsquo;</span></summary>
+					<summary><em><strong>shorter</strong></em> – meaning lesser number of words. Since <span class='blue'>1</span> when spoken, is again a word: <span class='blue'>&lsquo;one&rsquo;</span></summary>
 					<div class='indent-32'>
 						As in the example above:
 						<div id='comparison-table'>
@@ -81,7 +84,7 @@
 	</div>
 	</div>
 	<div id='how'>
-	<h2><span class='bullet'>&#8226;</span>how</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>How</span> to use it?</h2>
 	<div class='indent-60'>
 		<ol>
 			<li>In the WCode app select the <span class='blue'>data</span> mode</li>
@@ -108,17 +111,22 @@
 		<span>&ndash; Voilà, your number is back!</span>
 	</div>
 	</div>
-	<div id='more'>
-		<h2><span class='bullet'>&#8226;</span>more</h2>
+	<div id='apps'>
+		<h2><span class='bullet'>&#8226;</span><span class='key'>Apps</span> :</h2>
 		<div class='indent-60'>
-			See: <?php link_xurl('menu', 'menu') ?> for detailed sections.
+			Coming soon ..
+		</div>
+	</div>
+	<div id='more'>
+		<h2><span class='bullet'>&#8226;</span><span class='key'>More</span> :</h2>
+		<div class='sidebar-nav-li sidebar-sub'>
+<?php
+			$SIDEBAR_NAV_GROUP = 'sidebar-nav-group page-list';
+			$MENU_MAX_ITEM_COUNT = -5;
+			group_text($SIDEBAR_NAV_GROUP, $MENU_MAX_ITEM_COUNT, ['video', 'Video'], ['downloads', 'Downloads'], ['faq', 'FAQ'], ['in_pictures', 'In pictures'], ['pitch', 'Pitch'], ['use_cases', 'Use cases'], ['applications', 'Applications'], ['about', 'About'], ['patents', 'Patents']);
+			group_text($SIDEBAR_NAV_GROUP, $MENU_MAX_ITEM_COUNT, ['adoption', 'Adoption'], ['bug_report', 'Bug report'], ['changelog', 'Changelog'], ['comparision', 'Comparision'], ['data_set', 'Data set'], ['features', 'Features'], ['feedback', 'Feedback'], ['guidelines', 'Guidelines'], ['implementations', 'Implementations'], ['license', 'License'], ['logo', 'Logo'], ['presentation', 'Presentation'], ['roadmap', 'Roadmap'], ['source_code', 'Source code'], ['technology', 'Technology'], ['timeline', 'Timeline'], ['user_guide', 'User guide'], ['wordlist', 'WordList']);
+			group_text($SIDEBAR_NAV_GROUP, $MENU_MAX_ITEM_COUNT, ['about_project', 'About project'], ['about_site', 'About site'], ['about_me', 'About me'], ['clientele', 'Clientele'], ['media', 'Media']);
+?>
 		</div>
 	</div>
 </div>
-<!--
-	<p class='no-margin'>
-		Like barcodes, a WCode represents digital data;
-		Only, instead of geometrical figures like bars and blocks, it's made of literal words.
-	</p>
-	<img src='/lg_example.png' alt='Example: \ Cat Apple Mango /' />
--->
