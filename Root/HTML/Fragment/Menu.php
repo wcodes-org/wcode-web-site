@@ -1,11 +1,11 @@
 <?php
 	require_once 'Fragment\Item.php';
-	$SIDEBAR_NAV_GROUP = 'sidebar-nav-group page-list';
 ?>
 <div id='nav-menu'>
 	<div class='nav-menu_container'>
 		<div class='sidebar-nav-li sidebar-sub'>
 <?php
+			$SIDEBAR_NAV_GROUP = 'sidebar-nav-group page-list';
 			$MENU_MAX_ITEM_COUNT = -5;
 			group_text($SIDEBAR_NAV_GROUP, $MENU_MAX_ITEM_COUNT, ['root', ''], ['video', 'Video'], ['downloads', 'Downloads'], ['faq', 'FAQ'], ['in_pictures', 'In pictures'], ['pitch', 'Pitch'], ['use_cases', 'Use cases'], ['applications', 'Applications'], ['about', 'About'], ['patents', 'Patents']);
 			group_text($SIDEBAR_NAV_GROUP, $MENU_MAX_ITEM_COUNT, ['adoption', 'Adoption'], ['bug_report', 'Bug report'], ['changelog', 'Changelog'], ['comparision', 'Comparision'], ['data_set', 'Data set'], ['features', 'Features'], ['feedback', 'Feedback'], ['guidelines', 'Guidelines'], ['implementations', 'Implementations'], ['license', 'License'], ['logo', 'Logo'], ['presentation', 'Presentation'], ['roadmap', 'Roadmap'], ['source_code', 'Source code'], ['technology', 'Technology'], ['timeline', 'Timeline'], ['user_guide', 'User guide'], ['wordlist', 'WordList']);
