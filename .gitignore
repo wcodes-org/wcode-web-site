@@ -1,5 +1,6 @@
 **/Archive
 **/Thumbs.db
+.firebase/*.cache
 public
 interim
 
