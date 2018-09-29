@@ -17,7 +17,7 @@
 			</span>
 			<span id='download-android-bottom' class='download coming-soon'>
 				<span>coming soon</span>
-				<a class='content-link'><span class='image'><img src='/resource/google-play-badge.png' alt="WCode number example - comics" /></span></a>
+				<a class='content-link'><span class='image'><?php includeSVG('', 'Google-Play-badge'); ?></span></a>
 			</span>
 			<span id='download-apple-bottom' class='download coming-soon'>
 				<span>to be announced</span>
