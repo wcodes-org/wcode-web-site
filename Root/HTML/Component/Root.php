@@ -3,7 +3,7 @@
 		<span id='basis_image' class='image' title='WCode basis'><?php echo file_get_contents('../../Resource/Basis.svg'); ?></span>
 	</div>
 	<div id='what'>
-	<h2><span class='bullet'>&#8226;</span><span class='key'>What</span> is WCode?</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>What</span> <span class='minor'>is WCode?</span></h2>
 	<div class='indent-60'>
 		<span>A system to communicate digital information using only simple words.</span>
 	</div>
@@ -24,7 +24,7 @@
 	</div>
 	</div>
 	<div id='where'>
-	<h2><span class='bullet'>&#8226;</span><span class='key'>Where</span> can it be used?</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>Where</span> <span class='minor'>can it be used?</span></h2>
 		<div class='indent-60'>
 			WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
 			<div>
@@ -36,7 +36,7 @@
 		</p>
 	</div>
 	<div id='why'>
-	<h2><span class='bullet'>&#8226;</span><span class='key'>Why</span> should it be used?</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>Why</span> <span class='minor'>should it be used?</span></h2>
 	<div class='indent-60'>
 		Comparatively, WCodes are:
 		<ul class='list-dash'>
@@ -84,7 +84,7 @@
 	</div>
 	</div>
 	<div id='how'>
-	<h2><span class='bullet'>&#8226;</span><span class='key'>How</span> to use it?</h2>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>How</span> <span class='minor'>to use it?</span></h2>
 	<div class='indent-60'>
 		<ol>
 			<li>In the WCode app select the <span class='blue'>data</span> mode</li>
@@ -112,13 +112,13 @@
 	</div>
 	</div>
 	<div id='apps'>
-		<h2><span class='bullet'>&#8226;</span><span class='key'>Apps</span> :</h2>
+		<h2><span class='bullet'>&#8226;</span><span class='key'>Apps</span></h2>
 		<div class='indent-60'>
 			Coming soon ..
 		</div>
 	</div>
 	<div id='more'>
-		<h2><span class='bullet'>&#8226;</span><span class='key'>More</span> :</h2>
+		<h2><span class='bullet'>&#8226;</span><span class='key'>More</span></h2>
 		<div class='sidebar-nav-li sidebar-sub'>
 <?php
 			$SIDEBAR_NAV_GROUP = 'sidebar-nav-group page-list';
