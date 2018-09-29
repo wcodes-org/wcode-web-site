@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny"
+	 id="svg2" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-145 206 668 150"
+	 xml:space="preserve">
+<g id="layer3">
+	<path id="rect2985" fill="#B4B4B4" d="M-138.5,206h217c3.6,0,6.5,2.9,6.5,6.5v137c0,3.6-2.9,6.5-6.5,6.5h-217
+		c-3.6,0-6.5-2.9-6.5-6.5v-137C-145,208.9-142.1,206-138.5,206z"/>
+	<text transform="matrix(1 0 0 1 -63 231.0714)" font-family="'Abel'" font-size="18px">Sender</text>
+	<path id="rect2985-1" fill="#B4B4B4" d="M300.5,356h215c4.1,0,7.5-3.4,7.5-7.5v-135c0-4.1-3.4-7.5-7.5-7.5h-215
+		c-4.1,0-7.5,3.4-7.5,7.5v135C293,352.6,296.4,356,300.5,356z"/>
+	<text transform="matrix(1 0 0 1 377.9248 230.5138)" font-family="'Abel'" font-size="18px">Receiver</text>
+	<g id="g3980" transform="translate(-10.5,-181.79077)">
+		<path id="rect3982" fill="#C8C8C8" d="M59.5,431.8h71c4.7,0,8.5,3.8,8.5,8.5v41c0,4.7-3.8,8.5-8.5,8.5h-71c-4.7,0-8.5-3.8-8.5-8.5
+			v-41C51,435.6,54.8,431.8,59.5,431.8z"/>
+		<text transform="matrix(0.9844 0 0 1 65.2208 457.7605)" font-family="'Abel'" font-size="18.0928px">WCode</text>
+		<text transform="matrix(0.9844 0 0 1 61.622 479.4719)" font-family="'Abel'" font-size="18.0928px">Encoder</text>
+	</g>
+	<g id="g4023" transform="translate(-178,-181.79077)">
+		<g id="g4025">
+			<g id="g4078" transform="translate(-2)">
+				<path id="rect4004" fill="none" stroke="#000000" stroke-width="1.2783" d="M341.3,396.2h98.2c6.9,0,12.5,5.6,12.5,12.5v76.5
+					c0,6.9-5.6,12.5-12.5,12.5h-98.2c-6.9,0-12.5-5.6-12.5-12.5v-76.5C328.8,401.8,334.4,396.2,341.3,396.2z"/>
+			</g>
+		</g>
+		<g id="g3067" transform="translate(-0.79549515)">
+			<path id="rect4027" fill="#C8C8C8" d="M353,431.8h72c4.4,0,8,3.6,8,8v42c0,4.4-3.6,8-8,8h-72c-4.4,0-8-3.6-8-8v-42
+				C345,435.4,348.6,431.8,353,431.8z"/>
+			<text transform="matrix(0.9838 0 0 1 359.583 457.3855)" font-family="'Abel'" font-size="18.0928px">WCode</text>
+			<text transform="matrix(0.9838 0 0 1 355.4958 479.0964)" font-family="'Abel'" font-size="18.0928px">Decoder</text>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 191.4299 228.8976)" font-family="'Abel'" font-size="11px">External</text>
+	<text transform="matrix(1 0 0 1 162.9641 243)" font-family="'Abel'" font-size="11px">Interface</text>
+	<text transform="matrix(1 0 0 1 206.8439 243)" font-family="'Abel'" font-size="11px">Application</text>
+	<g id="g4062" transform="matrix(0.79154868,0,0,1,-90.201157,-181.79077)">
+		<path id="path4066" fill="#8C8C8C" d="M289.3,468.3l9.8-7.6l-9.8-7.6l0,6.1h-11.5v3.2h11.5L289.3,468.3z"/>
+	</g>
+	<g id="g4071" transform="matrix(0.79154868,0,0,1,54.673843,-181.79077)">
+		<path id="path4075" fill="#8C8C8C" d="M289.3,468.3l9.8-7.6l-9.8-7.6l0,6.1h-11.5v3.2h11.5L289.3,468.3z"/>
+	</g>
+</g>
+</svg>
