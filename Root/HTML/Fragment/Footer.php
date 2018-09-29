@@ -21,7 +21,7 @@
 			</span>
 			<span id='download-apple-bottom' class='download coming-soon'>
 				<span>to be announced</span>
-				<a class='content-link'><span class='image'><?php includeSVG('', 'Apple'); ?></span></a>
+				<a class='content-link'><span class='image'><?php includeSVG('', 'Apple-App-Store-badge'); ?></span></a>
 			</span>
 		</div>
 
