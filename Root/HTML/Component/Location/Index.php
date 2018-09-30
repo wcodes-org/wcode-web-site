@@ -49,6 +49,10 @@
 				</p>
 			</div>
 		</div>
+		<div id='presentation'>
+			<h2><span class="bullet"></span><span class='key'>Presentation</span></h2>
+			<iframe id="g-presentation" src="https://docs.google.com/presentation/embed?id=1jFRgkrSqrApwZl3BBJyonYXYDqS4mv8TvzbDMddzL54&start=false&loop=false&delayms=3000"></iframe>
+		</div>
 		<div>
 			<h2><span class="bullet"></span>App</h2>
 			<div class="indent-60">
@@ -59,6 +63,5 @@
 		</div>
 	</div>
 	<?php group_image("page-list center", 1, ['app/location', 'WCode location', 'http://wcodes.org']) ?>
-	<?php require('..\HTML\Fragment\SubList.php') ?>
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
