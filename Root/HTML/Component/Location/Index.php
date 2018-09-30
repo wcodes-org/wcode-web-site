@@ -4,8 +4,8 @@
 			<?php includeSVG($id, 'Map'); ?>
 			<h2 class='center'><?php echo $desc; ?></h2>
 		</div>
-			<h2><span class="bullet">•</span>Problem</h2>
 		<div id='problem'>
+			<h2><span class="bullet">•</span>The address <span class='key'>Problem</span></h2>
 			<div class="indent-60">
 				<p>
 					Even in the GPS age, why do addresses have to be so complicated ?
@@ -19,8 +19,8 @@
 				</p>
 			</div>
 		</div>
-			<h2><span class="bullet">•</span>Solution</h2>
 		<div id='solution'>
+			<h2><span class="bullet">•</span>The words <span class='key'>Solution</span></h2>
 			<div class="indent-60">
 				<p>
 					Not any more! Now addresses can be super-short and simple.
@@ -34,8 +34,8 @@
 				</p>
 			</div>
 		</div>
-			<h2><span class="bullet"></span>Comparision</h2>
 		<div id='comparision'>
+			<h2><span class="bullet"></span><span class='key'>Comparision</span></h2>
 			<div class="indent-60">
 				<p>
 					Other competing systems use alphabets and numbers.<br>
@@ -54,7 +54,7 @@
 			<iframe id="g-presentation" src="https://docs.google.com/presentation/embed?id=1jFRgkrSqrApwZl3BBJyonYXYDqS4mv8TvzbDMddzL54&start=false&loop=false&delayms=3000"></iframe>
 		</div>
 		<div>
-			<h2><span class="bullet"></span>App</h2>
+			<h2><span class="bullet"></span><span class='key'>App</span></h2>
 			<div class="indent-60">
 				<p>
 					Click on the link below to go to the webapp and watch it simplify your address:
