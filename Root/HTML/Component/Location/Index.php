@@ -2,6 +2,7 @@
 	<div class='alt_div_shade'>
 		<div class="top-bottom-gap full-width-object">
 			<?php includeSVG($id, 'Map'); ?>
+			<h2 class='center'><?php echo $desc; ?></h2>
 		</div>
 		<div>
 			<h2><span class="bullet">•</span>Problem</h2>
