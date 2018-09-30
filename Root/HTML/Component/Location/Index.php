@@ -4,8 +4,8 @@
 			<?php includeSVG($id, 'Map'); ?>
 			<h2 class='center'><?php echo $desc; ?></h2>
 		</div>
-		<div>
 			<h2><span class="bullet">•</span>Problem</h2>
+		<div id='problem'>
 			<div class="indent-60">
 				<p>
 					Even in the GPS age, why do addresses have to be so complicated ?
@@ -19,8 +19,8 @@
 				</p>
 			</div>
 		</div>
-		<div>
 			<h2><span class="bullet">•</span>Solution</h2>
+		<div id='solution'>
 			<div class="indent-60">
 				<p>
 					Not any more! Now addresses can be super-short and simple.
@@ -34,8 +34,8 @@
 				</p>
 			</div>
 		</div>
-		<div>
 			<h2><span class="bullet"></span>Comparision</h2>
+		<div id='comparision'>
 			<div class="indent-60">
 				<p>
 					Other competing systems use alphabets and numbers.<br>
