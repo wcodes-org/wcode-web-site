@@ -1,10 +1,15 @@
-<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'
-	 viewBox="0 0 160 110" width="160px" height="110px">
-	<rect width="160px" height="110px" fill="#F8F8F8"/>
-	<g font-family='Abel' font-size='16px'>
-		<text text-anchor='middle' transform="matrix(1 0 0 1 78 60)">
-			<tspan fill='#69B7CF'>Location</tspan>
-			<tspan fill='#A8A8A8'>(beta)</tspan>
-		</text>
+<svg xmlns="http://www.w3.org/2000/svg"
+	 x="0px" y="0px" viewBox="-399 226 160 110">
+	<path fill="none" d="M-349,251h60v60h-60V251z"/>
+	<g>
+		<path fill="#E0E0E0" d="M-351.3,308.6l-28.3-56.7l5.5-0.6l28.3,56.7L-351.3,308.6z"/>
 	</g>
+	<g>
+		<path fill="#E0E0E0" d="M-291.2,308l28.3-56.7l5.5,0.6l-28.3,56.7L-291.2,308z"/>
+	</g>
+	<rect x="-393.5" y="236.3" fill="#FFFFFF" width="153.3" height="21"/>
+	<rect x="-364.8" y="307" fill="#FFFFFF" width="89.8" height="8.7"/>
+	<path fill="#69B7CF" d="M-318.7,309.7c0,0-23.7-34.4-21-47c3.9-17.9,21-17,21-17s16.5,0.9,21,17
+		C-294.2,275.1-318.7,309.7-318.7,309.7z"/>
+	<circle fill="#FFFFFF" cx="-318.6" cy="264.3" r="11"/>
 </svg>
