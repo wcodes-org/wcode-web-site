@@ -42,13 +42,13 @@
 		<li>
 			<span class='download download-android coming-soon'>
 				<span>coming soon</span>
-				<a><span class='image'><img src='/resource/google-play-badge.png' alt="WCode number example - comics" /></span></a>
+				<a class='content-link'><span class='image'><?php includeSVG('', 'Google-Play-badge'); ?></a>
 			</span>
 		</li>
 		<li>
 			<span class='download coming-soon'>
 				<span>to be announced</span>
-				<a class='content-link'><span class='image'><?php echo file_get_contents('../../resource/apple.svg'); ?></span></a>
+				<a class='content-link'><span class='image'><?php includeSVG('', 'Apple-App-Store-badge'); ?></span></a>
 			</span>
 		</li>
 	</ul>
