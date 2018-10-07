@@ -41,10 +41,10 @@
 				</tr>
 				<tr class="code">
 					<td>
-						<span id='bar-code' class='image' title='Bar Code : Rectangle with black bars'><?php echo file_get_contents('../../Resource/Bar_code.svg'); ?></span>
+						<span id='bar-code' class='image' title='Bar Code : Rectangle with black bars'><?php includeSVG('', 'Bar_code'); ?></span>
 					</td>
 					<td>
-						<span id='qr-code' class='image' title='QR Code : Square with black blocks'><?php echo file_get_contents('../../Resource/QR_code.svg'); ?></span>
+						<span id='qr-code' class='image' title='QR Code : Square with black blocks'><?php includeSVG('', 'QR_code'); ?></span>
 					</td>
 					<td>
 						<div class="blue code_value">\ Cat Apple Mango Tomato /</div>

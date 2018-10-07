@@ -2,7 +2,7 @@
 	<ul class='content-list'>
 		<li>
 			<span id='download-windows' class='download'>
-				<a href='/wcodex86.msi' download='WCodex86.msi' class='content-link'><span class='image'><?php echo file_get_contents('../../resource/windows.svg'); ?></span></a>
+				<a href='/wcodex86.msi' download='WCodex86.msi' class='content-link'><span class='image'><?php includeSVG('', 'windows'); ?></span></a>
 			</span>
 			<span>Windows ( desktop )</span>
 			<div>

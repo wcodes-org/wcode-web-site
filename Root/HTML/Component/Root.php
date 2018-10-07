@@ -1,6 +1,6 @@
 <div id='message' class='alt_div_shade'>
 	<div id='basis'>
-		<span id='basis_image' class='image' title='WCode basis'><?php echo file_get_contents('../../Resource/Basis.svg'); ?></span>
+		<span id='basis_image' class='image' title='WCode basis'><?php includeSVG('', 'Basis'); ?></span>
 	</div>
 	<div id='what'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>What</span> <span class='minor'>is WCode?</span></h2>
@@ -12,9 +12,9 @@
 		<div id='codes-table'>
 			<div id='codes-table-top' class='blue'>One two three four five six</div>
 			<div id='codes-table-mid'>
-				<div><div class='code'><span id='bar-code' class='image' title='Bar Code : Rectangle with black bars'><?php echo file_get_contents('../../Resource/Bar_code.svg'); ?></span></div></div>
+				<div><div class='code'><span id='bar-code' class='image' title='Bar Code : Rectangle with black bars'><?php includeSVG('', 'Bar_code'); ?></span></div></div>
 				<div><div class='blue'>1 2 3 4 5 6</div></div>
-				<div><div><span id='qr-code' class='image' title='QR Code : Square with black blocks'><?php echo file_get_contents('../../Resource/QR_code.svg'); ?></span></div></div>
+				<div><div><span id='qr-code' class='image' title='QR Code : Square with black blocks'><?php includeSVG('', 'QR_code'); ?></span></div></div>
 			</div>
 			<div id='codes-table-bottom' class='blue code_value'>\ cat apple mango tomato /</div>
 		</div>

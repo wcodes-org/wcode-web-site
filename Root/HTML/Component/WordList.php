@@ -65,9 +65,9 @@
 	<br>
 	<h3>Wordlist</h3>
 	<div class='center' id='wordlist_search'>
-		<span id='search-button_icon_wordlist'><span class='image'><?php echo file_get_contents('..\..\Resource\Search_wordList.svg'); ?></span></span>
+		<span id='search-button_icon_wordlist'><span class='image'><?php includeSVG('', 'Search_wordList'); ?></span></span>
 		<input id='word_search_box' type='text' placeholder="search ( 'space' clears )">
-		<span class='hide' id='search_input_clear'><span class='image'><?php echo file_get_contents('..\..\Resource\Cross.svg'); ?></span></span>
+		<span class='hide' id='search_input_clear'><span class='image'><?php includeSVG('', 'Cross'); ?></span></span>
 	</div>
 	<div id='wordlist-table' class='indent-20'>
 		<div id='wordlist-table-white'>

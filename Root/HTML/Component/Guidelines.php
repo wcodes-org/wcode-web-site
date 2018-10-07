@@ -8,7 +8,7 @@
 						<span>
 							Begin with a back-slash { <strong>\</strong> }<br>
 							End with forward-slash { <strong>/</strong> }<br>
-							These can be dashed &ndash; with two breaks in between: <span><?php echo file_get_contents('..\..\Resource\Broken_Slash.svg') ?></span>
+							These can be dashed &ndash; with two breaks in between: <span><?php includeSVG('', 'Broken_Slash') ?></span>
 						</span>
 					</li>
 					<li>
@@ -110,7 +110,7 @@
 						<span>
 							Begin with a back-slash { <strong>\</strong> }<br>
 							End with forward-slash { <strong>/</strong> }<br>
-							These should be dashed &ndash; with two breaks inbetween: <?php echo file_get_contents('..\..\Resource\Broken_Slash.svg') ?>
+							These should be dashed &ndash; with two breaks inbetween: <?php includeSVG('', 'Broken_Slash') ?>
 						</span>
 					</li>
 					<li>
