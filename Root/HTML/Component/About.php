@@ -12,7 +12,7 @@
 			</li>
 			<li>
 				&ndash; short and simple, compared to the original data.<br>
-				<table id='comparision-table'>
+				<table id='comparison-table'>
 					<caption class='indent-16'>
 						As in the example above
 					</caption>

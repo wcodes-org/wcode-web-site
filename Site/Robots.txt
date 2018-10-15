@@ -7,7 +7,7 @@ Disallow: /applications.json
 Disallow: /bug_report.json
 Disallow: /changelog.json
 Disallow: /clientele.json
-Disallow: /comparision.json
+Disallow: /comparison.json
 Disallow: /data_set.json
 Disallow: /downlaods.json
 Disallow: /faq.json

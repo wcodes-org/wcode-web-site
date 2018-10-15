@@ -35,8 +35,8 @@
 				</p>
 			</div>
 		</div>
-		<div id='comparision'>
-			<h2><span class="bullet"></span><span class='key'>Comparision</span></h2>
+		<div id='comparison'>
+			<h2><span class="bullet"></span><span class='key'>Comparison</span></h2>
 			<div class="indent-60">
 				<p>
 					Other competing systems use alphabets and numbers.<br>

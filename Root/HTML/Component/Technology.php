@@ -35,7 +35,7 @@
 	<div id='technology-reduction'>
 		The greater the number of individual symbols used - the smaller the resultant code.
 		<table id="reduction-table" >
-			<caption><em>Comparision</em></caption>
+			<caption><em>Comparison</em></caption>
 			<tbody>
 				
 				<tr>
