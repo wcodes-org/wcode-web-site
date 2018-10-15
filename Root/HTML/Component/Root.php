@@ -28,7 +28,7 @@
 		<div class='indent-60'>
 			WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
 			<div>
-				Like when exchanging email addresses, mobile numberes or GPS co-coordinates by speech or writing
+				Like when exchanging email addresses, mobile numbers or GPS co-coordinates by speech or writing
 			</div>
 		</div>
 		<p class="center">
@@ -98,7 +98,7 @@
 	</div>
 	<div class='indent-60'>
 		<ol start='3'>
-			<li>On the reciever's app, select the <span class='blue'>code</span> mode</li>
+			<li>On the receiver's app, select the <span class='blue'>code</span> mode</li>
 			<li>Enter the WCode that was generated earlier and decode</li>
 		</ol>
 	</div>
