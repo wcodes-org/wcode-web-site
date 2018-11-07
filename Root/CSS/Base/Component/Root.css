@@ -60,7 +60,7 @@ span#bar-code, span#qr-code {
 .alt_div_shade > div:nth-child(even) {
 	padding-top: 20px;
 	padding-bottom: 28px;
-	background-image: -webkit-linear-gradient(left,#f2f2f2,transparent)
+	background: linear-gradient(to right, #f2f2f2 20%, white);
 }
 
 summary::-webkit-details-marker {
