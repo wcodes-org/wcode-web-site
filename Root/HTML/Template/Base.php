@@ -6,6 +6,7 @@
 	<meta name='title' content="<?php echo $config['project_title'] ?>" >
 	<meta name='author' content="<?php echo $config['author'] ?>" >
 	<meta name='viewport' content="width=device-width, initial-scale=1.0, viewport-fit=cover" >
+	<meta name='format-detection' content='telephone=no'>
 	<?php require '../HTML/Fragment/Google_Plus_Meta.php' ?>
 	<?php require '../HTML/Fragment/OG_Meta.php' ?>
 	<?php require '../HTML/Fragment/FB_Meta.php' ?>
