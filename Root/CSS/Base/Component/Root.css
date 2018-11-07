@@ -74,6 +74,7 @@ summary::-webkit-details-marker {
 .example span {
 	padding: 6px;
 	font-size: large;
+	white-space: nowrap;
 }
 
 .example_title {
