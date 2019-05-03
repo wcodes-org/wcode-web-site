@@ -1,4 +1,4 @@
 <div id='message'>
-	<span class='content-low'>n/a</span>
+	<p class='content-low'>n/a</p>
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>

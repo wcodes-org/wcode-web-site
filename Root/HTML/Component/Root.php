@@ -31,8 +31,8 @@
 				Like when exchanging email addresses, mobile numbers or GPS co-coordinates by speech or writing
 			</div>
 		</div>
-		<p class="center">
-			<img src="/resource/general-use_case.png" alt="WCode general use-case">
+		<p class='center'>
+			<img src='/resource/general-use_case.png' alt="WCode general use-case">
 		</p>
 	</div>
 	<div id='why'>
@@ -91,7 +91,7 @@
 			<li>Enter your mobile number and generate the corresponding unique WCode</li>
 		</ol>
 	</div>
-	<div class="center">
+	<div class='center'>
 		<div class='example'>
 			<span class="example_title">Data:</span><span class='example_data'>9812345670</span><span class='example_connector'>&#x25BA;</span><span class='example_wcode'>cat apple mango</span>
 		</div>
@@ -102,12 +102,12 @@
 			<li>Enter the WCode that was generated earlier and decode</li>
 		</ol>
 	</div>
-	<div class="center">
+	<div class='center'>
 		<div class='example'>
 			<span class="example_title">Code:</span><span class='example_wcode'>cat apple mango</span><span class='example_connector'>&#x25BA;</span><span class='example_data'>9812345670</span>
 		</div>
 	</div>
-	<div id='how_message' class="blue">
+	<div id='how_message' class='blue'>
 		<span>&ndash; Voilà ! your number is back.</span>
 	</div>
 	</div>

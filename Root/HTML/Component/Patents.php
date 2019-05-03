@@ -1,5 +1,5 @@
 <div id='message'>
-	
+
 	<h2>History</h2>
 	<p>
 		I had invented and published the method and apparatus of transforming digital data into a sequence of literal words on my website <a class='content-link XURL' data-target='root' href='/'>wcodes.org</a> in late <a class='content-link' href='https://web.archive.org/web/20121019012050/wcodes.org'>2012 (Web archive snapshots available)</a>.
@@ -39,7 +39,7 @@
 	<div class='top-bottom-gap'>
 		<?php $title='wcode-windows-app-x-lat-lng_decode_highlighted'; $ext='png'; $alt="WCode desktop app - Lat-lng decode"; require('Fragment\Component_image.php') ?>
 	</div>
-	
+
 	<h2>Conflict</h2>
 	<p>
 		A few years later I found out that a startup named “<strong><em>What3Words</em></strong>” in UK had applied for a patent on the same invention, with the only apparant difference being that their code is shorter with only 3 words while WCode had 5; But the disparity was primarily because WCode used a dictionary of only <strong class='blue'>1024</strong> simple words against the many thousands.<br>
@@ -59,7 +59,7 @@
 	<p>
 		However, sadly, it turns that on January 30th, 2018, patent <a class='content-link' href='https://patents.google.com/patent/US9883333B2/en'>US9883333B2</a> was granted.
 	</p>
-	
+
 	<h2>Links</h2>
 	<p class="indent-40 top-bottom-gap">
 		[1] : <a class='content-link' href='https://wiki.openstreetmap.org/wiki/What3words'>OpenStreetMap : wiki - What3words</a>
@@ -67,5 +67,6 @@
 	<p class='disclaimer'>
 		Disclaimer:  All product names, trademarks and registered trademarks are property of their respective owners.
 	</p>
-	
+
 </div>
+<?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>

@@ -1,4 +1,5 @@
 <div id='message'>
+
 	<table id='logo-table'>
 		<tbody>
 			<tr>
@@ -57,5 +58,6 @@
 			</tr>
 		</tbody>
 	</table>
+
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>

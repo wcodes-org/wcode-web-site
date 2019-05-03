@@ -49,7 +49,7 @@ span#bar-code, span#qr-code {
 }
 
 .alt_div_shade > div {
-	padding-left: 6px;	
+	padding-left: 6px;
 }
 
 .alt_div_shade > div:nth-child(odd) {

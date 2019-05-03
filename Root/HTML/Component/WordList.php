@@ -66,7 +66,7 @@
 	<h3>Wordlist</h3>
 	<div class='center' id='wordlist_search'>
 		<span id='search-button_icon_wordlist'><span class='image'><?php includeSVG('', 'Search_wordList'); ?></span></span>
-		<input id='word_search_box' type='text' placeholder="search ( 'space' clears )">
+		<input id='word_search_box' type='text' placeholder="&nbsp;&nbsp;search ( 'space' clears )">
 		<span class='hide' id='search_input_clear'><span class='image'><?php includeSVG('', 'Cross'); ?></span></span>
 	</div>
 	<div id='wordlist-table' class='indent-20'>
@@ -115,11 +115,11 @@
 							<?php echo $arWord[$i][4]; ?>
 						</span>
 				<?php }
-				if($arWord[$i][5] != NULL) { 
+				if($arWord[$i][5] != NULL) {
 						$totalCount++; ?>
 						<span>
 							<?php echo $arWord[$i][5]; ?>
-						</span>		
+						</span>
 				<?php }
 			}
 		?>

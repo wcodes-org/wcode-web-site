@@ -1,5 +1,5 @@
 <div id='message'>
-	<ul class="content-list">
+	<ul class='content-list'>
 		<li>
 			Due to the limited dictionary, predictive input makes manual entry into a computer: quick and easy.<br>
 		</li>
@@ -16,8 +16,8 @@
 			Logographical WCodes similar to the Japanese graphical emoticons: <a class="content-link" href="http://en.wikipedia.org/wiki/emoji" target="_blank">eMoji</a>, may be feasible.<br>
 		</li>
 	</ul>
-	<p class="indent-20">It is also possible to:</p>
-	<ul class="content-list">
+	<p class='indent-20'>Additionally, it is also possible to :</p>
+	<ul class='content-list'>
 		<li>
 			Ensure: error free delivery of data using checksums; that can be embedded in the WCode.
 		</li>

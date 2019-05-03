@@ -4,8 +4,7 @@
 	<table>
 		<tbody>
 			<tr>
-				<td>Windows app:</td>
-				<td><a class="content-link" href="https://github.com/ujlion/wcode">github.com/ujlion/wcode</a></td>
+				<td><a class='link' href="https://github.com/ujlion/wcode">github.com/ujlion/wcode</a></td>
 			</tr>
 		</tbody>
 	</table>

@@ -1,6 +1,6 @@
 <div id='message'>
 	<div>
-		<p class="image-desc">A mobile no. 9801234567 encoded into WCode - \ Cat Apple Mango Tomato /</p>
+		<p class="image-desc">A mobile no. <span class="blue">9801234567</span> encoded into WCode - <span class="blue">\ Cat Apple Mango Tomato /</span></p>
 		<div class="center">
 		<div>
 			<img src="/resource/comics_1.png" alt="WCode number example - comics" />

@@ -2,7 +2,7 @@
 	<div class='description'>
 		<div class='no-margin'>
 		<p>WCodes are <strong>readable by humans</strong>. To decode data though, a computer is still required.</p>
-		This makes it possible for WCodes to be:
+		<p>This makes it possible for WCodes to be:</p>
 		<ul class='list-dash'>
 			<li>
 				&ndash; manually entered into a computer via a keyboard.
@@ -19,7 +19,7 @@
 					<tbody>
 						<tr>
 							<th>
-								<em>Original:</em>
+								<strong>Original:</strong>
 							</th>
 							<td class='t-type'>
 								Digits
@@ -45,7 +45,7 @@
 						</tr>
 						<tr>
 							<th>
-								<em>WCode:&nbsp;</em>
+								<strong>WCode:&nbsp;</strong>
 							</th>
 							<td class='t-type'>
 								Nouns

@@ -1,3 +1,8 @@
 .voice-com-table {
+	padding-left: 4px;
 	border-spacing: 20px 8px
+}
+
+.voice-com-table th {
+	text-align: left
 }
