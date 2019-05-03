@@ -1,4 +1,4 @@
-Id	Title	JS	Description
+Id	Title	JS	Description	Flags
 about	About	0	More information about WCode
 about_me	About me	1	Web links of the creator of WCode - Ujjwal Singh
 about_project	About project	0	How the project came to be
@@ -18,7 +18,7 @@ guidelines	Guidelines	0	Guidelines to words and related format to be used in WCo
 implementations	Implementations	0	Platforms for which implementations of WCode is available or proposed
 in_pictures	In pictures	0	Pictures relating to WCode
 license	License	0	Licenses to various intellectual properties related to the WCode project
-location	Location	0	WCode based geo-location system
+location	Location	0	WCode based geo-location system	HIDDEN
 location/presentation	Presentation	0	Slideshow - WCode location
 logo	Logo	0	Logo of WCode
 media	Media	0	WCode in media
