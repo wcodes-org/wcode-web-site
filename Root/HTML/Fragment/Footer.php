@@ -33,7 +33,7 @@
 				<a href='https://facebook.com/wcodesorg' id='site-facebook' onclick="trackOutboundLink('wcodes-facebook', 'https://facebook.com/wcodesorg'); return false;"><span class='image'><?php includeSVG('', 'Facebook'); ?></span></a>
 			</span>
 			<span class='social grow'>
-				<a href='https://plus.google.com/+wcodesorg' id='site-gplus' onclick="trackOutboundLink('wcodes-gplus', 'https://plus.google.com/+wcodes.org'); return false;"><span class='image'><?php includeSVG('', 'Google+'); ?></span></a>
+				<a href='https://www.youtube.com/channel/UCnKSws8Lro8U9Ewtf1Xi5jg' id='site-youtube' onclick="trackOutboundLink('wcodes-youtube', 'https://www.youtube.com/channel/UCnKSws8Lro8U9Ewtf1Xi5jg'); return false;"><span class='image'><?php includeSVG('', 'YouTube'); ?></span></a>
 			</span>
 		</div>
 		<div class='footer-content' id='footer-rights'>
