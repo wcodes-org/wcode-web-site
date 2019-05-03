@@ -26,7 +26,7 @@
 	<div id='where'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>Where</span> <span class='minor'>can it be used?</span></h2>
 		<div class='indent-60'>
-			WCode is to be used when a human needs to relay computer data from one to another <em><span class='blue'>manually</span></em>.
+			WCode is to be used when a human needs to relay computer data from one to another <strong><span class='blue'>manually</span></strong>.
 			<div>
 				Like when exchanging email addresses, mobile numbers or GPS co-coordinates by speech or writing
 			</div>
@@ -42,7 +42,7 @@
 		<ul class='list-dash'>
 			<li>
 				<details>
-					<summary><em><strong>shorter</strong></em> – meaning lesser number of words. Since <span class='blue'>1</span> when spoken, is again a word: <span class='blue'>&lsquo;one&rsquo;</span></summary>
+					<summary><em><strong>shorter</strong></em> – meaning lesser number of words. Since <span class='blue'>1</span> when spoken, is again a word: <span class='blue'>&lsquo;ONE&rsquo;</span></summary>
 					<div class='indent-32'>
 						As in the example above:
 						<div id='comparison-table'>
@@ -88,12 +88,12 @@
 	<div class='indent-60'>
 		<ol>
 			<li>In the WCode app select the <span class='blue'>data</span> mode</li>
-			<li>Enter your mobile number and generate the corresponding <em>unique</em> WCode</li>
+			<li>Enter your mobile number and generate the corresponding unique WCode</li>
 		</ol>
 	</div>
 	<div class="center">
 		<div class='example'>
-			<span class="example_title">Data:</span><span class="example_data">9812345670</span><span class="example_connector">&gt;</span><span class="example_wcode">cat apple mango</span>
+			<span class="example_title">Data:</span><span class='example_data'>9812345670</span><span class='example_connector'>&#x25BA;</span><span class='example_wcode'>cat apple mango</span>
 		</div>
 	</div>
 	<div class='indent-60'>
@@ -104,17 +104,17 @@
 	</div>
 	<div class="center">
 		<div class='example'>
-			<span class="example_title">Code:</span><span class="example_wcode">cat apple mango</span><span class="example_connector">&gt;</span><span class="example_data">9812345670</span>
+			<span class="example_title">Code:</span><span class='example_wcode'>cat apple mango</span><span class='example_connector'>&#x25BA;</span><span class='example_data'>9812345670</span>
 		</div>
 	</div>
 	<div id='how_message' class="blue">
-		<span>&ndash; Voilà, your number is back!</span>
+		<span>&ndash; Voilà ! your number is back.</span>
 	</div>
 	</div>
 	<div id='apps'>
 		<h2><span class='bullet'>&#8226;</span><span class='key'>Apps</span></h2>
 		<div class='indent-60'>
-			Coming soon ..
+			Coming soon..
 		</div>
 	</div>
 	<div id='more'>
