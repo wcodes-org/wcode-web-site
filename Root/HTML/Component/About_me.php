@@ -21,6 +21,12 @@
 			<div class='R2'>
 				<a class='content-link' href='mailto:ujjwal@wcodes.org?subject=WCode'>ujjwal@wcodes.org</a><br>
 				<a class='content-link' href='mailto:ujjwalsingh@outlook.com?subject=WCode'>ujjwalSingh@outlook.com</a>
+		<div>
+			<div class='R1'>blog</div>
+			<div class='R2'>
+				<a class='content-link' href='https://ujnotes.com' onclick="trackOutboundLink('ujnotes', 'https://ujnotes.com'); return false;">ujnotes.com</a>
+			</div>
+		</div>
 			</div>
 		</div>
 		<div>
@@ -30,9 +36,9 @@
 			</div>
 		</div>
 		<div>
-			<div class='R1'>blog</div>
+			<div class='R1'>patreon</div>
 			<div class='R2'>
-				<a class='content-link' href='https://ujnotes.com' onclick="trackOutboundLink('ujnotes', 'https://ujnotes.com'); return false;">ujnotes.com</a>
+				<a class='content-link' href='https://patreon.com/ujLion'>ujLion</a>
 			</div>
 		</div>
 		<div>
