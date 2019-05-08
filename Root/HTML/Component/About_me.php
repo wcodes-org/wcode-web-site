@@ -18,8 +18,11 @@
 		<div>
 			<div class='R1'>email</div>
 			<div class='R2'>
-				<a class='content-link' href='mailto:ujjwal@wcodes.org?subject=WCode'>ujjwal@wcodes.org</a><br>
-				<a class='content-link' href='mailto:ujjwalsingh@outlook.com?subject=WCode'>ujjwalSingh@outlook.com</a>
+				<a class='content-link' href="mailto:ujjwal@wcodes.org?subject=Ujnotes">ujjwal@wcodes.org</a>
+				<span class='separator'>|</span>
+				<a class='content-link' href="mailto:ujjwalsingh@outlook.com?subject=Ujnotes">ujjwalsingh@outlook.com</a>
+			</div>
+		</div>
 		<div>
 			<div class='R1'>blog</div>
 			<div class='R2'>
