@@ -19,7 +19,7 @@
 		<div>
 			<div class='R1'>email</div>
 			<div class='R2'>
-				<a class='content-link' href="mailto:ujjwal@wcodes.org?subject=Ujnotes">ujjwal@wcodes.org</a>
+				<a class='content-link' href="mailto:ujjwal@wcodes.org?subject=WCodes">ujjwal@wcodes.org</a>
 				<span class='separator'>|</span>
 				<a class='content-link' href="mailto:ujjwalsingh@outlook.com?subject=Ujnotes">ujjwalsingh@outlook.com</a>
 			</div>
