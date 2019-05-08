@@ -35,12 +35,26 @@ span#bar-code, span#qr-code {
 
 #codes-table-top {
 	margin: 20px;
-	font-size: 17px
+	font-size: 17px;
+	font-weight: bold;
+	color: #A9A9A9
+}
+
+#codes-table-mid > div:nth-child(2) > div {
+	font-weight: bold;
+	color: #69B7CF
 }
 
 #codes-table-bottom {
 	margin: 20px;
-	font-size: 17px
+	font-size: 17px;
+	font-weight: bold;
+	color: #DEDEDE
+}
+
+#codes-table-bottom > span {
+	font-weight: bold;
+	color: #A9A9A9
 }
 
 #message.alt_div_shade {
