@@ -1,5 +1,6 @@
 <div id='message' class='center'>
 	<div id='me-table'>
+
 		<div>
 			<div class='R1'>intro</div>
 			<div class='R2'>
@@ -101,6 +102,7 @@
 				<blockquote class='twitter-tweet' lang='en'><p lang='en' dir='ltr'><a href='https://twitter.com/SpaceX'>@SpaceX</a> You guys did it! - congratulations :). Looking forward to more such morning - where the world has just changed.. Salutes</p>&mdash; Ujjwal Singh (@ujLion) <a href='https://twitter.com/ujLion/status/679166674910625793'>December 22, 2015</a></blockquote>
 			</div>
 		</div>
+
 	</div>
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
