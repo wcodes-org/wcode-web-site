@@ -26,7 +26,7 @@
 	<div id='where'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>Where</span> <span class='minor'>can it be used?</span></h2>
 		<div class='indent-60'>
-			WCode is to be used when a human needs to relay computer data from one to another <strong><span class='blue'>manually</span></strong>.
+			WCode is to be used when a human needs to relay very short data from one computer to another <strong><span class='blue'>manually</span></strong>.
 			<div>
 				Like when exchanging email addresses, mobile numbers or GPS co-coordinates by speech or writing
 			</div>
