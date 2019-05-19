@@ -4,7 +4,7 @@
 			<div class='content-li-title'>Complex Words:</div>
 			A complex word like a Medicine Name will be both difficult to communicate and also will require absolute precision.<br>
 			Reference:<br>
-			<ul class='indent-20'>
+			<ul class='indent-c'>
 				<li><span class='link-ref'>ISMP's</span> <a class='content-link' href="http://www.ismp.org/tools/confuseddrugnames.pdf">List of confused drug names</a></li>
 				<li><span class='link-ref'>BBC:</span> <a class='content-link' href="http://news.bbc.co.uk/2/hi/health/4017509.stm">Complex drug names 'pose risk'</a></li>
 			</ul>

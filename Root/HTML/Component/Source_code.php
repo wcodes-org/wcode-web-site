@@ -1,6 +1,6 @@
 <div id='message'>
 	<p>To be announced..</p>
-	<div class="tba indent-40">
+	<div class="tba indent-e">
 	<table>
 		<tbody>
 			<tr>

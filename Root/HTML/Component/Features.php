@@ -16,7 +16,7 @@
 			Logographical WCodes similar to the Japanese graphical emoticons: <a class="content-link" href="http://en.wikipedia.org/wiki/emoji" target="_blank">eMoji</a>, may be feasible.<br>
 		</li>
 	</ul>
-	<p class='indent-20'>Additionally, it is also possible to :</p>
+	<p class='indent-c'>Additionally, it is also possible to :</p>
 	<ul class='content-list'>
 		<li>
 			Ensure: error free delivery of data using checksums; that can be embedded in the WCode.

@@ -1,6 +1,6 @@
 <div id='message'>
 	<h3>Word selection criteria:</h3>
-	<ol class='indent-40'>
+	<ol class='indent-e'>
 		<li>
 			Nouns
 			<div class='content-li-example'>
@@ -69,7 +69,7 @@
 		<input id='word_search_box' type='text' placeholder="&nbsp;&nbsp;search ( 'space' clears )">
 		<span class='hide' id='search_input_clear'><span class='image'><?php includeSVG('', 'Cross'); ?></span></span>
 	</div>
-	<div id='wordlist-table' class='indent-20'>
+	<div id='wordlist-table' class='indent-c'>
 		<div id='wordlist-table-white'>
 		<?php
 			$lines = file('../../File/Wordlist.tsv', FILE_IGNORE_NEW_LINES|FILE_SKIP_EMPTY_LINES);
@@ -139,9 +139,9 @@
 			</strong>
 		</div>
 	</div>
-	<div class='indent-20'>You are welcome to suggest improvements to this wordlist below, under the public domain.</div>
+	<div class='indent-c'>You are welcome to suggest improvements to this wordlist below, under the public domain.</div>
 </div>
-<div class='indent-20'>
+<div class='indent-c'>
 	<div class='fb-comments' data-href='https://wcodes.org/wordlist' data-numposts='50' data-order_by='reverse_time'></div>
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>

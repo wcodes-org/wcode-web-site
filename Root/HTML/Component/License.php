@@ -38,7 +38,7 @@
 			<p>
 				Disclaimer:
 			</p>
-			<p class="indent-20">
+			<p class="indent-c">
 					Any content sourced from the internet, unless in the public domain is property of the original owner.<br>
 					I shall make my best effort to duly list the source and author's name and a link back to the source beside such content.
 			</p>

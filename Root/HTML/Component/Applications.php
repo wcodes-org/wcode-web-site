@@ -31,7 +31,7 @@
 	</ul>
 	<br>
 	&ndash; can be communicated as few words conveniently on:<br>
-	<div class='indent-16'>billboards, magazines, business cards, voice calls and announcements.</div>
+	<div class='indent-b'>billboards, magazines, business cards, voice calls and announcements.</div>
   </li>
   <li>
 	<div class='content-li-title'>Memorizable Clipboard across non connected systems</div>

@@ -16,7 +16,7 @@
 	<p>
 		Following are the time stamped binaries from the Indiegogo file server - <strong>anyone for themselves can verify that I had indeed made the invention before April 2013</strong>, by downloading the executable installers from the campaign page, or links below and replaying the following steaps.
 	</p>
-	<p class='indent-40'>
+	<p class='indent-e'>
 		WCode installer x86 from <a class='content-link' href='http://d2oadd98wnjs7n.cloudfront.net/medias/780936/files/20130428120346-WCode_Installer_x86.msi?1367175828'>April 28th - 2013</a>
 		<br>
 		WCode installer x64 from <a class='content-link' href='http://d2oadd98wnjs7n.cloudfront.net/medias/780938/files/20130428120727-WCode_Installer_x64.msi?1367176050'>April 28th - 2013</a>
@@ -61,7 +61,7 @@
 	</p>
 
 	<h2>Links</h2>
-	<p class="indent-40 top-bottom-gap">
+	<p class="indent-e top-bottom-gap">
 		[1] : <a class='content-link' href='https://wiki.openstreetmap.org/wiki/What3words'>OpenStreetMap : wiki - What3words</a>
 	</p>
 	<p class='disclaimer'>

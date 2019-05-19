@@ -13,7 +13,7 @@
 			<li>
 				&ndash; short and simple, compared to the original data.<br>
 				<table id='comparison-table'>
-					<caption class='indent-16'>
+					<caption class='indent-b'>
 						As in the example above
 					</caption>
 					<tbody>
@@ -77,7 +77,7 @@
 		See: <a class="content-link XURL" href='/wordlist' data-target='wordlist' data-title='Wordlist'>WordList</a> &amp; <a class="content-link XURL" href='/guidelines' data-target='guidelines' data-title='Guidelines'>Guidelines</a>
 			for details.
 		In the present implementation: 1K (i.e. 1024) words are used;	as such,<br>
-		<span class='indent-20'>technically, it is a form of Base-1024 (or simply: Base-K) encoding.</span>
+		<span class='indent-c'>technically, it is a form of Base-1024 (or simply: Base-K) encoding.</span>
 		</p>
 	</div>
 </div>

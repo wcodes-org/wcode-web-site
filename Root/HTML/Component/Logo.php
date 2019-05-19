@@ -7,7 +7,7 @@
 				<td>
 					Logo<br>
 					<br>
-					<a class="content-link indent-10" href="/logo_small.svg">
+					<a class="content-link indent-a" href="/logo_small.svg">
 						SVG
 					</a>
 				</td>
@@ -17,7 +17,7 @@
 				<td>
 					Logo-Full<br>
 					<br>
-					<a class="content-link indent-10" href='/logo_full.svg'>
+					<a class="content-link indent-a" href='/logo_full.svg'>
 						SVG
 					</a>
 				</td>

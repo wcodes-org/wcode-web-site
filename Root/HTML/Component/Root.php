@@ -4,11 +4,11 @@
 	</div>
 	<div id='what'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>What</span> <span class='minor'>is WCode?</span></h2>
-	<div class='indent-60'>
+	<div class='indent-f'>
 		<span>A system to communicate digital information using only simple words.</span>
 	</div>
 	<div id='codes-example'>
-		<div class='indent-60' id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
+		<div class='indent-f' id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
 		<div id='codes-table'>
 			<div id='codes-table-top'>one two three four five six</div>
 			<div id='codes-table-mid'>
@@ -19,13 +19,13 @@
 			<div id='codes-table-bottom' class='code_value'>\ <span>cat apple mango tomato</span> /</div>
 		</div>
 	</div>
-	<div class='indent-60'>
+	<div class='indent-f'>
 		Unlike barcodes, instead of geometrical figures like bars and blocks, WCode is made of literal words.
 	</div>
 	</div>
 	<div id='where'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>Where</span> <span class='minor'>can it be used?</span></h2>
-		<div class='indent-60'>
+		<div class='indent-f'>
 			WCode is to be used when a human needs to relay very short data from one computer to another <strong><span class='blue'>manually</span></strong>.
 			<div>
 				Like when exchanging email addresses, mobile numbers or GPS co-coordinates by speech or writing
@@ -37,7 +37,7 @@
 	</div>
 	<div id='why'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>Why</span> <span class='minor'>should it be used?</span></h2>
-	<div class='indent-60'>
+	<div class='indent-f'>
 		Comparatively, WCodes are:
 		<ul class='list-dash'>
 			<li>
@@ -54,7 +54,7 @@
 								<div class='cell'><span> – </span><span class='t-size'>6</span><span class='t-type'> digits </span></div>
 								<div class='cell'><span> – </span><span class='t-size'>4</span><span class='t-type'> nouns </span></div>
 							</div>
-							<div class='tbl-col indent-10'>
+							<div class='tbl-col indent-a'>
 								<div class='blue'><span class='blue t-data'>1</span><span class='blue t-data'>2</span><span class='blue t-data'>3</span><span class='blue t-data'>4</span><span class='blue t-data'>5</span><span class='blue t-data'>6</span></div>
 								<div class='blue'><span class='blue t-data'>Cat</span><span class='blue t-data'>Apple</span><span class='blue t-data'>Mango</span><span class='blue t-data'> Tomato </span></div>
 							</div>
@@ -85,7 +85,7 @@
 	</div>
 	<div id='how'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>How</span> <span class='minor'>to use it?</span></h2>
-	<div class='indent-60'>
+	<div class='indent-f'>
 		<ol>
 			<li>In the WCode app select the <span class='blue'>data</span> mode</li>
 			<li>Enter your mobile number and generate the corresponding unique WCode</li>
@@ -96,7 +96,7 @@
 			<span class="example_title">Data:</span><span class='example_data'>9812345670</span><span class='example_connector'>&#x25BA;</span><span class='example_wcode'>cat apple mango</span>
 		</div>
 	</div>
-	<div class='indent-60'>
+	<div class='indent-f'>
 		<ol start='3'>
 			<li>On the receiver's app, select the <span class='blue'>code</span> mode</li>
 			<li>Enter the WCode that was generated earlier and decode</li>
@@ -113,7 +113,7 @@
 	</div>
 	<div id='apps'>
 		<h2><span class='bullet'>&#8226;</span><span class='key'>Apps</span></h2>
-		<div class='indent-60'>
+		<div class='indent-f'>
 			Coming soon..
 		</div>
 	</div>

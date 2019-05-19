@@ -26,7 +26,7 @@
 	</p>
 	<div class="top-bottom-gap"></div>
 	<h3>Comments:</h3>
-	<div class="indent-40">
+	<div class="indent-e">
 		<div class="fb-comments" data-href="http://wcodes.org/feedback" data-numposts="50"></div>
 	</div>
 </div>

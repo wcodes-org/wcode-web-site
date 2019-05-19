@@ -150,7 +150,7 @@
 			<td></td>
 		</tr>
 	</table>
-	<div class="indent-10">
+	<div class="indent-a">
 		<span class="note-title"><em>Note:</em></span>
 		<span class="note-content">
 			When inputting a WCode: <strong>\</strong> and <strong>/</strong> are not to be included and each word should be separated by a single space.<br>

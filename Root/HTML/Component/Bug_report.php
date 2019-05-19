@@ -3,7 +3,7 @@
 	<p>
 		v1.0
 	</p>
-	<ol class='indent-40'>
+	<ol class='indent-e'>
 		<li>
 			Mode: Raw-Decimal<br>
 			A number larger than 64bits fails.

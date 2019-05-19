@@ -6,7 +6,7 @@
 		</div>
 		<div id='problem'>
 			<h2><span class="bullet">•</span>The address <span class='key'>Problem</span></h2>
-			<div class="indent-60">
+			<div class="indent-f">
 				<p>
 					Even in the GPS age, why do addresses have to be so complicated ?
 				</p>
@@ -21,7 +21,7 @@
 		</div>
 		<div id='solution'>
 			<h2><span class="bullet">•</span>The words <span class='key'>Solution</span></h2>
-			<div class="indent-60">
+			<div class="indent-f">
 				<p>
 					With WCode location - addresses can be super-short and simple.
 				</p>
@@ -37,7 +37,7 @@
 		</div>
 		<div id='comparison'>
 			<h2><span class="bullet"></span><span class='key'>Comparison</span></h2>
-			<div class="indent-60">
+			<div class="indent-f">
 				<p>
 					Other competing systems use alphabets and numbers.<br>
 					For end users they don’t help much
@@ -56,7 +56,7 @@
 		</div>
 		<div>
 			<h2><span class="bullet"></span><span class='key'>App</span></h2>
-			<div class="indent-60">
+			<div class="indent-f">
 				<p>
 					Click on the link below to go to the webapp and watch it simplify your address:
 				</p>
