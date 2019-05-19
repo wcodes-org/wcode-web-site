@@ -77,6 +77,10 @@ span#bar-code, span#qr-code {
 	background: linear-gradient(to right, #f2f2f2 20%, white);
 }
 
+.alt_div_shade > div > h2 {
+	padding-left: 16px;
+}
+
 summary::-webkit-details-marker {
 	color: #ddd
 }

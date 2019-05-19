@@ -1,9 +1,13 @@
 @media (max-width: 540px) {
-	
+
 	.alt_div_shade > div {
 		padding-left: 0px;
 	}
-	
+
+	.alt_div_shade > div > h2 {
+		padding-left: 6px;
+	}
+
 	#codes-table-mid > div {
 		padding: 6px;
 	}
@@ -11,7 +15,7 @@
 	#how_message {
 		padding-left: 38px;
 	}
-	
+
 }
 
 @media (min-width: 540px) {

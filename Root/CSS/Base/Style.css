@@ -14,7 +14,7 @@ ul li span {
 	padding: 0 8px 0 5px;
 	color: #c8c8c8 !important;
 	font-size: 0.3em;
-	visibility: hidden;
+	display: none
 }
 
 .list-dash {
