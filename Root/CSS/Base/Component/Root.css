@@ -75,6 +75,7 @@ span#bar-code, span#qr-code {
 	padding-top: 20px;
 	padding-bottom: 28px;
 	background: linear-gradient(to right, #f2f2f2 20%, white);
+	border-radius: 8px
 }
 
 .alt_div_shade > div > h2 {
