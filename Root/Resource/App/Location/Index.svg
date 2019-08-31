@@ -1,15 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-	 x="0px" y="0px" viewBox="-399 226 160 110">
-	<path fill="none" d="M-349,251h60v60h-60V251z"/>
-	<g>
-		<path fill="#E0E0E0" d="M-351.3,308.6l-28.3-56.7l5.5-0.6l28.3,56.7L-351.3,308.6z"/>
-	</g>
-	<g>
-		<path fill="#E0E0E0" d="M-291.2,308l28.3-56.7l5.5,0.6l-28.3,56.7L-291.2,308z"/>
-	</g>
-	<rect x="-393.5" y="236.3" fill="#FFFFFF" width="153.3" height="21"/>
-	<rect x="-364.8" y="307" fill="#FFFFFF" width="89.8" height="8.7"/>
-	<path fill="#69B7CF" d="M-318.7,309.7c0,0-23.7-34.4-21-47c3.9-17.9,21-17,21-17s16.5,0.9,21,17
-		C-294.2,275.1-318.7,309.7-318.7,309.7z"/>
-	<circle fill="#FFFFFF" cx="-318.6" cy="264.3" r="11"/>
+	 x='0px' y='0px' viewBox="-399 226 160 110">
+	<rect x='-399' y='226' width='160' height='110' fill='#F8F8F8' stroke-width='0'/>
+	<path d="m-349 251h60v60h-60v-60z" fill='none'/>
+	<path transform="translate(-399,226)" d="m22.096 31.301 24.805 49.699h5.7988l-24.805-49.699h-5.7988z" fill='#E0E0E0'/>
+	<path transform="translate(-399,226)" d="m133.11 31.301-24.805 49.699h5.7988l24.805-49.699h-5.7988z" fill='#E0E0E0'/>
+	<path d="m-318.7 309.7s-23.7-34.4-21-47c3.9-17.9 21-17 21-17s16.5 0.9 21 17c3.5 12.4-21 47-21 47z" fill='#69B7CF'/>
+	<circle cx='-318.6' cy='264.3' r='11' fill='#F8F8F8'/>
 </svg>

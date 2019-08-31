@@ -62,23 +62,23 @@ span#bar-code, span#qr-code {
 	padding-right: 0 !important;
 }
 
-.alt_div_shade > div {
+.alt_div_shade > div, .odd_shade, .even_shade {
 	padding-left: 6px;
 }
 
-.alt_div_shade > div:nth-child(odd) {
+.odd_shade, .alt_div_shade > div:nth-child(odd) {
 	padding-top: 0px;
 	padding-bottom: 28px;
 }
 
-.alt_div_shade > div:nth-child(even) {
+.even_shade, .alt_div_shade > div:nth-child(even) {
 	padding-top: 20px;
 	padding-bottom: 28px;
 	background: linear-gradient(to right, #f2f2f2 20%, white);
 	border-radius: 8px
 }
 
-.alt_div_shade > div > h2 {
+.alt_div_shade > div > h2, .odd_shade > h2, .even_shade > h2 {
 	padding-left: 16px;
 }
 

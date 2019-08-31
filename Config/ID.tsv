@@ -18,8 +18,10 @@ guidelines	Guidelines	0	Guidelines to words and related format to be used in WCo
 implementations	Implementations	0	Platforms for which implementations of WCode is available or proposed
 in_pictures	In pictures	0	Pictures relating to WCode
 license	License	0	Licenses to various intellectual properties related to the WCode project
-location	Location	0	WCode based geo-location system	HIDDEN
-location/presentation	Presentation	0	Slideshow - WCode location
+location	Location	0	WCode based geo-location system	HIDE_TITLE HIDDEN
+location/case	Case	0	Case - WCode location	HIDE_TITLE
+location/competition	Competition	0	competition - WCode Location	HIDE_TITLE
+location/presentation	Presentation	0	Slideshow - WCode location	HIDE_TITLE
 logo	Logo	0	Logo of WCode
 media	Media	0	WCode in media
 patents	Patents	0	Patent cases associated with the WCode technology
