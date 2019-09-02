@@ -36,6 +36,7 @@
 				</p>
 			</div>
 		</div>
+		
 	</div>
 	<?php group_image("page-list center", 1, ['app/location', 'WCode Location', 'http://wcodes.org']) ?>
 </div>

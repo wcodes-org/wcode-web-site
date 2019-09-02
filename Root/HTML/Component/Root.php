@@ -1,7 +1,9 @@
 <div id='message' class='alt_div_shade'>
+	
 	<div id='basis'>
 		<span id='basis_image' class='image' title='WCode basis'><?php includeSVG('', 'Basis'); ?></span>
 	</div>
+	
 	<div id='what'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>What</span> <span class='minor'>is WCode?</span></h2>
 	<div class='indent-f'>
@@ -23,6 +25,7 @@
 		Unlike barcodes, instead of geometrical figures like bars and blocks, WCode is made of literal words.
 	</div>
 	</div>
+	
 	<div id='where'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>Where</span> <span class='minor'>can it be used?</span></h2>
 		<div class='indent-f'>
@@ -35,6 +38,7 @@
 			<img src='/resource/general-use_case.png' alt="WCode general use-case">
 		</p>
 	</div>
+	
 	<div id='why'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>Why</span> <span class='minor'>should it be used?</span></h2>
 	<div class='indent-f'>
@@ -83,6 +87,7 @@
 		</ul>
 	</div>
 	</div>
+	
 	<div id='how'>
 	<h2><span class='bullet'>&#8226;</span><span class='key'>How</span> <span class='minor'>to use it?</span></h2>
 	<div class='indent-f'>
@@ -111,12 +116,14 @@
 		<span>&ndash; Voilà ! your number is back.</span>
 	</div>
 	</div>
+	
 	<div id='apps'>
 		<h2><span class='bullet'>&#8226;</span><span class='key'>Apps</span></h2>
 		<div class='indent-f'>
 			Coming soon..
 		</div>
 	</div>
+	
 	<div id='more'>
 		<h2><span class='bullet'>&#8226;</span><span class='key'>More</span></h2>
 		<div class='sidebar-nav-li sidebar-sub'>
@@ -129,4 +136,5 @@
 ?>
 		</div>
 	</div>
+	
 </div>
