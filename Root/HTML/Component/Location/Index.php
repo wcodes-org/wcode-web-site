@@ -1,38 +1,37 @@
 <div id='message'>
 	<div>
-		<?php includeSVG($id, 'Presentation_1'); ?>
-		<div id='problem'>
+		
+		<div id='location_title'>
+			<?php includeSVG($id, 'location_title'); ?>
+		</div>
+		
+		<div id='location_problem_statement'>
 			<h2><span class="bullet">•</span>The address <span class='key'>Problem</span></h2>
-			<?php includeSVG($id, 'Presentation_2'); ?>
-			<div class="indent-f">
-				<p>
-					They are generally too non-standardized, lengthy and ambiguous.<br>
-					Also, often very imprecise.
-				</p>
-				<p>
-					And even the latitude and longitude coordinates are too complex to be used by the general public.<br>
-				</p>
-			</div>
+			<?php includeSVG($id, 'location_problem_statement'); ?>
 		</div>
-		<div id='solution'>
-			<?php includeSVG($id, 'Presentation_3'); ?>
+		
+		<div id='location_problem_description'>
+			<?php includeSVG($id, 'location_problem_description'); ?>
+		</div>
+
+		<div id='location_solution_statement'>
 			<h2><span class="bullet">•</span>The words <span class='key'>Solution</span></h2>
-			<div class="indent-f">
-				<p>
-					With WCode location - addresses can be super-short and simple.
-				</p>
-			</div>
+			<?php includeSVG($id, 'location_solution_statement'); ?>
 		</div>
-		<div id='presentation'>
-			<?php includeSVG($id, 'Presentation_4'); ?>
-			<?php includeSVG($id, 'Presentation_5'); ?>
+		
+		<div id='location_solution_description'>
+			<?php includeSVG($id, 'location_solution_description'); ?>
 		</div>
-		<div>
+		
+		<div id='location_door'>
+			<?php includeSVG($id, 'location_door'); ?>
+		</div>
+		
+		<div id='location_app_intro'>
 			<h2><span class="bullet"></span><span class='key'>App</span></h2>
-			<?php includeSVG($id, 'Presentation_6'); ?>
+			<?php includeSVG($id, 'location_app_intro'); ?>
 			<div class="indent-f">
 				<p>
-					Click on the link below to go to the webapp and watch it simplify your address:
 				</p>
 			</div>
 		</div>
