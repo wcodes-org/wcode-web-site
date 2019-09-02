@@ -32,6 +32,7 @@
 			<?php includeSVG($id, 'location_app_intro'); ?>
 			<div class="indent-f">
 				<p>
+					Webapp:
 				</p>
 			</div>
 		</div>
