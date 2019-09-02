@@ -2,7 +2,7 @@
 	require_once 'Fragment\Item.php';
 ?>
 <div id='nav-menu'>
-	<div class='nav-menu_container'>
+	<div id='nav-menu_container'>
 		<div class='sidebar-nav-li sidebar-sub'>
 <?php
 			$SIDEBAR_NAV_GROUP = 'sidebar-nav-group page-list';
