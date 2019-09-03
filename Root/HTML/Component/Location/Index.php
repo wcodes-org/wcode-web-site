@@ -6,7 +6,7 @@
 		</div>
 		
 		<div id='location_problem_statement'>
-			<h2><span class="bullet">•</span>The address <span class='key'>Problem</span></h2>
+			<h2><span class='bullet'>•</span>The address <span class='key'>Problem</span></h2>
 			<?php includeSVG($id, 'location_problem_statement'); ?>
 		</div>
 		
@@ -15,7 +15,7 @@
 		</div>
 
 		<div id='location_solution_statement'>
-			<h2><span class="bullet">•</span>The words <span class='key'>Solution</span></h2>
+			<h2><span class='bullet'>•</span>The words <span class='key'>Solution</span></h2>
 			<?php includeSVG($id, 'location_solution_statement'); ?>
 		</div>
 		
@@ -28,9 +28,9 @@
 		</div>
 		
 		<div id='location_app_intro'>
-			<h2><span class="bullet"></span><span class='key'>App</span></h2>
+			<h2><span class='bullet'></span><span class='key'>App</span></h2>
 			<?php includeSVG($id, 'location_app_intro'); ?>
-			<div class="indent-f">
+			<div class='indent-f'>
 				<p>
 					Webapp:
 				</p>
