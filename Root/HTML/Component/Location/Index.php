@@ -36,6 +36,7 @@
 				</p>
 			</div>
 		</div>
+		<?php group_image("page-list center", 1, ['app/location', 'WCode Location', 'http://wcodes.org']) ?>
 		
 		<div id='locaiton_appendix'>
 			<h2><span class='bullet'></span><span class='key'>Appendix</span></h2>
@@ -47,6 +48,5 @@
 		</div>
 		
 	</div>
-	<?php group_image("page-list center", 1, ['app/location', 'WCode Location', 'http://wcodes.org']) ?>
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
