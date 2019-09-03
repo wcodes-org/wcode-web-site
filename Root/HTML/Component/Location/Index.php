@@ -7,29 +7,29 @@
 		
 		<div id='location_problem_statement'>
 			<h2><span class='bullet'>•</span>The address <span class='key'>Problem</span></h2>
-			<?php includeSVG($id, 'location_problem_statement'); ?>
+			<?php $title='location_problem_statement'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div id='location_problem_description'>
-			<?php includeSVG($id, 'location_problem_description'); ?>
+			<?php $title='location_problem_description'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 
 		<div id='location_solution_statement'>
 			<h2><span class='bullet'>•</span>The words <span class='key'>Solution</span></h2>
-			<?php includeSVG($id, 'location_solution_statement'); ?>
+			<?php $title='location_solution_statement'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div id='location_solution_description'>
-			<?php includeSVG($id, 'location_solution_description'); ?>
+			<?php $title='location_solution_description'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div id='location_door'>
-			<?php includeSVG($id, 'location_door'); ?>
+			<?php $title='location_door'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div id='location_app_intro'>
 			<h2><span class='bullet'></span><span class='key'>App</span></h2>
-			<?php includeSVG($id, 'location_app_intro'); ?>
+			<?php $title='location_app_intro'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 			<div class='indent-f'>
 				<p>
 					Webapp:
