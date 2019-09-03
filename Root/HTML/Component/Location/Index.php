@@ -37,6 +37,15 @@
 			</div>
 		</div>
 		
+		<div id='locaiton_appendix'>
+			<h2><span class='bullet'></span><span class='key'>Appendix</span></h2>
+			<div class='indent-f'>
+				<p>- Each city can have over a billion unique addresses. ( 1,073,741,824 precisely )</p>
+				<p>* Ground address - within a city, with 2m resolution</p>
+				<p>^ Words from a limited set of only 1024 words</p>
+			</div>
+		</div>
+		
 	</div>
 	<?php group_image("page-list center", 1, ['app/location', 'WCode Location', 'http://wcodes.org']) ?>
 </div>
