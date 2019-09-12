@@ -1,38 +1,38 @@
-Id	Title	JS	Description	Flags
-about	About	0	More information about WCode
-about_me	About me	1	Web links of the creator of WCode - Ujjwal Singh
-about_project	About project	0	How the project came to be
-about_site	About site	0	Details of technology used to build the website
-adoption	Adoption	0	How can WCode be incorporated in existing Human-Computer interface systems
-applications	Applications	0	Application areas where WCode can be used
-bug_report	Bug report	0	Known bugs and Resolution history
-changelog	ChangeLog	0	Log of changes across versions
-clientele	Clientele	0	List of clients who use WCode
-comparison	Comparison	0	Comparison of WCode with barcode QR Code and spelling alphabets
-data_set	Data set	0	List of individual data elements that can be combined to form a custom structure for optimized WCode conversion
-downloads	Downloads	0	Download WCode binaries
-faq	FAQ	0	Frequently Asked Question about WCode
-feedback	Feedback	1	Links to provide feedback regarding WCode
-features	Features	0	Additional features of WCodes
-guidelines	Guidelines	0	Guidelines to words and related format to be used in WCode
-implementations	Implementations	0	Platforms for which implementations of WCode is available or proposed
-in_pictures	In pictures	0	Pictures relating to WCode
-license	License	0	Licenses to various intellectual properties related to the WCode project
-location	Location	0	WCode based geo-location system	HIDE_TITLE HIDDEN
-location/case	Case	0	Case - WCode location	HIDE_TITLE
-location/competition	Competition	0	competition - WCode Location	HIDE_TITLE
-location/presentation	Presentation	0	Slideshow - WCode location	HIDE_TITLE
-logo	Logo	0	Logo of WCode
-media	Media	0	WCode in media
-patents	Patents	0	Patent cases associated with the WCode technology
-pitch	Pitch	0	Pitch describing
-presentation	Presentation	1	Slideshow - WCode introduction
-root	WCode	0	An encoding schema where in data is mapped to words
-roadmap	Roadmap	0	Future roadmap of features and implementations
-source_code	Source code	0	Source-code of WCode
-technology	Technology	0	The technical idea behind WCode
-timeline	Timeline	0	Markable events in project WCode's lifetime
-use_cases	Use cases	0	Real world use-cases of WCode
-user_guide	User guide	0	Instruction manual to using the WCode application
-video	Video	0	Introduction video describing WCode
-wordlist	WordList	1	List of 1024 words used in WCode
+Id	Label	Title	Title	JS	Description	Flags
+about	About	About WCode	0	More information about WCode
+about_me	About me	About Ujjwal Singh - inventor of WCode	1	Web links of the creator of WCode - Ujjwal Singh
+about_project	About project	About the WCode project	0	How the project came to be
+about_site	About site	About the site WCodes.org	0	Details of technology used to build the website
+adoption	Adoption	Adoption of WCode	0	How can WCode be incorporated in existing Human-Computer interface systems
+applications	Applications	Applications of WCodes	0	Application areas where WCode can be used
+bug_report	Bug report	Bug report for WCodes apps	0	Known bugs and Resolution history
+changelog	ChangeLog	WCodes website changeLog	0	Log of changes across versions
+clientele	Clientele	WCodes clientele	0	List of clients who use WCode
+comparison	Comparison	Comparison of WCode with others	0	Comparison of WCode with barcode QR Code and spelling alphabets
+data_set	Data set	Data set organization in WCode	0	List of individual data elements that can be combined to form a custom structure for optimized WCode conversion
+downloads	Downloads	WCode Downloads	0	Download WCode binaries
+faq	FAQ	WCode FAQ	0	Frequently Asked Question about WCode
+feedback	Feedback	WCode feedback	1	Links to provide feedback regarding WCode
+features	Features	WCode features	0	Additional features of WCodes
+guidelines	Guidelines	WCode guidelines	0	Guidelines to words and related format to be used in WCode
+implementations	Implementations	WCode Implementations	0	Platforms for which implementations of WCode is available or proposed
+in_pictures	In pictures	WCode in pictures	0	Pictures relating to WCode
+license	License	WCode project license	0	Licenses to various intellectual properties related to the WCode project
+location	Location	WCode Location	0	WCode based geo-location system	HIDE_TITLE HIDDEN
+location/case	Case	WCode Location case	0	Case - WCode location	HIDE_TITLE
+location/competition	Competition	WCode Location competition	0	competition - WCode Location	HIDE_TITLE
+location/presentation	Presentation	WCode Location presentation	0	Slideshow - WCode location	HIDE_TITLE
+logo	Logo	WCode logo	0	Logo of WCode
+media	Media	WCode in media	0	WCode in media
+patents	Patents	WCode patents	0	Patent cases associated with the WCode technology
+pitch	Pitch	WCode pitch	0	Pitch describing
+presentation	Presentation	WCode presentation	1	Slideshow - WCode introduction
+root	WCode	WCode	0	An encoding schema where in data is mapped to words
+roadmap	Roadmap	WCode project roadmap	0	Future roadmap of features and implementations
+source_code	Source code	WCode source code	0	Source-code of WCode
+technology	Technology	WCode technology	0	The technical idea behind WCode
+timeline	Timeline	WCode project timeline	0	Markable events in project WCode's lifetime
+use_cases	Use cases	WCode use cases	0	Real world use-cases of WCode
+user_guide	User guide	WCode app user guide	0	Instruction manual to using the WCode application
+video	Video	WCode introduction video	0	Introduction video describing WCode
+wordlist	WordList	WCode wordList	1	List of 1024 words used in WCode
