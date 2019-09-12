@@ -1,0 +1,29 @@
+#locaiton_appendix_list > li > span {
+	display: inline-block
+}
+
+#locaiton_appendix_list {
+	list-style: none
+}
+
+#locaiton_appendix_list li {
+	margin-left: 35px;
+	position: relative;
+	margin-bottom: 0.25em
+}
+
+#locaiton_appendix_list li:nth-child(n):before {
+	position: absolute;
+	left: -1em
+}
+
+#locaiton_appendix_list li:nth-child(1):before {
+	content: '\2013'
+}
+#locaiton_appendix_list li:nth-child(2):before {
+	content: '*'
+}
+
+#locaiton_appendix_list li:nth-child(3):before {
+	content: '^'
+}

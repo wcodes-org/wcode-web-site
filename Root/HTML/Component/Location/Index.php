@@ -46,11 +46,11 @@
 		
 		<div id='locaiton_appendix'>
 			<h2><span class='bullet'></span><span class='key'>Appendix</span></h2>
-			<div class='indent-f'>
-				<p>- Each city can have over a billion unique addresses. ( 1,073,741,824 precisely )</p>
-				<p>* Ground address - within a city, with 2m resolution</p>
-				<p>^ Words from a limited set of only 1024 words</p>
-			</div>
+			<ol id='locaiton_appendix_list'>
+				<li>Each city can have over a billion unique addresses. <span>( 1bn 73mn &amp; 741,824 precisely )</span></li>
+				<li>Ground address - within a city, with 2m resolution</li>
+				<li>Words from a limited set of only 1024 words</li>
+			</ol>
 		</div>
 		
 	</div>
