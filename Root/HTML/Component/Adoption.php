@@ -1,5 +1,5 @@
 <div id='message'>
-	WCodes can be integrated into existing and new systems in the following two ways:
+	<p>WCodes can be integrated into existing and new systems in the following two ways</p>
 	<ul class='content-list'>
 		<li>
 			<div class='content-li-title'>Active</div>

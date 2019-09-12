@@ -1,5 +1,5 @@
 <div id='message'>
-	WCode in Media:
-	<span class="gray content-low">&ndash;empty&ndash;</span>
+	<p>WCode in Media</p>
+	<span class="gray content-low indent-a">&ndash;empty&ndash;</span>
 </div>
 <?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
