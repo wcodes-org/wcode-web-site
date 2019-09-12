@@ -1,8 +1,11 @@
+.video-container {
+	margin-top: 18px;
+	margin-bottom: 24px
+}
+
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-  margin-right: 18px;
 	height: 0;
 }
 
