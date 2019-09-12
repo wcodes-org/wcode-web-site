@@ -38,7 +38,7 @@
 			<?php $img_title='location_app_intro'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 			<div class='indent-f'>
 				<p>
-					Webapp:
+					<strong>Webapp</strong>
 				</p>
 			</div>
 		</div>
