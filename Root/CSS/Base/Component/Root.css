@@ -95,3 +95,7 @@ summary::-webkit-details-marker {
 #how_message {
 	padding-left: 84px;
 }
+
+#apps {
+	background: linear-gradient(to right, #fAfAfA 20%, white)
+}
