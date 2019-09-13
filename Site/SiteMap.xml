@@ -98,5 +98,13 @@
 <url>
   <loc>https://wcodes.org/patents</loc>
 </url>
-
+<url>
+  <loc>https://wcodes.org/location</loc>
+</url>
+<url>
+  <loc>https://wcodes.org/loaction/case</loc>
+</url>
+<url>
+  <loc>https://wcodes.org/location/competition</loc>
+</url>
 </urlset>

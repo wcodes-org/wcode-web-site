@@ -29,3 +29,6 @@ Disallow: /user_guide.json
 Disallow: /video.json
 Disallow: /wcode.json
 Disallow: /wordlist.json
+Disallow: /location/index.json
+Disallow: /location/case/index.json
+Disallow: /location/competition/index.json
