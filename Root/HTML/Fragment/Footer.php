@@ -36,11 +36,9 @@
 				<a href='https://www.youtube.com/channel/UCnKSws8Lro8U9Ewtf1Xi5jg' id='site-youtube' onclick="trackOutboundLink('wcodes-youtube', 'https://www.youtube.com/channel/UCnKSws8Lro8U9Ewtf1Xi5jg'); return false;"><span class='image'><?php includeSVG('', 'YouTube'); ?></span></a>
 			</span>
 		</div>
-		<div class='footer-content' id='footer-rights'>
-			<a class="content-link-gray XURL" href='/license' data-target='license' data-title='License'>Some rights reserved</a>
-		</div>
 		<div class='footer-content'>
-			by <a class="content-link XURL" href='/about_me' data-target='about_me' data-title='About me'>Ujjwal Singh</a><a class='content-link' target='_blank' href='/about_me' rel='author'></a>
+			<a class="content-link-gray XURL" href='/license' data-target='license' data-title='License'>Copyright &copy; 2019</a>
+			<a class="content-link XURL" href='/about_me' data-target='about_me' data-title='About me'>Ujjwal Singh</a><a class='content-link' target='_blank' href='/about_me' rel='author'></a>
 		</div>
 	</div>
 </div>
