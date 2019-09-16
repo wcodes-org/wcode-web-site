@@ -14,7 +14,7 @@
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/-9Ws_0ibvPA?autoplay=1&rel=0&modestbranding=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
-				
+
 		<div id='location_problem_statement'>
 			<h2><span class='bullet'>•</span>The address <span class='key'>Problem</span></h2>
 			<?php $img_title='location_problem_statement'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
