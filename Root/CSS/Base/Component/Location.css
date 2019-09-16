@@ -27,3 +27,7 @@
 #locaiton_appendix_list li:nth-child(3):before {
 	content: '^'
 }
+
+#location_app_demo {
+	margin-top: 12px
+}

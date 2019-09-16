@@ -5,6 +5,10 @@
 			<?php includeSVG($id, 'location_title'); ?>
 		</div>
 		
+		<div id='location_app_demo'>
+			<?php $img_title='location_demo'; $ext='png'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+		</div>
+		
 		<div class='video-container' id='location_video'>
 			<div class='video-wrapper'>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/-9Ws_0ibvPA?autoplay=1&rel=0&modestbranding=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
