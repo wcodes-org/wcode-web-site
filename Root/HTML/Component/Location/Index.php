@@ -21,29 +21,29 @@
 
 		<div id='location_problem_statement'>
 			<h2><span class='bullet'>•</span>The address <span class='key'>Problem</span></h2>
-			<?php $img_title='location_problem_statement'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+			<?php $img_title='location_problem_statement'; $ext='svg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div id='location_problem_description'>
-			<?php $img_title='location_problem_description'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+			<?php $img_title='location_problem_description'; $ext='svg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 
 		<div id='location_solution_statement'>
 			<h2><span class='bullet'>•</span>The words <span class='key'>Solution</span></h2>
-			<?php $img_title='location_solution_statement'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+			<?php $img_title='location_solution_statement'; $ext='svg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div id='location_solution_description'>
-			<?php $img_title='location_solution_description'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+			<?php $img_title='location_solution_description'; $ext='svg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div id='location_door'>
-			<?php $img_title='location_door'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+			<?php $img_title='location_door'; $ext='svg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div id='location_app_intro'>
 			<h2><span class='bullet'></span><span class='key'>App</span></h2>
-			<?php $img_title='location_app_intro'; $ext='svg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+			<?php $img_title='location_app_intro'; $ext='svg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 			<div class='indent-f'>
 				<p>
 					<strong>Webapp</strong>
