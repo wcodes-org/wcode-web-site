@@ -5,8 +5,12 @@
 			<?php includeSVG($id, 'location_title'); ?>
 		</div>
 		
-		<div id='location_app_demo'>
-			<?php $img_title='location_demo'; $ext='png'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+		<div id='location_app_demo_map'>
+			<?php $img_title='location_demo_map'; $ext='jpg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+		</div>
+		
+		<div id='location_app_demo_satellite'>
+			<?php $img_title='location_demo_satellite'; $ext='jpg'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div class='video-container' id='location_video'>
