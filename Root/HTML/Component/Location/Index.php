@@ -41,6 +41,11 @@
 			<?php $img_title='location_door'; $ext='svg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
+		<div id='location_qr'>
+			<?php $img_title='location_qr'; $ext='jpg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
+			Standardized QR code stickers with WCode location &amp; link can be placed for the ease of users
+		</div>
+		
 		<div id='location_app_intro'>
 			<h2><span class='bullet'></span><span class='key'>App</span></h2>
 			<?php $img_title='location_app_intro'; $ext='svg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
