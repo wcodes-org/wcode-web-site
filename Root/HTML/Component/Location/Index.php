@@ -42,8 +42,7 @@
 		</div>
 		
 		<div id='location_qr'>
-			<?php $img_title='location_qr'; $ext='jpg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
-			Standardized QR code stickers with WCode location &amp; link can be placed for the ease of users
+			<?php $img_title='location_qr'; $ext='svg'; $extern='true'; $alt=''; $center='true'; require('Fragment\Component_image.php') ?>
 		</div>
 		
 		<div id='location_app_intro'>
