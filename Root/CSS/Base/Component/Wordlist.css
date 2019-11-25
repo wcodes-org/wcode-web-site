@@ -80,8 +80,12 @@
 	margin-bottom: 12px;
 }
 
-#wordlist-table-white > div:last-child * {
+#wordlist-table-white > div:nth-last-child(2) * {
 	color: #aaa !important;
+}
+
+#wordlist-table-white > div:last-child * {
+	color: #93b04b !important;
 }
 
 #wordlist-table-black span {
