@@ -80,11 +80,11 @@
 	margin-bottom: 12px;
 }
 
-#wordlist-table-white > div:nth-last-child(2) * {
+#wordlist-table-white > div:nth-child(2) * {
 	color: #aaa !important;
 }
 
-#wordlist-table-white > div:last-child * {
+#wordlist-table-white > div:first-child * {
 	color: #93b04b !important;
 }
 
