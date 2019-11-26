@@ -129,7 +129,7 @@
 		<div id='wordlist-table-black'></div>
 	</div>
 <?php if($totalCount != 1024) { ?>
-	<div id='words-remaining'>* <?php echo $totalCount ?> remaining</div>
+	<div id='words-remaining'>* <?php echo 1024-$totalCount ?> remaining</div>
 <?php } ?>
 	<div class='top-bottom-gap'>
 		<div id='wordlist-links'>
