@@ -133,7 +133,9 @@
 <?php } ?>
 	<div class='top-bottom-gap'>
 		<div id='wordlist-links'>
-			<span id='wordlist-version'> v 1.0</span>
+			<span id='wordlist-version'> v 3</span>
+			-
+			<span id='wordlist-date'> May 18, 2019
 			<strong>
 				<a class='content-link' href='/wordlist.tsv' target='_blank'>[ .tsv ]</a>
 			</strong>
