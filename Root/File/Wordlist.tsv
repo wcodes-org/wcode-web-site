@@ -629,17 +629,13 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			film			
 			flat			
 			fish			
-			free			
 			gear			
 			gift			
 			goal			
 			hero			
 			herb			
-			horn			
 			kind			
 			lady			
-			live			
-			mask			
 			mint			
 			art			
 			oval			
@@ -655,7 +651,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			brown			
 			cabin			
 			cable			
-			catch			
 			chain			
 			charm			
 			dream			
@@ -681,7 +676,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			energy			
 			insect			
 			net			
-			angle			
 			area			
 			baby			
 			back			
@@ -699,8 +693,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			cage			
 			calendar			
 			camp			
-			cancer			
-			cannon			
 			canvas			
 			card			
 			care			
@@ -742,7 +734,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			curve			
 			dark			
 			date			
-			death			
 			decade			
 			deck			
 			degree			
@@ -762,12 +753,10 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			drum			
 			dust			
 			earth			
-			east			
 			edge			
 			engine			
 			entry			
 			equation			
-			equator			
 			eraser			
 			event			
 			exam			
@@ -783,7 +772,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			fever			
 			field			
 			file			
-			fire			
 			flame			
 			foot			
 			force			
@@ -795,7 +783,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			fruit			
 			fuel			
 			garden			
-			gas			
 			giant			
 			glass			
 			glove			
@@ -882,12 +869,8 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			mug			
 			name			
 			nation			
-			news			
-			noise			
-			north			
 			note			
 			number			
-			nut			
 			office			
 			ornament			
 			owner			
@@ -904,7 +887,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			person			
 			pest			
 			pet			
-			petrol			
 			phone			
 			picture			
 			pill			
@@ -915,7 +897,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			planet			
 			plastic			
 			play			
-			pleasure			
 			plot			
 			plough			
 			point			
@@ -925,30 +906,23 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			position			
 			post			
 			pot			
-			powder			
 			power			
 			price			
 			print			
 			prison			
 			profit			
 			pump			
-			punch			
 			quartz			
 			question			
-			quilt			
-			quince			
-			quiver			
 			rack			
 			rake			
 			range			
 			rate			
 			ratio			
 			ray			
-			receipt			
 			rent			
 			rifle			
 			right			
-			rim			
 			ring			
 			risk			
 			road			
@@ -956,9 +930,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			role			
 			rope			
 			route			
-			rub			
 			rule			
-			rust			
 			sack			
 			saddle			
 			sail			
@@ -976,12 +948,10 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			shelf			
 			shell			
 			shop			
-			shout			
 			shower			
 			side			
 			sign			
 			silk			
-			sink			
 			site			
 			size			
 			skill			
@@ -989,7 +959,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			sleet			
 			slip			
 			slope			
-			smell			
 			smile			
 			smoke			
 			soap			
@@ -998,13 +967,10 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			song			
 			sort			
 			sound			
-			south			
 			space			
 			spade			
 			spark			
-			spear			
 			spot			
-			spy			
 			stage			
 			stamp			
 			stand			
@@ -1021,14 +987,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			street			
 			string			
 			study			
-			sushi			
 			swing			
-			sword			
-			syringe			
-			system			
-			tale			
-			tank			
-			tape			
 			task			
 			tattoo			
 			tent			
@@ -1046,49 +1005,32 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			toast			
 			tool			
 			top			
-			touch			
-			town			
 			trade			
 			tree			
-			tremor			
 			trip			
 			trophy			
 			truth			
-			turnip			
 			twist			
 			type			
 			union			
 			unit			
 			universe			
-			user			
 			value			
 			vase			
-			veil			
-			venom			
-			verse			
 			vessel			
 			vest			
-			video			
-			village			
-						
 			voice			
 			wallet			
-			war			
 			weapon			
 			weather			
 			web			
-			week			
 			weight			
-			west			
 			while			
-			whip			
 			whistle			
 			wonder			
 			wool			
 			word			
 			work			
 			world			
-			wound			
 			yard			
 			yarn			
-			youth			
