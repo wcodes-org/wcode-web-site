@@ -64,6 +64,9 @@
 	</ol>
 	<br>
 	<h3>Wordlist</h3>
+	<div class='indent-c'>
+		<p>You are welcome to suggest improvements to this wordlist down below, under the public domain<p>
+	</div>
 	<div class='center' id='wordlist_search'>
 		<span id='search-button_icon_wordlist'><span class='image'><?php includeSVG('', 'Search_wordList'); ?></span></span>
 		<input id='word_search_box' type='text' placeholder="&nbsp;&nbsp;search ( 'space' clears )">
@@ -141,7 +144,6 @@
 			</strong>
 		</div>
 	</div>
-	<div class='indent-c'>You are welcome to suggest improvements to this wordlist below, under the public domain.</div>
 </div>
 <div class='indent-c'>
 	<div class='fb-comments' data-href='https://wcodes.org/wordlist' data-numposts='50' data-order_by='reverse_time'></div>
