@@ -65,6 +65,7 @@
 	<br>
 	<h3>Wordlist</h3>
 	<div class='indent-c'>
+		<p>Below is the list of 1K (1024) words currently being used in WCode<p>
 		<p>You are welcome to suggest improvements to this wordlist down below, under the public domain<p>
 	</div>
 	<div class='center' id='wordlist_search'>
