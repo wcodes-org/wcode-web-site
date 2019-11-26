@@ -2,8 +2,10 @@ var bSearch_selected = false;
 
 function execSearch(event) {
 	var input = word_search_box.value.toLowerCase();
-	if(input.length == 0)
+	if(input.length == 0) {
 		document.getElementById('search_input_clear').classList.add('hide');
+		clearWordListSearch();
+	}
 	else if(input[input.length-1] == ' ') {
 		if(!bSearch_selected) {
 			word_search_box.value = input.substring(0, input.length-1);
@@ -19,10 +21,10 @@ function execSearch(event) {
 	else {
 		document.getElementById('search_input_clear').classList.remove('hide');
 		bSearch_selected = false;
+		setWordList(input, true);
+		document.getElementById('wordlist-table-separator').classList.remove('hide');
+		setWordList(input, false);
 	}
-	setWordList(input, true);
-	document.getElementById('wordlist-table-separator').classList.remove('hide');
-	setWordList(input, false);
 };
 
 function matchWord(list, input) {
@@ -34,4 +36,3 @@ function matchWord(list, input) {
 		}
 	});
 }
-
