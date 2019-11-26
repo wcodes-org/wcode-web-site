@@ -35,9 +35,11 @@ function loadWordlistBlack(blackList) {
 	var lines = blackList.split("\n");
 	var obj = [];
 	for(var i = 1; i < lines.length; i++) {
-		var currentline = lines[i].split("\t");
-		if(currentline[3].length > 0)
-			obj.push(currentline[3]);
+		if(lines[i].length) {
+			var currentline = lines[i].split("\t");
+				if(currentline[3].length > 0)
+					obj.push(currentline[3]);
+		}
 	}
 	wordListBlack['Discarded'] = [];
 	wordListBlack['Discarded']['*'] = obj;
