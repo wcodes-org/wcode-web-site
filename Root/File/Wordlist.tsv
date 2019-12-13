@@ -57,6 +57,24 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			quince			
 			quiver			
 			punch			
+			blood			
+			army			
+			rifle			
+			smoke			
+			name			
+			place			
+			plane			plain
+			prison			
+			rake			
+			rent			
+			risk			
+			road			
+			route			
+			school			
+			shake			
+			sleet			
+			street			
+			thief			
 	Additional					
 		action				
 			run			
@@ -321,7 +339,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			movie			
 			mud			
 			mug			
-			name			
 			nation			
 			note			
 			number			
@@ -345,9 +362,7 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			picture			
 			pill			
 			pin			
-			place			
 			plan			
-			plane			
 			planet			
 			plastic			
 			play			
@@ -363,27 +378,20 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			power			
 			price			
 			print			
-			prison			
 			profit			
 			pump			
 			quartz			
 			question			
 			rack			
-			rake			
 			range			
 			rate			
 			ratio			
 			ray			
-			rent			
-			rifle			
 			right			
 			ring			
-			risk			
-			road			
 			rod			
 			role			
 			rope			
-			route			
 			rule			
 			sack			
 			saddle			
@@ -393,11 +401,9 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			scale			
 			scene			
 			scent			
-			school			
 			second			
 			self			
 			shade			
-			shake			
 			sheet			
 			shelf			
 			shell			
@@ -410,11 +416,9 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			size			
 			skill			
 			sleep			
-			sleet			
 			slip			
 			slope			
 			smile			
-			smoke			
 			soap			
 			society			
 			soda			
@@ -438,7 +442,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			story			
 			stove			
 			straw			
-			street			
 			string			
 			study			
 			swing			
@@ -449,7 +452,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			test			
 			text			
 			theory			
-			thief			
 			thing			
 			thought			
 			thread			
@@ -612,7 +614,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 			kidney			
 			cheek			
 			liver			
-			blood			
 			flesh			
 			neck			
 			tooth			
@@ -994,7 +995,6 @@ Serial	Primary	Secondary	Word I	Word II	Word III	Remark
 	Institutions					
 		*				
 			bank			
-			army			
 			bill			
 			border			
 			bottom			
