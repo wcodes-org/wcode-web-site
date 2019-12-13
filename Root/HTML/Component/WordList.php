@@ -80,6 +80,7 @@
 		<span class='hide' id='search_input_clear'><span class='image'><?php includeSVG('', 'Cross'); ?></span></span>
 	</div>
 	<div id='wordlist-table' class='indent-c'>
+		<div id='wordlist-message'></div>
 		<div id='wordlist-table-white'>
 		<?php
 			$lines = file('../../File/Wordlist.tsv', FILE_IGNORE_NEW_LINES|FILE_SKIP_EMPTY_LINES);
