@@ -50,6 +50,12 @@
 			</div>
 		</li>
 		<li>
+			Postive words over negative ones
+			<div class='content-li-example'>
+				e.g. 'Rise' instead of 'Fall'
+			</div>
+		</li>
+		<li>
 			No synonyms
 			<div class='content-li-example'>
 				e.g. 'Man' and 'Person'
