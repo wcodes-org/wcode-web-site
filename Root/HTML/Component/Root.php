@@ -119,7 +119,7 @@
 	
 	<div id='apps'>
 		<h2><span class='bullet'>&#8226;</span><span class='key'>Apps</span></h2>
-		<?php group_image("page-list center", 1, ['app/location', 'WCode Location', 'http://wcodes.org']) ?>
+		<?php group_image("page-list center", 1, ['//wolo.codes/about', 'Wolo code']) ?>
 	</div>
 	
 	<div id='more'>

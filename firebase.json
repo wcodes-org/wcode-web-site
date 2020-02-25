@@ -28,6 +28,10 @@
 				"source" : "/gplus",
 				"destination" : "https://plus.google.com/+wcodesorg",
 				"type" : 302
+			}, {
+				"source" : "/wolo",
+				"destination" : "https://wolo.codes/about",
+				"type" : 302
 			}
 		],
 		"rewrites": [ {
