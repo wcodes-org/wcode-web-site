@@ -1,103 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+			xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'
+			xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+			xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+						http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://wcodes.org/</loc>
+	<loc>https://wcodes.org/</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/adoption</loc>
+	<loc>https://wcodes.org/adoption</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/applications</loc>
+	<loc>https://wcodes.org/applications</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/bug_report</loc>
+	<loc>https://wcodes.org/bug_report</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/changelog</loc>
+	<loc>https://wcodes.org/changelog</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/comparison</loc>
+	<loc>https://wcodes.org/comparison</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/data_set</loc>
+	<loc>https://wcodes.org/data_set</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/downloads</loc>
+	<loc>https://wcodes.org/downloads</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/faq</loc>
+	<loc>https://wcodes.org/faq</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/feedback</loc>
+	<loc>https://wcodes.org/feedback</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/guidelines</loc>
+	<loc>https://wcodes.org/guidelines</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/implementations</loc>
+	<loc>https://wcodes.org/implementations</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/license</loc>
+	<loc>https://wcodes.org/license</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/logo</loc>
+	<loc>https://wcodes.org/logo</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/pitch</loc>
+	<loc>https://wcodes.org/pitch</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/presentation</loc>
+	<loc>https://wcodes.org/presentation</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/roadmap</loc>
+	<loc>https://wcodes.org/roadmap</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/source_code</loc>
+	<loc>https://wcodes.org/source_code</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/technology</loc>
+	<loc>https://wcodes.org/technology</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/timeline</loc>
+	<loc>https://wcodes.org/timeline</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/use_cases</loc>
+	<loc>https://wcodes.org/use_cases</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/user_guide</loc>
+	<loc>https://wcodes.org/user_guide</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/wordlist</loc>
+	<loc>https://wcodes.org/wordlist</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/video</loc>
+	<loc>https://wcodes.org/video</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/about_me</loc>
+	<loc>https://wcodes.org/about_me</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/about_project</loc>
+	<loc>https://wcodes.org/about_project</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/about_site</loc>
+	<loc>https://wcodes.org/about_site</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/clientele</loc>
+	<loc>https://wcodes.org/clientele</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/in_pictures</loc>
+	<loc>https://wcodes.org/in_pictures</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/media</loc>
+	<loc>https://wcodes.org/media</loc>
 </url>
 <url>
-  <loc>https://wcodes.org/patents</loc>
+	<loc>https://wcodes.org/patents</loc>
 </url>
-<url>
-</url>
+
 </urlset>
