@@ -1,6 +1,6 @@
 Id	Label	Title	Title	JS	Description	Flags
 about	About	About WCode	0	More information about WCode
-about_me	About me	About Ujjwal Singh - inventor of WCode	1	Web links of the creator of WCode - Ujjwal Singh
+about_me	About me	About Ujjwal Singh - inventor of WCode	0	Web links of the creator of WCode - Ujjwal Singh
 about_project	About project	About the WCode project	0	How the project came to be
 about_site	About site	About the site WCodes.org	0	Details of technology used to build the website
 adoption	Adoption	Adoption of WCode	0	How can WCode be incorporated in existing Human-Computer interface systems

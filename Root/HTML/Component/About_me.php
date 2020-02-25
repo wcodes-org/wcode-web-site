@@ -8,20 +8,9 @@
 			</div>
 		</div>
 		<div>
-			<div class='R1'>i believe</div>
-			<div class='R2'>We all belong to one family. Mere different instances of life.<br>
-					There is no 'personal' God, and no literal 'heaven' and 'hell'.<br>
-					Do the 'right thing'; Not for the greed of a personal favour like the perks of a 'heaven' but becuase it is the right thing to do.<br>
-					Technology is the biggest game-changer. Mental evolution will continue to happen at an ever increasing pace.<br>
-					One day &ndash; money may cease to exist and there will only be : "number of likes"
-			</div>
-		</div>
-		<div>
 			<div class='R1'>email</div>
 			<div class='R2'>
 				<a class='content-link' href="mailto:ujjwal@wcodes.org?subject=WCodes">ujjwal@wcodes.org</a>
-				<span class='separator'>|</span>
-				<a class='content-link' href="mailto:ujjwalsingh@outlook.com?subject=Ujnotes">ujjwalsingh@outlook.com</a>
 			</div>
 		</div>
 		<div>
@@ -31,30 +20,12 @@
 			</div>
 		</div>
 		<div>
-			<div class='R1'>invention</div>
-			<div class='R2'>
-				<a class='content-link' href='https://wcodes.org' onclick="trackOutboundLink('ujnotes', 'https://wcodes.com'); return false;">wcodes.org</a>
-			</div>
-		</div>
-		<div>
-			<div class='R1'>paypal</div>
-			<div class='R2'>
-				<a class='content-link' href='https://paypal.me/ujLion'>ujLion</a><br>
-			</div>
-		</div>
-		<div>
-			<div class='R1'>patreon</div>
-			<div class='R2'>
-				<a class='content-link' href='https://patreon.com/ujLion'>ujLion</a>
-			</div>
-		</div>
-		<div>
 			<div class='R1'>
 				linkedIn
 			</div>
 			<div class='R2'>
-				<a id='linkedin-badge' href='https://in.linkedin.com/in/ujLion' onclick="trackOutboundLink('uj-linkedin', 'https://in.linkedin.com/in/ujLion'); return false;">
-					<img src='https://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png' alt="View Ujjwal Singh's profile on LinkedIn">
+				<a id='linkedin-badge' class='content-link' href='https://in.linkedin.com/in/ujLion' onclick="trackOutboundLink('uj-linkedin', 'https://in.linkedin.com/in/ujLion'); return false;">
+					linkedin.com/in/ujLion
 				</a>
 			</div>
 		</div>
@@ -63,7 +34,7 @@
 				résumé
 			</div>
 			<div class='R2'>
-				<a class='content-link' href='https://stackoverflow.com/cv/ujjwal' onclick="trackOutboundLink('uj-so-cv', 'https://stackoverflow.com/cv/ujjwal'); return false;">StackOverflow &ndash; careers</a>
+				<a class='content-link' href='https://stackoverflow.com/cv/ujjwal' onclick="trackOutboundLink('uj-so-cv', 'https://stackoverflow.com/cv/ujjwal'); return false;">stackoverflow.com/cv/ujjwal</a>
 			</div>
 		</div>
 		<div>
@@ -71,8 +42,8 @@
 				stackOverflow
 			</div>
 			<div class='R2'>
-				<a id='stackOverflow-badge' href='https://stackoverflow.com/users/483588/ujjwal-singh' onclick="trackOutboundLink('uj-so', 'https://stackoverflow.com/users/483588/ujjwal-singh'); return false;">
-					<img src='https://stackoverflow.com/users/flair/483588.png?theme=dark' alt="profile for Ujjwal Singh at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Ujjwal Singh at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+				<a id='stackOverflow-badge' class='content-link' href='https://stackoverflow.com/users/483588/ujjwal-singh' onclick="trackOutboundLink('uj-so', 'https://stackoverflow.com/users/483588/ujjwal-singh'); return false;">
+					stackoverflow.com/users/483588
 				</a>
 			</div>
 		</div>
@@ -81,8 +52,8 @@
 				facebook
 			</div>
 			<div class='R2'>
-				<a id='facebook-badge' href='https://www.facebook.com/ujjwalSinghX' target='_TOP' title="Ujjwal Singh" onclick="trackOutboundLink(uj-fb, 'https://www.facebook.com/ujjwalSinghX'); return false;">
-					<img src='https://badge.facebook.com/badge/100000014591845.2128.1052548703.png' alt="profile for Ujjwal Singh at facebook">
+				<a id='facebook-badge' class='content-link' href='https://www.facebook.com/ujjwalsinghx' target='_TOP' title="Ujjwal Singh" onclick="trackOutboundLink(uj-fb, 'https://www.facebook.com/ujjwalsinghx'); return false;">
+					fb.com/ujjwalsinghx
 				</a>
 			</div>
 		</div>
@@ -99,7 +70,7 @@
 		<div>
 			<div class='R1'>twitter</div>
 			<div class='R2'>
-				<blockquote class='twitter-tweet' lang='en'><p lang='en' dir='ltr'><a href='https://twitter.com/SpaceX'>@SpaceX</a> You guys did it! - congratulations :). Looking forward to more such morning - where the world has just changed.. Salutes</p>&mdash; Ujjwal Singh (@ujLion) <a href='https://twitter.com/ujLion/status/679166674910625793'>December 22, 2015</a></blockquote>
+				<a class='content-link' href='https://twitter.com/ujLion' target='_TOP' title="Ujjwal Singh" onclick="trackOutboundLink('uj-twitter', 'https://twitter.com/ujLion'); return false;">ujLion</a>
 			</div>
 		</div>
 
