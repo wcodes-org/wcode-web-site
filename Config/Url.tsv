@@ -6,3 +6,44 @@ Path	Name	Extension
 	script	js
 	style	css
 	location/index	png
+	robots	txt
+	sitemap	xml
+	apple-touch-icon	png
+	icon-social	png
+	social	png
+	favicon	ico
+	logo_small	png
+	logo_small	svg
+	logo_full	png
+	logo_full	svg
+resource\	logo_w	png
+resource\	logo_n	png
+resource\	logo_backslash	png
+resource\	logo_fwdslash	png
+	launcher-icon-0-75x	png
+	launcher-icon-1x	png
+	launcher-icon-1-5x	png
+	launcher-icon-2x	png
+	launcher-icon-3x	png
+	launcher-icon-4x	png
+	root	svg
+resource\	placeholder	svg
+resource\	external	svg
+resource\	lg_w_code	png
+resource\	screen_guide	png
+resource\	general-use_case	png
+resource\	comics	png
+resource\	comics_1	png
+resource\	comics_2	png
+resource\	comics_3	png
+resource\	comics_4	png
+app\location\	index	svg
+patents\	wcode-intro-youtube-video	jpg
+patents\	patent_application_uk_ipo-GB1307148.5	jpg
+patents\	wcode-windows-app-x-lat-lng_highlighted	png
+patents\	wcode-windows-app-x-lat-lng_encode_highlighted	png
+patents\	wcode-windows-app-x-lat-lng_decode_highlighted	png
+	wordlist	tsv
+	wordlist-black	tsv
+	wcodex86	msi
+	wcodex64	msi
