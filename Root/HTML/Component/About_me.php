@@ -24,7 +24,7 @@
 				linkedIn
 			</div>
 			<div class='R2'>
-				<a id='linkedin-badge' class='content-link' href='https://in.linkedin.com/in/ujLion' onclick="trackOutboundLink('uj-linkedin', 'https://in.linkedin.com/in/ujLion'); return false;">
+				<a id='linkedin-badge' class='content-link' href='https://in.linkedin.com/in/ujlion' onclick="trackOutboundLink('uj-linkedin', 'https://in.linkedin.com/in/ujlion'); return false;">
 					linkedin.com/in/ujLion
 				</a>
 			</div>
@@ -70,7 +70,9 @@
 		<div>
 			<div class='R1'>twitter</div>
 			<div class='R2'>
-				<a class='content-link' href='https://twitter.com/ujLion' target='_TOP' title="Ujjwal Singh" onclick="trackOutboundLink('uj-twitter', 'https://twitter.com/ujLion'); return false;">ujLion</a>
+				<a class='content-link' href='https://twitter.com/ujlion' target='_TOP' title="Ujjwal Singh" onclick="trackOutboundLink('uj-twitter', 'https://twitter.com/ujlion'); return false;">
+					ujLion
+				</a>
 			</div>
 		</div>
 
