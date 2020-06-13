@@ -28,6 +28,8 @@ root	WCode	WCode	0	An encoding schema where in data is mapped to words
 roadmap	Roadmap	WCode project roadmap	0	Future roadmap of features and implementations
 source_code	Source code	WCode source code	0	Source-code of WCode
 technology	Technology	WCode technology	0	The technical idea behind WCode
+terms	Terms of use	WCode: Terms of use	0	Terms of use of WCodes	
+policy	Privacy Policy	WCode: Privacy Policy	0	Privacy policy of WCodes	
 timeline	Timeline	WCode project timeline	0	Markable events in project WCode's lifetime
 use_cases	Use cases	WCode use cases	0	Real world use-cases of WCode
 user_guide	User guide	WCode app user guide	0	Instruction manual to using the WCode application
