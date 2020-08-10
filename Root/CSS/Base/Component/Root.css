@@ -99,3 +99,9 @@ summary::-webkit-details-marker {
 #apps {
 	background: linear-gradient(to right, #fAfAfA 20%, white)
 }
+
+#apps .page-list > .item_block_container {
+	margin-left: 12px;
+	margin-right: 12px;
+	border: solid 5px #ffffff;
+}
