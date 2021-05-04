@@ -14,7 +14,7 @@
 		Later on April 11th - 2013, I began a crowdfunding <a class='content-link' href='https://www.indiegogo.com/projects/wcode-encode-with-words'>campaign</a> on indiegogo.com
 	</p>
 	<p>
-		Following are the time stamped binaries from the Indiegogo file server - <strong>anyone for themselves can verify that I had indeed made the invention before April 2013</strong>, by downloading the executable installers from the campaign page, or links below and replaying the following steaps.
+		Following are the time stamped binaries from the Indiegogo file server - <strong>anyone for themselves can verify that I had indeed made the invention before April 2013</strong>, by downloading the executable installers from the campaign page, or links below and replaying the following steps.
 	</p>
 	<p class='indent-e'>
 		WCode installer x86 from <a class='content-link' href='http://d2oadd98wnjs7n.cloudfront.net/medias/780936/files/20130428120346-WCode_Installer_x86.msi?1367175828'>April 28th - 2013</a>
@@ -42,7 +42,7 @@
 
 	<h2>Conflict</h2>
 	<p>
-		A few years later I found out that a startup named “<strong><em>What3Words</em></strong>” in UK had applied for a patent on the same invention, with the only apparant difference being that their code is shorter with only 3 words while WCode had 5; But the disparity was primarily because WCode used a dictionary of only <strong class='blue'>1024</strong> simple words against the many thousands.<br>
+		A few years later I found out that a startup named “<strong><em>What3Words</em></strong>” in UK had applied for a patent on the same invention, with the only apparent difference being that their code is shorter with only 3 words while WCode had 5; But the disparity was primarily because WCode used a dictionary of only <strong class='blue'>1024</strong> simple words against the many thousands.<br>
 		The filing date for the patent application: <a class='content-link' href=''>GB1307148.5</a> was April 19th - 2013, only <strong>8 days</strong> later after my campaign went live.
 	</p>
 	<div class='top-bottom-gap'>
