@@ -14,7 +14,7 @@
 		Later on April 11th - 2013, I began a crowdfunding <a class='content-link' href='https://www.indiegogo.com/projects/wcode-encode-with-words'>campaign</a> on indiegogo.com
 	</p>
 	<p>
-		Following are the time stamped binaries from the Indiegogo file server - <strong>anyone for themselves can verify that I had indeed made the invention before April 2013</strong>, by downloading the executable installers from the campaign page, or links below and replaying the following steps.
+		Following are the time stamped binaries from the Indiegogo file server - <strong>anyone for themselves can verify that I had indeed made the invention by April 2013</strong>, by downloading the executable installers from the campaign page, or links below and replaying the following steps.
 	</p>
 	<p class='indent-e'>
 		WCode installer x86 from <a class='content-link' href='http://d2oadd98wnjs7n.cloudfront.net/medias/780936/files/20130428120346-WCode_Installer_x86.msi?1367175828'>April 28th - 2013</a>
