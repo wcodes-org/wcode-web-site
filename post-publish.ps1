@@ -7,5 +7,5 @@ Get-ChildItem ".\public\" -R -Filter *.html |
 Foreach-Object {
 	$file = $_.fullName
 	$text = (Get-Content -Path $file -ReadCount 0)
-	$text -replace "src='/script.js", ("<script src='/script-"+$crc+".js") | Set-Content -NoNewline -Path $file
+	$text -replace "src='/script.js", ("src='/script-"+$crc+".js") | Set-Content -NoNewline -Path $file
 }
