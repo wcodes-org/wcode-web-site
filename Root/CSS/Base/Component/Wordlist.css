@@ -36,8 +36,14 @@
 	border-top: none;
 	border-left: none;
 	border-right: none;
+	border-color: #d9d9d9;
 	font-size: larger;
 	text-transform: lowercase;
+}
+
+#word_search_box::placeholder {
+	color: #c9c9c9;
+	font-size: 10;
 }
 
 #search_input_clear {
