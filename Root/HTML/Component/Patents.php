@@ -60,6 +60,14 @@
 		However, sadly, it turns that on January 30th, 2018, patent <a class='content-link' href='https://patents.google.com/patent/US9883333B2/en'>US9883333B2</a> was granted.
 	</p>
 
+	<h2>Status</h2>
+	<p>
+		UK: <href='https://patents.google.com/patent/GB2513196A/en'>https://patents.google.com/patent/GB2513196A/en</href><br>
+		Status: <em>Withdrawn.</em> - UK patent examination office has accepted and references 'prior art' by Ujjwal Singh<br>
+		US: <href='https://patents.google.com/patent/US9883333B2/en'>https://patents.google.com/patent/US9883333B2/en</href><br>
+		WIPO: <href='https://patents.google.com/patent/WO2014170646A1'>https://patents.google.com/patent/WO2014170646A1</href><br>
+	</p>
+	
 	<h2>Links</h2>
 	<p class="indent-e top-bottom-gap">
 		[1] : <a class='content-link' href='https://wiki.openstreetmap.org/wiki/What3words'>OpenStreetMap : wiki - What3words</a>
