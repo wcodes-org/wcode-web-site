@@ -1,4 +1,5 @@
 <div id='footer-wrapper'>
+	
 	<div id='updated-container'>
 		<div id='updated'>
 			Updated:
@@ -7,8 +8,10 @@
 			</span>
 		</div>
 	</div>
+	
 	<div class='shadow-scroll-bottom'></div>
 	<div id='footer-wrapper-divider'></div>
+	
 	<div id='footer-wrapper-inside'>
 
 		<div>
@@ -36,9 +39,12 @@
 				<a href='https://www.youtube.com/channel/UCnKSws8Lro8U9Ewtf1Xi5jg' id='site-youtube' onclick="trackOutboundLink('wcodes-youtube', 'https://www.youtube.com/channel/UCnKSws8Lro8U9Ewtf1Xi5jg'); return false;"><span class='image'><?php includeSVG('', 'YouTube'); ?></span></a>
 			</span>
 		</div>
+		
 		<div class='footer-content'>
 			<a class="content-link-gray XURL" href='/license' data-target='license' data-title='License'>&copy; <?php echo date('Y'); ?></a>
 			<a class="content-link XURL" href='/about' data-target='about' data-title='About'>WCode</a><a class='content-link' target='_blank' href='/about'></a>
 		</div>
+		
 	</div>
+	
 </div>
