@@ -62,10 +62,11 @@
 
 	<h2>Status</h2>
 	<p>
-		UK: <href='https://patents.google.com/patent/GB2513196A/en'>https://patents.google.com/patent/GB2513196A/en</href><br>
-		Status: <em>Withdrawn.</em> - UK patent examination office has accepted and references 'prior art' by Ujjwal Singh<br>
-		US: <href='https://patents.google.com/patent/US9883333B2/en'>https://patents.google.com/patent/US9883333B2/en</href><br>
-		WIPO: <href='https://patents.google.com/patent/WO2014170646A1'>https://patents.google.com/patent/WO2014170646A1</href><br>
+		UK: <a class='content-link'href='https://patents.google.com/patent/GB2513196A/en'>https://patents.google.com/patent/GB2513196A/en</a><br>
+		<span class='indent-b'>Status: <em>Withdrawn.</em> UK patent examination office has accepted and references 'prior art' by Ujjwal Singh</span><br>
+		US: <a class='content-link'href='https://patents.google.com/patent/US9883333B2/en'>https://patents.google.com/patent/US9883333B2/en</a><br>
+		WIPO: <a class='content-link'href='https://patents.google.com/patent/WO2014170646A1'>https://patents.google.com/patent/WO2014170646A1</a><br>
+		<span class='indent-b'>Lists prior art: 1. Indiegogo campaign url 2. YouTube Video url by Ujjwal Sing</span>
 	</p>
 	
 	<h2>Links</h2>
