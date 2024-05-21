@@ -8,7 +8,7 @@
 		I created a video titled "WCode - introduction" and made it public on <a class='content-link' href='http://youtu.be/LfGeIWCeeKU?t=321'>YouTube</a> on April 10th - 2013.
 	</p>
 	<div class='top-bottom-gap'>
-		<?php $img_title='wcode-intro-youtube-video'; $ext='jpg'; $alt="WCode intro - YouTube video"; $center='true'; $max_height='true'; require('Fragment\Component_image.php') ?>
+		<?php $img_title='wcode-intro-youtube-video'; $ext='jpg'; $alt="WCode intro - YouTube video"; $center='true'; $max_height='true'; require('Fragment/Component_image.php') ?>
 	</div>
 	<p>
 		Later on April 11th - 2013, I began a crowdfunding <a class='content-link' href='https://www.indiegogo.com/projects/wcode-encode-with-words'>campaign</a> on indiegogo.com
@@ -25,19 +25,19 @@
 		Following are the screenshots demonstrating the 5 word encoding of geo-coordinates from the installer above.
 	</p>
 	<div class='top-bottom-gap'>
-		<?php $img_title='wcode-windows-app-x-lat-lng_highlighted'; $ext='png'; $alt="WCode desktop app - Lat-lng"; $center='true'; $max_height='true'; require('Fragment\Component_image.php') ?>
+		<?php $img_title='wcode-windows-app-x-lat-lng_highlighted'; $ext='png'; $alt="WCode desktop app - Lat-lng"; $center='true'; $max_height='true'; require('Fragment/Component_image.php') ?>
 	</div>
 	<p>
 		E.g. coordinate: <strong>27°59′17″N 86°55′31″E</strong> transforms to: <span class="blue wcode">lift uncle cork rim screw</span>
 	</p>
 	<div class='top-bottom-gap'>
-		<?php $img_title='wcode-windows-app-x-lat-lng_encode_highlighted'; $ext='png'; $alt="WCode desktop app - Lat-lng encode"; $center='true'; $max_height='true'; require('Fragment\Component_image.php') ?>
+		<?php $img_title='wcode-windows-app-x-lat-lng_encode_highlighted'; $ext='png'; $alt="WCode desktop app - Lat-lng encode"; $center='true'; $max_height='true'; require('Fragment/Component_image.php') ?>
 	</div>
 	<p>
 		Same is got back when the wcode is decoded
 	</p>
 	<div class='top-bottom-gap'>
-		<?php $img_title='wcode-windows-app-x-lat-lng_decode_highlighted'; $ext='png'; $alt="WCode desktop app - Lat-lng decode"; $center='true'; $max_height='true'; require('Fragment\Component_image.php') ?>
+		<?php $img_title='wcode-windows-app-x-lat-lng_decode_highlighted'; $ext='png'; $alt="WCode desktop app - Lat-lng decode"; $center='true'; $max_height='true'; require('Fragment/Component_image.php') ?>
 	</div>
 
 	<h2>Conflict</h2>
@@ -46,7 +46,7 @@
 		The filing date for the patent application: <a class='content-link' href=''>GB1307148.5</a> was April 19th - 2013, only <strong>8 days</strong> later after my campaign went live.
 	</p>
 	<div class='top-bottom-gap'>
-		<?php $img_title='patent_application_uk_ipo-GB1307148.5'; $ext='jpg'; $alt="W3W patent application, UK-IPO, GB1307148.5"; $center='true'; $max_height='true'; require('Fragment\Component_image.php') ?>
+		<?php $img_title='patent_application_uk_ipo-GB1307148.5'; $ext='jpg'; $alt="W3W patent application, UK-IPO, GB1307148.5"; $center='true'; $max_height='true'; require('Fragment/Component_image.php') ?>
 	</div>
 	<p>
 		Since I had invented and showcased and also published the binary for encoding geo-coordinates into 5 words (from a limited dictionary of only 1024 words), I tried to get the patent application invalidated.<br>
