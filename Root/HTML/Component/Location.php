@@ -2,7 +2,7 @@
 	<div>
 		
 		<div class='top-bottom-gap'>
-			<?php $img_title='index'; $ext='png'; $alt="Wolo demo"; $center='true'; $max_height='true'; require('Fragment\Component_image.php') ?>
+			<?php $img_title='index'; $ext='png'; $alt="Wolo demo"; $center='true'; $max_height='true'; require('Fragment/Component_image.php') ?>
 		</div>
 		
 		<p>
@@ -18,4 +18,4 @@
 		
 	</div>
 </div>
-<?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
+<?php require('../HTML/Fragment/Component_bottom_nav.php') ?>

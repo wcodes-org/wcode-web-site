@@ -156,4 +156,4 @@
 <div class='indent-c'>
 	<div class='fb-comments' data-href='https://wcodes.org/wordlist' data-numposts='50' data-order_by='reverse_time'></div>
 </div>
-<?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
+<?php require('../HTML/Fragment/Component_bottom_nav.php') ?>

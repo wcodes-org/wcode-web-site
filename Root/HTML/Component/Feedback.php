@@ -30,4 +30,4 @@
 		<div class="fb-comments" data-href="http://wcodes.org/feedback" data-numposts="50"></div>
 	</div>
 </div>
-<?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
+<?php require('../HTML/Fragment/Component_bottom_nav.php') ?>

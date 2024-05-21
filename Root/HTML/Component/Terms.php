@@ -88,5 +88,5 @@
 		<a id='mail-link' class='content-link' href='mailto:hello@wcodes.org?subject=WCodes-Terms'>hello@wcodes.org</a>
 	</p>
 	
-	<?php require('..\HTML\Fragment\Component_bottom_nav.php') ?>
+	<?php require('../HTML/Fragment/Component_bottom_nav.php') ?>
 </div>
