@@ -10,7 +10,7 @@
 		<span>A system to communicate digital information using only simple words.</span>
 	</div>
 	<div id='codes-example'>
-		<div class='indent-f' id='codes-table-label'>Below, each symbolize the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
+		<div class='indent-f' id='codes-table-label'>Below, each represent the same data; The bottom one: words enclosed by slashes, is the equivalent WCode</div>
 		<div id='codes-table'>
 			<div id='codes-table-top'>one two three four five six</div>
 			<div id='codes-table-mid'>
@@ -22,7 +22,7 @@
 		</div>
 	</div>
 	<div class='indent-f'>
-		Unlike barcodes, instead of geometrical figures like bars and blocks, WCode is made of literal words.
+		Unlike barcodes, instead of geometrical figures like bars and blocks, WCode is made up of literal words.
 	</div>
 	</div>
 	
@@ -31,7 +31,7 @@
 		<div class='indent-f'>
 			WCode is to be used when a human needs to relay very short data from one computer to another <strong><span class='blue'>manually</span></strong>.
 			<div>
-				Like when exchanging email addresses, mobile numbers or GPS co-coordinates by speech or writing
+				E.g. when exchanging email address, mobile number or GPS location by speech or writing
 			</div>
 		</div>
 		<p class='center'>
@@ -88,32 +88,26 @@
 	</div>
 	</div>
 	
-	<div id='how'>
-	<h2><span class='bullet'>&#8226;</span><span class='key'>How</span> <span class='minor'>to use it?</span></h2>
+	<div id='example'>
+	<h2><span class='bullet'>&#8226;</span><span class='key'>Example</span> <span class='minor'>:</span></h2>
 	<div class='indent-f'>
-		<ol>
-			<li>In the WCode app select the <span class='blue'>data</span> mode</li>
-			<li>Enter your mobile number and generate the corresponding unique WCode</li>
-		</ol>
+		<span>Sender:</span>
 	</div>
 	<div class='center'>
 		<div class='example'>
-			<span class="example_title">Data:</span><span class='example_data'>9812345670</span><span class='example_connector'>&#x25BA;</span><span class='example_wcode'>cat apple mango</span>
+			<span class="example_title">Data:</span><span class='example_data'>9812345670</span><span class='example_connector'>&#x25BA;</span><span class='example_wcode'>cat apple mango</span><span class="example_title">:Code</span>
 		</div>
 	</div>
 	<div class='indent-f'>
-		<ol start='3'>
-			<li>On the receiver's app, select the <span class='blue'>code</span> mode</li>
-			<li>Enter the WCode that was generated earlier and decode</li>
-		</ol>
+		<span>Receiver:</span>
 	</div>
 	<div class='center'>
 		<div class='example'>
-			<span class="example_title">Code:</span><span class='example_wcode'>cat apple mango</span><span class='example_connector'>&#x25BA;</span><span class='example_data'>9812345670</span>
+			<span class="example_title">Code:</span><span class='example_wcode'>cat apple mango</span><span class='example_connector'>&#x25BA;</span><span class='example_data'>9812345670</span><span class="example_title">:Data</span>
 		</div>
 	</div>
-	<div id='how_message' class='blue'>
-		<span>&ndash; Voilà ! your number is back.</span>
+	<div id='example_message' class='blue'>
+		<span>&ndash; Voilà ! your mobile number is back.</span>
 	</div>
 	</div>
 	
