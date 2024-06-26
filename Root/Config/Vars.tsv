@@ -3,6 +3,7 @@ project_short_name	WCodes
 project_description	WCodes - encode with words
 site_name	Wcodes.org
 site_domain	wcodes.org
+version 1.1.1
 base_url	https://wcodes.org
 author	Ujjwal Singh
 twitter_owner	wcodesorg
@@ -13,6 +14,7 @@ fb_admins	100000014591845
 google_analytics_id	UA-35559362-1
 google_cse_id	006667833380887598950:etruytzxbo4
 sentry_key	09aac7815d724fd7b1016b19255ffb72
+sentry_n	85995
 sentry_id	187154
-sentry_version	6.4.1
+sentry_version	8.8.0
 sentry_hash	sha384-THoc7rflwZFKTdZNgv6jLFFDn299Uv3t1SW5B4yGLvLiCRTYP9ys6vXZcMl95TQF
